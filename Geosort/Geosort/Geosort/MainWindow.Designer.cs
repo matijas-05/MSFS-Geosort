@@ -1,6 +1,6 @@
 ﻿namespace Geosort
 {
-	partial class MainForm
+	partial class MainWindow
 	{
 		/// <summary>
 		/// Required designer variable.
@@ -28,24 +28,21 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.colorDialog1 = new System.Windows.Forms.ColorDialog();
 			this.SuspendLayout();
 			// 
-			// Form1
+			// MainWindow
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(800, 450);
-			this.Name = "Form1";
-			this.Text = "Form1";
-			this.Load += new System.EventHandler(this.MainForm_Load);
+			this.Name = "MainWindow";
+			this.Text = "Geosort";
+			this.Load += new System.EventHandler(this.Form1_Load);
 			this.ResumeLayout(false);
 
 		}
 
 		#endregion
-
-		private System.Windows.Forms.ColorDialog colorDialog1;
 	}
 }
 
