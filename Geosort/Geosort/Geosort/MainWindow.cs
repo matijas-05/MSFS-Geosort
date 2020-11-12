@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Microsoft.WindowsAPICodePack.Dialogs;
 
 namespace Geosort
 {
@@ -16,10 +17,16 @@ namespace Geosort
 		{
 			InitializeComponent();
 		}
-
-		private void Form1_Load(object sender, EventArgs e)
+		void MainWindow_Load(object sender, EventArgs e)
 		{
 
+		}
+
+		void BrowseBtn_Click(object sender, EventArgs e)
+		{
+			CommonOpenFileDialog dialog = new CommonOpenFileDialog() { IsFolderPicker = true };
+			if (dialog.ShowDialog() == CommonFileDialogResult.Ok)
+				addonDirPath.Text = dialog.FileName;
 		}
 	}
 }
