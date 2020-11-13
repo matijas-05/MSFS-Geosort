@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.30621.155
+VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geosort", "Geosort\Geosort.csproj", "{07979346-6756-455B-9588-9244391E738F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geosort", "Geosort\Geosort.csproj", "{2F29B0CD-339F-43A1-B772-EDDA7C2B02D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{07979346-6756-455B-9588-9244391E738F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{07979346-6756-455B-9588-9244391E738F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{07979346-6756-455B-9588-9244391E738F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{07979346-6756-455B-9588-9244391E738F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F29B0CD-339F-43A1-B772-EDDA7C2B02D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F29B0CD-339F-43A1-B772-EDDA7C2B02D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F29B0CD-339F-43A1-B772-EDDA7C2B02D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F29B0CD-339F-43A1-B772-EDDA7C2B02D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {795DFBC4-29E7-4DAA-AAC2-0113E9FA8C96}
+		SolutionGuid = {D5DD68E1-9C38-4DF9-B130-0D0723273F09}
 	EndGlobalSection
 EndGlobal
