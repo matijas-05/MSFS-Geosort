@@ -20,6 +20,8 @@ namespace Geosort
 	/// </summary>
 	public partial class MainWindow : Window
 	{
+		public static string AddonPath { get; set; }
+
 		public MainWindow()
 		{
 			InitializeComponent();
