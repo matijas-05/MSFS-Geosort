@@ -5,6 +5,7 @@ using System.Diagnostics;
 using System.Globalization;
 using System.IO;
 using System.Windows;
+using System.Windows.Controls;
 using System.Windows.Data;
 
 using CsvHelper;
@@ -20,6 +21,10 @@ namespace Geosort
 		private string[] m_AddonFolders;
 		private bool m_AddonPathValid;
 
+		private GridViewColumnHeader m_LastHeaderClicked;
+		private ListSortDirection m_LastDirection = ListSortDirection.Ascending;
+		private bool m_FirstSort = true;
+
 		private const string AIRPORT_FILE_PATH = "airports.csv";
 
 		class Airport
@@ -34,12 +39,14 @@ namespace Geosort
 			public string Name { get; set; }
 			public string Path { get; set; }
 			public string Size { get; set; }
+			public long SizeBytes { get; set; }
 
-			public Addon(string name, string path, string size)
+			public Addon(string name, string path, string size, long sizeBytes)
 			{
 				Name = name;
 				Path = path;
 				Size = size;
+				SizeBytes = sizeBytes;
 			}
 		}
 
@@ -94,13 +101,15 @@ namespace Geosort
 			{
 				string name = Path.GetFileName(m_AddonFolders[i]);
 				string path = Path.GetDirectoryName(m_AddonFolders[i]);
-				string size = HumanFileSize(DirSize(new DirectoryInfo(m_AddonFolders[i])));
+				long sizeBytes = DirSize(new DirectoryInfo(m_AddonFolders[i]));
+				string size = HumanFileSize(sizeBytes);
 
-				addons.Add(new Addon(name, path, size));
+				addons.Add(new Addon(name, path, size, sizeBytes));
 			}
 
 			addonList.ItemsSource = addons;
 			addonLabel.Content = $"Addons ({addons.Count}):";
+			SortDataView(nameof(Addon.Name), ListSortDirection.Ascending);
 
 			long DirSize(DirectoryInfo d)
 			{
@@ -145,6 +154,55 @@ namespace Geosort
 			m_AddonPath = addonFolderPicker.FilePath;
 			m_AddonPathValid = Directory.Exists(m_AddonPath);
 			loadBtn.IsEnabled = sortBtn.IsEnabled = m_AddonPathValid;
+		}
+
+		// Sort addons in listview
+		void addonList_Click(object sender, RoutedEventArgs e)
+		{
+			GridViewColumnHeader headerClicked = (GridViewColumnHeader)e.OriginalSource;
+			ListSortDirection direction;
+
+			if (headerClicked != null)
+			{
+				if (headerClicked.Role != GridViewColumnHeaderRole.Padding)
+				{
+					if (headerClicked != m_LastHeaderClicked && m_FirstSort && headerClicked.Column.Header.ToString() == nameof(Addon.Name))
+					{
+						direction = ListSortDirection.Descending;
+						m_FirstSort = false;
+					}
+					else if (headerClicked != m_LastHeaderClicked)
+					{
+						direction = ListSortDirection.Ascending;
+					}
+					else
+					{
+						if (m_LastDirection == ListSortDirection.Ascending)
+						{
+							direction = ListSortDirection.Descending;
+						}
+						else
+						{
+							direction = ListSortDirection.Ascending;
+						}
+					}
+
+					string header = (string)headerClicked.Column.Header;
+					SortDataView(header == nameof(Addon.Size) ? nameof(Addon.SizeBytes) : header, direction);
+
+					m_LastHeaderClicked = headerClicked;
+					m_LastDirection = direction;
+				}
+			}
+		}
+		void SortDataView(string sortBy, ListSortDirection dir)
+		{
+			ICollectionView dataView = CollectionViewSource.GetDefaultView(addonList.ItemsSource);
+
+			dataView.SortDescriptions.Clear();
+			SortDescription sd = new SortDescription(sortBy, dir);
+			dataView.SortDescriptions.Add(sd);
+			dataView.Refresh();
 		}
 	}
 }
