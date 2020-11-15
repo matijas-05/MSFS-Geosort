@@ -1,17 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using Microsoft.WindowsAPICodePack.Dialogs;
 
 namespace Geosort.Controls
@@ -22,6 +11,7 @@ namespace Geosort.Controls
 	public partial class FilePicker : UserControl
 	{
 		public bool IsFolderPicker { get; set; }
+		public string FilePath => pathBox.Text;
 		public event Action<string> OnFilePicked;
 
 		public FilePicker()
@@ -41,6 +31,12 @@ namespace Geosort.Controls
 		void pathBox_TextChanged(object sender, TextChangedEventArgs e)
 		{
 			OnFilePicked?.Invoke(pathBox.Text);
+		}
+
+		public void ChangePath(string content)
+		{
+			// This changes textbox text -> calls event TextChanged -> calls event OnFilePicked -> updates addon list
+			pathBox.Text = content;
 		}
 	}
 }
