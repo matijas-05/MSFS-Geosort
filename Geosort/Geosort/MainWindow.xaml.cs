@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,11 +21,30 @@ namespace Geosort
 	/// </summary>
 	public partial class MainWindow : Window
 	{
-		public static string AddonPath { get; set; }
+		private string m_AddonPath;
+		private string[] m_AddonFolders;
+
+		private const string AIRPORT_FILE_PATH = "airports.txt";
+		private string m_Airports;
 
 		public MainWindow()
 		{
 			InitializeComponent();
+			m_Airports = File.ReadAllText(AIRPORT_FILE_PATH);
+		}
+
+		void addonFolderPicker_OnFilePicked(string path)
+		{
+			m_AddonPath = path;
+		}
+		void SortBtn_Click(object sender, RoutedEventArgs e)
+		{
+			if (!Directory.Exists(m_AddonPath))
+			{
+				MessageBox.Show("Invalid folder path!", "", MessageBoxButton.OK, MessageBoxImage.Warning);
+				return;
+			}
+			m_AddonFolders = Directory.GetDirectories(m_AddonPath);
 		}
 	}
 }

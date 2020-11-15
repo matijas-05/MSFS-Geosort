@@ -4,15 +4,17 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Geosort"
-        xmlns:gs="clr-namespace:Geosort.Custom_Controls"
+        xmlns:gs="clr-namespace:Geosort.Controls"
         mc:Ignorable="d"
         Title="Geosort" Height="450" Width="350">
     <Border Padding="3">
-        <Grid>
-            <StackPanel>
-                <Label Padding="1,0,0,3" FontWeight="Bold">Choose addon folder:</Label>
-                <gs:FilePicker x:Name="addonFolderPicker" IsFolderPicker="True" />
-            </StackPanel>
-        </Grid>
+        <StackPanel>
+            <Label Padding="1,0,0,3" FontWeight="Bold">Choose addon folder:</Label>
+            <gs:FilePicker IsFolderPicker="True" OnFilePicked="addonFolderPicker_OnFilePicked"/>
+
+            <DockPanel Margin="0 10">
+                <Button Click="SortBtn_Click">Sort</Button>
+            </DockPanel>
+        </StackPanel>
     </Border>
 </Window>

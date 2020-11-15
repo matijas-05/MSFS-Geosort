@@ -14,7 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Microsoft.WindowsAPICodePack.Dialogs;
 
-namespace Geosort.Custom_Controls
+namespace Geosort.Controls
 {
 	/// <summary>
 	/// Interaction logic for FilePathDialog.xaml
@@ -22,6 +22,7 @@ namespace Geosort.Custom_Controls
 	public partial class FilePicker : UserControl
 	{
 		public bool IsFolderPicker { get; set; }
+		public event Action<string> OnFilePicked;
 
 		public FilePicker()
 		{
@@ -32,7 +33,14 @@ namespace Geosort.Custom_Controls
 		{
 			CommonOpenFileDialog dialog = new CommonOpenFileDialog() { IsFolderPicker = this.IsFolderPicker };
 			if (dialog.ShowDialog() == CommonFileDialogResult.Ok)
-				MainWindow.AddonPath = pathBox.Text = dialog.FileName;
+			{
+				pathBox.Text = dialog.FileName;
+				OnFilePicked?.Invoke(dialog.FileName);
+			}
+		}
+		void pathBox_TextChanged(object sender, TextChangedEventArgs e)
+		{
+			OnFilePicked?.Invoke(pathBox.Text);
 		}
 	}
 }
