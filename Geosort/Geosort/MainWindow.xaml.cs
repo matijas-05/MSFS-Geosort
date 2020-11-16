@@ -145,7 +145,7 @@ namespace Geosort
 
 			void LoadAddon(int i, string path)
 			{
-				// Load all dirs of path
+				// Load all folders of path
 				string result = "";
 				List<string> dirsAndRoot = new List<string>();
 				dirsAndRoot.Add(path);
@@ -163,13 +163,14 @@ namespace Geosort
 				}
 
 				// TODO: display this at the end of loading
+				// Folder has no subfolders
 				if (dirsAndRoot.Count == 1)
 				{
 					MessageBox.Show($"Directory '{dirsAndRoot[dirsAndRoot.Count - 1]}' isn't a valid addon directory.", "Information", MessageBoxButton.OK, MessageBoxImage.Information);
 					return;
 				}
 
-				// If manifest.json exists in folder, add it to addon list
+				// Add folders to addon list
 				foreach (string dir in dirsAndRoot)
 				{
 					// Optimization code - don't search for manifest.json if it has already been found in one of parent folders.
@@ -179,6 +180,7 @@ namespace Geosort
 							continue;
 					}
 
+					// If manifest.json exists in folder, add it to addon list
 					if (File.Exists(dir + MANIFEST_JSON))
 					{
 						result = dir;
@@ -192,9 +194,11 @@ namespace Geosort
 					}
 				}
 
+				// TODO: display this at the end of loading
+				// Didn't find manifest.json in a folder
 				if (result == "")
 				{
-					Debug.WriteLine("Result is empty in path: " + path);
+					MessageBox.Show($"Directory '{dirsAndRoot[dirsAndRoot.Count - 1]}' isn't a valid addon directory.", "Information", MessageBoxButton.OK, MessageBoxImage.Information);
 				}
 
 				bool IsSubfolder(string parentPath, string childPath)
