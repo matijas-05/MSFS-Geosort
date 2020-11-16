@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Geosort"
         xmlns:gs="clr-namespace:Geosort.Controls"
         mc:Ignorable="d"
-        Title="Geosort" Height="900" Width="870">
+        Title="Geosort" Height="950" Width="1500">
     <DockPanel Margin="3">
         <Label Padding="1,0,0,3" FontWeight="Bold" DockPanel.Dock="Top">Choose addon folder:</Label>
 
@@ -26,8 +26,8 @@
         <ListView Name="addonList" ScrollViewer.VerticalScrollBarVisibility="Visible" GridViewColumnHeader.Click="addonList_Click">
             <ListView.View>
                 <GridView>
-                    <GridViewColumn Header="Name" Width="350" DisplayMemberBinding="{Binding Name}"/>
-                    <GridViewColumn Header="Path" Width="375" DisplayMemberBinding="{Binding Path}"/>
+                    <GridViewColumn Header="Name" Width="400" DisplayMemberBinding="{Binding Name}"/>
+                    <GridViewColumn Header="Path" Width="950" DisplayMemberBinding="{Binding Path}"/>
                     <GridViewColumn Header="Size" Width="95" DisplayMemberBinding="{Binding Size}"/>
                 </GridView>
             </ListView.View>
