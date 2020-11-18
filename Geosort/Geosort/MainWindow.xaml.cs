@@ -29,12 +29,14 @@ namespace Geosort
 		private Airport[] m_Airports;
 		private NameCodePair[] m_Countries;
 		private NameCodePair[] m_Continents;
+		private NameCodePair[] m_US_States;
 		private AirportCorrection[] m_AirportCorrections;
 		private SkipWord[] m_SkipWords;
 
 		private const string AIRPORTS_PATH = "Database\\airports.csv";
 		private const string COUNTRIES_PATH = "Database\\countries.csv";
 		private const string CONTINENTS_PATH = "Database\\continents.csv";
+		private const string US_STATES_PATH = "Database\\us_states.csv";
 		private const string AIRPORT_CORRECTION_PATH = "Database\\airport_correction.csv";
 		private const string SKIP_WORDS_PATH = "Database\\skip_words.csv";
 		private const string MANIFEST_JSON = "\\manifest.json";
@@ -62,6 +64,16 @@ namespace Geosort
 			public string Continent { get; set; }
 			public string Iso_Country { get; set; }
 			public string Iso_Region { get; set; }
+
+			public Airport(string ident, string gPS_Code, string name, string continent, string iso_Country, string iso_Region)
+			{
+				Ident = ident;
+				GPS_Code = gPS_Code;
+				Name = name;
+				Continent = continent;
+				Iso_Country = iso_Country;
+				Iso_Region = iso_Region;
+			}
 		}
 		struct NameCodePair
 		{
@@ -72,6 +84,11 @@ namespace Geosort
 		{
 			public string Addon_Icao { get; set; }
 			public string Actual_Icao { get; set; }
+			public string Addon_Name { get; set; }
+			public string Fallback_Name { get; set; }
+			public string Fallback_Continent { get; set; }
+			public string Fallback_Country { get; set; }
+			public string Fallback_US_State { get; set; }
 		}
 		struct SkipWord
 		{
@@ -83,18 +100,25 @@ namespace Geosort
 			Log.Clear();
 			InitializeComponent();
 			ReadSave();
-
-			m_Airports = ReadFile<Airport>(AIRPORTS_PATH);
-			m_Countries = ReadFile<NameCodePair>(COUNTRIES_PATH);
-			m_Continents = ReadFile<NameCodePair>(CONTINENTS_PATH);
-			m_AirportCorrections = ReadFile<AirportCorrection>(AIRPORT_CORRECTION_PATH);
-			m_SkipWords = ReadFile<SkipWord>(SKIP_WORDS_PATH);
+			LoadDatabases();
 
 			// TODO: Actually read from save file
 			void ReadSave()
 			{
 				addonFolderPicker.ChangePath(@"E:\Gry\!Mody\Community");
 			}
+		}
+
+		// TODO: Load database only when starting and database changed (check last time of modifiaction?)
+		void LoadDatabases()
+		{
+			m_Airports = ReadFile<Airport>(AIRPORTS_PATH);
+			m_Countries = ReadFile<NameCodePair>(COUNTRIES_PATH);
+			m_Continents = ReadFile<NameCodePair>(CONTINENTS_PATH);
+			m_US_States = ReadFile<NameCodePair>(US_STATES_PATH);
+			m_AirportCorrections = ReadFile<AirportCorrection>(AIRPORT_CORRECTION_PATH);
+			m_SkipWords = ReadFile<SkipWord>(SKIP_WORDS_PATH);
+
 			T[] ReadFile<T>(string path)
 			{
 				try
@@ -256,45 +280,76 @@ namespace Geosort
 			bool country = sortContinent.IsChecked.Value;
 			bool us_state = sortUS_State.IsChecked.Value;
 
+			// TODO: Load database only when starting and database changed (check last time of modifiaction?)
+			LoadDatabases();
+
 			Stopwatch watch = new Stopwatch();
 			watch.Start();
 
 			foreach (Addon addon in m_Addons)
 			{
 				string result = "";
+				string stoppedAt = "";
 
 				if (continent)
 				{
 					// Get airport from addon name
-					foreach (string sub in addon.Name.Split(new string[] { " ", "-", "_" }, StringSplitOptions.RemoveEmptyEntries))
+					foreach (string sub in addon.Name.Split(new string[] { " ", "-", "_", "(", ")" }, StringSplitOptions.RemoveEmptyEntries))
 					{
-						if (SkipAddon(sub))
-							break;
+						stoppedAt = sub;
 
-						if (sub.Length > 4)
-							continue;
+						if (SkipAddon(sub))
+						{
+							result = $"SKIPPED {addon.Name}";
+							break;
+						}
 
 						foreach (AirportCorrection correction in m_AirportCorrections)
 						{
 							if (string.Equals(sub, correction.Addon_Icao, StringComparison.OrdinalIgnoreCase))
-								result = Result(m_Airports.Where(arp => string.Equals(arp.Ident, correction.Actual_Icao, StringComparison.OrdinalIgnoreCase)).First(), sub);
-						}
-
-						foreach (Airport airport in m_Airports)
-						{
-							if (string.Equals(sub, airport.Ident, StringComparison.OrdinalIgnoreCase)
-								|| string.Equals(sub, airport.GPS_Code, StringComparison.OrdinalIgnoreCase))
 							{
-								result = Result(airport, sub);
-								break;
+								// Fallback values for an airport that is not in the database, identified by icao
+								if (correction.Actual_Icao == "" && correction.Fallback_Continent != "")
+									result = Result(new Airport(correction.Addon_Icao.ToUpper(), "", correction.Fallback_Name, correction.Fallback_Continent, correction.Fallback_Country, correction.Fallback_US_State), sub)
+										+ " ||| CORR BY ICAO, NOT IN DBS";
+
+								// Different ICAO in-game
+								else result = Result(m_Airports.Where(arp => string.Equals(arp.Ident, correction.Actual_Icao, StringComparison.OrdinalIgnoreCase)).First(), sub)
+										+ " ||| CORR BY ICAO, DIFF ICAO IN GAME";
+							}
+							else if (string.Equals(sub, correction.Addon_Name, StringComparison.OrdinalIgnoreCase))
+							{
+								// Fallback values for an airport that is in the database, but name of addon doesn't have icao, identified by name
+								if (correction.Actual_Icao == "" && correction.Fallback_Continent != "")
+									result = Result(new Airport(correction.Addon_Icao.ToUpper(), "", correction.Fallback_Name, correction.Fallback_Continent, correction.Fallback_Country, correction.Fallback_US_State), sub)
+										+ " ||| CORR BY NAME, ADDON FOLDER W/O ICAO";
 							}
 						}
 
-						if (result == "") result = $"Not found: {addon.Name}: {sub}";
-						else break;
+						if (sub.Length < 3 || sub.Length > 4)
+							continue;
+
+						// If airport still not found, iterate through all
+						if (result == "")
+						{
+							foreach (Airport airport in m_Airports)
+							{
+								// If icao is equal
+								if (string.Equals(sub, airport.Ident, StringComparison.OrdinalIgnoreCase)
+									|| string.Equals(sub, airport.GPS_Code, StringComparison.OrdinalIgnoreCase))
+								{
+									result = Result(airport, sub);
+									break;
+								}
+							}
+						}
 					}
-					Log.WriteLine(result);
+
 				}
+				// If still not found, mark it as not found
+				if (result == "") result = $"Not found: {addon.Name}. Stopped at: {stoppedAt}";
+
+				Log.WriteLine(result);
 			}
 
 			watch.Stop();
@@ -311,7 +366,7 @@ namespace Geosort
 			}
 			string Result(Airport airport, string sub)
 			{
-				return $"{airport.Name} ({airport.Ident}{(airport.Ident != airport.GPS_Code ? "/" + airport.GPS_Code : "")}) [{sub}]: {airport.Continent}";
+				return $"{airport.Name} ({airport.Ident}{(airport.Ident != airport.GPS_Code ? "/" + airport.GPS_Code : "")}) [{sub}]: {airport.Continent}, {airport.Iso_Country}, {airport.Iso_Region}";
 			}
 		}
 		void addonFolderPicker_OnFilePicked(string path)

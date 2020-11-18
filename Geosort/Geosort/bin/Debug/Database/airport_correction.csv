@@ -1,5 +1,13 @@
-Addon_Icao,Actual_Icao,
-3n6,k3n6
-4m7,k4m7
-lisw,IT-0182
-khf,GB-0734
+Addon_Icao,Actual_Icao,Addon_Name,Fallback_Name,Fallback_Continent,Fallback_Country,Fallback_US_State
+1c5,k1c5,,,,,
+3n6,k3n6,,,,,
+4m7,k4m7,,,,,
+lisw,IT-0182,,,,,
+khf,GB-0734,,,,,
+lid1,,,Casera Razzo,EU,IT,
+litz,IT-0249,,,,,
+livm,IT-0130,,,,,
+okbk,,kuwait,Kuwait International Airport,AS,KW,KW-FA
+edlp,,paderborn,Paderborn Lippstadt Airport,EU,DE,DE-NW
+voat,,agatti,Agatti Airport,AS,IN,IN-LD
+ffzk,,,Fun Fly Zone,NA,US,US-WI
