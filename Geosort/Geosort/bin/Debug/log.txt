@@ -1,0 +1,1436 @@
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: 
+[18.11.2020 22:45:33]: Not found: cj4: cj4
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: Not found: 01 JD MOD Cessna 172 G1000 v1.0: 01
+[18.11.2020 22:45:34]: Navajo Mountain Airport (04UT) [04ut]: NA
+[18.11.2020 22:45:34]: Not found: 1-kuwait: 1
+[18.11.2020 22:45:34]: Bolingbrook's Clow International Airport (K1C5) [1c5]: NA
+[18.11.2020 22:45:34]: Point Roberts Airpark (1RL) [1rl]: NA
+[18.11.2020 22:45:34]: Old Bridge Airport (K3N6) [3N6]: NA
+[18.11.2020 22:45:34]: Russellville Logan County Airport (K4M7) [4m7]: NA
+[18.11.2020 22:45:34]: Stuart Island Airpark (7WA5) [7wa5]: NA
+[18.11.2020 22:45:34]: Not found: a-puf-we-love-vfr-region1: a
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: Kristiansand Airport (ENCN) [encn]: EU
+[18.11.2020 22:45:34]: Not found: ac1: ac1
+[18.11.2020 22:45:34]: Not found: acao: acao
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: General Juan N Alvarez International Airport (MMAA) [mmaa]: NA
+[18.11.2020 22:45:34]: White Waltham Airfield (EGLM) [eglm]: EU
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: Not found: aiport-lisw: lisw
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: Not found: aircraft-bombardier_crj_700: crj
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: Fuentemilanos Airport (LEFM) [lefm]: EU
+[18.11.2020 22:45:34]: Valladolid Airport (LEVD) [levd]: EU
+[18.11.2020 22:45:34]: Matilla De Los Caños Airport (LETC) [letc]: EU
+[18.11.2020 22:45:34]: Delta Heritage Air Park (CAK3) [CAK3]: NA
+[18.11.2020 22:45:34]: Sechelt-Gibsons Airport (CAP3) [CAP3]: NA
+[18.11.2020 22:45:34]: Lampman Airport (CJQ2) [CJQ2]: NA
+[18.11.2020 22:45:34]: Carlyle Airport (CJQ3) [CJQ3]: NA
+[18.11.2020 22:45:34]: King George Airpark (CSK8) [CSK8]: NA
+[18.11.2020 22:45:34]: Tofino / Long Beach Airport (CYAZ) [CYAZ]: NA
+[18.11.2020 22:45:34]: Chilliwack Airport (CYCW) [CYCW]: NA
+[18.11.2020 22:45:34]: Kelowna International Airport (CYLW) [CYLW]: NA
+[18.11.2020 22:45:34]: Kelowna International Airport (CYLW) [CYLW]: NA
+[18.11.2020 22:45:34]: Langley Airport (CYNJ) [CYNJ]: NA
+[18.11.2020 22:45:34]: Pitt Meadows Airport (CYPK) [CYPK]: NA
+[18.11.2020 22:45:34]: Powell River Airport (CYPW) [CYPW]: NA
+[18.11.2020 22:45:34]: Penticton Airport (CYYF) [CYYF]: NA
+[18.11.2020 22:45:34]: Boundary Bay Airport (CZBB) [CZBB]: NA
+[18.11.2020 22:45:34]: Bellingham International Airport (KBLI) [KBLI]: NA
+[18.11.2020 22:45:34]: Cluj-Napoca International Airport (LRCL) [LRCL]: EU
+[18.11.2020 22:45:34]: Iaşi Airport (LRIA) [LRIA]: EU
+[18.11.2020 22:45:34]: Sibiu International Airport (LRSB) [LRSB]: EU
+[18.11.2020 22:45:34]: Timişoara Traian Vuia Airport (LRTR) [LRTR]: EU
+[18.11.2020 22:45:34]: Thule Air Base (BGTL) [bgtl]: NA
+[18.11.2020 22:45:34]: Edmonton/Bailey Heliport (CBY2) [cby2]: NA
+[18.11.2020 22:45:34]: Leipzig/Halle Airport (EDDP) [eddp]: EU
+[18.11.2020 22:45:34]: Flugplatz Rotenburg (EDXQ) [EDXQ]: EU
+[18.11.2020 22:45:34]: Halli Airport (EFHA) [efha]: EU
+[18.11.2020 22:45:34]: Oulu Airport (EFOU) [efou]: EU
+[18.11.2020 22:45:34]: Lerwick / Tingwall Airport (EGET) [eget]: EU
+[18.11.2020 22:45:34]: Liverpool John Lennon Airport (EGGP) [eggp]: EU
+[18.11.2020 22:45:34]: Land's End Airport (EGHC) [eghc]: EU
+[18.11.2020 22:45:34]: Newquay Cornwall Airport (EGHQ) [eghq]: EU
+[18.11.2020 22:45:34]: Tresco Heliport (EGHT) [eght]: EU
+[18.11.2020 22:45:34]: Barra Airport (EGPR) [egpr]: EU
+[18.11.2020 22:45:34]: Unst Airport (EGPW) [egpw]: EU
+[18.11.2020 22:45:34]: Exeter International Airport (EGTE) [egte]: EU
+[18.11.2020 22:45:34]: Flotta Isle Airport (GB-FLH/EGZR) [egzr]: EU
+[18.11.2020 22:45:34]: Vagar Airport (EKVG) [ekvg]: EU
+[18.11.2020 22:45:34]: Potchefstroom Airport (FAPS) [faps]: AF
+[18.11.2020 22:45:34]: Fetlar Airport (FEA/) [fea]: EU
+[18.11.2020 22:45:34]: RAF Ascension Island (FHAW) [fhaw]: AF
+[18.11.2020 22:45:34]: St. Helena Airport (FHSH) [fhsh]: AF
+[18.11.2020 22:45:34]: Arras Roclincourt Airfield (LFQD) [lfqd]: EU
+[18.11.2020 22:45:34]: North Island Naval Air Station-Halsey Field (KNZY) [knzy]: NA
+[18.11.2020 22:45:34]: Not found: airport-khf-strip: khf
+[18.11.2020 22:45:34]: Varaždin Airport (LDVA) [ldva]: EU
+[18.11.2020 22:45:34]: Albacete-Los Llanos Airport (LEAB) [leab]: EU
+[18.11.2020 22:45:34]: Zaragoza Air Base (LEZG) [lezg]: EU
+[18.11.2020 22:45:34]: Bordeaux Léognan Saucats Airport (LFCS) [lfcs]: EU
+[18.11.2020 22:45:34]: Bordeaux Yvrac Airport (LFDY) [lfdy]: EU
+[18.11.2020 22:45:34]: Not found: airport-lid1-caserarazzo: lid1
+[18.11.2020 22:45:34]: Carpi-Budrione Airfield (LIDU) [lidu]: EU
+[18.11.2020 22:45:34]: Not found: airport-litz: litz
+[18.11.2020 22:45:34]: Not found: airport_ffzk_fun-fly-zone_0235_0.7 - full: ffzk
+[18.11.2020 22:45:34]: Dongsha Island Airport (TW-0002/RCLM) [rclm]: AS
+[18.11.2020 22:45:34]: Kulhudhuffushi Airport (VRBK) [vrbk]: AS
+[18.11.2020 22:45:34]: Maafaru International Airport (VRDA) [vrda]: AS
+[18.11.2020 22:45:34]: Ifuru Airport (VREI) [vrei]: AS
+[18.11.2020 22:45:34]: Dharavandhoo Airport (VRMD) [vrmd]: AS
+[18.11.2020 22:45:34]: Gan International Airport (VRMG) [vrmg]: AS
+[18.11.2020 22:45:34]: Kooddoo Airport (VRMO) [vrmo]: AS
+[18.11.2020 22:45:34]: Fuvahmulah Airport (VRMF/VRMR) [vrmr]: AS
+[18.11.2020 22:45:34]: Kaadedhdhoo Airport (VRMT) [vrmt]: AS
+[18.11.2020 22:45:34]: Dhaalu Atoll Airport (VRMU) [vrmu]: AS
+[18.11.2020 22:45:34]: Villa Airport (VRMV) [vrmv]: AS
+[18.11.2020 22:45:34]: Thimarafushi Airport (VRNT) [vrnt]: AS
+[18.11.2020 22:45:34]: Maavaarulaa Airport (VRQM) [vrqm]: AS
+[18.11.2020 22:45:34]: Not found: airport_vrsf_funadhoo_0235_0.1: vrsf
+[18.11.2020 22:45:34]: Fort Yukon Airport (PFYU) [pfyu]: NA
+[18.11.2020 22:45:34]: Not found: AKA-airports: AKA
+[18.11.2020 22:45:34]: Tok Junction Airport (PFTO) [pfto]: NA
+[18.11.2020 22:45:34]: Ajaccio-Napoléon Bonaparte Airport (LFKJ) [lfkj]: EU
+[18.11.2020 22:45:34]: Not found: alps-altiports: alps
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:34]: 
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: Not found: ao02 aerial imagery: ao02
+[18.11.2020 22:45:35]: Kuujjuaq Airport (CYVP) [cyvp]: NA
+[18.11.2020 22:45:35]: Beauvechain Air Base (EBBE) [ebbe]: EU
+[18.11.2020 22:45:35]: Strausberg Airport (EDAY) [eday]: EU
+[18.11.2020 22:45:35]: Wismar Airport (EDCW) [edcw]: EU
+[18.11.2020 22:45:35]: Mosenberg Airport (EDEM) [edem]: EU
+[18.11.2020 22:45:35]: Not found: ape42-airport-ek76-tunoe: ek76
+[18.11.2020 22:45:35]: Nordholz Naval Airbase (ETMN) [etmn]: EU
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: Not found: aquilasim-nasa: nasa
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: Lea County Regional Airport (KHOB) [khob]: NA
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: Istanbul Sabiha Gökçen International Airport (LTFJ) [ltfj]: AS
+[18.11.2020 22:45:35]: Istanbul Airport (LTFM) [ltfm]: AS
+[18.11.2020 22:45:35]: Auckland International Airport (NZAA) [NZAA]: OC
+[18.11.2020 22:45:35]: Christchurch International Airport (NZCH) [NZCH]: OC
+[18.11.2020 22:45:35]: Dunedin Airport (NZDN) [NZDN]: OC
+[18.11.2020 22:45:35]: Wellington International Airport (NZWN) [NZWN]: OC
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: Not found: athena-airport-cqra-quatam: cqra
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: Not found: aussimulations-yghb-capeschanck: yghb
+[18.11.2020 22:45:35]: Cuatro Vientos Airport (LECU) [lecu]: EU
+[18.11.2020 22:45:35]: Itaperuna Airport (SDUN) [sdun]: SA
+[18.11.2020 22:45:35]: Bømoen Airport (ENBM) [enbm]: EU
+[18.11.2020 22:45:35]: Sandane Airport (Anda) (ENSD) [ensd]: EU
+[18.11.2020 22:45:35]: Not found: azurpoly-aerial-tpm-aerial: tpm
+[18.11.2020 22:45:35]: Not found: azurpoly-tpm-scenery: tpm
+[18.11.2020 22:45:35]: Kautokeino Air Base (ENKA) [ENKA]: EU
+[18.11.2020 22:45:35]: Not found: A_ENSQ_Setermoen: A
+[18.11.2020 22:45:35]: Afonso Pena Airport (SBCT) [sbct]: SA
+[18.11.2020 22:45:35]: Not found: ba-esav-scenery: ba
+[18.11.2020 22:45:35]: Not found: ba-esgascenery: ba
+[18.11.2020 22:45:35]: Trollhättan-Vänersborg Airport (ESGT) [esgt]: EU
+[18.11.2020 22:45:35]: Not found: badd-airport-5nm-deadcowlakebedairstrip: badd
+[18.11.2020 22:45:35]: Johnson Creek Airport (3U2) [3u2]: NA
+[18.11.2020 22:45:35]: Not found: baddweapon-airport-u660-hiddensplendorairstrip-v1-1: u660
+[18.11.2020 22:45:35]: Not found: baddweapon-airport-u692-mexicanmountainairstrip: u692
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: Not found: baddweapon-scenery-icelandoverhaul-v1-5-2: v1
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: Stehekin State Airport (6S9) [6s9]: NA
+[18.11.2020 22:45:35]: Not found: bahnzo-aiport-cbx3-chilanko: cbx3
+[18.11.2020 22:45:35]: Taber Airport (CED5) [ced5]: NA
+[18.11.2020 22:45:35]: Not found: bahnzo-airport-cfr9-reddeer: cfr9
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: Oxford (Kidlington) Airport (EGTK) [egtk]: EU
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: Neerlerit Inaat Airport (BGCO) [bgco]: NA
+[18.11.2020 22:45:35]: Kulusuk Airport (BGKK) [bgkk]: NA
+[18.11.2020 22:45:35]: Birmingham International Airport (EGBB) [egbb]: EU
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: Not found: bmw-airport-locher: bmw
+[18.11.2020 22:45:35]: Not found: boba-crvena-crkva: boba
+[18.11.2020 22:45:35]: Not found: boba-dobricevo-cuprija: boba
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: Menorca Airport (LEMH) [lemh]: EU
+[18.11.2020 22:45:35]: Palma De Mallorca Airport (LEPA) [lepa]: EU
+[18.11.2020 22:45:35]: Vigo Airport (LEVX) [levx]: EU
+[18.11.2020 22:45:35]: Not found: bpaco-lpgc: lpgc
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: Santa Cruz do Sul Airport (SSSC) [SSSC]: SA
+[18.11.2020 22:45:35]: Bell Ville Airport (SA05) [sa05]: SA
+[18.11.2020 22:45:35]: General Urquiza Airport (SAAP) [saap]: SA
+[18.11.2020 22:45:35]: Islas Malvinas Airport (SAAR) [saar]: SA
+[18.11.2020 22:45:35]: Sauce Viejo Airport (SAAV) [saav]: SA
+[18.11.2020 22:45:35]: Jorge Newbery Airpark (SABE) [sabe]: SA
+[18.11.2020 22:45:35]: San Fernando Airport (SADF) [sadf]: SA
+[18.11.2020 22:45:35]: Mariano Moreno Airport (SADJ) [sadj]: SA
+[18.11.2020 22:45:35]: El Palomar Airport (SADP) [sadp]: SA
+[18.11.2020 22:45:35]: El Plumerillo Airport (SAME) [same]: SA
+[18.11.2020 22:45:35]: Teniente Benjamin Matienzo Airport (SANT) [sant]: SA
+[18.11.2020 22:45:35]: Area De Material Airport (SAOC) [saoc]: SA
+[18.11.2020 22:45:35]: Valle Del Conlara International Airport (SAOS) [saos]: SA
+[18.11.2020 22:45:35]: Corrientes Airport (SARC) [sarc]: SA
+[18.11.2020 22:45:35]: Resistencia International Airport (SARE) [sare]: SA
+[18.11.2020 22:45:35]: Formosa Airport (SARF) [sarf]: SA
+[18.11.2020 22:45:35]: Reconquista Airport (SATR) [satr]: SA
+[18.11.2020 22:45:35]: Antoine de Saint Exupéry Airport (SAVN) [savn]: SA
+[18.11.2020 22:45:35]: Comandante Espora Airport (SAZB) [sazb]: SA
+[18.11.2020 22:45:35]: Olavarria Airport (SAZF) [sazf]: SA
+[18.11.2020 22:45:35]: Tres Arroyos Airport (SAZH) [sazh]: SA
+[18.11.2020 22:45:35]: Not found: brainshot-termas-de-rio-hondo: de
+[18.11.2020 22:45:35]: Not found: brainshot-termas-de-rio-hondo-aerial: de
+[18.11.2020 22:45:35]: Not found: brd: brd
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: Narbonne (FR-0098/LFNN) [lfnn]: EU
+[18.11.2020 22:45:35]: Lanvéoc-Poulmic Air Base (LFRL) [lfrl]: EU
+[18.11.2020 22:45:35]: Not found: brzn: brzn
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: Douglas Lake Airport (CAL3) [cal3]: NA
+[18.11.2020 22:45:35]: Houston Airport (CAM5) [cam5]: NA
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: Not found: Capri-F: F
+[18.11.2020 22:45:35]: Not found: captainvtol-mko: mko
+[18.11.2020 22:45:35]: Gympie Airport (YGYM) [ygym]: OC
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: Vanderhoof Airport (CAU4) [cau4]: NA
+[18.11.2020 22:45:35]: Mcbride Airport (CAV4) [cav4]: NA
+[18.11.2020 22:45:35]: Likely Airport (CAX5) [cax5]: NA
+[18.11.2020 22:45:35]: Woodcock Airport (CBQ8) [cbq8]: NA
+[18.11.2020 22:45:35]: Kitimat Airport (CBW2) [cbw2]: NA
+[18.11.2020 22:45:35]: Not found: cc-airfield -revninge: cc
+[18.11.2020 22:45:35]: Not found: cc-airport-ekbo: cc
+[18.11.2020 22:45:35]: Hinton/Jasper-Hinton Airport (CEC4) [cec4]: NA
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: Alderney Airport (EGJA) [egja]: EU
+[18.11.2020 22:45:35]: Guernsey Airport (EGJB) [egjb]: EU
+[18.11.2020 22:45:35]: Jersey Airport (EGJJ) [egjj]: EU
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: Not found: checklist-c152-fc-1.3: c152
+[18.11.2020 22:45:35]: Not found: chernobyl_npp_0235: npp
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: Maurice Rose Army Air Field (DE-0416/EDEN) [eden]: EU
+[18.11.2020 22:45:35]: Arłamów Airport (EPAR) [epar]: EU
+[18.11.2020 22:45:35]: Elblag Airport (EPEL) [epel]: EU
+[18.11.2020 22:45:35]: Gdańsk Lech Wałęsa Airport (EPGD) [epgd]: EU
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: Lotnisko Gliwice-Trynek (EPGL) [epgl]: EU
+[18.11.2020 22:45:35]: Kraków John Paul II International Airport (EPKK) [epkk]: EU
+[18.11.2020 22:45:35]: Muchowiec Airport (EPKM) [epkm]: EU
+[18.11.2020 22:45:35]: Katowice International Airport (EPKT) [epkt]: EU
+[18.11.2020 22:45:35]: Lublin Airport (LUZ/EPLB) [eplb]: EU
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: Łódź Władysław Reymont Airport (EPLL) [epll]: EU
+[18.11.2020 22:45:35]: Lubin Airport (EPLU) [eplu]: EU
+[18.11.2020 22:45:35]: Modlin Airport (EPMO) [epmo]: EU
+[18.11.2020 22:45:35]: Poznań-Ławica Airport (EPPO) [eppo]: EU
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: Rzeszów-Jasionka Airport (EPRZ) [eprz]: EU
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: Szczecin-Goleniów "Solidarność" Airport (EPSC) [epsc]: EU
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: Torun Airport (EPTO) [epto]: EU
+[18.11.2020 22:45:35]: Copernicus Wrocław Airport (EPWR) [epwr]: EU
+[18.11.2020 22:45:35]: Zielona Góra-Babimost Airport (EPZG) [epzg]: EU
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: Lampedusa Airport (LICD) [LICD]: EU
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: Atoka Municipal Airport (KAQR) [kaqr]: NA
+[18.11.2020 22:45:35]: Atoka Municipal Airport (KAQR) [kaqr]: NA
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: Porto Cheli Airport (LGHL) [lghl]: EU
+[18.11.2020 22:45:35]: La Grande-4 Airport (CYAH) [cyah]: NA
+[18.11.2020 22:45:35]: Banff Airport (CYBA) [CYBA]: NA
+[18.11.2020 22:45:35]: Banff Airport (CYBA) [CYBA]: NA
+[18.11.2020 22:45:35]: Dawson Creek Airport (CYDQ) [cydq]: NA
+[18.11.2020 22:45:35]: Hope Airport (CYHE) [cyhe]: NA
+[18.11.2020 22:45:35]: Jasper Airport (CYJA) [cyja]: NA
+[18.11.2020 22:45:35]: Fort St James Airport (CYJM) [cyjm]: NA
+[18.11.2020 22:45:35]: Kamloops Airport (CYKA) [cyka]: NA
+[18.11.2020 22:45:35]: Prince Rupert Airport (CYPR) [cypr]: NA
+[18.11.2020 22:45:35]: Burns Lake Airport (CYPZ) [cypz]: NA
+[18.11.2020 22:45:35]: Montreal / Pierre Elliott Trudeau International Airport (CYUL) [cyul]: NA
+[18.11.2020 22:45:35]: Williams Lake Airport (CYWL) [cywl]: NA
+[18.11.2020 22:45:35]: Cranbrook/Canadian Rockies International Airport (CYXC) [cyxc]: NA
+[18.11.2020 22:45:35]: Saskatoon John G. Diefenbaker International Airport (CYXE) [cyxe]: NA
+[18.11.2020 22:45:35]: Fort St John Airport (CYXJ) [cyxj]: NA
+[18.11.2020 22:45:35]: Prince George Airport (CYXS) [cyxs]: NA
+[18.11.2020 22:45:35]: Northwest Regional Airport Terrace-Kitimat (CYXT) [cyxt]: NA
+[18.11.2020 22:45:35]: Smithers Airport (CYYD) [cyyd]: NA
+[18.11.2020 22:45:35]: Sandspit Airport (CYZP) [cyzp]: NA
+[18.11.2020 22:45:35]: Port Hardy Airport (CYZT) [cyzt]: NA
+[18.11.2020 22:45:35]: Not found: CZ_Landmarks: CZ
+[18.11.2020 22:45:35]: Not found: CZ_pamatky: CZ
+[18.11.2020 22:45:35]: Not found: CZ_Silos_V1: CZ
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: Not found: dgt-airport-lhd-lake-hood: dgt
+[18.11.2020 22:45:35]: Bellavista Airport (SPBS) [spbs]: SA
+[18.11.2020 22:45:35]: Not found: digitalhorizons-airport-kdws-disneyworld: kdws
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: Not found: doha: doha
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: Not found: dundee-airport-v1-0-3: v1
+[18.11.2020 22:45:35]: Lannion-Côte de Granit Airport (LFRO) [lfro]: EU
+[18.11.2020 22:45:35]: Lannion-Côte de Granit Airport (LFRO) [lfro]: EU
+[18.11.2020 22:45:35]: Midden-Zeeland Airport (EHMZ) [ehmz]: EU
+[18.11.2020 22:45:35]: Amougies Airfield (EBAM) [EBAM]: EU
+[18.11.2020 22:45:35]: Arlon-Sterpenich ULM (EBAR) [EBAR]: EU
+[18.11.2020 22:45:35]: Avernas-le-Bauduin ULM (EBAV) [EBAV]: EU
+[18.11.2020 22:45:35]: Brasschaat Airfield (EBBT) [EBBT]: EU
+[18.11.2020 22:45:35]: Schaffen Airfield (EBDT) [EBDT]: EU
+[18.11.2020 22:45:35]: Overboelare Airfield (EBGG) [EBGG]: EU
+[18.11.2020 22:45:35]: Hoevenen Airfield (EBHN) [EBHN]: EU
+[18.11.2020 22:45:35]: Theux (Verviers) Airfield (EBTX) [EBTX]: EU
+[18.11.2020 22:45:35]: Doylestown Airport (KDYL) [kdyl]: NA
+[18.11.2020 22:45:35]: Wismar Airport (EDCW) [edcw]: EU
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: Not found: edkg-koenigsdorf-orthophoto: edkg
+[18.11.2020 22:45:35]: Not found: edkg-koenigsdorf-scenery-basic: edkg
+[18.11.2020 22:45:35]: Not found: edkg-koenigsdorf-scenery-enhancement: edkg
+[18.11.2020 22:45:35]: Plettenberg-Hüinghausen Airport (EDKP) [edkp]: EU
+[18.11.2020 22:45:35]: Leutkirch-Unterzeil Airport (EDNL) [ednl]: EU
+[18.11.2020 22:45:35]: Flugplatz Kulmbach (EDQK) [EDQK]: EU
+[18.11.2020 22:45:35]: Kassel-Calden Airport (EDVK) [EDVK]: EU
+[18.11.2020 22:45:35]: Not found: edyk_patch: edyk
+[18.11.2020 22:45:35]: Helsinki Vantaa Airport (EFHK) [EFHK]: EU
+[18.11.2020 22:45:35]: Rothera Research Station (EGAR) [EGAR]: AN
+[18.11.2020 22:45:35]: City Airport Manchester (EGCB) [egcb]: EU
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: Robin Hood Doncaster Sheffield Airport (EGCN) [egcn]: EU
+[18.11.2020 22:45:35]: London Gatwick Airport (EGKK) [egkk]: EU
+[18.11.2020 22:45:35]: London Gatwick Airport (EGKK) [egkk]: EU
+[18.11.2020 22:45:35]: Newcastle Airport (EGNT) [egnt]: EU
+[18.11.2020 22:45:35]: Elmsett Airfield (EGST) [egst]: EU
+[18.11.2020 22:45:35]: RAF Dishforth (EGXD) [egxd]: EU
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: Hilversum Airfield (EHHV) [ehhv]: EU
+[18.11.2020 22:45:35]: De Kooy Airport (EHKD) [ehkd]: EU
+[18.11.2020 22:45:35]: Leeuwarden Air Base (EHLW) [ehlw]: EU
+[18.11.2020 22:45:35]: Leeuwarden Air Base (EHLW) [ehlw]: EU
+[18.11.2020 22:45:35]: Anholt Airport (EKAT) [ekat]: EU
+[18.11.2020 22:45:35]: Not found: ekba-bolhede: ekba
+[18.11.2020 22:45:35]: Esbjerg Airport (EKEB) [ekeb]: EU
+[18.11.2020 22:45:35]: 
+[18.11.2020 22:45:35]: Vøjstrup Glider Field (EKFS) [ekfs]: EU
+[18.11.2020 22:45:35]: Not found: EKLL-FS2020 V1.1: EKLL
+[18.11.2020 22:45:35]: Læsø Airport (EKLS) [ekls]: EU
+[18.11.2020 22:45:35]: Lolland Falster Maribo Airport (EKMB) [ekmb]: EU
+[18.11.2020 22:45:35]: Not found: ekml-Albatros: ekml
+[18.11.2020 22:45:35]: Samsø Airport (EKSS) [ekss]: EU
+[18.11.2020 22:45:36]: Vaerlose Air Base (EKVL) [EKVL]: EU
+[18.11.2020 22:45:36]: 
+[18.11.2020 22:45:36]: Brisbane Archerfield Airport (YBAF) [ybaf]: OC
+[18.11.2020 22:45:36]: Brønnøysund Airport (ENBN) [enbn]: EU
+[18.11.2020 22:45:36]: 
+[18.11.2020 22:45:36]: Oslo Gardermoen Airport (ENGM) [engm]: EU
+[18.11.2020 22:45:36]: Not found: EGV_BaggageTruck01: EGV
+[18.11.2020 22:45:36]: Not found: EGV_Baggage_Cart01: EGV
+[18.11.2020 22:45:36]: Not found: EGV_Baggage_Cart02: EGV
+[18.11.2020 22:45:36]: Not found: EGV_Baggage_Loader_01: EGV
+[18.11.2020 22:45:36]: Not found: EGV_Boarding_Stairs: EGV
+[18.11.2020 22:45:36]: Not found: EGV_CarFacility01: EGV
+[18.11.2020 22:45:36]: Not found: EGV_CarUtility01: EGV
+[18.11.2020 22:45:36]: Not found: EGV_Catering_Truck_01: EGV
+[18.11.2020 22:45:36]: Not found: EGV_Firetruck01: EGV
+[18.11.2020 22:45:36]: Not found: EGV_Firetruck02: EGV
+[18.11.2020 22:45:36]: Not found: EGV_FuelTruck01: EGV
+[18.11.2020 22:45:36]: Not found: EGV_FuelTruck02: EGV
+[18.11.2020 22:45:36]: Tura Mountain Airport (UNIT) [Unit]: AS
+[18.11.2020 22:45:36]: Not found: EGV_LoaderCab: EGV
+[18.11.2020 22:45:36]: Not found: EGV_Operation_Truck: EGV
+[18.11.2020 22:45:36]: Not found: EGV_Pushback: EGV
+[18.11.2020 22:45:36]: Not found: EGV_Shuttle_01: EGV
+[18.11.2020 22:45:36]: Not found: EGV_TarmacWorker: EGV
+[18.11.2020 22:45:36]: Not found: EGV_TruckFacility01: EGV
+[18.11.2020 22:45:36]: Not found: EGV_TruckUtility01: EGV
+[18.11.2020 22:45:36]: Not found: EGV_Tug01: EGV
+[18.11.2020 22:45:36]: Not found: EGV_Tug02: EGV
+[18.11.2020 22:45:36]: Haugesund Airport (ENHD) [enhd]: EU
+[18.11.2020 22:45:36]: 
+[18.11.2020 22:45:36]: Mosjøen Airport (Kjærstad) (ENMS) [enms]: EU
+[18.11.2020 22:45:36]: Narvik Framnes Airport (ENNK) [ENNK]: EU
+[18.11.2020 22:45:36]: Namsos Høknesøra Airport (ENNM) [ENNM]: EU
+[18.11.2020 22:45:36]: Mo i Rana Airport, Røssvoll (ENRA) [enra]: EU
+[18.11.2020 22:45:36]: Rørvik Airport, Ryum (ENRM) [ENRM]: EU
+[18.11.2020 22:45:36]: Værøy STOLport (ENVY) [ENVY]: EU
+[18.11.2020 22:45:36]: Bielsko Biala Airport (EPBA) [epba]: EU
+[18.11.2020 22:45:36]: Babice Airport (EPBC) [epbc]: EU
+[18.11.2020 22:45:36]: Białystok-Krywlany Airport (EPBK) [epbk]: EU
+[18.11.2020 22:45:36]: Pobiednik Wielki Airport (EPKP) [EPKP]: EU
+[18.11.2020 22:45:36]: Bielsko-Bialo Kaniow Airfield (EPKW) [epkw]: EU
+[18.11.2020 22:45:36]: 
+[18.11.2020 22:45:36]: Warsaw Chopin Airport (EPWA) [epwa]: EU
+[18.11.2020 22:45:36]: Zborowo (EPZB) [epzb]: EU
+[18.11.2020 22:45:36]: 
+[18.11.2020 22:45:36]: Not found: ervolaor-airport-leme-aerosidonia: leme
+[18.11.2020 22:45:36]: Davidson Strip Airport (45AA) [45aa]: NA
+[18.11.2020 22:45:36]: Kantishna Airport (5Z5) [5z5]: NA
+[18.11.2020 22:45:36]: Not found: esd-snowflake-lake: esd
+[18.11.2020 22:45:36]: 
+[18.11.2020 22:45:36]: Herrljunga Airport (ESGH) [esgh]: EU
+[18.11.2020 22:45:36]: Rörkärr Airport (ESGU) [esgu]: EU
+[18.11.2020 22:45:36]: Rota International Airport (PGRO) [pgro]: OC
+[18.11.2020 22:45:36]: Johnston Atoll Airport (PJON) [pjon]: OC
+[18.11.2020 22:45:36]: Rostock-Laage Airport (ETNL) [etnl]: EU
+[18.11.2020 22:45:36]: Erding Air Base (ETSE) [etse]: EU
+[18.11.2020 22:45:36]: Erding Air Base (ETSE) [etse]: EU
+[18.11.2020 22:45:36]: 
+[18.11.2020 22:45:36]: Flugplatz Güttin / Rügen (EDCG) [edcg]: EU
+[18.11.2020 22:45:36]: Not found: Fife Airfield: Fife
+[18.11.2020 22:45:36]: Not found: Final Approach-Aeroclub Canada de Gomez MFS2020: de
+[18.11.2020 22:45:36]: Not found: finland-lake-fix: lake
+[18.11.2020 22:45:36]: Ny-Ålesund Airport (Hamnerabben) (ENAS) [enas]: EU
+[18.11.2020 22:45:36]: Geilo Airport Dagali (ENDI) [endi]: EU
+[18.11.2020 22:45:36]: Gullknapp Flpl Airport (ENGK) [engk]: EU
+[18.11.2020 22:45:36]: Kirkenes Airport (Høybuktmoen) (ENKR) [enkr]: EU
+[18.11.2020 22:45:36]: Røros Airport (ENRO) [enro]: EU
+[18.11.2020 22:45:36]: Svea Airport (ENSA) [ensa]: EU
+[18.11.2020 22:45:36]: Svalbard Airport, Longyear (ENSB) [ensb]: EU
+[18.11.2020 22:45:36]: Sandnessjøen Airport (Stokka) (ENST) [enst]: EU
+[18.11.2020 22:45:36]: Not found: fk-fix-enrs-trees: fk
+[18.11.2020 22:45:36]: Barentsburg Heliport, Heerodden (ENBA) [enba]: EU
+[18.11.2020 22:45:36]: Not found: fk-no-seaplaneport: fk
+[18.11.2020 22:45:36]: 
+[18.11.2020 22:45:36]: Jequitinhonha Airport (SNJQ) [snjq]: SA
+[18.11.2020 22:45:36]: Leite Lopes Airport (SBRP) [sbrp]: SA
+[18.11.2020 22:45:36]: 
+[18.11.2020 22:45:36]: Altiport de Peyresourde Balestas (LFIP) [lfip]: EU
+[18.11.2020 22:45:36]: Wellesbourne Airfield (EGBW) [egbw]: EU
+[18.11.2020 22:45:36]: Birmingham International Airport (EGBB) [egbb]: EU
+[18.11.2020 22:45:36]: 
+[18.11.2020 22:45:36]: Not found: flyto-lksh: lksh
+[18.11.2020 22:45:36]: Not found: flyto-lksh-nav: lksh
+[18.11.2020 22:45:36]: Brno-Tuřany Airport (LKTB) [lktb]: EU
+[18.11.2020 22:45:36]: Brno-Tuřany Airport (LKTB) [lktb]: EU
+[18.11.2020 22:45:36]: Not found: force1024-airport-c0304-ram-falls: ram
+[18.11.2020 22:45:36]: Red Deer Forestry Airport (CFR7) [cfr7]: NA
+[18.11.2020 22:45:36]: Big Bear City Airport (KL35/L35) [l35]: NA
+[18.11.2020 22:45:36]: 
+[18.11.2020 22:45:36]: 
+[18.11.2020 22:45:36]: Not found: FR 0152 Heliport Verneuil sur avre: FR
+[18.11.2020 22:45:36]: La Baule-Escoublac Airport (LFRE) [lfre]: EU
+[18.11.2020 22:45:36]: 
+[18.11.2020 22:45:36]: 
+[18.11.2020 22:45:36]: 
+[18.11.2020 22:45:36]: Heubach Airport (EDTH) [edth]: EU
+[18.11.2020 22:45:36]: Not found: fs-base-ingamepanels-gs: fs
+[18.11.2020 22:45:36]: Not found: fspm-panel-vfrmap: fspm
+[18.11.2020 22:45:36]: Copenhagen Roskilde Airport (EKRK) [ekrk]: EU
+[18.11.2020 22:45:36]: Vaerlose Air Base (EKVL) [ekvl]: EU
+[18.11.2020 22:45:36]: Not found: fwas-airport-5b2: fwas
+[18.11.2020 22:45:36]: Floyd Bennett Memorial Airport (KGFL) [kgfl]: NA
+[18.11.2020 22:45:36]: 
+[18.11.2020 22:45:36]: Fuerteventura Airport (GCFV) [GCFV]: EU
+[18.11.2020 22:45:36]: La Gomera Airport (GCGM) [gcgm]: EU
+[18.11.2020 22:45:36]: Hierro Airport (GCHI) [gchi]: EU
+[18.11.2020 22:45:36]: La Palma Airport (GCLA) [gcla]: EU
+[18.11.2020 22:45:36]: El Berriel Aeroc Airport (GCLB) [GCLB]: EU
+[18.11.2020 22:45:36]: Lanzarote Airport (GCRR) [GCRR]: EU
+[18.11.2020 22:45:36]: Tenerife South Airport (GCTS) [GCTS]: EU
+[18.11.2020 22:45:36]: Tenerife South Airport (GCTS) [GCTS]: EU
+[18.11.2020 22:45:36]: Not found: gibsim-lfps: lfps
+[18.11.2020 22:45:36]: 
+[18.11.2020 22:45:36]: Leipzig/Halle Airport (EDDP) [eddp]: EU
+[18.11.2020 22:45:36]: Bremen Airport (EDDW) [eddw]: EU
+[18.11.2020 22:45:36]: Nashville International Airport (KBNA) [kbna]: NA
+[18.11.2020 22:45:36]: Portland International Airport (KPDX) [kpdx]: NA
+[18.11.2020 22:45:36]: Sacramento Executive Airport (KSAC) [ksac]: NA
+[18.11.2020 22:45:36]: Turweston Airport (EGBT) [egbt]: EU
+[18.11.2020 22:45:36]: Popham Airfield (EGHP) [eghp]: EU
+[18.11.2020 22:45:36]: Blackbushe Airport (EGLK) [eglk]: EU
+[18.11.2020 22:45:36]: Duxford Aerodrome (EGSU) [egsu]: EU
+[18.11.2020 22:45:36]: Elstree Airfield (EGTR) [egtr]: EU
+[18.11.2020 22:45:36]: Not found: gobby-expr-raf-portreath: expr
+[18.11.2020 22:45:36]: 
+[18.11.2020 22:45:36]: 
+[18.11.2020 22:45:36]: 
+[18.11.2020 22:45:36]: Not found: grafdresche-sawb01-V2: V2
+[18.11.2020 22:45:36]: 
+[18.11.2020 22:45:36]: Stuttgart Airport (EDDS) [edds]: EU
+[18.11.2020 22:45:36]: 
+[18.11.2020 22:45:36]: Amílcar Cabral International Airport (GVAC) [GVAC]: AF
+[18.11.2020 22:45:36]: Valdez Pioneer Field (PAVD) [pavd]: NA
+[18.11.2020 22:45:36]: Not found: halfmoonbay_arpt: arpt
+[18.11.2020 22:45:36]: Comox Airport (CYQQ) [CYQQ]: NA
+[18.11.2020 22:45:36]: 
+[18.11.2020 22:45:36]: 
+[18.11.2020 22:45:36]: 
+[18.11.2020 22:45:36]: 
+[18.11.2020 22:45:36]: 
+[18.11.2020 22:45:36]: 
+[18.11.2020 22:45:36]: Båtsfjord Airport (ENBS) [enbs]: EU
+[18.11.2020 22:45:36]: Berlevåg Airport (ENBV) [enbv]: EU
+[18.11.2020 22:45:36]: Not found: hmj-airport-enme-oeian: hmj
+[18.11.2020 22:45:36]: Vardø Airport, Svartnes (ENSS) [enss]: EU
+[18.11.2020 22:45:36]: Vadsø Airport (ENVD) [envd]: EU
+[18.11.2020 22:45:36]: Ajdovščina Airfield (LJAJ) [ljaj]: EU
+[18.11.2020 22:45:36]: 
+[18.11.2020 22:45:36]: Hagshult Air Base (ESMV) [esmv]: EU
+[18.11.2020 22:45:36]: Bahías de Huatulco International Airport (MMBT) [mmbt]: NA
+[18.11.2020 22:45:36]: Manuel Márquez de León International Airport (MMLP) [mmlp]: NA
+[18.11.2020 22:45:36]: General Rafael Buelna International Airport (MMMZ) [mmmz]: NA
+[18.11.2020 22:45:36]: Angel Albino Corzo International Airport (MMTG) [mmtg]: NA
+[18.11.2020 22:45:36]: Not found: hti-airport-efkx-kilpisjarvi: hti
+[18.11.2020 22:45:36]: RAAF Williams, Point Cook Base (YMPC) [ympc]: OC
+[18.11.2020 22:45:36]: Budaörs Airfield (LHBS) [lhbs]: EU
+[18.11.2020 22:45:36]: Farkashegy Airport (LHFH) [lhfh]: EU
+[18.11.2020 22:45:36]: Hármashatárhegy Glider Field (LHHH) [lhhh]: EU
+[18.11.2020 22:45:36]: Tököl Airport (LHTL) [lhtl]: EU
+[18.11.2020 22:45:36]: Veresegyház (LHVE) [lhve]: EU
+[18.11.2020 22:45:36]: Not found: hvfr-sightseeing-balaton: hvfr
+[18.11.2020 22:45:36]: Not found: hvfr-sightseeing-bp-city: hvfr
+[18.11.2020 22:45:36]: Not found: hvfr-sightseeing-debrecen-city: hvfr
+[18.11.2020 22:45:36]: Not found: hvfr-sightseeing-kecskemet-city: hvfr
+[18.11.2020 22:45:36]: Not found: hvfr-sightseeing-szeged-city: hvfr
+[18.11.2020 22:45:36]: Mackay Bar Airport (ID28) [id28]: NA
+[18.11.2020 22:45:36]: Not found: iggy-unakleet: iggy
+[18.11.2020 22:45:36]: Punkaharju Airport (EFPN) [efpn]: EU
+[18.11.2020 22:45:36]: Kitee Airport (EFIT) [efit]: EU
+[18.11.2020 22:45:36]: Not found: IMPROVED PHYSICS FOR MFS 1.4.0+: FOR
+[18.11.2020 22:45:36]: Trier-Föhren Airport (EDRT) [edrt]: EU
+[18.11.2020 22:45:36]: 
+[18.11.2020 22:45:36]: St. Mary's Airport (EGHE) [eghe]: EU
+[18.11.2020 22:45:36]: 
+[18.11.2020 22:45:36]: 
+[18.11.2020 22:45:36]: 
+[18.11.2020 22:45:36]: 
+[18.11.2020 22:45:36]: 
+[18.11.2020 22:45:36]: Iwo Jima Airport (RJAW) [rjaw]: AS
+[18.11.2020 22:45:36]: 
+[18.11.2020 22:45:36]: 
+[18.11.2020 22:45:36]: Apollo Bay Airport (YAPO) [yapo]: OC
+[18.11.2020 22:45:36]: Ararat Airport (YARA) [yara]: OC
+[18.11.2020 22:45:36]: Bridgewater Airport (YBGR) [ybgr]: OC
+[18.11.2020 22:45:36]: Ballarat Airport (YBLT) [yblt]: OC
+[18.11.2020 22:45:36]: Ballarat Airport (YBLT) [yblt]: OC
+[18.11.2020 22:45:36]: Bacchus Marsh Airport (YBSS) [ybss]: OC
+[18.11.2020 22:45:36]: Cobden Airport (YCDE) [ycde]: OC
+[18.11.2020 22:45:36]: Coldstream Airport (YCEM) [ycem]: OC
+[18.11.2020 22:45:36]: Drouin Airport (YDRN) [ydrn]: OC
+[18.11.2020 22:45:36]: Echuca Airport (YECH) [yech]: OC
+[18.11.2020 22:45:36]: Not found: jordanjames94-ykin-kinglake: ykin
+[18.11.2020 22:45:36]: Kyabram Airport (YKYB) [ykyb]: OC
+[18.11.2020 22:45:36]: Lethbridge Airpark (YLED) [yled]: OC
+[18.11.2020 22:45:36]: Leongatha Airport (YLEG) [yleg]: OC
+[18.11.2020 22:45:36]: Lilydale Airport (YLIL) [ylil]: OC
+[18.11.2020 22:45:36]: Latrobe Valley Airport (YLTV) [yltv]: OC
+[18.11.2020 22:45:36]: Latrobe Valley Airport (YLTV) [yltv]: OC
+[18.11.2020 22:45:36]: Merton Airport (YMEO) [ymeo]: OC
+[18.11.2020 22:45:36]: Mansfield Airport (YMFD) [ymfd]: OC
+[18.11.2020 22:45:36]: Melbourne Moorabbin Airport (YMMB) [ymmb]: OC
+[18.11.2020 22:45:36]: Mangalore Airport (YMNG) [ymng]: OC
+[18.11.2020 22:45:36]: Colac Airport (YOLA) [yola]: OC
+[18.11.2020 22:45:36]: Peterborough Airport (YPBH) [ypbh]: OC
+[18.11.2020 22:45:36]: Shepparton Airport (YSHT) [ysht]: OC
+[18.11.2020 22:45:36]: Taggerty Airport (YTGG) [ytgg]: OC
+[18.11.2020 22:45:36]: Warrnambool Airport (YWBL) [ywbl]: OC
+[18.11.2020 22:45:36]: Yeaburn Airport (YYEA) [yyea]: OC
+[18.11.2020 22:45:36]: Bendigo Airport (YBDG) [ybdg]: OC
+[18.11.2020 22:45:36]: Tyabb Airport (YTYA) [ytya]: OC
+[18.11.2020 22:45:36]: 
+[18.11.2020 22:45:36]: 
+[18.11.2020 22:45:36]: 
+[18.11.2020 22:45:36]: 
+[18.11.2020 22:45:36]: Badajoz Airport (LEBZ) [lebz]: EU
+[18.11.2020 22:45:36]: Casarrubios Del Monte Airport (LEMT) [lemt]: EU
+[18.11.2020 22:45:36]: Valladolid Airport (LEVD) [levd]: EU
+[18.11.2020 22:45:36]: Fagerhaug Airport (ENOP) [enop]: EU
+[18.11.2020 22:45:36]: Churchill Falls Airport (CZUM) [czum]: NA
+[18.11.2020 22:45:36]: Not found: julysfire-airport-f45-npbc: f45
+[18.11.2020 22:45:36]: North Island Naval Air Station-Halsey Field (KNZY) [knzy]: NA
+[18.11.2020 22:45:36]: Cottonwood Airport (KP52/P52) [p52]: NA
+[18.11.2020 22:45:36]: Chefornak Airport (PACK) [pack]: NA
+[18.11.2020 22:45:36]: Dresden Airport (EDDC) [eddc]: EU
+[18.11.2020 22:45:36]: Not found: justokayscenery-az-sm: az
+[18.11.2020 22:45:36]: Not found: justokayscenery-az-sm-2: az
+[18.11.2020 22:45:36]: Not found: justokayscenery-az-sm-3: az
+[18.11.2020 22:45:37]: Buckeye Municipal Airport (KBXK) [kbxk]: NA
+[18.11.2020 22:45:37]: Flagstaff Pulliam Airport (KFLG) [kflg]: NA
+[18.11.2020 22:45:37]: Grand Canyon National Park Airport (KGCN) [kgcn]: NA
+[18.11.2020 22:45:37]: Jackson Hole Airport (KJAC) [kjac]: NA
+[18.11.2020 22:45:37]: Payson Airport (KPAN) [kpan]: NA
+[18.11.2020 22:45:37]: Not found: justokayscenery-p19: p19
+[18.11.2020 22:45:37]: 
+[18.11.2020 22:45:37]: 
+[18.11.2020 22:45:37]: Wasserkuppe Airport (EDER) [eder]: EU
+[18.11.2020 22:45:37]: Asyut International Airport (HEAT) [Heat]: AF
+[18.11.2020 22:45:37]: Jastarnia Airport (EPJA) [epja]: EU
+[18.11.2020 22:45:37]: Amougies Airfield (EBAM) [ebam]: EU
+[18.11.2020 22:45:37]: Overboelare Airfield (EBGG) [ebgg]: EU
+[18.11.2020 22:45:37]: Hoevenen Airfield (EBHN) [ebhn]: EU
+[18.11.2020 22:45:37]: Ath/Isieres Ulmodrome (EBIS) [ebis]: EU
+[18.11.2020 22:45:37]: Ursel Air Base (EBUL) [ebul]: EU
+[18.11.2020 22:45:37]: 
+[18.11.2020 22:45:37]: Bowers Field (KELN) [keln]: NA
+[18.11.2020 22:45:37]: Wilmington International Airport (KILM) [kilm]: NA
+[18.11.2020 22:45:37]: Iowa City Municipal Airport (KIOW) [kiow]: NA
+[18.11.2020 22:45:37]: Iowa City Municipal Airport (KIOW) [kiow]: NA
+[18.11.2020 22:45:37]: Not found: kjh-en15: kjh
+[18.11.2020 22:45:37]: Snåsa Airfield Grønøra (ENGS) [engs]: EU
+[18.11.2020 22:45:37]: Ørland Airport (ENOL) [enol]: EU
+[18.11.2020 22:45:37]: Not found: kjh-enr1: kjh
+[18.11.2020 22:45:37]: Not found: kjh-ens1: kjh
+[18.11.2020 22:45:37]: Ski Airfield (ENSI) [ensi]: EU
+[18.11.2020 22:45:37]: Skien Airport (ENSN) [ensn]: EU
+[18.11.2020 22:45:37]: Os Vaksinen Ulven Airport (ENUL) [enul]: EU
+[18.11.2020 22:45:37]: Not found: kjh-envu: kjh
+[18.11.2020 22:45:37]: Not found: kjh-henning-nedre-langli: kjh
+[18.11.2020 22:45:37]: Long Beach Airport (Daugherty Field) (KLGB) [klgb]: NA
+[18.11.2020 22:45:37]: Jim Kelly Field (KLXN) [klxn]: NA
+[18.11.2020 22:45:37]: Orange County Airport (KMGJ) [KMGJ]: NA
+[18.11.2020 22:45:37]: Grant County International Airport (KMWH) [kmwh]: NA
+[18.11.2020 22:45:37]: 
+[18.11.2020 22:45:37]: Orcas Island Airport (KORS) [kors]: NA
+[18.11.2020 22:45:37]: Wittman Regional Airport (KOSH) [kosh]: NA
+[18.11.2020 22:45:37]: Not found: kp-airport-kbch-benchlake: kp
+[18.11.2020 22:45:37]: Not found: kp-airport-ycsk-casey: kp
+[18.11.2020 22:45:37]: Wittenoom Airport (YWIT) [ywit]: OC
+[18.11.2020 22:45:37]: Not found: kp-yhis: kp
+[18.11.2020 22:45:37]: Snohomish County (Paine Field) Airport (KPAE) [kpae]: NA
+[18.11.2020 22:45:37]: Portland International Airport (KPDX) [kpdx]: NA
+[18.11.2020 22:45:37]: Tri Cities Airport (KPSC) [kpsc]: NA
+[18.11.2020 22:45:37]: Robinson Army Air Field (KRBM) [krbm]: NA
+[18.11.2020 22:45:37]: 
+[18.11.2020 22:45:37]: Not found: KRON_EastPapua: KRON
+[18.11.2020 22:45:37]: Not found: KRON_Gostner: KRON
+[18.11.2020 22:45:37]: Not found: KRON_MahoneyCreek: KRON
+[18.11.2020 22:45:37]: Eareckson Air Station (PASY) [pasy]: NA
+[18.11.2020 22:45:37]: Not found: kui-shemyasat: kui
+[18.11.2020 22:45:37]: 
+[18.11.2020 22:45:37]: Van Nuys Airport (KVNY) [kvny]: NA
+[18.11.2020 22:45:37]: Islas Del Cisne Airport (MHIC) [mhic]: NA
+[18.11.2020 22:45:37]: Savoonga Airport (PASA) [pasa]: NA
+[18.11.2020 22:45:37]: Bathpalathang Airport (VQBT) [vqbt]: AS
+[18.11.2020 22:45:37]: Lawas Airport (WBGW) [wbgw]: AS
+[18.11.2020 22:45:37]: Bario Airport (WBGZ) [wbgz]: AS
+[18.11.2020 22:45:37]: Sahabat [Sahabat 16] Airport (WBKH) [wbkh]: AS
+[18.11.2020 22:45:37]: Tomanggong Airport (WBKM) [wbkm]: AS
+[18.11.2020 22:45:37]: Long Pasia Airport (WBKN) [wbkn]: AS
+[18.11.2020 22:45:37]: Jendarata Airport (WMAJ) [wmaj]: AS
+[18.11.2020 22:45:37]: Mersing Airport (WMAU) [wmau]: AS
+[18.11.2020 22:45:37]: Not found: kychungdotcom-airport-wmbr-bernam: wmbr
+[18.11.2020 22:45:37]: Malacca Airport (WMKM) [wmkm]: AS
+[18.11.2020 22:45:37]: Wilkins Runway (YWKS) [ywks]: AN
+[18.11.2020 22:45:37]: Yakima Air Terminal McAllister Field (KYKM) [kykm]: NA
+[18.11.2020 22:45:37]: Big Bear City Airport (KL35/L35) [l35]: NA
+[18.11.2020 22:45:37]: Varna Airport (LBWN) [lbwn]: EU
+[18.11.2020 22:45:37]: Almería International Airport (LEAM) [LEAM]: EU
+[18.11.2020 22:45:37]: Asturias Airport (LEAS) [LEAS]: EU
+[18.11.2020 22:45:37]: Córdoba Airport (LEBA) [leba]: EU
+[18.11.2020 22:45:37]: Bilbao Airport (LEBB) [lebb]: EU
+[18.11.2020 22:45:37]: Federico Garcia Lorca Airport (LEGR) [LEGR]: EU
+[18.11.2020 22:45:37]: Ibiza Airport (LEIB) [leib]: EU
+[18.11.2020 22:45:37]: Jerez Airport (LEJR) [LEJR]: EU
+[18.11.2020 22:45:37]: Málaga Airport (LEMG) [LEMG]: EU
+[18.11.2020 22:45:37]: Sevilla Airport (LEZL) [LEZL]: EU
+[18.11.2020 22:45:37]: 
+[18.11.2020 22:45:37]: 
+[18.11.2020 22:45:37]: Not found: LF2721 St Cyr La Campgne V2.0: St
+[18.11.2020 22:45:37]: Not found: LF2722 ULM Berville sur mer: ULM
+[18.11.2020 22:45:37]: Not found: LF2753 val de Reuil V2.0: val
+[18.11.2020 22:45:37]: 
+[18.11.2020 22:45:37]: 
+[18.11.2020 22:45:37]: Not found: LF6161 LE VERNET: LE
+[18.11.2020 22:45:37]: Aérodrome de  Condé sur Noireau (LFAN) [LFAN]: EU
+[18.11.2020 22:45:37]: Megève Altiport (LFHM) [lfhm]: EU
+[18.11.2020 22:45:37]: Altiport L'Alpe d'Huez - Henri GIRAUD (LFHU) [lfhu]: EU
+[18.11.2020 22:45:37]: Nîmes Courbessac Airport (LFME) [LFME]: EU
+[18.11.2020 22:45:37]: Creil Air Base (LFPC) [lfpc]: EU
+[18.11.2020 22:45:37]: Aérodrome de Bernay-Saint-Martin (LFPD) [LFPD]: EU
+[18.11.2020 22:45:37]: Lannion-Côte de Granit Airport (LFRO) [lfro]: EU
+[18.11.2020 22:45:37]: Not found: LFXX BUTERNAY LF2856 V2.1: LFXX
+[18.11.2020 22:45:37]: 
+[18.11.2020 22:45:37]: Erfurt Airport (EDDE) [edde]: EU
+[18.11.2020 22:45:37]: Not found: lighting-for-airports-fix: for
+[18.11.2020 22:45:37]: Calcinate Del Pesce Airport (LILC) [LILC]: EU
+[18.11.2020 22:45:37]: Not found: lillehammer-fix: fix
+[18.11.2020 22:45:37]: Salerno Costa d'Amalfi Airport (LIRI) [liri]: EU
+[18.11.2020 22:45:37]: Perugia San Francesco d'Assisi – Umbria International Airport (LIRZ) [LIRZ]: EU
+[18.11.2020 22:45:37]: Not found: livm-Aquile Randagie: livm
+[18.11.2020 22:45:37]: Frýdlant Airport (LKFR) [lkfr]: EU
+[18.11.2020 22:45:37]: Hradec Králové Airport (LKHK) [lkhk]: EU
+[18.11.2020 22:45:37]: Hosin Airport (LKHS) [lkhs]: EU
+[18.11.2020 22:45:37]: Jičín Airport (LKJC) [lkjc]: EU
+[18.11.2020 22:45:37]: Kříženec Planá Airport (LKKC) [lkkc]: EU
+[18.11.2020 22:45:37]: Kladno Airport (LKKL) [lkkl]: EU
+[18.11.2020 22:45:37]: Most Airport (LKMO) [lkmo]: EU
+[18.11.2020 22:45:37]: Policka Airport (LKPA) [lkpa]: EU
+[18.11.2020 22:45:37]: Panensky Tynec Airport (LKPC) [lkpc]: EU
+[18.11.2020 22:45:37]: Václav Havel Airport Prague (LKPR) [lkpr]: EU
+[18.11.2020 22:45:37]: Rana Loumy Airport (LKRA) [lkra]: EU
+[18.11.2020 22:45:37]: Rakovnik Airfield (LKRK) [lkrk]: EU
+[18.11.2020 22:45:37]: Soběslav (LKSO) [lkso]: EU
+[18.11.2020 22:45:37]: Letiště Sazená (LKSZ) [lksz]: EU
+[18.11.2020 22:45:37]: Žatec-Macerka Airfield (LKZD) [lkzd]: EU
+[18.11.2020 22:45:37]: Ramon Airport (LLER) [ller]: AS
+[18.11.2020 22:45:37]: Voeltendorf Airport (LOAD) [load]: EU
+[18.11.2020 22:45:37]: Hohenems-Dornbirn Airfield (LOIH) [loih]: EU
+[18.11.2020 22:45:37]: Nötsch Im Gailtal Airfield (LOKN) [lokn]: EU
+[18.11.2020 22:45:37]: Kirchheim Airport (LOLK) [LOLK]: EU
+[18.11.2020 22:45:37]: 
+[18.11.2020 22:45:37]: 
+[18.11.2020 22:45:37]: 
+[18.11.2020 22:45:37]: Not found: losco-arona_il_picchio: il
+[18.11.2020 22:45:37]: Not found: losco-chavezmarini-lich: lich
+[18.11.2020 22:45:37]: Lublin Radwiec Airfield (EPLR) [EPLR]: EU
+[18.11.2020 22:45:37]: Klagenfurt Airport (LOWK) [lowk]: EU
+[18.11.2020 22:45:37]: Aerodromo de Castelo Branco (LPCB) [lpcb]: EU
+[18.11.2020 22:45:37]: Aerodromo de Castelo Branco (LPCB) [lpcb]: EU
+[18.11.2020 22:45:37]: Craiova Airport (LRCV) [lrcv]: EU
+[18.11.2020 22:45:37]: Henri Coandă International Airport (LROP) [lrop]: EU
+[18.11.2020 22:45:37]: Not found: lrpo: lrpo
+[18.11.2020 22:45:37]: Les Eplatures Airport (LSGC) [lsgc]: EU
+[18.11.2020 22:45:37]: Lausanne-Blécherette Airport (LSGL) [lsgl]: EU
+[18.11.2020 22:45:37]: Muenster Aero Airport (LSPU) [LSPU]: EU
+[18.11.2020 22:45:37]: Istanbul Airport (LTFM) [ltfm]: AS
+[18.11.2020 22:45:37]: Tenerife Norte Airport (GCXO) [GCXO]: EU
+[18.11.2020 22:45:37]: Black Rock City Airport (88NV) [88nv]: NA
+[18.11.2020 22:45:37]: Wipperfürth-Neye Airport (EDKN) [edkn]: EU
+[18.11.2020 22:45:37]: Not found: LVPZ-viseu-airport-: LVPZ
+[18.11.2020 22:45:37]: Not found: LYRA34 V0.3: V0.3
+[18.11.2020 22:45:37]: Not found: m21: m21
+[18.11.2020 22:45:37]: 
+[18.11.2020 22:45:37]: Cazaux (BA 120) Air Base (LFBC) [lfbc]: EU
+[18.11.2020 22:45:37]: Cognac-Châteaubernard (BA 709) Air Base (LFBG) [lfbg]: EU
+[18.11.2020 22:45:37]: Mont-de-Marsan (BA 118) Air Base (LFBM) [lfbm]: EU
+[18.11.2020 22:45:37]: Sarlat Domme Airfield (LFDS) [lfds]: EU
+[18.11.2020 22:45:37]: Solenzara (BA 126) Air Base (LFKS) [lfks]: EU
+[18.11.2020 22:45:37]: Clermont-Ferrand Auvergne Airport (LFLC) [lflc]: EU
+[18.11.2020 22:45:37]: Istres Le Tubé Air Base (LFMI) [lfmi]: EU
+[18.11.2020 22:45:37]: Châteaudun (BA 279) Air Base (LFOC) [lfoc]: EU
+[18.11.2020 22:45:37]: Orléans-Bricy (BA 123) Air Base (LFOJ) [lfoj]: EU
+[18.11.2020 22:45:37]: Tours-Val-de-Loire Airport (LFOT) [lfot]: EU
+[18.11.2020 22:45:37]: Villacoublay-Vélizy (BA 107) Air Base (LFPV) [lfpv]: EU
+[18.11.2020 22:45:37]: Lorient South Brittany (Bretagne Sud) Airport (LFRH) [lfrh]: EU
+[18.11.2020 22:45:37]: Landivisiau Air Base (LFRJ) [lfrj]: EU
+[18.11.2020 22:45:37]: Dijon-Bourgogne Airport (LFSD) [lfsd]: EU
+[18.11.2020 22:45:37]: Saint-Dizier-Robinson (BA 113) Air Base (LFSI) [lfsi]: EU
+[18.11.2020 22:45:37]: Nancy-Ochey (BA 133) Air Base (LFSO) [lfso]: EU
+[18.11.2020 22:45:37]: Luxeuil-Saint-Sauveur (BA 116) Air Base (LFSX) [lfsx]: EU
+[18.11.2020 22:45:37]: Aérodrome de Cuers-Pierrefeu (LFTF) [lftf]: EU
+[18.11.2020 22:45:37]: Toulon-Hyères Airport (LFTH) [lfth]: EU
+[18.11.2020 22:45:37]: Nîmes-Arles-Camargue Airport (LFTW) [lftw]: EU
+[18.11.2020 22:45:37]: Ambérieu Air Base (BA 278) (LFXA) [lfxa]: EU
+[18.11.2020 22:45:37]: Grand-Santi Airport (SOGS) [sogs]: SA
+[18.11.2020 22:45:37]: Not found: mads-aerial-sook: mads
+[18.11.2020 22:45:37]: Regina Airport (SOOR) [soor]: SA
+[18.11.2020 22:45:37]: Cazaux (BA 120) Air Base (LFBC) [lfbc]: EU
+[18.11.2020 22:45:37]: Cognac-Châteaubernard (BA 709) Air Base (LFBG) [lfbg]: EU
+[18.11.2020 22:45:37]: Mont-de-Marsan (BA 118) Air Base (LFBM) [lfbm]: EU
+[18.11.2020 22:45:37]: Sarlat Domme Airfield (LFDS) [lfds]: EU
+[18.11.2020 22:45:37]: Solenzara (BA 126) Air Base (LFKS) [lfks]: EU
+[18.11.2020 22:45:37]: Istres Le Tubé Air Base (LFMI) [lfmi]: EU
+[18.11.2020 22:45:37]: Châteaudun (BA 279) Air Base (LFOC) [lfoc]: EU
+[18.11.2020 22:45:37]: Orléans-Bricy (BA 123) Air Base (LFOJ) [lfoj]: EU
+[18.11.2020 22:45:37]: Aérodrome de Chartres-Métropole (LFOR) [lfor]: EU
+[18.11.2020 22:45:37]: Tours-Val-de-Loire Airport (LFOT) [lfot]: EU
+[18.11.2020 22:45:37]: Villacoublay-Vélizy (BA 107) Air Base (LFPV) [lfpv]: EU
+[18.11.2020 22:45:37]: Lorient South Brittany (Bretagne Sud) Airport (LFRH) [lfrh]: EU
+[18.11.2020 22:45:37]: Landivisiau Air Base (LFRJ) [lfrj]: EU
+[18.11.2020 22:45:37]: Saint-Nazaire-Montoir Airport (LFRZ) [lfrz]: EU
+[18.11.2020 22:45:37]: Dijon-Bourgogne Airport (LFSD) [lfsd]: EU
+[18.11.2020 22:45:37]: Saint-Dizier-Robinson (BA 113) Air Base (LFSI) [lfsi]: EU
+[18.11.2020 22:45:37]: Nancy-Ochey (BA 133) Air Base (LFSO) [lfso]: EU
+[18.11.2020 22:45:37]: Luxeuil-Saint-Sauveur (BA 116) Air Base (LFSX) [lfsx]: EU
+[18.11.2020 22:45:37]: Aérodrome de Cuers-Pierrefeu (LFTF) [lftf]: EU
+[18.11.2020 22:45:37]: Toulon-Hyères Airport (LFTH) [lfth]: EU
+[18.11.2020 22:45:37]: Nîmes-Arles-Camargue Airport (LFTW) [lftw]: EU
+[18.11.2020 22:45:37]: Ambérieu Air Base (BA 278) (LFXA) [lfxa]: EU
+[18.11.2020 22:45:37]: Grand-Santi Airport (SOGS) [sogs]: SA
+[18.11.2020 22:45:37]: Not found: mads-airport-sook: mads
+[18.11.2020 22:45:37]: Regina Airport (SOOR) [soor]: SA
+[18.11.2020 22:45:37]: Saúl Airport (SOOS) [soos]: SA
+[18.11.2020 22:45:37]: 
+[18.11.2020 22:45:37]: Not found: malioguducu-airport-lton-ondokuzmayis: lton
+[18.11.2020 22:45:37]: Namur-Suarlée Airfield (EBNM) [ebnm]: EU
+[18.11.2020 22:45:37]: Not found: mammothyosemite_arpt: arpt
+[18.11.2020 22:45:37]: 
+[18.11.2020 22:45:37]: 
+[18.11.2020 22:45:37]: Balassagyarmat Airfield (LHBA) [lhba]: EU
+[18.11.2020 22:45:37]: Bodmér (LHFC) [lhfc]: EU
+[18.11.2020 22:45:37]: Gödöllő Airport (LHGD) [lhgd]: EU
+[18.11.2020 22:45:37]: Matkópuszta Airfield (HU-0003/LHMP) [lhmp]: EU
+[18.11.2020 22:45:37]: Győr-Pér International Airport (LHPR) [lhpr]: EU
+[18.11.2020 22:45:37]: 
+[18.11.2020 22:45:37]: M. R. Štefánik Airport (LZIB) [lzib]: EU
+[18.11.2020 22:45:37]: 
+[18.11.2020 22:45:37]: 
+[18.11.2020 22:45:37]: Las Américas International Airport (MDSD) [mdsd]: NA
+[18.11.2020 22:45:37]: Cibao International Airport (MDST) [mdst]: NA
+[18.11.2020 22:45:37]: Erie International Tom Ridge Field (KERI) [keri]: NA
+[18.11.2020 22:45:37]: Erie International Tom Ridge Field (KERI) [keri]: NA
+[18.11.2020 22:45:37]: Puerto Barrios Airport (MGPB) [mgpb]: NA
+[18.11.2020 22:45:37]: Scharnstein Airport (LOLC) [lolc]: EU
+[18.11.2020 22:45:37]: Charlevoix Municipal Airport (KCVX) [kcvx]: NA
+[18.11.2020 22:45:37]: 
+[18.11.2020 22:45:37]: Białystok-Krywlany Airport (EPBK) [epbk]: EU
+[18.11.2020 22:45:37]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: Daniel Oduber Quiros International Airport (MRLB) [MRLB]: NA
+[18.11.2020 22:45:38]: Kiel-Holtenau Airport (EDHK) [edhk]: EU
+[18.11.2020 22:45:38]: Juan Santamaria International Airport (MROC) [MROC]: NA
+[18.11.2020 22:45:38]: Not found: mrpq: mrpq
+[18.11.2020 22:45:38]: Tobias Bolanos International Airport (MRPV) [MRPV]: NA
+[18.11.2020 22:45:38]: Tambor Airport (MRTR) [MRTR]: NA
+[18.11.2020 22:45:38]: Not found: MSFS_C152: MSFS
+[18.11.2020 22:45:38]: Not found: msfs_easterisland: msfs
+[18.11.2020 22:45:38]: Louis Armstrong New Orleans International Airport (KMSY) [kmsy]: NA
+[18.11.2020 22:45:38]: Żar Airport (EPZR) [epzr]: EU
+[18.11.2020 22:45:38]: Żar Airport (EPZR) [epzr]: EU
+[18.11.2020 22:45:38]: Not found: mw-katowice-spodek: mw
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: Lincoln Park Airport (N07) [N07]: NA
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: Lavrentiya Airport (UHML) [uhml]: EU
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: Not found: nikprist-ao02: ao02
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: Oamaru Airport (NZOU) [NZOU]: OC
+[18.11.2020 22:45:38]: Rotorua Regional Airport (NZRO) [NZRO]: OC
+[18.11.2020 22:45:38]: Westport Airport (NZWS) [NZWS]: OC
+[18.11.2020 22:45:38]: Kalgoorlie Boulder Airport (YPKG) [YPKG]: OC
+[18.11.2020 22:45:38]: Austin Robert Mueller Municipal (AUS/) [AUS]: NA
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: Fairways Airport (OG20) [og20]: NA
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: Ottawa Macdonald-Cartier International Airport (CYOW) [CYOW]: NA
+[18.11.2020 22:45:38]: Ottawa Macdonald-Cartier International Airport (CYOW) [CYOW]: NA
+[18.11.2020 22:45:38]: Ottawa Macdonald-Cartier International Airport (CYOW) [CYOW]: NA
+[18.11.2020 22:45:38]: Ottawa Macdonald-Cartier International Airport (CYOW) [CYOW]: NA
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: Fritzlar Army Airfield (ETHF) [ethf]: EU
+[18.11.2020 22:45:38]: Yegepa Airport (PGE/) [PGE]: OC
+[18.11.2020 22:45:38]: French Frigate Shoals Airport (PHHF) [phhf]: NA
+[18.11.2020 22:45:38]: Nowy Sącz-Łososina Dolna Airport (EPNL) [epnl]: EU
+[18.11.2020 22:45:38]: Nowy Sącz-Łososina Dolna Airport (EPNL) [epnl]: EU
+[18.11.2020 22:45:38]: Johnston Atoll Airport (PJON) [pjon]: OC
+[18.11.2020 22:45:38]: Diepholz Air Base (ETND) [etnd]: EU
+[18.11.2020 22:45:38]: Not found: pm-airport-lf857-saintaubin: pm
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: Babb Airport (49S) [49s]: NA
+[18.11.2020 22:45:38]: Pelican Narrows Seaplane Base (CKE4) [cke4]: NA
+[18.11.2020 22:45:38]: Lindey's Landing West Seaplane Base (M35) [m35]: NA
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: Shannon Airport (EINN) [einn]: EU
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: Oberpfaffenhofen Airport (EDMO) [edmo]: EU
+[18.11.2020 22:45:38]: Brussels Airport (EBBR) [EBBR]: EU
+[18.11.2020 22:45:38]: Not found: projectcoastline-DEMO-1.02: DEMO
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: Not found: pyreegue-lviv-danylo-halytskyi: lviv
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: Barcelonnette - Saint-Pons Airport (LFMR) [lfmr]: EU
+[18.11.2020 22:45:38]: Not found: quelcertoleo-liiz-garda: liiz
+[18.11.2020 22:45:38]: Milano-Bresso Airfield (LIMB) [limb]: EU
+[18.11.2020 22:45:38]: Genoa Cristoforo Colombo Airport (LIMJ) [limj]: EU
+[18.11.2020 22:45:38]: Bolzano Airport (LIPB) [lipb]: EU
+[18.11.2020 22:45:38]: Bologna Guglielmo Marconi Airport (LIPE) [lipe]: EU
+[18.11.2020 22:45:38]: Peretola Airport (LIRQ) [lirq]: EU
+[18.11.2020 22:45:38]: Lugano Airport (LSZA) [lsza]: EU
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: Flugplatz Rotenburg (EDXQ) [edxq]: EU
+[18.11.2020 22:45:38]: Twente Airport (EHTW) [ehtw]: EU
+[18.11.2020 22:45:38]: Twente Airport (EHTW) [ehtw]: EU
+[18.11.2020 22:45:38]: Cork Airport (EICK) [eick]: EU
+[18.11.2020 22:45:38]: Cork Airport (EICK) [eick]: EU
+[18.11.2020 22:45:38]: Not found: rdj_project_hawaii: rdj
+[18.11.2020 22:45:38]: Not found: RDJ_TIMES_SQUARE: RDJ
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: Not found: Riga scenery 1.1: Riga
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: Lowell City Airport (24C) [24c]: NA
+[18.11.2020 22:45:38]: Not found: rk-4d0: rk
+[18.11.2020 22:45:38]: Not found: rk-6d6: rk
+[18.11.2020 22:45:38]: Not found: rk-9d9: rk
+[18.11.2020 22:45:38]: Fitch H Beach Airport (KFPK) [kfpk]: NA
+[18.11.2020 22:45:38]: Capital City Airport (KLAN) [klan]: NA
+[18.11.2020 22:45:38]: Branch County Memorial Airport (KOEB) [koeb]: NA
+[18.11.2020 22:45:38]: Livingston County Spencer J. Hardy Airport (KOZW) [kozw]: NA
+[18.11.2020 22:45:38]: Brooks Field (KRMY) [krmy]: NA
+[18.11.2020 22:45:38]: Mason Jewett Field (KTEW) [ktew]: NA
+[18.11.2020 22:45:38]: Not found: rk-y70: rk
+[18.11.2020 22:45:38]: Not found: rm-scenery-skislope-lights: rm
+[18.11.2020 22:45:38]: Cologne Bonn Airport (EDDK) [eddk]: EU
+[18.11.2020 22:45:38]: Brampton-Caledon Airport (CNC3) [cnc3]: NA
+[18.11.2020 22:45:38]: Not found: rtmm-admiraltyisland: rtmm
+[18.11.2020 22:45:38]: Not found: rtmm-eva-creek-wind-farm: rtmm
+[18.11.2020 22:45:38]: Not found: rtmm-humpbacklakecabin: rtmm
+[18.11.2020 22:45:38]: Not found: rwy13-ezp: ezp
+[18.11.2020 22:45:38]: Las Flores Airport (SAEL) [sael]: SA
+[18.11.2020 22:45:38]: Harvey Field (S43) [s43]: NA
+[18.11.2020 22:45:38]: Indian Creek US Forest Service Airport (S81) [s81]: NA
+[18.11.2020 22:45:38]: Not found: sa-henning: sa
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: Not found: SADI_Aerodromo de Chascomus: SADI
+[18.11.2020 22:45:38]: Not found: SAGV AeroClub Galvez: SAGV
+[18.11.2020 22:45:38]: Not found: salk-package: salk
+[18.11.2020 22:45:38]: Not found: wookie042-allan-island-airstrip-sji5: sji5
+[18.11.2020 22:45:38]: Burden Field-(Rabbit Run) Airport (61WA) [61wa]: NA
+[18.11.2020 22:45:38]: Center Island Airport (78WA) [78wa]: NA
+[18.11.2020 22:45:38]: Clam Harbor Airport (WA35) [wa35]: NA
+[18.11.2020 22:45:38]: Not found: wookie042-crane-island-airport-kckr: kckr
+[18.11.2020 22:45:38]: Crow Valley Airport (US-1007/WA39) [wa39]: NA
+[18.11.2020 22:45:38]: Not found: wookie042-cypress-island-airstrip-sji3: sji3
+[18.11.2020 22:45:38]: Decatur /Jones/ Airport (WA18) [wa18]: NA
+[18.11.2020 22:45:38]: Decatur Shores Airport (WN07) [wn07]: NA
+[18.11.2020 22:45:38]: Not found: wookie042-deer-harbor-airstrip: deer
+[18.11.2020 22:45:38]: Eliza Island Airport (WA58/WA93) [wa93]: NA
+[18.11.2020 22:45:38]: Friday West Airport (1WA9) [1wa9]: NA
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: Not found: wookie042-san-juan-island-airstrip-sji7: san
+[18.11.2020 22:45:38]: Not found: wookie042-san-juan-valley-airstrips-sji8: san
+[18.11.2020 22:45:38]: Not found: wookie042-shaw-island-airstrip-sji2: shaw
+[18.11.2020 22:45:38]: Not found: wookie042-sinclair's-secret-airstrip-sji6: sji6
+[18.11.2020 22:45:38]: Not found: wookie042-sinclair-island-airstrip-sji4: sji4
+[18.11.2020 22:45:38]: Not found: wookie042-spieden-island-airstrip-sji9: sji9
+[18.11.2020 22:45:38]: Stuart Island West Airport (2WA3) [2wa3]: NA
+[18.11.2020 22:45:38]: Waldron Airstrip (90WA) [90wa]: NA
+[18.11.2020 22:45:38]: Richmond Airport (FARM) [farm]: AF
+[18.11.2020 22:45:38]: Windsock Airport (4WA4) [4wa4]: NA
+[18.11.2020 22:45:38]: Base Aérea de Santos Airport (SBST) [sbst]: SA
+[18.11.2020 22:45:38]: Piloto Osvaldo Marques Dias Airport (SBAT) [sbat]: SA
+[18.11.2020 22:45:38]: Campo Grande Airport (SBCG) [sbcg]: SA
+[18.11.2020 22:45:38]: Marechal Rondon Airport (SBCY) [sbcy]: SA
+[18.11.2020 22:45:38]: Pinto Martins International Airport (SBFZ) [sbfz]: SA
+[18.11.2020 22:45:38]: Guarulhos - Governador André Franco Montoro International Airport (SBGR) [sbgr]: SA
+[18.11.2020 22:45:38]: Frank Miloye Milenkowichi–Marília State Airport (SBML) [sbml]: SA
+[18.11.2020 22:45:38]: Rio Branco-Plácido de Castro International Airport (SBRB) [sbrb]: SA
+[18.11.2020 22:45:38]: Maestro Marinho Franco Airport (SWRD/SBRD) [sbrd]: SA
+[18.11.2020 22:45:38]: Not found: sc-airport-swiss-airfields: sc
+[18.11.2020 22:45:38]: Not found: sc-airport-swiss-hastrips: sc
+[18.11.2020 22:45:38]: Châteauroux Villers Airfield (LFEJ) [lfej]: EU
+[18.11.2020 22:45:38]: Étrépagny Airfield (LFFY) [lffy]: EU
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: White Waltham Airfield (EGLM) [EGLM]: EU
+[18.11.2020 22:45:38]: Not found: scenery-ITA-Sterzing: ITA
+[18.11.2020 22:45:38]: Les Bases Airport (TFFM) [tffm]: NA
+[18.11.2020 22:45:38]: Not found: scenery-nh-flyingscool-69nh: nh
+[18.11.2020 22:45:38]: Nashua Airport / Boire Field (KASH) [kash]: NA
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: Not found: scenery-usa-alcatrazisland-LODs: usa
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: Teniente Rodolfo Marsh Martin Base (SCRM) [SCRM]: AN
+[18.11.2020 22:45:38]: Everaldo Moras Barreto Airport (SDAD) [sdad]: SA
+[18.11.2020 22:45:38]: Not found: sdr-jomsom: sdr
+[18.11.2020 22:45:38]: Not found: sdr-milford: sdr
+[18.11.2020 22:45:38]: Not found: sdr-Samedan: sdr
+[18.11.2020 22:45:38]: Not found: sdr-tekapo: sdr
+[18.11.2020 22:45:38]: Talagi Airport (ULAA) [ulaa]: EU
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: Port Stanley Airport (SFAL) [sfal]: SA
+[18.11.2020 22:45:38]: Not found: sh3d-aerobatics: sh3d
+[18.11.2020 22:45:38]: Not found: sh3d-vimyridge: sh3d
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: Not found: sinusjaycee-lighthouses-wadden-sea-nl: sea
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: Not found: sj-airport-alf-alfisland-airpark: sj
+[18.11.2020 22:45:38]: Not found: sj-airport-cblk-campbelllagoonbushport: sj
+[18.11.2020 22:45:38]: Not found: sj-airport-neki-alaskakodiaknortheast: sj
+[18.11.2020 22:45:38]: Not found: sj-airport-tblk-thumblakebushport: sj
+[18.11.2020 22:45:38]: Not found: sj-airport-vby-viekodabay: sj
+[18.11.2020 22:45:38]: Not found: SK-castles: SK
+[18.11.2020 22:45:38]: Not found: SK-powerplants: SK
+[18.11.2020 22:45:38]: El Caraño Airport (SKUI) [skui]: SA
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: Not found: slibit-scenery-usa-mo-river-terrain: usa
+[18.11.2020 22:45:38]: Varese-Venegono Airport (LILN) [liln]: EU
+[18.11.2020 22:45:38]: Cipó Airport (SNIO) [snio]: SA
+[18.11.2020 22:45:38]: Not found: snz: snz
+[18.11.2020 22:45:38]: Not found: soenico-ekna: ekna
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: Phillips Army Air Field (KAPG) [kapg]: NA
+[18.11.2020 22:45:38]: Eindhoven Airport (EHEH) [eheh]: EU
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: Ronald Reagan Washington National Airport (KDCA) [kdca]: NA
+[18.11.2020 22:45:38]: Not found: srinivasman-kdcx: kdcx
+[18.11.2020 22:45:38]: Washington Dulles International Airport (KIAD) [kiad]: NA
+[18.11.2020 22:45:38]: La Guardia Airport (KLGA) [klga]: NA
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: Not found: st-hezarfen: st
+[18.11.2020 22:45:38]: Bauerfield International Airport (NVVV) [nvvv]: OC
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: 
+[18.11.2020 22:45:38]: Cáceres Airport (SWKC) [swkc]: SA
+[18.11.2020 22:45:38]: Normândia Airport (SWNM) [swnm]: SA
+[18.11.2020 22:45:38]: Tangará da Serra Airport (SWTS) [swts]: SA
+[18.11.2020 22:45:39]: 
+[18.11.2020 22:45:39]: Not found: TBM 930 - TORQUE AND LIGHTS v2.0: TBM
+[18.11.2020 22:45:39]: Lugano Airport (LSZA) [lsza]: EU
+[18.11.2020 22:45:39]: Not found: TDM-BARINAS: TDM
+[18.11.2020 22:45:39]: 
+[18.11.2020 22:45:39]: 
+[18.11.2020 22:45:39]: Baillif Airport (TFFB) [tffb]: NA
+[18.11.2020 22:45:39]: Mata'aho Airport (NFTO) [nfto]: OC
+[18.11.2020 22:45:39]: Not found: thameswater for default&londoncitypack: for
+[18.11.2020 22:45:39]: Not found: thegarner-airport-eg13-glenforsaairfield: eg13
+[18.11.2020 22:45:39]: Not found: thegarner-airport-eg48-topcroftfarmairstrip: eg48
+[18.11.2020 22:45:39]: Coal Aston Airfield (EGCA) [egca]: EU
+[18.11.2020 22:45:39]: Not found: thegarner-airport-egdf-coalaston: egdf
+[18.11.2020 22:45:39]: Not found: thegarner-airport-egic-ince: egic
+[18.11.2020 22:45:39]: Not found: thegarner-airport-egty-strathavenairfield: egty
+[18.11.2020 22:45:39]: Not found: thegarner-airport-egvz-fortaugustus: egvz
+[18.11.2020 22:45:39]: 
+[18.11.2020 22:45:39]: 
+[18.11.2020 22:45:39]: 
+[18.11.2020 22:45:39]: Not found: tl1980-airport-e533-wangen-starnberg: e533
+[18.11.2020 22:45:39]: Princess Juliana International Airport (TNCM) [tncm]: NA
+[18.11.2020 22:45:39]: 
+[18.11.2020 22:45:39]: Not found: vgp-radio_towerscz: vgp
+[18.11.2020 22:45:39]: Not found: vgp-tv_towerscz: vgp
+[18.11.2020 22:45:39]: 
+[18.11.2020 22:45:39]: 
+[18.11.2020 22:45:39]: 
+[18.11.2020 22:45:39]: 
+[18.11.2020 22:45:39]: J F Mitchell Airport (TVSB) [TVSB]: NA
+[18.11.2020 22:45:39]: Mustique Airport (TVSM) [TVSM]: NA
+[18.11.2020 22:45:39]: Big Creek Airport (U60) [u60]: NA
+[18.11.2020 22:45:39]: 
+[18.11.2020 22:45:39]: Not found: ugak-island-hideaway: ugak
+[18.11.2020 22:45:39]: Not found: uio: uio
+[18.11.2020 22:45:39]: Not found: [uimod]-mugz-addcontrols: mugz
+[18.11.2020 22:45:39]: Not found: [uimod]-mugz-hiddentooltip: mugz
+[18.11.2020 22:45:39]: Not found: [uimod]-mugz-hiddenui: mugz
+[18.11.2020 22:45:39]: Not found: [uimod]-mugz-tinyhud: mugz
+[18.11.2020 22:45:39]: Not found: [uimod]-mugz-tinyplates: mugz
+[18.11.2020 22:45:39]: Not found: [uimod]-mugz-tinypoi: mugz
+[18.11.2020 22:45:39]: Not found: [uimod]-mugz-worldmap: mugz
+[18.11.2020 22:45:39]: Not found: UK Wembley - Wembley Arena: UK
+[18.11.2020 22:45:39]: Not found: uk_cooling_towers: uk
+[18.11.2020 22:45:39]: 
+[18.11.2020 22:45:39]: Not found: unreal-weather-live-metar: live
+[18.11.2020 22:45:39]: 
+[18.11.2020 22:45:39]: 
+[18.11.2020 22:45:39]: 
+[18.11.2020 22:45:39]: 
+[18.11.2020 22:45:39]: 
+[18.11.2020 22:45:39]: 
+[18.11.2020 22:45:39]: Nalchik Airport (URMN) [URMN]: EU
+[18.11.2020 22:45:39]: Not found: Uwa light mod - B748: Uwa
+[18.11.2020 22:45:39]: Not found: Uwa light mod - Bonanza G36: Uwa
+[18.11.2020 22:45:39]: Not found: Uwa light mod - C172(G1000): Uwa
+[18.11.2020 22:45:39]: Not found: Uwa light mod - C208: Uwa
+[18.11.2020 22:45:39]: Not found: Uwa light mod - Cap10: Uwa
+[18.11.2020 22:45:39]: Not found: Uwa light mod - CJ4: Uwa
+[18.11.2020 22:45:39]: Not found: Uwa light mod - DA40NG: Uwa
+[18.11.2020 22:45:39]: Not found: Uwa light mod - DA62: Uwa
+[18.11.2020 22:45:39]: Not found: Uwa light mod - DR400: Uwa
+[18.11.2020 22:45:39]: Not found: Uwa light mod - E330: Uwa
+[18.11.2020 22:45:39]: Not found: Uwa light mod - IconA5: Uwa
+[18.11.2020 22:45:39]: Not found: Uwa light mod - KingAir: Uwa
+[18.11.2020 22:45:39]: Not found: Uwa light mod - Savage Cup: Uwa
+[18.11.2020 22:45:39]: Not found: Uwa light mod - VL3: Uwa
+[18.11.2020 22:45:39]: Not found: Uwa light mod - XCub: Uwa
+[18.11.2020 22:45:39]: Surat Airport (VASU) [vasu]: AS
+[18.11.2020 22:45:39]: Colombo Ratmalana Airport (VCCC) [vccc]: AS
+[18.11.2020 22:45:39]: Kankesanturai Airport (VCCJ) [vccj]: AS
+[18.11.2020 22:45:39]: China Bay Airport (VCCT) [vcct]: AS
+[18.11.2020 22:45:39]: Lelystad Airport (EHLE) [ehle]: EU
+[18.11.2020 22:45:39]: Lelystad Airport (EHLE) [ehle]: EU
+[18.11.2020 22:45:39]: Mattala Rajapaksa International Airport (VCRI) [vcri]: AS
+[18.11.2020 22:45:39]: 
+[18.11.2020 22:45:39]: 
+[18.11.2020 22:45:39]: Not found: veza: veza
+[18.11.2020 22:45:39]: 
+[18.11.2020 22:45:39]: 
+[18.11.2020 22:45:39]: 
+[18.11.2020 22:45:39]: 
+[18.11.2020 22:45:39]: 
+[18.11.2020 22:45:39]: 
+[18.11.2020 22:45:39]: 
+[18.11.2020 22:45:39]: Rajiv Gandhi International Airport (VOHS) [vohs]: AS
+[18.11.2020 22:45:39]: 
+[18.11.2020 22:45:39]: 
+[18.11.2020 22:45:39]: Reyes Murillo Airport (SKNQ) [sknq]: SA
+[18.11.2020 22:45:39]: San Gil Airport (SKSG) [sksg]: SA
+[18.11.2020 22:45:39]: Not found: vref-sdlyscene: vref
+[18.11.2020 22:45:39]: Max Fontoura Airport (SSCF) [sscf]: SA
+[18.11.2020 22:45:39]: Suvarnabhumi Airport (VTBS) [vtbs]: AS
+[18.11.2020 22:45:39]: 
+[18.11.2020 22:45:39]: 
+[18.11.2020 22:45:39]: Baltimore/Washington International Thurgood Marshall Airport (KBWI) [kbwi]: NA
+[18.11.2020 22:45:39]: Not found: wbnm: wbnm
+[18.11.2020 22:45:39]: 
+[18.11.2020 22:45:39]: 
+[18.11.2020 22:45:39]: Sultan Thaha Airport (WIPA/WIJJ) [wijj]: AS
+[18.11.2020 22:45:39]: Bergen Airport Flesland (ENBR) [enbr]: EU
+[18.11.2020 22:45:39]: Stavanger Airport Sola (ENZV) [enzv]: EU
+[18.11.2020 22:45:39]: Not found: workingtitle-aircraft-cj4: cj4
+[18.11.2020 22:45:39]: 
+[18.11.2020 22:45:39]: 
+[18.11.2020 22:45:39]: Not found: workingtitle-gx: gx
+[18.11.2020 22:45:39]: Not found: XCUB PERFORMANCE+ 180 v1.7.2: XCUB
+[18.11.2020 22:45:39]: 
+[18.11.2020 22:45:39]: Not found: ybf: ybf
+[18.11.2020 22:45:39]: Cherrabah Airport (YCHB) [ychb]: OC
+[18.11.2020 22:45:39]: Kooralbyn Airport (YKBN) [ykbn]: OC
+[18.11.2020 22:45:39]: 
+[18.11.2020 22:45:39]: 
+[18.11.2020 22:45:39]: Nanango Airport (YNAN) [ynan]: OC
+[18.11.2020 22:45:39]: Not found: yul_parking: yul
+[18.11.2020 22:45:39]: Bella Coola Airport (CYBD) [cybd]: NA
+[18.11.2020 22:45:39]: Rivers Inlet Seaplane Base (CAU8) [cau8]: NA
+[18.11.2020 22:45:39]: Rivers Inlet Seaplane Base (CAU8) [cau8]: NA
+[18.11.2020 22:45:39]: Not found: zrb-stlouis-wheel: zrb
+[18.11.2020 22:45:39]: Not found: ZX_EN68_Ballangen: ZX
+[18.11.2020 22:45:39]: Wasserkuppe Airport (EDER) [eder]: EU
+[18.11.2020 22:45:39]: 5763
