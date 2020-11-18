@@ -60,7 +60,7 @@ namespace Geosort
 			// TODO: Actually read from save file
 			void ReadSave()
 			{
-				addonFolderPicker.ChangePath("E:\\Gry\\Microsoft Flight Simulator\\Community");
+				addonFolderPicker.ChangePath(@"E:\Gry\!Mody\Community");
 			}
 			void ReadAirportFile()
 			{
@@ -95,6 +95,7 @@ namespace Geosort
 			m_FirstSort = true;
 
 			// Load addon list
+			List<Addon> addons = new List<Addon>();
 			List<string> addonDirs = Directory.GetDirectories(m_AddonPath).ToList();
 
 			// Abort if dir is empty
@@ -104,15 +105,10 @@ namespace Geosort
 				return;
 			}
 
-			List<Addon> addons = new List<Addon>();
-			Stopwatch stopwatch = new Stopwatch();
-			stopwatch.Start();
 			for (int i = 0; i < addonDirs.Count; i++)
 			{
 				LoadAddon(i, addonDirs[i]);
 			}
-			stopwatch.Stop();
-			Debug.WriteLine(stopwatch.ElapsedMilliseconds);
 
 			// Add addons to UI
 			addonList.ItemsSource = addons;
@@ -166,7 +162,7 @@ namespace Geosort
 				// Folder has no subfolders
 				if (dirsAndRoot.Count == 1)
 				{
-					MessageBox.Show($"Directory '{dirsAndRoot[dirsAndRoot.Count - 1]}' isn't a valid addon directory.", "Information", MessageBoxButton.OK, MessageBoxImage.Information);
+					MessageBox.Show($"Directory '{dirsAndRoot[dirsAndRoot.Count - 1]}' isn't a valid addon directory and is going to be skipped.", "Information", MessageBoxButton.OK, MessageBoxImage.Information);
 					return;
 				}
 
@@ -185,7 +181,6 @@ namespace Geosort
 					{
 						result = dir;
 						DirectoryInfo resultDir = new DirectoryInfo(result);
-
 						string name = resultDir.Name;
 						long sizeBytes = DirSize(resultDir);
 						string size = HumanFileSize(sizeBytes);
@@ -198,7 +193,7 @@ namespace Geosort
 				// Didn't find manifest.json in a folder
 				if (result == "")
 				{
-					MessageBox.Show($"Directory '{dirsAndRoot[dirsAndRoot.Count - 1]}' isn't a valid addon directory.", "Information", MessageBoxButton.OK, MessageBoxImage.Information);
+					MessageBox.Show($"Directory '{dirsAndRoot[dirsAndRoot.Count - 1]}' isn't a valid addon directory and is going to be skipped.", "Information", MessageBoxButton.OK, MessageBoxImage.Information);
 				}
 
 				bool IsSubfolder(string parentPath, string childPath)
@@ -268,6 +263,32 @@ namespace Geosort
 					m_LastDirection = direction;
 				}
 			}
+		}
+
+		// Search for addons
+		void searchBtn_Click(object sender, RoutedEventArgs e)
+		{
+			ICollectionView dataView = CollectionViewSource.GetDefaultView(addonList.ItemsSource);
+			dataView.Filter = Filter;
+			addonLabel.Content = $"Addons ({addonList.Items.Count}):";
+
+			bool Filter(object item)
+			{
+				if (string.IsNullOrEmpty(searchFilter.Text))
+					return true;
+				else
+					return ((Addon)item).Name.IndexOf(searchFilter.Text, StringComparison.OrdinalIgnoreCase) >= 0 
+						|| ((Addon)item).Path.IndexOf(searchFilter.Text, StringComparison.OrdinalIgnoreCase) >= 0;
+			}
+		}
+		void searchFilter_TextChanged(object sender, TextChangedEventArgs e)
+		{
+			searchBtn_Click(sender, e);
+		}
+		void searchFilter_KeyDown(object sender, System.Windows.Input.KeyEventArgs e)
+		{
+			if (e.Key == System.Windows.Input.Key.Enter)
+				searchBtn_Click(sender, e);
 		}
 		void SortDataView(string sortBy, ListSortDirection dir)
 		{
