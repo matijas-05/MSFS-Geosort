@@ -269,8 +269,12 @@ namespace Geosort
 		void searchBtn_Click(object sender, RoutedEventArgs e)
 		{
 			ICollectionView dataView = CollectionViewSource.GetDefaultView(addonList.ItemsSource);
-			dataView.Filter = Filter;
-			addonLabel.Content = $"Addons ({addonList.Items.Count}):";
+
+			if (dataView != null)
+			{
+				dataView.Filter = Filter;
+				addonLabel.Content = $"Addons ({addonList.Items.Count}):"; 
+			}
 
 			bool Filter(object item)
 			{
@@ -290,6 +294,7 @@ namespace Geosort
 			if (e.Key == System.Windows.Input.Key.Enter)
 				searchBtn_Click(sender, e);
 		}
+
 		void SortDataView(string sortBy, ListSortDirection dir)
 		{
 			ICollectionView dataView = CollectionViewSource.GetDefaultView(addonList.ItemsSource);
@@ -299,5 +304,6 @@ namespace Geosort
 			dataView.SortDescriptions.Add(sd);
 			dataView.Refresh();
 		}
+
 	}
 }
