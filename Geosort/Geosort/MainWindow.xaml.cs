@@ -10,6 +10,7 @@ using System.Windows.Data;
 
 using CsvHelper;
 using System.Diagnostics;
+using System.Text.RegularExpressions;
 
 namespace Geosort
 {
@@ -21,6 +22,7 @@ namespace Geosort
 		private string m_AddonPath;
 		private bool m_AddonPathValid;
 		private List<Addon> m_Addons = new List<Addon>();
+		private List<Addon> m_NotFound = new List<Addon>();
 
 		private GridViewColumnHeader m_LastHeaderClicked;
 		private ListSortDirection m_LastDirection = ListSortDirection.Ascending;
@@ -31,7 +33,7 @@ namespace Geosort
 		private NameCodePair[] m_Continents;
 		private NameCodePair[] m_US_States;
 		private AirportCorrection[] m_AirportCorrections;
-		private SkipWord[] m_SkipWords;
+		private SingleWord[] m_SkipWords;
 
 		private const string AIRPORTS_PATH = "Database\\airports.csv";
 		private const string COUNTRIES_PATH = "Database\\countries.csv";
@@ -60,15 +62,17 @@ namespace Geosort
 		{
 			public string Ident { get; set; }
 			public string GPS_Code { get; set; }
+			public string Local_Code { get; set; }
 			public string Name { get; set; }
 			public string Continent { get; set; }
 			public string Iso_Country { get; set; }
 			public string Iso_Region { get; set; }
 
-			public Airport(string ident, string gPS_Code, string name, string continent, string iso_Country, string iso_Region)
+			public Airport(string ident, string gPS_Code, string local_Code, string name, string continent, string iso_Country, string iso_Region)
 			{
 				Ident = ident;
 				GPS_Code = gPS_Code;
+				Local_Code = local_Code;
 				Name = name;
 				Continent = continent;
 				Iso_Country = iso_Country;
@@ -90,7 +94,7 @@ namespace Geosort
 			public string Fallback_Country { get; set; }
 			public string Fallback_US_State { get; set; }
 		}
-		struct SkipWord
+		struct SingleWord
 		{
 			public string Word { get; set; }
 		}
@@ -117,7 +121,7 @@ namespace Geosort
 			m_Continents = ReadFile<NameCodePair>(CONTINENTS_PATH);
 			m_US_States = ReadFile<NameCodePair>(US_STATES_PATH);
 			m_AirportCorrections = ReadFile<AirportCorrection>(AIRPORT_CORRECTION_PATH);
-			m_SkipWords = ReadFile<SkipWord>(SKIP_WORDS_PATH);
+			m_SkipWords = ReadFile<SingleWord>(SKIP_WORDS_PATH);
 
 			T[] ReadFile<T>(string path)
 			{
@@ -283,18 +287,22 @@ namespace Geosort
 			// TODO: Load database only when starting and database changed (check last time of modifiaction?)
 			LoadDatabases();
 
-			Stopwatch watch = new Stopwatch();
-			watch.Start();
+			InvokeAndCountElapsedTime(IdentifyAddons);
+			LogNotFoundAddons();
 
-			foreach (Addon addon in m_Addons)
+			void IdentifyAddons()
 			{
-				string result = "";
-				string stoppedAt = "";
+				Log.WriteHeader("IDENTIFYING ADDONS");
+				m_NotFound.Clear();
 
-				if (continent)
+				// Identify addons
+				foreach (Addon addon in m_Addons)
 				{
+					string result = "";
+					string stoppedAt = "";
+
 					// Get airport from addon name
-					foreach (string sub in addon.Name.Split(new string[] { " ", "-", "_", "(", ")" }, StringSplitOptions.RemoveEmptyEntries))
+					foreach (string sub in addon.Name.Split(new string[] { " ", ".", "-", "_", "(", ")" }, StringSplitOptions.RemoveEmptyEntries))
 					{
 						stoppedAt = sub;
 
@@ -310,18 +318,21 @@ namespace Geosort
 							{
 								// Fallback values for an airport that is not in the database, identified by icao
 								if (correction.Actual_Icao == "" && correction.Fallback_Continent != "")
-									result = Result(new Airport(correction.Addon_Icao.ToUpper(), "", correction.Fallback_Name, correction.Fallback_Continent, correction.Fallback_Country, correction.Fallback_US_State), sub)
+									result = Result(new Airport(correction.Addon_Icao.ToUpper(), "", "", correction.Fallback_Name, correction.Fallback_Continent, correction.Fallback_Country, correction.Fallback_US_State), sub)
 										+ " ||| CORR BY ICAO, NOT IN DBS";
 
 								// Different ICAO in-game
-								else result = Result(m_Airports.Where(arp => string.Equals(arp.Ident, correction.Actual_Icao, StringComparison.OrdinalIgnoreCase)).First(), sub)
+								else if(correction.Actual_Icao != "" && correction.Addon_Icao != "") result = Result(m_Airports.Where(arp => string.Equals(arp.Ident, correction.Actual_Icao, StringComparison.OrdinalIgnoreCase)).First(), sub)
 										+ " ||| CORR BY ICAO, DIFF ICAO IN GAME";
 							}
 							else if (string.Equals(sub, correction.Addon_Name, StringComparison.OrdinalIgnoreCase))
 							{
 								// Fallback values for an airport that is in the database, but name of addon doesn't have icao, identified by name
 								if (correction.Actual_Icao == "" && correction.Fallback_Continent != "")
-									result = Result(new Airport(correction.Addon_Icao.ToUpper(), "", correction.Fallback_Name, correction.Fallback_Continent, correction.Fallback_Country, correction.Fallback_US_State), sub)
+									result = Result(new Airport(correction.Addon_Icao.ToUpper(), "", "", correction.Fallback_Name, correction.Fallback_Continent, correction.Fallback_Country, correction.Fallback_US_State), sub)
+										+ " ||| CORR BY NAME, NOT IN DBS";
+								else if (correction.Addon_Icao == "" && correction.Actual_Icao != "")
+									result = Result(m_Airports.Where(arp => string.Equals(arp.Ident, correction.Actual_Icao, StringComparison.OrdinalIgnoreCase)).First(), sub)
 										+ " ||| CORR BY NAME, ADDON FOLDER W/O ICAO";
 							}
 						}
@@ -334,9 +345,10 @@ namespace Geosort
 						{
 							foreach (Airport airport in m_Airports)
 							{
-								// If icao is equal
+								// If icao or alternate icao is equal
 								if (string.Equals(sub, airport.Ident, StringComparison.OrdinalIgnoreCase)
-									|| string.Equals(sub, airport.GPS_Code, StringComparison.OrdinalIgnoreCase))
+									|| string.Equals(sub, airport.GPS_Code, StringComparison.OrdinalIgnoreCase)
+									/*|| string.Equals(sub, airport.Local_Code, StringComparison.OrdinalIgnoreCase)*/)
 								{
 									result = Result(airport, sub);
 									break;
@@ -345,21 +357,39 @@ namespace Geosort
 						}
 					}
 
+					// If still not found, mark it as not found
+					if (result == "")
+					{
+						result = $"NOT FOUND: {addon.Name}. Stopped at: {stoppedAt}";
+						m_NotFound.Add(addon);
+					}
+
+					Log.WriteLine(result);
 				}
-				// If still not found, mark it as not found
-				if (result == "") result = $"Not found: {addon.Name}. Stopped at: {stoppedAt}";
 
-				Log.WriteLine(result);
+				MessageBox.Show("Completed addon identification.", "Sucess", MessageBoxButton.OK, MessageBoxImage.Information);
 			}
-
-			watch.Stop();
-			Log.WriteLine(watch.ElapsedMilliseconds);
-
-			bool SkipAddon(string sub)
+			void LogNotFoundAddons()
 			{
-				foreach (SkipWord skipWord in m_SkipWords)
+				if (m_NotFound.Count == 0)
+					return;
+
+				MessageBox.Show($"{m_NotFound.Count} addons couldn't be identified.", "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
+
+				// Write not found addons to log
+				Log.WriteHeader($"ADDONS NOT FOUND {m_NotFound.Count}");
+				foreach (Addon addon in m_NotFound)
 				{
-					if (string.Equals(skipWord.Word, sub, StringComparison.OrdinalIgnoreCase))
+					Log.WriteLine(addon.Name);
+				}
+			}
+			
+			bool SkipAddon(string addonName)
+			{
+				foreach (SingleWord skipWord in m_SkipWords)
+				{
+					if (string.Equals(addonName, skipWord.Word, StringComparison.OrdinalIgnoreCase)
+						|| addonName.IndexOf(skipWord.Word, StringComparison.OrdinalIgnoreCase) >= 0)
 						return true;
 				}
 				return false;
@@ -368,6 +398,25 @@ namespace Geosort
 			{
 				return $"{airport.Name} ({airport.Ident}{(airport.Ident != airport.GPS_Code ? "/" + airport.GPS_Code : "")}) [{sub}]: {airport.Continent}, {airport.Iso_Country}, {airport.Iso_Region}";
 			}
+			void InvokeAndCountElapsedTime(Action method)
+			{
+				Stopwatch watch = new Stopwatch();
+				watch.Start();
+				method.Invoke();
+				watch.Stop();
+				Log.WriteLine("TIME ELAPSED: " + watch.ElapsedMilliseconds);
+			}
+
+			//bool Contains(string addonName, string substring, out int startIndex)
+			//{
+			//	startIndex = 0;
+			//	if (addonName == "" || substring == "") return false;
+
+			//	Match match = Regex.Match(addonName, $@"(?:\b|_){substring}(?=\b|_)", RegexOptions.IgnoreCase);
+			//	startIndex = match.Index;
+
+			//	return match.Success;
+			//}
 		}
 		void addonFolderPicker_OnFilePicked(string path)
 		{

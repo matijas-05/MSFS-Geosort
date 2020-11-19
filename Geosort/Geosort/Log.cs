@@ -19,6 +19,15 @@ namespace Geosort
 				else stream.WriteLine(message);
 			}
 		}
+		public static void WriteHeader(object message, bool time = true)
+		{
+			WriteEmpty();
+			WriteLine($"-------------{message}-------------");
+		}
+		public static void WriteEmpty()
+		{
+			WriteLine("", false);
+		}
 		public static void Clear()
 		{
 			using (StreamWriter stream = new StreamWriter(FILE_PATH))
