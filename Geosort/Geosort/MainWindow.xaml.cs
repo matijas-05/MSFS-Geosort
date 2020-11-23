@@ -35,7 +35,7 @@ namespace Geosort
 		private AirportCorrection[] m_AirportCorrections;
 		private SingleWord[] m_SkipWords;
 
-		private const string AIRPORTS_PATH = "Database\\airports.csv";
+		private const string AIRPORTS_PATH = "Database\\airports_lnm.csv";
 		private const string COUNTRIES_PATH = "Database\\countries.csv";
 		private const string CONTINENTS_PATH = "Database\\continents.csv";
 		private const string US_STATES_PATH = "Database\\us_states.csv";
@@ -61,22 +61,20 @@ namespace Geosort
 		class Airport
 		{
 			public string Ident { get; set; }
-			public string GPS_Code { get; set; }
-			public string Local_Code { get; set; }
 			public string Name { get; set; }
+			public string Scenery_Local_Path { get; set; }
 			public string Continent { get; set; }
-			public string Iso_Country { get; set; }
-			public string Iso_Region { get; set; }
+			public string Country { get; set; }
+			public string State { get; set; }
 
-			public Airport(string ident, string gPS_Code, string local_Code, string name, string continent, string iso_Country, string iso_Region)
+			public Airport(string ident, string name, string scenery_Local_Path, string continent, string country, string state)
 			{
 				Ident = ident;
-				GPS_Code = gPS_Code;
-				Local_Code = local_Code;
 				Name = name;
+				Scenery_Local_Path = scenery_Local_Path;
 				Continent = continent;
-				Iso_Country = iso_Country;
-				Iso_Region = iso_Region;
+				Country = country;
+				State = state;
 			}
 		}
 		struct NameCodePair
@@ -86,13 +84,8 @@ namespace Geosort
 		}
 		struct AirportCorrection
 		{
-			public string Addon_Icao { get; set; }
 			public string Actual_Icao { get; set; }
 			public string Addon_Name { get; set; }
-			public string Fallback_Name { get; set; }
-			public string Fallback_Continent { get; set; }
-			public string Fallback_Country { get; set; }
-			public string Fallback_US_State { get; set; }
 		}
 		struct SingleWord
 		{
@@ -131,6 +124,24 @@ namespace Geosort
 					using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
 					{
 						csv.Configuration.PrepareHeaderForMatch = (string header, int index) => header.ToLower();
+						csv.Configuration.HeaderValidated = (bool valid, string[] headers, int headerIndex, ReadingContext context) =>
+						{
+							if (valid || (!valid && headers.Length == 1 && string.Equals(headers[0], nameof(Airport.Continent), StringComparison.OrdinalIgnoreCase)))
+								return;
+							else if (!valid)
+								throw new HeaderValidationException(context, headers, headerIndex);
+						};
+						csv.Configuration.MissingFieldFound = (string[] headers, int index, ReadingContext context) =>
+						{
+							if (headers == null)
+								return;
+
+							if (headers.Length == 1 && string.Equals(headers[0], nameof(Airport.Continent), StringComparison.OrdinalIgnoreCase))
+								return;
+							else
+								throw new CsvHelper.MissingFieldException(context);
+						};
+
 						return csv.GetRecords<T>().ToArray();
 					}
 				}
@@ -290,6 +301,7 @@ namespace Geosort
 			InvokeAndCountElapsedTime(IdentifyAddons);
 			LogNotFoundAddons();
 
+			// TODO: Move this logic to "Identify" button
 			void IdentifyAddons()
 			{
 				Log.WriteHeader("IDENTIFYING ADDONS");
@@ -301,57 +313,63 @@ namespace Geosort
 					string result = "";
 					string stoppedAt = "";
 
-					// Get airport from addon name
-					foreach (string sub in addon.Name.Split(new string[] { " ", ".", "-", "_", "(", ")" }, StringSplitOptions.RemoveEmptyEntries))
+					// Identify airport based on lnm local_path var
+					foreach (Airport airport in m_Airports)
 					{
-						stoppedAt = sub;
-
-						if (SkipAddon(sub))
-						{
-							result = $"SKIPPED {addon.Name}";
-							break;
-						}
-
-						foreach (AirportCorrection correction in m_AirportCorrections)
-						{
-							if (string.Equals(sub, correction.Addon_Icao, StringComparison.OrdinalIgnoreCase))
-							{
-								// Fallback values for an airport that is not in the database, identified by icao
-								if (correction.Actual_Icao == "" && correction.Fallback_Continent != "")
-									result = Result(new Airport(correction.Addon_Icao.ToUpper(), "", "", correction.Fallback_Name, correction.Fallback_Continent, correction.Fallback_Country, correction.Fallback_US_State), sub)
-										+ " ||| CORR BY ICAO, NOT IN DBS";
-
-								// Different ICAO in-game
-								else if(correction.Actual_Icao != "" && correction.Addon_Icao != "") result = Result(m_Airports.Where(arp => string.Equals(arp.Ident, correction.Actual_Icao, StringComparison.OrdinalIgnoreCase)).First(), sub)
-										+ " ||| CORR BY ICAO, DIFF ICAO IN GAME";
-							}
-							else if (string.Equals(sub, correction.Addon_Name, StringComparison.OrdinalIgnoreCase))
-							{
-								// Fallback values for an airport that is in the database, but name of addon doesn't have icao, identified by name
-								if (correction.Actual_Icao == "" && correction.Fallback_Continent != "")
-									result = Result(new Airport(correction.Addon_Icao.ToUpper(), "", "", correction.Fallback_Name, correction.Fallback_Continent, correction.Fallback_Country, correction.Fallback_US_State), sub)
-										+ " ||| CORR BY NAME, NOT IN DBS";
-								else if (correction.Addon_Icao == "" && correction.Actual_Icao != "")
-									result = Result(m_Airports.Where(arp => string.Equals(arp.Ident, correction.Actual_Icao, StringComparison.OrdinalIgnoreCase)).First(), sub)
-										+ " ||| CORR BY NAME, ADDON FOLDER W/O ICAO";
-							}
-						}
-
-						if (sub.Length < 3 || sub.Length > 4)
+						if (airport.Scenery_Local_Path == "fs-base")
 							continue;
 
-						// If airport still not found, iterate through all
-						if (result == "")
+						foreach (string sub in airport.Scenery_Local_Path.Split(new string[] { ", " }, StringSplitOptions.RemoveEmptyEntries))
 						{
-							foreach (Airport airport in m_Airports)
+							if (sub != "fs-base" && string.Equals(sub, addon.Name, StringComparison.OrdinalIgnoreCase))
+								result = Result(airport, addon.Name);
+						}
+					}
+
+					// If not found, identify airport from addon name
+					if (result == "")
+					{
+						foreach (string sub in addon.Name.Split(new string[] { " ", ".", "-", "_", "(", ")" }, StringSplitOptions.RemoveEmptyEntries))
+						{
+
+							stoppedAt = sub;
+
+							if (SkipAddon(sub))
 							{
-								// If icao or alternate icao is equal
-								if (string.Equals(sub, airport.Ident, StringComparison.OrdinalIgnoreCase)
-									|| string.Equals(sub, airport.GPS_Code, StringComparison.OrdinalIgnoreCase)
-									/*|| string.Equals(sub, airport.Local_Code, StringComparison.OrdinalIgnoreCase)*/)
+								result = $"SKIPPED {addon.Name}";
+								break;
+							}
+
+							foreach (AirportCorrection correction in m_AirportCorrections)
+							{
+								// Airport is in the database, but name of addon doesn't have icao, identified by name
+								if (correction.Actual_Icao != "" && correction.Addon_Name != ""
+									&& addon.Name == correction.Addon_Name)
 								{
-									result = Result(airport, sub);
-									break;
+									foreach (var arp in m_Airports)
+									{
+										if (string.Equals(arp.Ident, correction.Actual_Icao, StringComparison.OrdinalIgnoreCase))
+										{
+											result = Result(arp, sub);
+										}
+									}
+
+								}
+							}
+
+							if ((sub.Length < 3 || sub.Length > 4) && !sub.StartsWith("lf", StringComparison.OrdinalIgnoreCase))
+								continue;
+
+							// If airport still not found, iterate through all in airports_lnm.csv
+							if (result == "")
+							{
+								foreach (Airport airport in m_Airports)
+								{
+									if (string.Equals(sub, airport.Ident, StringComparison.OrdinalIgnoreCase))
+									{
+										result = Result(airport, addon.Name);
+										break;
+									}
 								}
 							}
 						}
@@ -377,26 +395,26 @@ namespace Geosort
 				MessageBox.Show($"{m_NotFound.Count} addons couldn't be identified.", "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
 
 				// Write not found addons to log
-				Log.WriteHeader($"ADDONS NOT FOUND {m_NotFound.Count}");
+				Log.WriteHeader($"ADDONS NOT FOUND ({m_NotFound.Count})");
 				foreach (Addon addon in m_NotFound)
 				{
-					Log.WriteLine(addon.Name);
+					Log.WriteLine($"{addon.Name}\n{addon.Path}\n");
 				}
 			}
-			
-			bool SkipAddon(string addonName)
+
+			bool SkipAddon(string sub)
 			{
 				foreach (SingleWord skipWord in m_SkipWords)
 				{
-					if (string.Equals(addonName, skipWord.Word, StringComparison.OrdinalIgnoreCase)
-						|| addonName.IndexOf(skipWord.Word, StringComparison.OrdinalIgnoreCase) >= 0)
+					if (string.Equals(sub, skipWord.Word, StringComparison.OrdinalIgnoreCase)
+						|| sub.IndexOf(skipWord.Word, StringComparison.OrdinalIgnoreCase) >= 0)
 						return true;
 				}
 				return false;
 			}
-			string Result(Airport airport, string sub)
+			string Result(Airport airport, string name)
 			{
-				return $"{airport.Name} ({airport.Ident}{(airport.Ident != airport.GPS_Code ? "/" + airport.GPS_Code : "")}) [{sub}]: {airport.Continent}, {airport.Iso_Country}, {airport.Iso_Region}";
+				return $"{airport.Name} ({airport.Ident}) [{name}]: {airport.Country}, {airport.State}";
 			}
 			void InvokeAndCountElapsedTime(Action method)
 			{

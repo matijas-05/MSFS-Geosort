@@ -1,30 +1,46 @@
-Addon_Icao,Actual_Icao,Addon_Name,Fallback_Name,Fallback_Continent,Fallback_Country,Fallback_US_State
-1c5,k1c5,,,,,
-3n6,k3n6,,,,,
-4m7,k4m7,,,,,
-lisw,IT-0182,,,,,
-khf,GB-0734,,,,,
-lid1,,,Casera Razzo,EU,IT,
-litz,IT-0249,,,,,
-livm,IT-0130,,,,,
-okbk,,kuwait,Kuwait International Airport,AS,KW,KW-FA
-edlp,,paderborn,Paderborn Lippstadt Airport,EU,DE,DE-NW
-voat,,agatti,Agatti Airport,AS,IN,IN-LD
-ffzk,,,Fun Fly Zone,NA,US,US-WI
-vrsf,FND,,,,,
-cqra,CA-0302,,,,,
-lf0652,FR-0254,,,,,
-lf0621,FR-0284,,,,,
-lf0654,FR-0420,,,,,
-ao02,IT-0067,,,,,
-ek76,,tunoe,Tunoe,EU,DK,
-yghb,,capeschanck,Cape Shanck Airport,OC,AU,
-ensq,NO-0059,,,,,
-esav,SE-0008,,,,,
-,esga,esgascenery,,,,
-5nm,US-0986,,,,,
-u660,,hiddensplendorairstrip,Hidden Splendor Airstrip,NA,US,US-UT
-u692,,mexicanmountainairstrip,Mexican Mountain Airstrip,NA,US,US-UT
-,egng,bagby,,,,
-cbx3,,chilanko,Chilanko Lodge,NA,CA,
-locher,,locher,Locher,EU,IT,
+Actual_Icao,Addon_Name
+egkk,gatwick
+lokh,lokhaerial
+eghr,goodwoodedit
+zkws,airport-zkwsaerial
+zkws,airport-zkwskalma
+ymmb,ymmbmoor
+csb3,csb3senery
+csl5,csl5ad
+csl5,csl5r
+epgd,cmdesign-epgdortho
+eplb,cmdesign-eplbortho
+eppo,cmdesign-eppoortho
+eprz,cmdesign-eprzortho
+epsc,cmdesign-epscortho
+epby,cmdesign-epbyortho
+eglo,cuckootyefarm
+othh,doha
+egcc,egccnightlights
+eham,ehamtwrwest
+ekeb,ekebbuilding
+enhf,enhffix
+lksh,flyto-hamry-models
+gclp,grancanaria
+eghe,scilly-scenery-superspud
+lfrk,ivanov-carpiquet
+lfoh,ivanov-tourocteville
+rjam,kui-minamitorishimasat
+pawd,kui-sewardsat
+reef,kui-subireefsat
+leax,leonibenabu-scenery-simple
+lfxw,LF2827 MANOU
+lifo,LYRA34 V0.3
+egmh,manston
+phnl,mycompany-aerial
+eggh,nayland
+kord,oharelightsimpv3
+egqh,OthertonAirfield
+pasi,quelcertoleo-sitka
+lfml,magnetic333-radarvitrolles
+edzh,shelter1-flugplatz_neuruppin
+egtj,shenstone
+eghf,solent
+wv08,stageonelabs-scotts-island
+rmang,ststefano-aerial-imagery
+ehvk,volkel-aerial
