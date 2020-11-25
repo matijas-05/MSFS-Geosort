@@ -8,9 +8,10 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 
-using CsvHelper;
 using System.Diagnostics;
-using System.Text.RegularExpressions;
+using CsvHelper;
+using BingMapsRESTToolkit;
+using System.Threading.Tasks;
 
 namespace Geosort
 {
@@ -23,6 +24,8 @@ namespace Geosort
 		private bool m_AddonPathValid;
 		private List<Addon> m_Addons = new List<Addon>();
 		private List<Addon> m_NotFound = new List<Addon>();
+		private List<Addon> m_NotIdAsAddonInLNM = new List<Addon>();
+		private List<Addon> m_BadLocation = new List<Addon>();
 
 		private GridViewColumnHeader m_LastHeaderClicked;
 		private ListSortDirection m_LastDirection = ListSortDirection.Ascending;
@@ -42,6 +45,7 @@ namespace Geosort
 		private const string AIRPORT_CORRECTION_PATH = "Database\\airport_correction.csv";
 		private const string SKIP_WORDS_PATH = "Database\\skip_words.csv";
 		private const string MANIFEST_JSON = "\\manifest.json";
+		public const string BING_KEY = "0IdWzWxUd4A3QfCpiORd~DdYhDa6fAlG8ffUUyusDOw~AgZDz-ygdJ1z5h9M-PxBqv_HF-MWhNk9sbD5Jpxnlk-4haHwxXYE6huVTPROe6H3";
 
 		class Addon
 		{
@@ -49,6 +53,7 @@ namespace Geosort
 			public string Path { get; set; }
 			public string Size { get; set; }
 			public long SizeBytes { get; set; }
+			public Airport Airport { get; set; }
 
 			public Addon(string name, string path, string size, long sizeBytes)
 			{
@@ -66,7 +71,20 @@ namespace Geosort
 			public string Continent { get; set; }
 			public string Country { get; set; }
 			public string State { get; set; }
+			public float Laty { get; set; }
+			public float Lonx { get; set; }
 
+			public Airport(string ident, string name, string scenery_Local_Path, string continent, string country, string state, string laty, string lonx)
+			{
+				Ident = ident;
+				Name = name;
+				Scenery_Local_Path = scenery_Local_Path;
+				Continent = continent;
+				Country = country;
+				State = state;
+				Laty = float.Parse(laty.Replace('.', ','));
+				Lonx = float.Parse(lonx.Replace('.', ','));
+			}
 			public Airport(string ident, string name, string scenery_Local_Path, string continent, string country, string state)
 			{
 				Ident = ident;
@@ -86,6 +104,7 @@ namespace Geosort
 		{
 			public string Actual_Icao { get; set; }
 			public string Addon_Name { get; set; }
+			public string Country { get; set; }
 		}
 		struct SingleWord
 		{
@@ -288,8 +307,8 @@ namespace Geosort
 			}
 		}
 
-		// TODO
-		void sortBtn_Click(object sender, RoutedEventArgs e)
+		// Identifies addons based on the icao and lnm
+		async void identBtn_Click(object sender, RoutedEventArgs e)
 		{
 			bool continent = sortContinent.IsChecked.Value;
 			bool country = sortContinent.IsChecked.Value;
@@ -299,19 +318,38 @@ namespace Geosort
 			LoadDatabases();
 
 			InvokeAndCountElapsedTime(IdentifyAddons);
-			LogNotFoundAddons();
+			await AssignLocation();
+			LogBadAddons();
 
-			// TODO: Move this logic to "Identify" button
 			void IdentifyAddons()
 			{
 				Log.WriteHeader("IDENTIFYING ADDONS");
 				m_NotFound.Clear();
+				m_NotIdAsAddonInLNM.Clear();
 
 				// Identify addons
 				foreach (Addon addon in m_Addons)
 				{
 					string result = "";
 					string stoppedAt = "";
+
+					foreach (AirportCorrection correction in m_AirportCorrections)
+					{
+						// Airport is in the database, but name of addon doesn't have icao, identified by name
+						if (correction.Actual_Icao != "" && correction.Addon_Name != ""
+							&& addon.Name == correction.Addon_Name)
+						{
+							foreach (var arp in m_Airports)
+							{
+								if (string.Equals(arp.Ident, correction.Actual_Icao, StringComparison.OrdinalIgnoreCase))
+								{
+									if (correction.Country != "") arp.Country = correction.Country;
+									result = Result(addon, arp, "");
+								}
+							}
+
+						}
+					}
 
 					// Identify airport based on lnm local_path var
 					foreach (Airport airport in m_Airports)
@@ -322,7 +360,7 @@ namespace Geosort
 						foreach (string sub in airport.Scenery_Local_Path.Split(new string[] { ", " }, StringSplitOptions.RemoveEmptyEntries))
 						{
 							if (sub != "fs-base" && string.Equals(sub, addon.Name, StringComparison.OrdinalIgnoreCase))
-								result = Result(airport, addon.Name);
+								result = Result(addon, airport, addon.Name);
 						}
 					}
 
@@ -331,30 +369,12 @@ namespace Geosort
 					{
 						foreach (string sub in addon.Name.Split(new string[] { " ", ".", "-", "_", "(", ")" }, StringSplitOptions.RemoveEmptyEntries))
 						{
-
 							stoppedAt = sub;
 
 							if (SkipAddon(sub))
 							{
 								result = $"SKIPPED {addon.Name}";
 								break;
-							}
-
-							foreach (AirportCorrection correction in m_AirportCorrections)
-							{
-								// Airport is in the database, but name of addon doesn't have icao, identified by name
-								if (correction.Actual_Icao != "" && correction.Addon_Name != ""
-									&& addon.Name == correction.Addon_Name)
-								{
-									foreach (var arp in m_Airports)
-									{
-										if (string.Equals(arp.Ident, correction.Actual_Icao, StringComparison.OrdinalIgnoreCase))
-										{
-											result = Result(arp, sub);
-										}
-									}
-
-								}
 							}
 
 							if ((sub.Length < 3 || sub.Length > 4) && !sub.StartsWith("lf", StringComparison.OrdinalIgnoreCase))
@@ -367,7 +387,8 @@ namespace Geosort
 								{
 									if (string.Equals(sub, airport.Ident, StringComparison.OrdinalIgnoreCase))
 									{
-										result = Result(airport, addon.Name);
+										result = Result(addon, airport, addon.Name);
+										m_NotIdAsAddonInLNM.Add(addon);
 										break;
 									}
 								}
@@ -387,18 +408,79 @@ namespace Geosort
 
 				MessageBox.Show("Completed addon identification.", "Sucess", MessageBoxButton.OK, MessageBoxImage.Information);
 			}
-			void LogNotFoundAddons()
+			async Task AssignLocation()
 			{
-				if (m_NotFound.Count == 0)
-					return;
+				int airportsWithoutLocation = m_Addons.Where(addon => addon.Airport != null && addon.Airport.Country == "").Count();
 
-				MessageBox.Show($"{m_NotFound.Count} addons couldn't be identified.", "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
-
-				// Write not found addons to log
-				Log.WriteHeader($"ADDONS NOT FOUND ({m_NotFound.Count})");
-				foreach (Addon addon in m_NotFound)
+				Log.WriteHeader($"ASSIGNING LOCATION TO AIRPORTS WITHOUT ONE ({airportsWithoutLocation})");
+				foreach (var addon in m_Addons)
 				{
-					Log.WriteLine($"{addon.Name}\n{addon.Path}\n");
+					if (addon.Airport == null || addon.Airport.Country != "")
+						continue;
+
+					var point = new Coordinate(addon.Airport.Laty, addon.Airport.Lonx);
+					var request = new ReverseGeocodeRequest()
+					{
+						Point = point,
+						Culture = "en-us",
+						IncludeIso2 = true,
+						BingMapsKey = BING_KEY
+					};
+
+					var response = await request.Execute();
+					bool responseValid = response != null
+										&& response.ResourceSets != null
+										&& response.ResourceSets.Length > 0
+										&& response.ResourceSets[0].Resources != null
+										&& response.ResourceSets[0].Resources.Length > 0;
+
+					if (responseValid)
+					{
+						var result = (Location)response.ResourceSets[0].Resources[0];
+						addon.Airport.Country = result.Address.CountryRegion != "" ? result.Address.CountryRegion : result.Address.Locality;
+
+						if(addon.Airport.State == "" && addon.Airport.Country == "United States")
+							addon.Airport.State = result.Address.AdminDistrict;
+
+						Log.WriteLine($"{addon.Airport.Name} ({addon.Airport.Ident}): {addon.Airport.Country}");
+					}
+					else
+					{
+						m_BadLocation.Add(addon);
+					}
+				}
+
+				MessageBox.Show("Completed location assignment.", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+			}
+			void LogBadAddons()
+			{
+				Log.WriteHeader($"ADDONS NOT IDENTIFIED ({m_NotFound.Count})");
+				if (m_NotFound.Count != 0)
+				{
+					MessageBox.Show($"{m_NotFound.Count} addons couldn't be identified.", "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
+
+					foreach (Addon addon in m_NotFound)
+					{
+						Log.WriteLine($"{addon.Name}\n{addon.Path}\n");
+					}
+				}
+
+				Log.WriteHeader($"AIRPORTS NOT IDENTIFIED AS ADDONS IN LNM ({m_NotFound.Count})");
+				if (m_NotIdAsAddonInLNM.Count != 0)
+				{
+					foreach (Addon addon in m_NotIdAsAddonInLNM)
+					{
+						Log.WriteLine(addon.Name);
+					}
+				}
+
+				Log.WriteHeader($"AIRPORTS WITH INVALID LOCATION ({m_BadLocation.Count})");
+				if (m_BadLocation.Count != 0)
+				{
+					foreach (Addon addon in m_BadLocation)
+					{
+						Log.WriteLine(addon.Name);
+					}
 				}
 			}
 
@@ -412,8 +494,9 @@ namespace Geosort
 				}
 				return false;
 			}
-			string Result(Airport airport, string name)
+			string Result(Addon addon, Airport airport, string name)
 			{
+				addon.Airport = airport;
 				return $"{airport.Name} ({airport.Ident}) [{name}]: {airport.Country}, {airport.State}";
 			}
 			void InvokeAndCountElapsedTime(Action method)
@@ -436,6 +519,13 @@ namespace Geosort
 			//	return match.Success;
 			//}
 		}
+
+		// TODO
+		void sortBtn_Click(object sender, RoutedEventArgs e)
+		{
+
+		}
+
 		void addonFolderPicker_OnFilePicked(string path)
 		{
 			m_AddonPath = addonFolderPicker.FilePath;
