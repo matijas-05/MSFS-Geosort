@@ -32,18 +32,21 @@ namespace Geosort
 		private bool m_FirstSort = true;
 
 		private Airport[] m_Airports;
-		private NameCodePair[] m_Countries;
-		private NameCodePair[] m_Continents;
-		private NameCodePair[] m_US_States;
+		private CountryContinentPair[] m_CountryContinent;
+		//private NameCodePair[] m_Countries;
+		//private NameCodePair[] m_Continents;
+		//private NameCodePair[] m_US_States;
 		private AirportCorrection[] m_AirportCorrections;
 		private SingleWord[] m_SkipWords;
 
 		private const string AIRPORTS_PATH = "Database\\airports_lnm.csv";
-		private const string COUNTRIES_PATH = "Database\\countries.csv";
-		private const string CONTINENTS_PATH = "Database\\continents.csv";
-		private const string US_STATES_PATH = "Database\\us_states.csv";
+		private const string COUNTRIES_CONTINENTS_PATH = "Database\\countries_continents.csv";
+		//private const string COUNTRIES_PATH = "Database\\countries.csv";
+		//private const string CONTINENTS_PATH = "Database\\continents.csv";
+		//private const string US_STATES_PATH = "Database\\us_states.csv";
 		private const string AIRPORT_CORRECTION_PATH = "Database\\airport_correction.csv";
 		private const string SKIP_WORDS_PATH = "Database\\skip_words.csv";
+		private const string LOCATION_CACHE_PATH = "Database\\location_cache.csv";
 		private const string MANIFEST_JSON = "\\manifest.json";
 		public const string BING_KEY = "0IdWzWxUd4A3QfCpiORd~DdYhDa6fAlG8ffUUyusDOw~AgZDz-ygdJ1z5h9M-PxBqv_HF-MWhNk9sbD5Jpxnlk-4haHwxXYE6huVTPROe6H3";
 
@@ -94,6 +97,17 @@ namespace Geosort
 				Country = country;
 				State = state;
 			}
+			public Airport(Airport airport)
+			{
+				Ident = airport.Ident;
+				Name = airport.Name;
+				Scenery_Local_Path = airport.Scenery_Local_Path;
+				Continent = airport.Continent;
+				Country = airport.Country;
+				State = airport.State;
+				Laty = airport.Laty;
+				Lonx = airport.Lonx;
+			}
 		}
 		struct NameCodePair
 		{
@@ -109,6 +123,15 @@ namespace Geosort
 		struct SingleWord
 		{
 			public string Word { get; set; }
+		}
+		struct CountryContinentPair
+		{
+			public string Continent_Name { get; set; }
+			public string Continent_Code { get; set; }
+			public string Country_Name { get; set; }
+			public string Two_Letter_Country_Code { get; set; }
+			public string Three_Letter_Country_Code { get; set; }
+			public string Country_Number { get; set; }
 		}
 
 		public MainWindow()
@@ -129,9 +152,10 @@ namespace Geosort
 		void LoadDatabases()
 		{
 			m_Airports = ReadFile<Airport>(AIRPORTS_PATH);
-			m_Countries = ReadFile<NameCodePair>(COUNTRIES_PATH);
-			m_Continents = ReadFile<NameCodePair>(CONTINENTS_PATH);
-			m_US_States = ReadFile<NameCodePair>(US_STATES_PATH);
+			m_CountryContinent = ReadFile<CountryContinentPair>(COUNTRIES_CONTINENTS_PATH);
+			//m_Countries = ReadFile<NameCodePair>(COUNTRIES_PATH);
+			//m_Continents = ReadFile<NameCodePair>(CONTINENTS_PATH);
+			//m_US_States = ReadFile<NameCodePair>(US_STATES_PATH);
 			m_AirportCorrections = ReadFile<AirportCorrection>(AIRPORT_CORRECTION_PATH);
 			m_SkipWords = ReadFile<SingleWord>(SKIP_WORDS_PATH);
 
@@ -410,47 +434,124 @@ namespace Geosort
 			}
 			async Task AssignLocation()
 			{
-				int airportsWithoutLocation = m_Addons.Where(addon => addon.Airport != null && addon.Airport.Country == "").Count();
-
-				Log.WriteHeader($"ASSIGNING LOCATION TO AIRPORTS WITHOUT ONE ({airportsWithoutLocation})");
+				// Read location cache and load it into airports
+				List<Airport> locationCache = ReadLocationCache();
 				foreach (var addon in m_Addons)
 				{
-					if (addon.Airport == null || addon.Airport.Country != "")
-						continue;
-
-					var point = new Coordinate(addon.Airport.Laty, addon.Airport.Lonx);
-					var request = new ReverseGeocodeRequest()
+					foreach (var arp in locationCache)
 					{
-						Point = point,
-						Culture = "en-us",
-						IncludeIso2 = true,
-						BingMapsKey = BING_KEY
-					};
-
-					var response = await request.Execute();
-					bool responseValid = response != null
-										&& response.ResourceSets != null
-										&& response.ResourceSets.Length > 0
-										&& response.ResourceSets[0].Resources != null
-										&& response.ResourceSets[0].Resources.Length > 0;
-
-					if (responseValid)
-					{
-						var result = (Location)response.ResourceSets[0].Resources[0];
-						addon.Airport.Country = result.Address.CountryRegion != "" ? result.Address.CountryRegion : result.Address.Locality;
-
-						if(addon.Airport.State == "" && addon.Airport.Country == "United States")
-							addon.Airport.State = result.Address.AdminDistrict;
-
-						Log.WriteLine($"{addon.Airport.Name} ({addon.Airport.Ident}): {addon.Airport.Country}");
-					}
-					else
-					{
-						m_BadLocation.Add(addon);
+						if (addon.Airport != null && addon.Airport.Ident == arp.Ident)
+						{
+							addon.Airport = new Airport(arp);
+						}
 					}
 				}
 
-				MessageBox.Show("Completed location assignment.", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+				await AssignMissingLocation();
+				//AssignContinents();
+
+				async Task AssignMissingLocation()
+				{
+					// Assign country and usa state to airports without one
+					int airportsWithoutLocation = m_Addons.Where(addon => addon.Airport != null && addon.Airport.Country == "").Count();
+					List<Airport> newCache = locationCache;
+
+					Log.WriteHeader($"ASSIGNING LOCATION TO AIRPORTS WITHOUT ONE ({airportsWithoutLocation})");
+					foreach (Addon addon in m_Addons)
+					{
+						if (addon.Airport == null || addon.Airport.Country != "" || locationCache.Contains(addon.Airport))
+							continue;
+
+						var point = new Coordinate(addon.Airport.Laty, addon.Airport.Lonx);
+						var request = new ReverseGeocodeRequest()
+						{
+							Point = point,
+							Culture = "en-us",
+							IncludeIso2 = true,
+							BingMapsKey = BING_KEY
+						};
+
+						var response = await request.Execute();
+						var address = ((Location)response.ResourceSets[0].Resources[0]).Address;
+
+						bool responseValid = response != null
+											&& response.ResourceSets != null
+											&& response.ResourceSets.Length > 0
+											&& response.ResourceSets[0].Resources != null
+											&& response.ResourceSets[0].Resources.Length > 0
+											&&
+												(address.CountryRegion != null ||
+												address.CountryRegionIso2 != null ||
+												address.Locality != null);
+
+						if (responseValid)
+						{
+							addon.Airport.Country = address.CountryRegionIso2 != null ? address.CountryRegionIso2 : address.Locality;
+
+							if (addon.Airport.State == "" && addon.Airport.Country == "United States")
+								addon.Airport.State = address.AdminDistrict;
+
+							newCache.Add(addon.Airport);
+
+							Log.WriteLine($"{addon.Airport.Name} ({addon.Airport.Ident}): {addon.Airport.Country}");
+						}
+						else
+						{
+							m_BadLocation.Add(addon);
+						}
+					}
+
+					// Write airports without location to cache
+					WriteLocationCache(newCache);
+				}
+				void AssignContinents()
+				{
+					// Assign continent
+					foreach (Addon addon in m_Addons)
+					{
+						if (addon.Airport == null)
+							continue;
+
+						foreach (var cc in m_CountryContinent)
+						{
+							string countryName = cc.Country_Name.Split(new string[] { ", " }, StringSplitOptions.RemoveEmptyEntries)[0];
+
+							if (string.Equals(addon.Airport.Country, countryName, StringComparison.OrdinalIgnoreCase)
+								|| string.Equals(addon.Airport.Country, cc.Two_Letter_Country_Code, StringComparison.OrdinalIgnoreCase)
+								|| string.Equals(addon.Airport.Country, cc.Three_Letter_Country_Code, StringComparison.OrdinalIgnoreCase))
+							{
+								addon.Airport.Continent = cc.Continent_Code;
+							}
+							else
+							{
+								Debug.WriteLine("no kurwa no japierdole: " + addon.Airport.Country);
+							}
+						}
+					}
+
+					MessageBox.Show("Completed location assignment.", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+				}
+
+				List<Airport> ReadLocationCache()
+				{
+					if (!File.Exists(LOCATION_CACHE_PATH))
+						return new List<Airport>();
+
+					using (var reader = new StreamReader(LOCATION_CACHE_PATH))
+					using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
+					{
+						csv.Configuration.PrepareHeaderForMatch = (string header, int index) => header.ToLower();
+						return csv.GetRecords<Airport>().ToList();
+					}
+				}
+				void WriteLocationCache(List<Airport> records)
+				{
+					using (var writer = new StreamWriter(LOCATION_CACHE_PATH))
+					using (var csv = new CsvWriter(writer, CultureInfo.InvariantCulture))
+					{
+						csv.WriteRecords(records);
+					}
+				}
 			}
 			void LogBadAddons()
 			{
@@ -507,17 +608,6 @@ namespace Geosort
 				watch.Stop();
 				Log.WriteLine("TIME ELAPSED: " + watch.ElapsedMilliseconds);
 			}
-
-			//bool Contains(string addonName, string substring, out int startIndex)
-			//{
-			//	startIndex = 0;
-			//	if (addonName == "" || substring == "") return false;
-
-			//	Match match = Regex.Match(addonName, $@"(?:\b|_){substring}(?=\b|_)", RegexOptions.IgnoreCase);
-			//	startIndex = match.Index;
-
-			//	return match.Success;
-			//}
 		}
 
 		// TODO
