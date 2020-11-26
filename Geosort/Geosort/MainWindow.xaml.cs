@@ -33,17 +33,13 @@ namespace Geosort
 
 		private Airport[] m_Airports;
 		private CountryContinentPair[] m_CountryContinent;
-		//private NameCodePair[] m_Countries;
-		//private NameCodePair[] m_Continents;
-		//private NameCodePair[] m_US_States;
+		private NameCodePair[] m_US_States;
 		private AirportCorrection[] m_AirportCorrections;
 		private SingleWord[] m_SkipWords;
 
 		private const string AIRPORTS_PATH = "Database\\airports_lnm.csv";
 		private const string COUNTRIES_CONTINENTS_PATH = "Database\\countries_continents.csv";
-		//private const string COUNTRIES_PATH = "Database\\countries.csv";
-		//private const string CONTINENTS_PATH = "Database\\continents.csv";
-		//private const string US_STATES_PATH = "Database\\us_states.csv";
+		private const string US_STATES_PATH = "Database\\us_states.csv";
 		private const string AIRPORT_CORRECTION_PATH = "Database\\airport_correction.csv";
 		private const string SKIP_WORDS_PATH = "Database\\skip_words.csv";
 		private const string LOCATION_CACHE_PATH = "Database\\location_cache.csv";
@@ -153,9 +149,6 @@ namespace Geosort
 		{
 			m_Airports = ReadFile<Airport>(AIRPORTS_PATH);
 			m_CountryContinent = ReadFile<CountryContinentPair>(COUNTRIES_CONTINENTS_PATH);
-			//m_Countries = ReadFile<NameCodePair>(COUNTRIES_PATH);
-			//m_Continents = ReadFile<NameCodePair>(CONTINENTS_PATH);
-			//m_US_States = ReadFile<NameCodePair>(US_STATES_PATH);
 			m_AirportCorrections = ReadFile<AirportCorrection>(AIRPORT_CORRECTION_PATH);
 			m_SkipWords = ReadFile<SingleWord>(SKIP_WORDS_PATH);
 
@@ -338,7 +331,6 @@ namespace Geosort
 			bool country = sortContinent.IsChecked.Value;
 			bool us_state = sortUS_State.IsChecked.Value;
 
-			// TODO: Load database only when starting and database changed (check last time of modifiaction?)
 			LoadDatabases();
 
 			InvokeAndCountElapsedTime(IdentifyAddons);
