@@ -1,7 +1,7 @@
 Continent_Name,Continent_Code,Country_Name,Two_Letter_Country_Code,Three_Letter_Country_Code,Country_Number
 Asia,AS,"Afghanistan, Islamic Republic of",AF,AFG,4
 Europe,EU,"Albania, Republic of",AL,ALB,8
-Antarctica,AN,Antarctica (the territory South of 60 deg S),AQ,ATA,10
+Antarctica,AN,Antarctica,AQ,ATA,10
 Africa,AF,"Algeria, People's Democratic Republic of",DZ,DZA,12
 Oceania,OC,American Samoa,AS,ASM,16
 Europe,EU,"Andorra, Principality of",AD,AND,20
@@ -38,6 +38,7 @@ Europe,EU,"Belarus, Republic of",BY,BLR,112
 Asia,AS,"Cambodia, Kingdom of",KH,KHM,116
 Africa,AF,"Cameroon, Republic of",CM,CMR,120
 North America,NA,Canada,CA,CAN,124
+North America,NA,Cabada,CA,CAN,125
 Africa,AF,"Cape Verde, Republic of",CV,CPV,132
 North America,NA,Cayman Islands,KY,CYM,136
 Africa,AF,Central African Republic,CF,CAF,140
@@ -102,7 +103,7 @@ North America,NA,"Haiti, Republic of",HT,HTI,332
 Antarctica,AN,Heard Island and McDonald Islands,HM,HMD,334
 Europe,EU,Holy See (Vatican City State),VA,VAT,336
 North America,NA,"Honduras, Republic of",HN,HND,340
-Asia,AS,"Hong Kong, Special Administrative Region of China",HK,HKG,344
+Asia,AS,"Hong Kong Sar",HK,HKG,344
 Europe,EU,"Hungary, Republic of",HU,HUN,348
 Europe,EU,"Iceland, Republic of",IS,ISL,352
 Asia,AS,"India, Republic of",IN,IND,356
@@ -198,7 +199,7 @@ Africa,AF,Saint Helena,SH,SHN,654
 North America,NA,"Saint Kitts and Nevis, Federation of",KN,KNA,659
 North America,NA,Anguilla,AI,AIA,660
 North America,NA,Saint Lucia,LC,LCA,662
-North America,NA,Saint Martin,MF,MAF,663
+North America,NA,Saint-Martin,MF,MAF,663
 North America,NA,Saint Pierre and Miquelon,PM,SPM,666
 North America,NA,Saint Vincent and the Grenadines,VC,VCT,670
 Europe,EU,"San Marino, Republic of",SM,SMR,674
@@ -220,7 +221,7 @@ Africa,AF,South Sudan,SS,SSD,728
 Africa,AF,Western Sahara,EH,ESH,732
 Africa,AF,"Sudan, Republic of",SD,SDN,736
 South America,SA,"Suriname, Republic of",SR,SUR,740
-Europe,EU,Svalbard & Jan Mayen Islands,SJ,SJM,744
+Europe,EU,Svalbard,SJ,SJM,744
 Africa,AF,"Swaziland, Kingdom of",SZ,SWZ,748
 Europe,EU,"Sweden, Kingdom of",SE,SWE,752
 Europe,EU,"Switzerland, Swiss Confederation",CH,CHE,756
@@ -242,12 +243,13 @@ Africa,AF,"Uganda, Republic of",UG,UGA,800
 Europe,EU,Ukraine,UA,UKR,804
 Europe,EU,"Macedonia, The Former Yugoslav Republic of",MK,MKD,807
 Africa,AF,"Egypt, Arab Republic of",EG,EGY,818
-Europe,EU,United Kingdom of Great Britain & Northern Ireland,GB,GBR,826
+Europe,EU,United Kingdom,GB,GBR,826
 Europe,EU,"Guernsey, Bailiwick of",GG,GGY,831
 Europe,EU,"Jersey, Bailiwick of",JE,JEY,832
 Europe,EU,Isle of Man,IM,IMN,833
 Africa,AF,"Tanzania, United Republic of",TZ,TZA,834
 North America,NA,United States of America,US,USA,840
+North America,NA,United States,US,USA,841
 North America,NA,United States Virgin Islands,VI,VIR,850
 Africa,AF,Burkina Faso,BF,BFA,854
 South America,SA,"Uruguay, Eastern Republic of",UY,URY,858

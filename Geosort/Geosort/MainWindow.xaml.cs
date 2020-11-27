@@ -438,20 +438,20 @@ namespace Geosort
 						}
 					}
 				}
+				List<Airport> newCache = new List<Airport>();
 
+				// Assign country and usa state to airports without one
 				await AssignMissingLocation();
-				//AssignContinents();
+				AssignContinents();
 
 				async Task AssignMissingLocation()
 				{
-					// Assign country and usa state to airports without one
 					int airportsWithoutLocation = m_Addons.Where(addon => addon.Airport != null && addon.Airport.Country == "").Count();
-					List<Airport> newCache = locationCache;
 
-					Log.WriteHeader($"ASSIGNING LOCATION TO AIRPORTS WITHOUT ONE ({airportsWithoutLocation})");
+					Log.WriteHeader($"ASSIGNING LOCATION");
 					foreach (Addon addon in m_Addons)
 					{
-						if (addon.Airport == null || addon.Airport.Country != "" || locationCache.Contains(addon.Airport))
+						if (addon.Airport == null || locationCache.Any(arp => arp.Ident == addon.Airport.Ident && arp.Scenery_Local_Path == addon.Airport.Scenery_Local_Path))
 							continue;
 
 						var point = new Coordinate(addon.Airport.Laty, addon.Airport.Lonx);
@@ -464,7 +464,6 @@ namespace Geosort
 						};
 
 						var response = await request.Execute();
-						var address = ((Location)response.ResourceSets[0].Resources[0]).Address;
 
 						bool responseValid = response != null
 											&& response.ResourceSets != null
@@ -472,29 +471,29 @@ namespace Geosort
 											&& response.ResourceSets[0].Resources != null
 											&& response.ResourceSets[0].Resources.Length > 0
 											&&
-												(address.CountryRegion != null ||
-												address.CountryRegionIso2 != null ||
-												address.Locality != null);
+												(((Location)response.ResourceSets[0].Resources[0]).Address.CountryRegion != null ||
+												((Location)response.ResourceSets[0].Resources[0]).Address.CountryRegionIso2 != null ||
+												((Location)response.ResourceSets[0].Resources[0]).Address.Locality != null);
 
 						if (responseValid)
 						{
-							addon.Airport.Country = address.CountryRegionIso2 != null ? address.CountryRegionIso2 : address.Locality;
+							var address = ((Location)response.ResourceSets[0].Resources[0]).Address;
+							addon.Airport.Country = address.CountryRegionIso2 ?? address.Locality;
 
-							if (addon.Airport.State == "" && addon.Airport.Country == "United States")
+							if (addon.Airport.State == "" && addon.Airport.Country == "US")
 								addon.Airport.State = address.AdminDistrict;
-
-							newCache.Add(addon.Airport);
 
 							Log.WriteLine($"{addon.Airport.Name} ({addon.Airport.Ident}): {addon.Airport.Country}");
 						}
 						else
 						{
-							m_BadLocation.Add(addon);
+							if (addon.Airport.Country == "") m_BadLocation.Add(addon);
+							else
+							{
+								Log.WriteLine($"{addon.Airport.Name} ({addon.Airport.Ident}): {addon.Airport.Country}");
+							}
 						}
 					}
-
-					// Write airports without location to cache
-					WriteLocationCache(newCache);
 				}
 				void AssignContinents()
 				{
@@ -514,13 +513,18 @@ namespace Geosort
 							{
 								addon.Airport.Continent = cc.Continent_Code;
 							}
-							else
-							{
-								Debug.WriteLine("no kurwa no japierdole: " + addon.Airport.Country);
-							}
 						}
+
+						// If still can't assign continent mark as bad location
+						if (addon.Airport.Continent == "")
+						{
+							m_BadLocation.Add(addon);
+						}
+
+						newCache.Add(addon.Airport);
 					}
 
+					WriteLocationCache(newCache);
 					MessageBox.Show("Completed location assignment.", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
 				}
 
