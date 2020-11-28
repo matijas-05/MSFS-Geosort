@@ -57,6 +57,7 @@ EGGP,Liverpool,"fs-base, airport-eggp-liverpool-superspud",EU,GB,,53.33412,-2.85
 EGHC,St Just,"fs-base, airport-eghc-landsend-superspud",EU,GB,Kernow,50.10265,-5.66996
 EGHQ,St Mawgan AB,"fs-base, airport-eghq-newquay-superspud",EU,GB,,50.4410362,-4.995332
 EGPR,Barra,airport-egpr-barra-superspud-nopoles,EU,United Kingdom,,57.02363,-7.442347
+EGPR,Barra,airport-egpr-barra-superspud-nopoles,EU,United Kingdom,,57.02363,-7.442347
 EGPW,Baltasound Airfield,"fs-base, airport-egpw-unst1.1-superspud",EU,GB,,60.7458153,-0.8521069
 EGTE,Exeter,"fs-base, airport-egte-exeter-superspud",EU,GB,,50.7324448,-3.41972661
 EGZR,Foula Airfield,"fs-base, airport-egzr-foula1.0-superspud",EU,GB,,60.1223869,-2.05307817
@@ -94,13 +95,29 @@ ZBLF,Qiaoli,airport-zblf-linfen-mottoth,AS,CN,Shanxi,36.1311569,111.641548
 ZGNN,Wuxu,airport-zgnn-nanning-mottoth,AS,CN,Guangxi,22.6090126,108.176064
 ZKWS,Kalma,"fs-base, airport-zkwskalma",AS,KP,,39.1634674,127.488762
 ZKWS,Kalma,"fs-base, airport-zkwskalma",AS,KP,,39.1634674,127.488762
+ZKWS,Kalma,"fs-base, airport-zkwskalma",AS,KP,,39.1634674,127.488762
 ZLDL,Delingha Airport,airport-zldl-delingha-mottoth,AS,CN,Qinghai,37.1252174,97.2687454
+ZREE,Zree,"fs-base, airport-zuzh-panzhihua-mottoth",AS,CN,Sichuan,26.5398941,101.799217
 ZUZH,Bao'Anying,airport-zuzh-panzhihua-mottoth,AS,CN,Sichuan,26.5399361,101.798439
 FFZK,Fun Fly Zone,airport_ffzk_fun-fly-zone_0235_0.7 - full,NA,US,Wisconsin,43.968,-88.56148
+PAMM,Metlakatla Seaplane Base,aka-airport-alaskaspb2,NA,US,Alaska,55.13068,-131.574158
+Z43,Tamgas Harbor Seaplane Base,aka-airport-alaskaspb2,NA,US,Alaska,55.0661545,-131.543869
 4Z7,Hyder Seaplane Base,aka-airport-alaskaspb2,NA,CA,Alaska,55.9203262,-130.008
 PAGK,Gulkana Airport,"fs-base, aka-airport-pagk-gulkana",NA,US,Alaska,62.1562576,-145.4549
+CKX,Chicken Airport,"fs-base, aka-airport-paor-northway",NA,US,Alaska,64.06611,-141.9515
 PAOR,Northway Airport,aka-airport-paor-northway,NA,US,Alaska,62.9620476,-141.925934
 PFYU,Fort Yukon,fs-base,NA,US,Alaska,66.57197,-145.248
+0AK5,Young Creek,AKA-airports,NA,US,Alaska,61.35615,-142.730515
+0AK8,Fireweed Airport,AKA-airports,NA,US,Alaska,61.42437,-142.983643
+PAKA,Tatitlek Airport,AKA-airports,NA,US,Alaska,60.87041,-146.689255
+9AK0,Sportsmens Paradise,AKA-airports,NA,US,Alaska,62.5295677,-143.254517
+AK0,Jakes Bar,AKA-airports,NA,US,Alaska,61.2158775,-142.88591
+AK31,Swift Creek Airport,AKA-airports,NA,US,Alaska,61.4084969,-143.000229
+CZN,Chisana Airport,AKA-airports,NA,US,Alaska,62.087162,-142.074448
+DDT,Duffy's Tavern Airport,"fs-base, AKA-airports",NA,US,Alaska,62.7245522,-143.9216
+KGZ,Glacier Creek Airport,AKA-airports,NA,US,Alaska,61.45483,-142.378052
+MYK,May Creek,AKA-airports,NA,US,Alaska,61.3325424,-142.685333
+PAMX,Mccarthy Airport,AKA-airports,NA,US,Alaska,61.4369545,-142.902542
 4AK3,Long Lake Airstrip,"AKA-airports, longlakeairstip",NA,US,Alaska,61.37864,-143.315979
 PFTO,Tok Junction,fs-base,NA,US,Alaska,63.32953,-142.953781
 LFKJ,Ajaccio Napoléon Bonaparte,"fs-base, alexvizair-airport-lfkj-ajaccio-napoleon-bonaparte",EU,FR,Corse,41.924736,8.792669
@@ -141,6 +158,7 @@ SATR,Reconquista,"fs-base, brainshot-satr-reconquista",SA,AR,Santa Fe,-29.20429,
 SAVN,Antoine De Saint Exubery,"fs-base, brainshot-savn-antoine-de-saint",SA,AR,Rio Negro,-40.7517471,-65.03208
 SAZB,Comandante Espora,"fs-base, brainshot-sazb-bahia-blanca",SA,AR,Buenos Aires,-38.73073,-62.15573
 SAZF,Olavarria,"fs-base, brainshot-sazf-olavarria, brainshot-sazf-olavarria",SA,AR,Buenos Aires,-36.8940659,-60.2190742
+SAZF,Olavarria,"fs-base, brainshot-sazf-olavarria, brainshot-sazf-olavarria",SA,AR,Buenos Aires,-36.8940659,-60.2190742
 SAZH,Tres Arroyos,"fs-base, brainshot-sazh-tres-arroyos",SA,AR,Buenos Aires,-38.3863144,-60.328167
 SAZR,Santa Rosa,"fs-base, brainshot-sazr-santa-rosa",SA,AR,La Pampa,-36.59468,-64.2770538
 SAZS,San Carlos De Bariloche,"fs-base, brainshot-sazs-bariloche",SA,AR,Rio Negro,-41.15464,-71.14423
@@ -168,6 +186,14 @@ ESGT,Trollhattan,"fs-base, ba-esgt-simple",EU,SE,,58.3179321,12.3446131
 U660,Hidden Splendor Airstrip,baddweapon-airport-u660-hiddensplendorairstrip-v1-1,NA,US,Utah,38.5677,-110.957092
 U692,Mexican Mountain Airstrip,baddweapon-airport-u692-mexicanmountainairstrip,NA,US,Utah,39.0196838,-110.451469
 EGNG,Bagby,"fs-base, bagby-bagby",EU,GB,North Yorkshire,54.20989,-1.296284
+1481,Ag1481 Glacier De La Chiaupe,bagolu-alps-altiports,EU,FR,Savoie,45.48825,6.771188
+7424,Altisurface Du Glacier Du Dome Du Gouter,bagolu-alps-altiports,EU,FR,,45.8437271,6.843627
+7329,Altiports Les Vaugellas,bagolu-alps-altiports,EU,FR,Savoie,45.60877,6.7036314
+7421,Altiport Du Col De Cenise,bagolu-alps-altiports,EU,FR,,46.0216331,6.45142031
+7422,Altiport Du Glacier D'Argentière,bagolu-alps-altiports,EU,FR,,45.9408073,6.99990368
+7423,Altiport Du Glacier De Talèfre,bagolu-alps-altiports,EU,FR,,45.9083,6.98395061
+7425,Altisurface Du Glacier Du Tacul,bagolu-alps-altiports,EU,FR,,45.8903847,6.939338
+7426,Glacier Du Tour,bagolu-alps-altiports,EU,FR,,45.9779549,7.01674938
 7430,Altisurface De Saint-Roch Mayères,bagolu-alps-altiports,EU,FR,,45.9490929,6.587875
 6S9,Stehekin State,"fs-base, bahnzo-6s9-stehekin",NA,US,Washington,48.34481,-120.719788
 CBX3,Chilanko Lodge,"fs-base, bahnzo-aiport-cbx3-chilanko",NA,CA,British Columbia,51.9547729,-124.881325
@@ -218,6 +244,7 @@ ZEGBQ,Brecqhou,channel islands airport-zegbj-brecqhou-superspud,EU,GG,,49.43291,
 LSPG,Kägiswil,"chrispriv-lspg01, sc-airport-swiss-airfields",EU,CH,Obwalden,46.9070854,8.254173
 LKCR,Chrudim,"fs-base, chrudim-lkcr1, CZ_GA Revival 2020",EU,CZ,,49.9359,15.7819834
 CHO,Cholila Lodge,chukakis-cholila,SA,AR,,-42.4643326,-71.5991058
+LBI,Loberia,chukakis-loberia,SA,AR,,-38.18733,-58.7891
 SALM,Loberia,"fs-base, chukakis-loberia",SA,AR,,-38.1872826,-58.78949
 EDEN,Johannesberg,"fs-base, cjscenery-scenery-eden-bad-hersfeld-rotenburg",EU,DE,Hessen,50.84465,9.707314
 EP62,Arlamow,"fs-base, cmdesign-epar",EU,PL,,49.6635056,22.5141678
@@ -237,6 +264,7 @@ EPLU,Lubin,"fs-base, cmdesign-eplu",EU,PL,,51.4278145,16.19425
 EPMO,Modlin,"fs-base, cmdesign-epmo",EU,PL,,52.44923,20.6513271
 EPPO,Lawica,"fs-base, cmdesign-eppo",EU,PL,,52.4152565,16.82764
 EPPO,Lawica,"fs-base, cmdesign-eppo",EU,PL,,52.4152565,16.82764
+EPRJ,Aeroklub Rzeszowski,"fs-base, cmdesign-eprz",EU,PL,,50.1018677,22.0533218
 EPRZ,Jasionka,"fs-base, cmdesign-eprz",EU,PL,,50.1135063,22.0264988
 EPRZ,Jasionka,"fs-base, cmdesign-eprz",EU,PL,,50.1135063,22.0264988
 EPSC,Goleniow,"fs-base, cmdesign-epsc",EU,PL,,53.5928726,14.89419
@@ -244,6 +272,19 @@ EPSC,Goleniow,"fs-base, cmdesign-epsc",EU,PL,,53.5928726,14.89419
 EPTO,Lotnisko Aeroklubu Pomorskiego,"fs-base, cmdesign-epto",EU,PL,,53.02733,18.5557384
 EPWR,Strachowice,"fs-base, cmdesign-epwr",EU,PL,,51.11079,16.8773632
 EPZG,Babimost,"fs-base, cmdesign-epzg",EU,PL,,52.1372375,15.7778568
+0CO2,Crested Butte Airpark,"fs-base, ColoradoRanchersClubScenery-v1.4.0",NA,US,Colorado,38.8518066,-106.928123
+12CO,Omega 1 Airport,"fs-base, ColoradoRanchersClubScenery-v1.4.0",NA,US,Colorado,38.8388176,-107.793411
+1CO2,Williams Ranch,"fs-base, ColoradoRanchersClubScenery-v1.4.0",NA,US,Colorado,38.1630745,-108.339012
+1CO7,Dodsworth,ColoradoRanchersClubScenery-v1.4.0,NA,US,Colorado,38.55234,-105.991219
+25CO,Crystal Lakes Airport,"fs-base, ColoradoRanchersClubScenery-v1.4.0",NA,US,Colorado,40.85184,-105.631927
+44CO,Redlands Airport,"fs-base, ColoradoRanchersClubScenery-v1.4.0",NA,US,Colorado,38.840126,-107.792664
+5CO6,Meyer Ranch,"fs-base, ColoradoRanchersClubScenery-v1.4.0",NA,US,Colorado,39.5497169,-105.280136
+81CO,Mesa 1 Airport,"fs-base, ColoradoRanchersClubScenery-v1.4.0",NA,US,Colorado,40.40505,-106.820961
+92CO,Lake Creek Soaringport,ColoradoRanchersClubScenery-v1.4.0,NA,US,Colorado,38.2111,-105.459778
+CD10,Chapman Field,ColoradoRanchersClubScenery-v1.4.0,NA,US,Colorado,37.67669,-106.556496
+CO03,"Aspen Gliderport ","fs-base, ColoradoRanchersClubScenery-v1.4.0",NA,US,Colorado,39.25995,-106.911537
+CO47,Gypsum Creek Ranch,"fs-base, ColoradoRanchersClubScenery-v1.4.0",NA,US,Colorado,39.5978241,-106.974617
+9CO3,Hubbard,"fs-base, ColoradoRanchersClubScenery-v1.4.0",NA,US,Colorado,38.6749878,-108.988319
 KGWS,Glenwood Springs Municipal Airport,"fs-base, ColoradoRanchersClubScenery-v1.4.0",NA,US,Colorado,39.50623,-107.309273
 SBSP,Aita De Congonhas,"fs-base, congonhas-sbsp",SA,BR,Sao Paulo,-23.6274719,-46.65462
 MHRU,Copan Ruinas,copanr1,NA,HN,Copan,14.9158192,-89.00688
@@ -282,9 +323,49 @@ CYYD,Smithers,"fs-base, cyyd",NA,CA,British Columbia,54.8237762,-127.18187
 CYZP,Sandspit,"fs-base, cyzp",NA,CA,Haida Gwaii,53.2545471,-131.81427
 CYZT,Port Hardy,"fs-base, cyzt",NA,CA,British Columbia,50.6812325,-127.3665
 CZPC,Pincher Creek,"fs-base, czpc",NA,CA,Alberta,49.5205269,-113.996742
+LKBA,Breclav,"fs-base, CZ_GA Revival 2020",EU,CZ,,48.7909,16.89537
+LKBE,Benesov,"fs-base, CZ_GA Revival 2020",EU,CZ,,49.73884,14.6437683
+LKBO,Bohunovice,"fs-base, CZ_GA Revival 2020",EU,CZ,,49.6699371,17.2902279
+LKBU,Bubovice,"fs-base, CZ_GA Revival 2020",EU,CZ,,49.9739342,14.1778145
+LKCH,Chomutov,"fs-base, CZ_GA Revival 2020",EU,CZ,,50.46808,13.4702816
+LKCR,Chrudim,"fs-base, chrudim-lkcr1, CZ_GA Revival 2020",EU,CZ,,49.9359,15.7819834
+LKCN,Detrichov Oaza,"fs-base, CZ_GA Revival 2020",EU,CZ,,49.72977,17.1174965
+LKHN,Hranice,"fs-base, CZ_GA Revival 2020",EU,CZ,,49.5460625,17.7028732
+LKHO,Holesov,"fs-base, CZ_GA Revival 2020",EU,CZ,,49.3170662,17.5706024
+LKJH,Jindrichuv Hradec,"fs-base, CZ_GA Revival 2020",EU,CZ,,49.15098,14.9737873
+LKKA,Krizanov,"fs-base, CZ_GA Revival 2020",EU,CZ,,49.3685837,16.1156273
+LKKM,Kromeriz,"fs-base, CZ_GA Revival 2020",EU,CZ,,49.28808,17.4170685
+LKKR,Krnov,"fs-base, CZ_GA Revival 2020",EU,CZ,,50.07464,17.6940746
+LKMI,Mikulovice,"fs-base, CZ_GA Revival 2020",EU,CZ,,50.2996674,17.2931061
+LKMK,Moravska Trebova,"fs-base, CZ_GA Revival 2020",EU,CZ,,49.7970543,16.6833076
+LKNY,Nymburk,"fs-base, CZ_GA Revival 2020",EU,CZ,,50.1690826,15.0498438
+LKOL,Olomouc,"fs-base, CZ_GA Revival 2020",EU,CZ,,49.5893364,17.2087116
+LKSU,Sumperk,"fs-base, CZ_GA Revival 2020",EU,CZ,,49.96155,17.0178871
+LKVM,Vysoke Myto,"fs-base, CZ_GA Revival 2020",EU,CZ,,49.9313164,16.1783733
+LKVY,Vyskov,"fs-base, CZ_GA Revival 2020",EU,CZ,,49.3009758,17.024889
+LKJC,Jicin,"fs-base, CZ_GA Revival 2020, lkjc-model",EU,CZ,,50.43181,15.3202267
 LKPA,Policka,"fs-base, CZ_GA Revival 2020, lkpa-model",EU,CZ,,49.7397537,16.2612171
 EGHH,Bournemouth Int,"fs-base, df-airport-eghh-bournemouth",EU,GB,,50.7800026,-1.84301829
 PALH,Lake Hood Airport,dgt-airport-lhd-lake-hood,NA,US,Alaska,61.1846466,-149.968246
+19P,Port Protection Seaplane Base,dgt-airport-mistyfjords-spbs,NA,US,Alaska,56.35284,-133.6215
+PFKP,Point Baker Seaplane Base,dgt-airport-mistyfjords-spbs,NA,US,Alaska,56.35703,-133.615768
+16K,Port Alice Seaplane Base,dgt-airport-mistyfjords-spbs,NA,US,Alaska,55.7991562,-133.594315
+57A,Tokeen Seaplane Base,dgt-airport-mistyfjords-spbs,NA,US,Alaska,55.9363174,-133.328278
+5C5,El Capitan Lodge Seaplane Base,dgt-airport-mistyfjords-spbs,NA,US,Alaska,55.95813,-133.2575
+AK62,Naukati Bay Seaplane Base,dgt-airport-mistyfjords-spbs,NA,US,Alaska,55.85399,-133.226334
+Z71,Cape Pole Seaplane Base,dgt-airport-mistyfjords-spbs,NA,US,Alaska,55.9668961,-133.796814
+CGA,Craig Seaplane Base,dgt-airport-mistyfjords-spbs,NA,US,Alaska,55.4896126,-133.146988
+POKW,Waterfall Seaplane Base,dgt-airport-mistyfjords-spbs,NA,US,Alaska,55.29562,-133.243851
+WSB,Steamboat Bay Seaplane Base,dgt-airport-mistyfjords-spbs,NA,US,Alaska,55.53328,-133.637543
+84K,Meyers Chuck Seaplane Base,dgt-airport-mistyfjords-spbs,NA,US,Alaska,55.74533,-132.26239
+96Z,Whale Pass Seaplane Base,dgt-airport-mistyfjords-spbs,NA,US,Alaska,56.1131477,-133.123474
+KTB,Thorne Bay Seaplane Base,dgt-airport-mistyfjords-spbs,NA,US,Alaska,55.68538,-132.537781
+PAKC,Coffman Cove Seaplane Base,dgt-airport-mistyfjords-spbs,NA,US,Alaska,56.0168228,-132.836288
+13Z,Loring Seaplane Base,dgt-airport-mistyfjords-spbs,NA,US,Alaska,55.6002655,-131.638611
+78K,Yes Bay Lodge Seaplane Base,dgt-airport-mistyfjords-spbs,NA,US,Alaska,55.91539,-131.797333
+KBE,Bell Island Hot Springs Seaplane Base,dgt-airport-mistyfjords-spbs,NA,US,Alaska,55.9260864,-131.5792
+HYL,Clark Bay Seaplane Base,dgt-airport-mistyfjords-spbs,NA,US,Alaska,55.4900627,-132.623489
+KXA,Kasaan Seaplane Base,dgt-airport-mistyfjords-spbs,NA,US,Alaska,55.53042,-132.391678
 PAHY,Hydaburg Seaplane Base,dgt-airport-mistyfjords-spbs,NA,US,Alaska,55.1984062,-132.824
 KDWS,Disney World Airport,digitalhorizons-airport-kdws-disneyworld,NA,US,Floridia,28.399519,-81.57136
 OTHH,Hamad Intl,fs-base,AS,QA,,25.2744713,51.60771
@@ -338,6 +419,7 @@ EKAT,Anholt Airport,"fs-base, ekat",EU,DK,,56.6995621,11.5569639
 EKBA,Bolhede Glider Field,"fs-base, ekbabolhede",EU,DK,,55.6318359,8.755231
 EKEB,Esbjerg Airport,"fs-base, ekeb-airport, ekeb-airport",EU,DK,,55.52564,8.552282
 EKEB,Esbjerg Airport,"fs-base, ekeb-airport, ekeb-airport",EU,DK,,55.52564,8.552282
+EKEB,Esbjerg Airport,"fs-base, ekeb-airport, ekeb-airport",EU,DK,,55.52564,8.552282
 EKFS,Fyns Glider Club,"fs-base, ekfs",EU,DK,,55.24808,10.2077856
 EKKL,Klaundborg Flyveplads,"fs-base, ekkl-kalundborg, EKLL-FS2020 V1.1",EU,DK,Denmark,55.7002373,11.2593737
 EKKL,Klaundborg Flyveplads,"fs-base, ekkl-kalundborg, EKLL-FS2020 V1.1",EU,DK,Denmark,55.7002373,11.2593737
@@ -359,6 +441,7 @@ ENNK,Framnes,"fs-base, ENNK_Framnes",EU,NO,,68.43633,17.3858662
 ENNM,Namsos,fs-base,EU,NO,,64.47215,11.5776882
 ENRA,Røsvoll,"fs-base, enra",EU,NO,,66.36535,14.3007841
 ENRM,Ryum,fs-base,EU,NO,,64.83705,11.1430054
+ENVY,Vaeroy,ENVY_Vaeroy,EU,NO,,67.6890259,12.6777792
 ENVR,Vaeroy Heliport,ENVY_Vaeroy,EU,NO,,67.65471,12.7265768
 EPBA,Aleksandrowice,"fs-base, epba",EU,PL,,49.8048363,19.0054531
 EPBC,Aeroklub Warszawski,"fs-base, epbc",EU,PL,Masovian,52.2682152,20.912611
@@ -396,6 +479,195 @@ ENSB,Svalbard/Longyear,fk-airport-ensb-svalbard,EU,Svalbard,,78.24611,15.4655552
 ENST,Stokka,"fs-base, fk-airport-enst-stokka",EU,NO,,65.9597244,12.4722223
 ENRS,Rost,fs-base,EU,NO,,67.52712,12.1025991
 ENBA,"Barentsburg, Heerodden",fk-heliport-enba-barentsburg,EU,Svalbard,,78.1005554,14.1961107
+EN009,Leaktojávri/Lektovann,fk-no-seaplaneport,EU,NO,,70.1871643,24.3584385
+EN013,Iesjávri/Storvatnet,fk-no-seaplaneport,EU,NO,,69.66544,24.208931
+EN014,Stuorajávri/Store Jotkavann,fk-no-seaplaneport,EU,NO,,69.77562,23.82488
+EN015,Suohpatjávri/Veivannet,fk-no-seaplaneport,EU,NO,,69.91851,23.9035
+EN016,Suolojávri/Holmvannet,fk-no-seaplaneport,EU,NO,,69.93652,24.1292534
+EN011,Vuolitjávri/Nedrevann,fk-no-seaplaneport,EU,NO,,69.90813,24.97673
+EN012,Bajitjávri/Øvrevann,fk-no-seaplaneport,EU,NO,,69.84364,25.05123
+EN010,Guollejávri/Fiskevann,fk-no-seaplaneport,EU,NO,,69.98325,25.3803
+EN131,Måløy Sjøflyhavn,fk-no-seaplaneport,EU,NO,,61.93402,5.11465
+EN220,"Dampen Serveringsstad, Davik",fk-no-seaplaneport,EU,NO,,61.88907,5.55092
+EN227,Finnøy,fk-no-seaplaneport,EU,NO,,62.80333,6.50978
+EN228,Ona,fk-no-seaplaneport,EU,NO,,62.86485,6.54407024
+EN229,Bjørnsund,fk-no-seaplaneport,EU,NO,,62.89255,6.82422
+EN230,Håholmen,fk-no-seaplaneport,EU,NO,,63.02195,7.38315
+EN233,Hustadvika,fk-no-seaplaneport,EU,NO,,62.98599,7.11683
+EN218,Austefjorden,fk-no-seaplaneport,EU,NO,,62.06262,6.32013226
+EN226,"Bunker Oil, Nørevika",fk-no-seaplaneport,EU,NO,,62.47046,6.17670965
+EN133,Stryn Sjøflyhavn,fk-no-seaplaneport,EU,NO,,61.8977051,6.703781
+EN135,Norangsfjord/Øye Sjøflyhavn,fk-no-seaplaneport,EU,NO,,62.19276,6.64906
+EN221,Hellesylt,fk-no-seaplaneport,EU,NO,,62.0862732,6.87210274
+EN222,Geiranger,fk-no-seaplaneport,EU,NO,,62.10302,7.202872
+EN223,Tafjord,fk-no-seaplaneport,EU,NO,,62.23563,7.42126036
+EN224,"Linge, Valdal",fk-no-seaplaneport,EU,NO,,62.29762,7.26261473
+EN225,"Tannstad, Sykkylven",fk-no-seaplaneport,EU,NO,,62.35422,6.58527
+EN020,Røssvatnet,fk-no-seaplaneport,EU,NO,,65.7450562,14.0514984
+EN017,Namsvatnet,fk-no-seaplaneport,EU,NO,,65.00519,13.70887
+EN018,Limingen,fk-no-seaplaneport,EU,NO,,64.752,13.6270285
+EN019,Tunnsjøen,fk-no-seaplaneport,EU,NO,,64.7053452,13.3680906
+EN022,Botn,fk-no-seaplaneport,EU,NO,,63.57912,9.96871
+EN231,Angvik,fk-no-seaplaneport,EU,NO,,62.89083,8.08799
+EN232,Bergfall,fk-no-seaplaneport,EU,NO,,63.19382,8.56880951
+EN045,Breiddalsvatnet Øst,fk-no-seaplaneport,EU,NO,,62.01105,7.60871
+EN024,Granasjøen,fk-no-seaplaneport,EU,NO,,62.80748,9.68084049
+EN023,Selbusjøen,fk-no-seaplaneport,EU,NO,,63.23364,10.9932537
+EN027,Savalen Nord,fk-no-seaplaneport,EU,NO,,62.29427,10.5267115
+EN028,Tynset Flyplass,fk-no-seaplaneport,EU,NO,,62.25817,10.66738
+EN021,Snåsavatnet,fk-no-seaplaneport,EU,NO,,64.22692,12.2309494
+EN188,"Laksjøen, Lierne",fk-no-seaplaneport,EU,NO,,64.4625244,13.5809994
+EN189,"Kvesjøen, Lierne",fk-no-seaplaneport,EU,NO,,64.48847,13.89495
+EN190,"Sandsjøen, Lierne",fk-no-seaplaneport,EU,NO,,64.43259,13.75093
+EN191,"Lenglingen, Lierne",fk-no-seaplaneport,EU,NO,,64.22143,13.80659
+EN192,"Ulen, Lierne",fk-no-seaplaneport,EU,NO,,64.15625,13.8682337
+EN025,Aursunden,fk-no-seaplaneport,EU,NO,,62.66949,11.65198
+EN026,"Hittersjøen, Røros",fk-no-seaplaneport,EU,NO,,62.59042,11.41828
+EN029,Femundshytta,fk-no-seaplaneport,EU,NO,,62.31301,11.9147205
+EN030,"Femunden, Hen Gård",fk-no-seaplaneport,EU,NO,,62.29735,11.96227
+EN031,"Femunden, Langsjøen",fk-no-seaplaneport,EU,NO,,62.1473,11.61391
+EN032,"Femunden, Elgå",fk-no-seaplaneport,EU,NO,,62.1672,11.94151
+EN034,Femundsenden,fk-no-seaplaneport,EU,NO,,61.92408,11.91731
+EN033,"Grøvelsjøen, Sylen",fk-no-seaplaneport,EU,NO,,62.15973,12.24884
+EN127,Askvoll Sjøflyhavn,fk-no-seaplaneport,EU,NO,,61.34663,5.06469
+EN129,Florø Sjøflyhavn,fk-no-seaplaneport,EU,NO,,61.60077,5.030702
+EN130,Kalvåg Sjøflyhavn,fk-no-seaplaneport,EU,NO,,61.76583,4.8767
+EN219,Værlandet,fk-no-seaplaneport,EU,NO,,61.31522,4.73023
+EN113,Eknesvågen Sjøflyhavn,fk-no-seaplaneport,EU,NO,,60.60294,5.44194031
+EN114,Lindås Brygge Sjøflyhavn,fk-no-seaplaneport,EU,NO,,60.7333145,5.15702868
+EN115,Fedje Sjøflyhavn,fk-no-seaplaneport,EU,NO,,60.78164,4.7122
+EN116,Halsvikvågen Sjøflyhavn,fk-no-seaplaneport,EU,NO,,60.84407,5.09696
+EN117,Langevatnet Sjøflybase,fk-no-seaplaneport,EU,NO,,60.86873,5.09937
+EN118,Skjerjehamn Sjøflyhavn,fk-no-seaplaneport,EU,NO,,60.94268,4.95151
+EN119,Hardbakke/Solund Sjøflyhavn,fk-no-seaplaneport,EU,NO,,61.07331,4.83673
+EN136,Kjeilegavlen Sjøflybase,fk-no-seaplaneport,EU,NO,,60.76838,5.03645
+EN137,Kilstraumen Brygge,fk-no-seaplaneport,EU,NO,,60.79826,4.93972
+EN120,Balestrand Sjøflyhavn,fk-no-seaplaneport,EU,NO,,61.20857,6.53883
+EN128,Førde Sjøflyhavn,fk-no-seaplaneport,EU,NO,,61.45681,5.83510971
+EN217,Utvik,fk-no-seaplaneport,EU,NO,,61.80691,6.51826
+EN235,Sandane,fk-no-seaplaneport,EU,NO,,61.77697,6.21222973
+EN123,Sogndal Sjøflyhavn,fk-no-seaplaneport,EU,NO,,61.23117,7.10865974
+EN132,Innvik Sjøflyhavn,fk-no-seaplaneport,EU,NO,,61.85025,6.611
+EN134,Loen Sjøflyhavn,fk-no-seaplaneport,EU,NO,,61.8691,6.83761024
+EN109,"Vangsvatnet, Voss",fk-no-seaplaneport,EU,NO,,60.62067,6.40156
+EN110,"Oppheimsvatnet, Voss",fk-no-seaplaneport,EU,NO,,60.79445,6.59608
+EN124,Lærdal Sjøflyhavn,fk-no-seaplaneport,EU,NO,,61.10211,7.46864
+EN154,Ulvik Sjøflyhavn,fk-no-seaplaneport,EU,NO,,60.56588,6.91383
+EN155,Eidfjord Sjøflyhavn,fk-no-seaplaneport,EU,NO,,60.47078,7.06144142
+EN207,Aurland,fk-no-seaplaneport,EU,NO,,60.91153,7.18519
+EN208,Flåm,fk-no-seaplaneport,EU,NO,,60.86476,7.1240797
+EN145,Leirvik/Stord Sjøflyhavn,fk-no-seaplaneport,EU,NO,,59.78028,5.50243
+EN146,Rubbestadneset Sjøflyhavn,fk-no-seaplaneport,EU,NO,,59.8135948,5.276459
+EN147,Fitjar Sjøflyhavn,fk-no-seaplaneport,EU,NO,,59.91823,5.31463
+EN148,Bekkjarvik Sjøflyhavn,fk-no-seaplaneport,EU,NO,,60.00752,5.204
+EN159,"Solstrand Hotell, Os",fk-no-seaplaneport,EU,NO,,60.18644,5.48449
+EN160,Hjellestad Marina Sjøflyhavn,fk-no-seaplaneport,EU,NO,,60.25659,5.2391
+EN161,Bergen/Sandviken Sjøflyhavn,fk-no-seaplaneport,EU,NO,,60.40961,5.31772
+EN162,Cornelius Restaurant På Holmen,fk-no-seaplaneport,EU,NO,,60.32971,5.16948
+EN193,"Tveitavatnet, Os",fk-no-seaplaneport,EU,NO,,60.2244,5.53646
+EN201,"Våge, Tysnes",fk-no-seaplaneport,EU,NO,,60.04578,5.52451038
+EN142,Karmøy Sjøflyhavn,fk-no-seaplaneport,EU,NO,,59.34702,5.21498
+EN143,Hesund Sjøflyhavn,fk-no-seaplaneport,EU,NO,,59.40438,5.27275
+EN138,Åndalsnes Sjøflyhavn,fk-no-seaplaneport,EU,NO,,60.38557,6.20285034
+EN149,Husnes Fabrikk-Kaien,fk-no-seaplaneport,EU,NO,,59.8742065,5.765786
+EN150,Rosendal Sjøflyhavn,fk-no-seaplaneport,EU,NO,,59.98112,6.00814
+EN151,Jondal Sjøflyhavn,fk-no-seaplaneport,EU,NO,,60.27489,6.25121975
+EN152,Norheimsund Sjøflyhavn,fk-no-seaplaneport,EU,NO,,60.37068,6.14813
+EN158,Odda Sjøflyhavn,fk-no-seaplaneport,EU,NO,,60.07032,6.54561
+EN156,Kinsarvik Sjøflyhavn,fk-no-seaplaneport,EU,NO,,60.38235,6.69874
+EN157,Ullensvang/Lofthus,fk-no-seaplaneport,EU,NO,,60.32881,6.65445
+EN204,"Ståvatn, Haukeliseter",fk-no-seaplaneport,EU,NO,,59.82078,7.18556929
+EN144,Sauda Sjøflyhavn,fk-no-seaplaneport,EU,NO,,59.64744,6.3446
+EN086,"Hartevann, Hovden",fk-no-seaplaneport,EU,NO,,59.52737,7.3588
+EN139,Sola Sjøflyhavn,fk-no-seaplaneport,EU,NO,,58.9040947,5.63267565
+EN140,Stavanger By Sør Sjøflyhavn,fk-no-seaplaneport,EU,NO,,58.9491043,5.749107
+EN141,Stavanger By Nord Sjøflyhavn,fk-no-seaplaneport,EU,NO,,58.9746132,5.73234034
+EN047,Bygdin,fk-no-seaplaneport,EU,NO,,61.3737,8.30505
+EN048,Tyin,fk-no-seaplaneport,EU,NO,,61.27328,8.21262
+EN049,"Otrøvatnet, Filefjell",fk-no-seaplaneport,EU,NO,,61.18111,8.190001
+EN125,Årdal Sjøflyhavn,fk-no-seaplaneport,EU,NO,,61.2344,7.70656
+EN126,Øvre Årdal Sjøflyhavn,fk-no-seaplaneport,EU,NO,,61.30684,7.78724
+EN046,Vågåvatnet,fk-no-seaplaneport,EU,NO,,61.85687,8.53181
+EN051,"Øyangen, Beitostølen",fk-no-seaplaneport,EU,NO,,61.21441,8.89161
+EN060,Stolsvatnet/Djupvatnet,fk-no-seaplaneport,EU,NO,,60.76666,8.002
+EN061,Strandavatnet,fk-no-seaplaneport,EU,NO,,60.70006,7.86039
+EN062,Bergsjøen,fk-no-seaplaneport,EU,NO,,60.71183,8.29637051
+EN063,Vatsfjorden,fk-no-seaplaneport,EU,NO,,60.69091,8.3918
+EN065,"Holsfjorden, Hol",fk-no-seaplaneport,EU,NO,,60.61085,8.30856
+EN066,"Rødungen, Nord For Ål",fk-no-seaplaneport,EU,NO,,60.70556,8.233789
+EN070,Ustedalsfjorden,fk-no-seaplaneport,EU,NO,,60.52082,8.17324
+EN071,"Ustevatnet, Ustaoset",fk-no-seaplaneport,EU,NO,,60.50178,8.01078
+EN072,"Sløddfjorden, Hastøl",fk-no-seaplaneport,EU,NO,,60.50962,7.85951
+EN108,Gyrinosvatnet,fk-no-seaplaneport,EU,NO,,60.83085,8.22109
+EN050,Vangsmjøsa,fk-no-seaplaneport,EU,NO,,61.1371,8.54643
+EN052,Volbufjorden,fk-no-seaplaneport,EU,NO,,61.09093,9.10373
+EN053,"Strondafjorden, Fagernes",fk-no-seaplaneport,EU,NO,,60.98326,9.23538
+EN054,Tisleifjorden,fk-no-seaplaneport,EU,NO,,60.83759,9.00541
+EN055,Slidrefjord,fk-no-seaplaneport,EU,NO,,61.05554,9.02267
+EN056,Storfjorden/Flyvatn,fk-no-seaplaneport,EU,NO,,60.93367,8.79558
+EN064,"Tingvollfjorden, Ål",fk-no-seaplaneport,EU,NO,,60.65128,8.690371
+EN067,"Rødungen, Sør For Ål",fk-no-seaplaneport,EU,NO,,60.5291023,8.532476
+EN107,"Strandafjorden, Ål",fk-no-seaplaneport,EU,NO,,60.60255,8.49397
+EN194,Arne Ivar Sjøflybase,fk-no-seaplaneport,EU,NO,,61.132328,8.91107
+EN037,Lomnessjøen,fk-no-seaplaneport,EU,NO,,61.75143,11.19369
+EN041,Husodden Sjøflybase,fk-no-seaplaneport,EU,NO,,60.74876,10.23616
+EN042,"Mjøsa, Gjøvik",fk-no-seaplaneport,EU,NO,,60.75988,10.76795
+EN187,"Skumsjøen, Gjøvik",fk-no-seaplaneport,EU,NO,,60.74679,10.5404806
+EN073,"Langesjøen, Rauhelleren",fk-no-seaplaneport,EU,NO,,60.2485,7.77866
+EN074,Geitvatn,fk-no-seaplaneport,EU,NO,,60.20042,7.8723
+EN075,Hettefjorden,fk-no-seaplaneport,EU,NO,,60.186615,7.98713
+EN082,"Møsvatn, Tinn",fk-no-seaplaneport,EU,NO,,59.84602,8.21262
+EN205,"Møsvatn, Vinje",fk-no-seaplaneport,EU,NO,,59.86791,8.02413
+EN240,Halnefjorden,fk-no-seaplaneport,EU,NO,,60.4031525,7.709592
+EN068,Pålsbufjorden,fk-no-seaplaneport,EU,NO,,60.44164,8.64624
+EN069,Tunhovdfjorden,fk-no-seaplaneport,EU,NO,,60.39282,8.86699
+EN076,Sønstevatnet,fk-no-seaplaneport,EU,NO,,60.22524,8.542335
+EN077,Fønnebøfjorden,fk-no-seaplaneport,EU,NO,,60.2591,8.89137
+EN078,Norefjorden,fk-no-seaplaneport,EU,NO,,60.20451,9.018909
+EN079,Kravikfjorden,fk-no-seaplaneport,EU,NO,,60.11619,9.04552
+EN080,Tinnsjø,fk-no-seaplaneport,EU,NO,,59.89961,8.90922
+EN089,Fyresdalsvatnet,fk-no-seaplaneport,EU,NO,,59.18081,8.08474
+EN090,"Otra, Rysstad-Bjørgum",fk-no-seaplaneport,EU,NO,,59.09222,7.54571
+EN091,Flårenden,fk-no-seaplaneport,EU,NO,,59.13679,7.53153
+EN206,Longvikvatn,fk-no-seaplaneport,EU,NO,,59.68091,8.11855
+EN081,"Heddalsvatnet, Notodden",fk-no-seaplaneport,EU,NO,,59.55941,9.22422
+EN163,Kilen Sjøflyklubb,fk-no-seaplaneport,EU,NO,,59.89289,10.59837
+EN164,Sjøflyhavna Kro,fk-no-seaplaneport,EU,NO,,59.89365,10.63364
+EN088,"Fjærekilen I Norsjø, Skien",fk-no-seaplaneport,EU,NO,,59.18824,9.53312
+EN165,Drammen Sjøflyhavn,fk-no-seaplaneport,EU,NO,,59.74048,10.23788
+EN171,Sandefjord Sjøflyhavn,fk-no-seaplaneport,EU,NO,,59.1261,10.22552
+EN166,Son Sjøflyhavn,fk-no-seaplaneport,EU,NO,,59.52448,10.68386
+EN167,Moss Sjøflyhavn,fk-no-seaplaneport,EU,NO,,59.44184,10.6622305
+EN168,Holmestrand Sjøflyhavn,fk-no-seaplaneport,EU,NO,,59.4912,10.31925
+EN169,Hvasser/Tjøme Sjøflyhavn,fk-no-seaplaneport,EU,NO,,59.07762,10.42602
+EN170,Tønsberg Sjøflyhavn,fk-no-seaplaneport,EU,NO,,59.27079,10.39924
+EN035,Vurrusjøen,fk-no-seaplaneport,EU,NO,,61.873642,12.10204
+EN036,Litle Engeren,fk-no-seaplaneport,EU,NO,,61.7722,11.94795
+EN038,Engeren,fk-no-seaplaneport,EU,NO,,61.62826,12.02236
+EN039,"Storsjøen, Åmot",fk-no-seaplaneport,EU,NO,,61.47751,11.28122
+EN040,Osensjøen,fk-no-seaplaneport,EU,NO,,61.21928,11.8591557
+EN186,"Ulvsjøene, Trysil",fk-no-seaplaneport,EU,NO,,61.26972,11.9781895
+EN195,Hukusjøen,fk-no-seaplaneport,EU,NO,,60.5203,11.93774
+EN196,"Glomma, Grue",fk-no-seaplaneport,EU,NO,,60.49866,12.05165
+EN044,Vermundsjøen,fk-no-seaplaneport,EU,NO,,60.70175,12.38124
+EN043,Storsjøen,fk-no-seaplaneport,EU,NO,,60.36731,11.64831
+EN200,Sigernessjøen,fk-no-seaplaneport,EU,NO,,60.1276,12.03011
+EN197,Skasen,fk-no-seaplaneport,EU,NO,,60.399086,12.3167505
+EN198,Røgden,fk-no-seaplaneport,EU,NO,,60.40671,12.54217
+EN199,Møkeren,fk-no-seaplaneport,EU,NO,,60.17073,12.37043
+EN202,"Ose Motorfestival, Åraksfjorden",fk-no-seaplaneport,EU,NO,,58.94296,7.69044971
+EN177,Risør Sjøflyhavn,fk-no-seaplaneport,EU,NO,,58.7225,9.24276
+EN178,Lyngør Sjøflyhavn,fk-no-seaplaneport,EU,NO,,58.63563,9.12328
+EN179,Arendal Sjøflyhavn,fk-no-seaplaneport,EU,NO,,58.45688,8.76442051
+EN181,Lillesand Sjøflyhavn,fk-no-seaplaneport,EU,NO,,58.24784,8.38016
+EN182,Høvåg I Blindleia Sjøflyhavn,fk-no-seaplaneport,EU,NO,,58.15829,8.26223
+EN183,Kristiansand By Sjøflyhavn,fk-no-seaplaneport,EU,NO,,58.14534,8.02757
+EN184,Kristiansand Kjevik Sjøflyhavn,fk-no-seaplaneport,EU,NO,,58.19839,8.07117
+EN180,Grimstad Sjøflyhavn,fk-no-seaplaneport,EU,NO,,58.34058,8.59697
+EN172,Stavern/Larvik Sjøflyhavn,fk-no-seaplaneport,EU,NO,,59.00052,10.0427
+EN173,Helgeroa Sjøflyhavn,fk-no-seaplaneport,EU,NO,,58.99371,9.85164
+EN174,Langesund Sjøflyhavn,fk-no-seaplaneport,EU,NO,,59.00795,9.7483
+EN175,Valle/Bamble Sjøflyhavn,fk-no-seaplaneport,EU,NO,,58.93114,9.55965
 EN176,Kragerø Sjøflyhavn,fk-no-seaplaneport,EU,NO,,58.86543,9.41064
 CFLI,Flatisland,flatisland,NA,CA,New Foundland,50.82922,-57.307
 SNJQ,Aeroporto De Jequitinhonha,flightsimbrasil-snjq,SA,BR,Minas Gerais,-16.4416428,-41.0365829
@@ -526,6 +798,7 @@ YYEA,Yeaburn,"fs-base, jordanjames94-yyea-yeaburn",OC,AU,Victoria,-37.17789,145.
 YBDG,Bendigo Airport,jordanjames94-ybdg,OC,AU,Victoria,-36.7380753,144.3261
 YTYA,Tyabb Airport,"fs-base, jordanjames94-ytya",OC,AU,Victoria,-38.26425,145.180649
 RJAW,Iwoto AB,"iwojima-airport-rjaw-iwotoairport, jpiwotorjaw, jpiwotorjaw",AS,JP,Tokyo,24.7830677,141.322128
+RJAW,Iwoto AB,"iwojima-airport-rjaw-iwotoairport, jpiwotorjaw, jpiwotorjaw",AS,JP,Tokyo,24.7830677,141.322128
 RORK,Kitadaito,jpkitadaitojimarork,AS,JP,Okinawa,25.9436188,131.326538
 ROMD,Minamidaito,jpminamidaitoromd,AS,JP,Okinawa,25.8470211,131.264771
 LEBZ,Badajoz/Talavera La Real,jsf-lebz-badajoz,EU,ES,Spain,38.88773,-6.821807
@@ -536,10 +809,35 @@ CZUM,Churchill Falls Airport,julysfire-airport-czum-churchillfalls,NA,CA,Newfoun
 F45,North Palm Beach County General Aviation Airport,julysfire-airport-f45-npbc,NA,US,Florida,26.8448715,-80.2200546
 KNZY,North Island Naval Air Station,"airport-julysfire-knzy, julysfire-airport-knzy-northislandnas",NA,US,California,32.69895,-117.215164
 P52,Cottonwood Airport,"fs-base, julysfire-airport-p52-cottonwood",NA,US,Arizona,34.729248,-112.034531
+0AA5,Rangeview Airstrip,"fs-base, julysfire-airport-talkeetna-area-pack",NA,US,Alaska,62.3105621,-150.3345
+51AK,Birch Creek Landing,"fs-base, julysfire-airport-talkeetna-area-pack",NA,US,Alaska,62.2394333,-150.0636
+AK19,Carl's Landing Airport,"fs-base, julysfire-airport-talkeetna-area-pack",NA,US,Alaska,62.1727066,-150.0638
+AK44,Talkeetna Village Airstrip,julysfire-airport-talkeetna-area-pack,NA,US,Alaska,62.319046,-150.112991
+PATK,Talkeetna Airport,"fs-base, julysfire-airport-talkeetna-area-pack",NA,US,Alaska,62.32015,-150.09642
 2AK7,Bald Mountain Airport,julysfire-airport-talkeetna-area-pack,NA,US,Alaska,62.3081055,-149.751419
 EDDC,Dresden International,"fs-base, jumiktdesign-airport-eddc-dresden-international",EU,DE,,51.1342,13.767416
+AZ28,Thunder Ridge Airpark,justokayscenery-az-sm,NA,US,Arizona,33.8213768,-112.573219
+AZ32,Rosener Ranch Airport,"fs-base, justokayscenery-az-sm",NA,US,Arizona,33.8475342,-112.588043
+P48,Pleasant Valley Airport,"fs-base, justokayscenery-az-sm",NA,US,Arizona,33.800972,-112.247589
+10AZ,Farm Ag Airport,"fs-base, justokayscenery-az-sm",NA,US,Arizona,33.3668633,-112.621292
+1AZ2,Paradise Air Park,"fs-base, justokayscenery-az-sm",NA,US,Arizona,33.41174,-112.182541
+2AZ7,Mcgill Ultralight Field,"fs-base, justokayscenery-az-sm",NA,US,Arizona,33.6832771,-112.165764
+AZ25,Goldfield Ranch Airport,"fs-base, justokayscenery-az-sm",NA,US,Arizona,33.5986977,-111.606056
+AZ34,Massey Farm Airport,"fs-base, justokayscenery-az-sm",NA,US,Arizona,33.69742,-112.36956
+AZ60,Curry Ridge Airport,"fs-base, justokayscenery-az-sm",NA,US,Arizona,33.5050621,-112.474457
 AZ90,Hangar Haciendas Airport,"fs-base, justokayscenery-az-sm",NA,US,Arizona,33.3497467,-112.12384
+2AZ4,Millar Airport,"fs-base, justokayscenery-az-sm-2",NA,Usa,Arizona,33.05475,-112.1463
+34AZ,Gila River Memorial Airport,"fs-base, justokayscenery-az-sm-2",NA,US,Arizona,33.2479,-111.911423
+3AZ2,University Of Arizona Maricopa Agricultural,"fs-base, justokayscenery-az-sm-2",NA,US,Arizona,33.0799522,-111.983528
+41AZ,Ak Chin Community Airfield,"fs-base, justokayscenery-az-sm-2",NA,US,Arizona,32.9907951,-112.02346
+55AZ,Potters Field Airport,"fs-base, justokayscenery-az-sm-2",NA,US,Arizona,32.8758049,-111.9593
+AZ49,Aileron Orchards Airport,"fs-base, justokayscenery-az-sm-2",NA,US,Arizona,32.8946075,-112.253464
+20AZ,Eds Field Airport,"fs-base, justokayscenery-az-sm-2",NA,US,Arizona,32.68444,-111.5031
 36AZ,Valley Farms Airport,"fs-base, justokayscenery-az-sm-2",NA,US,Arizona,32.99277,-111.4537
+30AZ,Gila Compressor Station Airport,"fs-base, justokayscenery-az-sm-3",NA,US,Arizona,33.25038,-112.807991
+AZ05,Lakeside Airpark,"fs-base, justokayscenery-az-sm-3",NA,US,Arizona,33.1118736,-112.662315
+40AZ,Boulais Ranch Airport,"fs-base, justokayscenery-az-sm-3",NA,US,Arizona,33.0787239,-112.122955
+5AZ7,Carranza Farm Airstip,"fs-base, justokayscenery-az-sm-3",NA,US,Arizona,32.8470459,-111.951492
 AZ61,G M Ranch Airport,"fs-base, justokayscenery-az-sm-3",NA,US,Arizona,32.9013023,-112.237778
 KBXK,Buckeye Municipal Airport,"fs-base, justokayscenery-kbxk",NA,US,Arizona,33.4206161,-112.6847
 KFLG,Flagstaff Pulliam Airport,"fs-base, justokayscenery-kflg",NA,US,Arizona,35.1399231,-111.670532
@@ -585,10 +883,12 @@ RPSV,San Vicente Airport,"fs-base, Kml921-airport-rpsv-sanvicente",AS,PH,Palawan
 KMWH,Grant Co Intl,fs-base,NA,US,Washington,47.2106133,-119.321045
 LGKH,Kolchiko Airfield Lgzz04,"fs-base, Kolchiko Airfield Rwy & Aprons",EU,GR,,40.74548,23.1226482
 LGKH,Kolchiko Airfield Lgzz04,"fs-base, Kolchiko Airfield Rwy & Aprons",EU,GR,,40.74548,23.1226482
+LGKH,Kolchiko Airfield Lgzz04,"fs-base, Kolchiko Airfield Rwy & Aprons",EU,GR,,40.74548,23.1226482
 EKVE,Kolding Flyveklub,"fs-base, kolding-flyveklub",EU,DK,,55.5516243,9.19332
 KORS,Orcas Island Airport,"fs-base, kors",NA,US,Washington,48.706604,-122.910629
 KOSH,Witman Regional Airport,"fs-base, kosh-dots",NA,US,Wisconsin,43.9909821,-88.55663
 KBCH,Bench Lake,kp-airport-kbch-benchlake,NA,US,Washington,48.3507538,-121.142593
+YCSK,Casey Station,kp-airport-ycsk-casey,AN,Antarctica,Wilkes Land,-66.28514,110.755913
 HMAS,Hmas Fury,kp-airport-ycsk-casey,OC,Australia,,-54.0834923,128.481262
 YWIT,Wittenoom,"fs-base, kp-airport-ywit-wittenoom",OC,AU,Western Australia,-22.2256,118.373917
 YHIS,Heard Island,kp-yhis,AN,HM,,-53.1070251,73.65217
@@ -597,8 +897,47 @@ KPDX,Portland Intl,fs-base,NA,US,Oregon,45.5886879,-122.598167
 KPSC,Tri-Cities,fs-base,NA,US,Washington,46.26472,-119.118568
 KRB1,Camp Robinson Aux AAF,krbm-training-field,NA,US,Arkansas,34.9176636,-92.3018341
 EDMM,Kreuzberg,"fs-base, kronach",EU,DE,Bavaria,50.2438,11.3586912
+PAP08,Mambuleim,KRON_EastPapua,AS,ID,Papua,-3.980801,139.4047
+PAP25,Hutkimo,KRON_EastPapua,AS,ID,Papua,-4.1324687,139.332016
+PAP03,Gidoman,KRON_EastPapua,AS,ID,Papua,-3.97264957,139.99028
+PAP12,Suaka3,KRON_EastPapua,AS,ID,Papua,-4.14808464,140.194962
+PAP02,Duram,KRON_EastPapua,AS,ID,Papua,-4.472919,139.619217
+PAP04,Holuwon,KRON_EastPapua,AS,ID,Papua,-4.48257732,139.276062
+PAP05,Ipdeheik,KRON_EastPapua,AS,ID,Papua,-4.375578,139.319138
+PAP09,Ninja,KRON_EastPapua,AS,ID,Papua,-4.362905,139.302521
+PAP23,Wakbisik,KRON_EastPapua,AS,ID,Papua,-4.35008144,139.211609
+PAP01,Bomela,KRON_EastPapua,AS,ID,Papua,-4.69569254,139.912109
+PAP06,Kerabuk,KRON_EastPapua,AS,ID,Papua,-4.69711447,140.003052
+PAP10,Suaka1,KRON_EastPapua,AS,ID,Papua,-4.464066,140.09996
+PAP11,Suaka2,KRON_EastPapua,AS,ID,Papua,-4.364718,140.133942
+PAP13,Suaka4,KRON_EastPapua,AS,ID,Papua,-4.35414267,140.260727
+PAP14,Suaka5,KRON_EastPapua,AS,ID,Papua,-4.311782,140.382553
+PAP24,Kaklup,KRON_EastPapua,AS,ID,Papua,-4.626088,140.572922
+PAP07,Kyotobakon,KRON_EastPapua,AS,ID,Papua,-4.636364,140.656158
+PAP15,Suaka6,KRON_EastPapua,AS,ID,Papua,-4.6277113,140.9943
+PAP16,Oklip,KRON_EastPapua,AS,ID,Papua,-4.76161957,140.77948
+PAP17,Oknam,KRON_EastPapua,AS,ID,Papua,-4.49253,140.657837
+PAP18,Okpahik1,KRON_EastPapua,AS,ID,Papua,-4.69804335,140.771042
+PAP19,Okpahik2,KRON_EastPapua,AS,ID,Papua,-4.687499,140.790253
+PAP20,Okpahik3,KRON_EastPapua,AS,ID,Papua,-4.72485,140.7923
+PAP21,Okyago,KRON_EastPapua,AS,ID,Papua,-4.553312,140.848892
 PAP22,Tinibil,KRON_EastPapua,AS,ID,Papua,-4.823903,140.8736
 GOST,Gostner Airstrip,KRON_Gostner,EU,IT,Tyrol,46.57264,11.3077021
+85U,Soldier Bar USFS,"fs-base, KRON_MahoneyCreek",NA,US,Idaho,45.1044235,-114.799561
+DEW,Dewey Moore,KRON_MahoneyCreek,NA,US,Idaho,45.1491966,-115.076035
+K10,Mile Hi,KRON_MahoneyCreek,NA,US,Idaho,45.1492081,-115.000854
+DOV,Dovel,KRON_MahoneyCreek,NA,US,Idaho,45.0699577,-115.11837
+ID8,Marble Creek,KRON_MahoneyCreek,NA,US,Idaho,44.77421,-114.984566
+ID50,Wapshilla,KRON_MahoneyCreek,NA,US,Idaho,45.9416847,-116.763672
+NA2,Dixie Town Airstrip,KRON_MahoneyCreek,NA,US,Idaho,45.5528,-115.459526
+NA9,Simonds,KRON_MahoneyCreek,NA,US,Idaho,45.0842476,-115.125732
+NSTR,North Star Ranch,KRON_MahoneyCreek,NA,US,Idaho,45.9359779,-114.8298
+OR62,Cache Creek,KRON_MahoneyCreek,NA,US,Oregon,45.98202,-116.904076
+PIT,Pittsburg Airstrip,KRON_MahoneyCreek,NA,US,Idaho,45.62997,-116.474983
+SAL,Salmon Bar,KRON_MahoneyCreek,NA,US,Oregon,45.86012,-116.7979
+SELW,Selway Lodge,KRON_MahoneyCreek,NA,US,Idaho,46.00573,-114.843658
+SHEP,Shepp Ranch,KRON_MahoneyCreek,NA,US,Idaho,45.4388161,-115.66452
+SRAN,Seminole Ranch,KRON_MahoneyCreek,NA,US,Idaho,46.14052,-114.917381
 WHWR,Whitewater Ranch,KRON_MahoneyCreek,NA,US,Idaho,45.5354462,-115.300362
 KSFF,Felts Field,fs-base,NA,US,Washington,47.68299,-117.3219
 PASY,Eareckson Air Station,kui-pasy,NA,US,Alaska,52.7129822,174.1177
@@ -798,6 +1137,7 @@ KERI,Erie Intl/Tom Ridge Field,fs-base,NA,US,Pennsylvania,42.0828972,-80.17547
 MGPB,Puerto Barrios Airport,mgpb,NA,GT,Guatemala,15.7319317,-88.5843353
 KCVX,Charlevoix Mun,fs-base,NA,US,Michigan,45.3047676,-85.27697
 EKSL,Slaglille Flyveplads,"fs-base, midtsjallands-svaveflyveklub",EU,DK,,55.4522552,11.6395426
+EKSL,Slaglille Flyveplads,"fs-base, midtsjallands-svaveflyveklub",EU,DK,,55.4522552,11.6395426
 EPBK,Bialystok Krywlany,"fs-base, misiekli-epbk",EU,PL,,53.1029625,23.1671276
 EGNV,Durham Tees Valley,fs-base,EU,GB,,54.5105972,-1.42282963
 MRLB,Aeropuerto Intrnacional Daniel Orduber Quirós,"fs-base, MRLB_Daniel_Oduber_Quirós",NA,CR,,10.5933666,-85.5445251
@@ -858,6 +1198,8 @@ EBBR,Brussels National,fs-base,EU,BE,,50.89995,4.49278831
 UKLL,Lviv Danylo Halytskyi Intl Airport,"fs-base, pyreegue-lviv-danylo-halytskyi",EU,UA,Lvivska Oblast`,49.8118324,23.9611645
 LFMR,Aérodrome De Barcelonnette - Saint-Pons,"fs-base, quelcertoleo-lfmr-barcelonette",EU,FR,,44.3864021,6.609577
 LIIZ,Aviosuperficie Carzago Riviera,"fs-base, quelcertoleo-liiz-garda",EU,IT,,45.5161324,10.4646921
+LILB,Alzate Brianza,"fs-base, quelcertoleo-limb-lily",EU,IT,,45.7711258,9.164887
+LILY,Aero Club Como,quelcertoleo-limb-lily,EU,IT,,45.81407,9.070686
 LIMB,Bresso,"fs-base, quelcertoleo-limb-lily",EU,IT,,45.5367546,9.19961548
 LIMJ,Aeroporto Di Genova-Sestri,"fs-base, quelcertoleo-limj-genova",EU,IT,,44.4149055,8.848096
 LIPB,San Giacomo Airport,"fs-base, quelcertoleo-lipb-bolzano",EU,IT,,46.4626541,11.329339
@@ -890,6 +1232,8 @@ EGCJ,Sherburn Om Elmet,"fs-base, rl-airport-egcj-sherburn-sherburninelmet",EU,GB
 SDAG,Sdag,"fs-base, RMStudios SDAG v2.0",SA,BR,Rio De Janeiro,-22.9739437,-44.304348
 EDDK,Collogne-Bonn Airport,"fs-base, rofler-airport-eddk-collogne-bonn",EU,DE,,50.8668365,7.142198
 CNC3,Brampton Airport,"fs-base, romandesign-airport-cnc3-lite",NA,CA,Ontario,43.7597046,-79.8744049
+HWI,Hawk Inlet Seaplane Base,rtmm-admiraltyisland,NA,US,Alaska,58.1231079,-134.755127
+PANR,Funter Bay Seaplane Base,rtmm-admiraltyisland,NA,US,Alaska,58.2541,-134.895309
 PAGN,Angoon Seaplane Base,rtmm-admiraltyisland,NA,US,Alaska,57.5186539,-134.600174
 FARM,Richmond Airport,fs-base,AF,ZA,,-31.4218769,23.9762917
 PF02,Humpback Lake Cabin,rtmm-humpbacklakecabin,NA,US,Alaska,55.02725,-130.5405
@@ -934,6 +1278,13 @@ SBGR,Guarulhos,"fs-base, sbgr",SA,BR,,-23.4290657,-46.4702873
 SBML,Marilia,"fs-base, sbml-brairports",SA,BR,Sao Paulo,-22.1971931,-49.9270134
 SBRB,Rio Branco,"fs-base, sbrb-brairports",SA,BR,Acre,-9.86932,-67.8954849
 SBRD,Rondonopolis,"fs-base, sbrd-brairports",SA,BR,Mato Grosso,-16.5875511,-54.7240639
+LSGC,Les Eplatures,"lsgc Les Eplatures, sc-airport-swiss-airfields",EU,CH,Neuchâtel,47.0847435,6.7970643
+LSPG,Kägiswil,"chrispriv-lspg01, sc-airport-swiss-airfields",EU,CH,Obwalden,46.9070854,8.254173
+LSPH,Hegmatten,"fs-base, sc-airport-swiss-airfields",EU,CH,Zürich,47.51487,8.771898
+LSZI,Fricktal-Schupfart,"fs-base, sc-airport-swiss-airfields",EU,CH,Aargau,47.5087776,7.95046425
+LSZK,Speck,"fs-base, sc-airport-swiss-airfields",EU,CH,Zürich,47.3760948,8.758301
+LSZQ,Bressaucourt,"fs-base, sc-airport-swiss-airfields",EU,CH,Jura,47.3925934,7.02946949
+LSZT,Lommis,"fs-base, sc-airport-swiss-airfields",EU,CH,Thurgau,47.52468,9.002818
 LSZV,Sitterdorf,"fs-base, sc-airport-swiss-airfields",EU,CH,Thurgau,47.5089569,9.262698
 LFEJ,Villers,"fs-base, scenareal-chateauroux_villers-lfej",EU,FR,Indre,46.84062,1.62021649
 LFFY,Etrepagny,"fs-base, scenareal-etrepagny-lffy",EU,FR,Normandie,49.3056068,1.63693476
@@ -1037,6 +1388,9 @@ SKSG,Los Pozos,vpilotdesigns-sksg,SA,CO,,6.59076071,-73.12888
 SDLY,Aeroporto Municipal Armando Natali,vref-sdlyscene,SA,BR,Sao Paulo,-21.6248245,-48.3503647
 SSCF,Max Fontoura,"fs-base, vref-sscf",SA,BR,,-25.4263725,-49.5243454
 VTBS,Suvarnabhumi Intl,fs-base,AS,TH,,13.6808414,100.747681
+EPKQ,Karczew,warsawcity,EU,PL,,52.0803261,21.22719
+EPKU,Konstancin,"fs-base, warsawcity",EU,PL,,52.0755043,21.1839485
+EPNS,Chrcynno,"fs-base, warsawcity",EU,PL,,52.57476,20.86365
 KBWI,Baltimore-Washington Intl,"fs-base, watsupsrinivasman-airport-kbwi-baltimore",NA,US,Maryland,39.17536,-76.668335
 WIJJ,Sultan Thaha Syaifuddin Airport,wijj,AS,ID,,-1.63606167,103.64286
 ENBR,Flesland,"fs-base, wombiiactual-airport-enbr-fleslandfix_1_0",EU,NO,,60.3001671,5.215073

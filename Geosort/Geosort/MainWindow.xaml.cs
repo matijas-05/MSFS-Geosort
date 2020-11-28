@@ -22,7 +22,8 @@ namespace Geosort
 	{
 		private string m_AddonPath;
 		private bool m_AddonPathValid;
-		private List<Addon> m_Addons = new List<Addon>();
+		private List<Addon> m_AddonsLoaded = new List<Addon>();
+		private List<Addon> m_AddonsAirports = new List<Addon>();
 		private List<Addon> m_NotFound = new List<Addon>();
 		private List<Addon> m_NotIdAsAddonInLNM = new List<Addon>();
 		private List<Addon> m_BadLocation = new List<Addon>();
@@ -60,6 +61,14 @@ namespace Geosort
 				Path = path;
 				Size = size;
 				SizeBytes = sizeBytes;
+			}
+			public Addon(Addon addon)
+			{
+				Name = addon.Name;
+				Path = addon.Path;
+				Size = addon.Size;
+				SizeBytes = addon.SizeBytes;
+				Airport = addon.Airport;
 			}
 		}
 		class Airport
@@ -206,7 +215,7 @@ namespace Geosort
 			m_FirstSort = true;
 
 			// Load addon list
-			m_Addons.Clear();
+			m_AddonsLoaded.Clear();
 			List<string> addonDirs = Directory.GetDirectories(m_AddonPath).ToList();
 
 			// Abort if dir is empty
@@ -222,8 +231,8 @@ namespace Geosort
 			}
 
 			// Add addons to UI
-			addonList.ItemsSource = m_Addons;
-			addonLabel.Content = $"Addons ({m_Addons.Count}):";
+			addonList.ItemsSource = m_AddonsLoaded;
+			addonLabel.Content = $"Addons ({m_AddonsLoaded.Count}):";
 			SortDataView(nameof(Addon.Path), ListSortDirection.Ascending);
 
 			long DirSize(DirectoryInfo d)
@@ -296,7 +305,7 @@ namespace Geosort
 						long sizeBytes = DirSize(resultDir);
 						string size = HumanFileSize(sizeBytes);
 
-						m_Addons.Add(new Addon(name, result, size, sizeBytes));
+						m_AddonsLoaded.Add(new Addon(name, result, size, sizeBytes));
 					}
 				}
 
@@ -333,7 +342,7 @@ namespace Geosort
 
 			LoadDatabases();
 
-			InvokeAndCountElapsedTime(IdentifyAddons);
+			IdentifyAddons();
 			await AssignLocation();
 			LogBadAddons();
 
@@ -344,7 +353,7 @@ namespace Geosort
 				m_NotIdAsAddonInLNM.Clear();
 
 				// Identify addons
-				foreach (Addon addon in m_Addons)
+				foreach (Addon addon in m_AddonsLoaded)
 				{
 					string result = "";
 					string stoppedAt = "";
@@ -370,15 +379,24 @@ namespace Geosort
 					// Identify airport based on lnm local_path var
 					foreach (Airport airport in m_Airports)
 					{
+						if(addon.Name == "warsawcity" && (airport.Ident == "EPNS" || airport.Ident == "EPKU" || airport.Ident == "EPKQ"))
+						{ }
+
 						if (airport.Scenery_Local_Path == "fs-base")
 							continue;
 
 						foreach (string sub in airport.Scenery_Local_Path.Split(new string[] { ", " }, StringSplitOptions.RemoveEmptyEntries))
 						{
 							if (sub != "fs-base" && string.Equals(sub, addon.Name, StringComparison.OrdinalIgnoreCase))
+							{
 								result = Result(addon, airport, addon.Name);
+								Log.WriteLine(result);
+							}
 						}
 					}
+
+					if (result != "")
+						continue;
 
 					// If not found, identify airport from addon name
 					if (result == "")
@@ -421,14 +439,32 @@ namespace Geosort
 
 					Log.WriteLine(result);
 				}
-
 				MessageBox.Show("Completed addon identification.", "Sucess", MessageBoxButton.OK, MessageBoxImage.Information);
+
+				bool SkipAddon(string sub)
+				{
+					foreach (SingleWord skipWord in m_SkipWords)
+					{
+						if (string.Equals(sub, skipWord.Word, StringComparison.OrdinalIgnoreCase)
+							|| sub.IndexOf(skipWord.Word, StringComparison.OrdinalIgnoreCase) >= 0)
+							return true;
+					}
+					return false;
+				}
+				string Result(Addon addon, Airport airport, string name)
+				{
+					Addon newAddon = new Addon(addon);
+					newAddon.Airport = airport;
+					m_AddonsAirports.Add(newAddon);
+
+					return $"{airport.Name} ({airport.Ident}) [{name}]: {airport.Country}, {airport.State}";
+				}
 			}
 			async Task AssignLocation()
 			{
 				// Read location cache and load it into airports
 				List<Airport> locationCache = ReadLocationCache();
-				foreach (var addon in m_Addons)
+				foreach (var addon in m_AddonsAirports)
 				{
 					foreach (var arp in locationCache)
 					{
@@ -446,10 +482,10 @@ namespace Geosort
 
 				async Task AssignMissingLocation()
 				{
-					int airportsWithoutLocation = m_Addons.Where(addon => addon.Airport != null && addon.Airport.Country == "").Count();
+					int airportsWithoutLocation = m_AddonsAirports.Where(addon => addon.Airport != null && addon.Airport.Country == "").Count();
 
 					Log.WriteHeader($"ASSIGNING LOCATION");
-					foreach (Addon addon in m_Addons)
+					foreach (Addon addon in m_AddonsAirports)
 					{
 						if (addon.Airport == null || locationCache.Any(arp => arp.Ident == addon.Airport.Ident && arp.Scenery_Local_Path == addon.Airport.Scenery_Local_Path))
 							continue;
@@ -478,7 +514,7 @@ namespace Geosort
 						if (responseValid)
 						{
 							var address = ((Location)response.ResourceSets[0].Resources[0]).Address;
-							addon.Airport.Country = address.CountryRegionIso2 ?? address.Locality;
+							addon.Airport.Country = address.CountryRegionIso2 ?? address.CountryRegion ?? address.Locality;
 
 							if (addon.Airport.State == "" && addon.Airport.Country == "US")
 								addon.Airport.State = address.AdminDistrict;
@@ -498,7 +534,7 @@ namespace Geosort
 				void AssignContinents()
 				{
 					// Assign continent
-					foreach (Addon addon in m_Addons)
+					foreach (Addon addon in m_AddonsAirports)
 					{
 						if (addon.Airport == null)
 							continue;
@@ -579,30 +615,6 @@ namespace Geosort
 						Log.WriteLine(addon.Name);
 					}
 				}
-			}
-
-			bool SkipAddon(string sub)
-			{
-				foreach (SingleWord skipWord in m_SkipWords)
-				{
-					if (string.Equals(sub, skipWord.Word, StringComparison.OrdinalIgnoreCase)
-						|| sub.IndexOf(skipWord.Word, StringComparison.OrdinalIgnoreCase) >= 0)
-						return true;
-				}
-				return false;
-			}
-			string Result(Addon addon, Airport airport, string name)
-			{
-				addon.Airport = airport;
-				return $"{airport.Name} ({airport.Ident}) [{name}]: {airport.Country}, {airport.State}";
-			}
-			void InvokeAndCountElapsedTime(Action method)
-			{
-				Stopwatch watch = new Stopwatch();
-				watch.Start();
-				method.Invoke();
-				watch.Stop();
-				Log.WriteLine("TIME ELAPSED: " + watch.ElapsedMilliseconds);
 			}
 		}
 
