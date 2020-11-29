@@ -57,7 +57,6 @@ EGGP,Liverpool,"fs-base, airport-eggp-liverpool-superspud",EU,GB,,53.33412,-2.85
 EGHC,St Just,"fs-base, airport-eghc-landsend-superspud",EU,GB,Kernow,50.10265,-5.66996
 EGHQ,St Mawgan AB,"fs-base, airport-eghq-newquay-superspud",EU,GB,,50.4410362,-4.995332
 EGPR,Barra,airport-egpr-barra-superspud-nopoles,EU,United Kingdom,,57.02363,-7.442347
-EGPR,Barra,airport-egpr-barra-superspud-nopoles,EU,United Kingdom,,57.02363,-7.442347
 EGPW,Baltasound Airfield,"fs-base, airport-egpw-unst1.1-superspud",EU,GB,,60.7458153,-0.8521069
 EGTE,Exeter,"fs-base, airport-egte-exeter-superspud",EU,GB,,50.7324448,-3.41972661
 EGZR,Foula Airfield,"fs-base, airport-egzr-foula1.0-superspud",EU,GB,,60.1223869,-2.05307817
@@ -70,6 +69,7 @@ FHSH,St Helena,airport-fhsh-sthelena1.41-superspud,AF,SH,St Helena,-15.9575462,-
 LFQD,Roclincourt-Arras,"fs-base, airport-france-lfqd roclincourt 1.10",EU,FR,,50.32379,2.80259514
 KNZY,North Island Naval Air Station,"airport-julysfire-knzy, julysfire-airport-knzy-northislandnas",NA,US,California,32.69895,-117.215164
 KHF,Kenyon Hall Farm,airport-khf-strip,EU,GB,,53.4543877,-2.58100963
+KOQN,Brandywine,fs-base,NA,US,Pennsylvania,39.9901237,-75.58191
 LDVA,Varazdin,fs-base,EU,HR,,46.29447,16.3833771
 LEZG,Zaragoza,airport-lezg,EU,ES,Aragon,41.66873,-1.04586387
 LFCS,Leognan Saucats,"fs-base, airport-lfcs-leognan",EU,FR,,44.6987038,-0.5965818
@@ -93,7 +93,6 @@ ZBAR,Alxa Right Banner,airport-zbar-badanjilin-mottoth,AS,CN,Inner Mongolia,39.2
 ZBCD,Puning,airport-zbcd-chengde-mottoth,AS,CN,Hebei,41.1210175,118.075989
 ZBLF,Qiaoli,airport-zblf-linfen-mottoth,AS,CN,Shanxi,36.1311569,111.641548
 ZGNN,Wuxu,airport-zgnn-nanning-mottoth,AS,CN,Guangxi,22.6090126,108.176064
-ZKWS,Kalma,"fs-base, airport-zkwskalma",AS,KP,,39.1634674,127.488762
 ZKWS,Kalma,"fs-base, airport-zkwskalma",AS,KP,,39.1634674,127.488762
 ZKWS,Kalma,"fs-base, airport-zkwskalma",AS,KP,,39.1634674,127.488762
 ZLDL,Delingha Airport,airport-zldl-delingha-mottoth,AS,CN,Qinghai,37.1252174,97.2687454
@@ -176,6 +175,8 @@ LECU,Cuatro Vientos,fs-base,EU,ES,,40.3713226,-3.78467369
 SDUN,Itaperuna,"fs-base, aviationandsimulation-airport-sdun-itaperuna",SA,BR,,-21.2170467,-41.8723755
 ENBM,Bømoen,aw-airport-enbm-bomoen,EU,NO,Vestland,60.6392632,6.4971323
 ENSD,Anda,"fs-base, aw-airport-ensd-anda",EU,NO,Vestland,61.83017,6.10739565
+FNXX,Oncocua,axelstall-fnon01,AF,AO,,-16.6517315,13.4159908
+KGPF,Port-Aux-Francis,axelstall-kerguelen01,AN,TF,,-49.3515244,70.21497
 ENKA,Kautokeino,"fs-base, A_ENKA-Kautokeino",EU,NO,,69.04005,23.0339527
 ENSQ,Setermoen,"fs-base, A_ENSQ_Setermoen",EU,NO,,68.85666,18.350069
 ESAV,Kattleberg,"fs-base, ba-esav-scenery",EU,SE,,57.979,12.1430893
@@ -212,6 +213,7 @@ LEMH,Menorca Airport,"fs-base, bouill-lemh-rg",EU,ES,,39.8628273,4.21874666
 LEPA,Son Sant Joan,"fs-base, bouill-lepa-fw",EU,ES,,39.5523758,2.73855019
 LEVX,Aeropuerto Vigo Peinador,"fs-base, bouill-levx-rg",EU,ES,,42.22231,-8.629356
 SSSC,Aeroporto Luiz Back Da Silva,"fs-base, BR-SSSC",SA,BR,Rios Grande Do Sul,-29.6842575,-52.4124641
+LFOP,Rouen/Vallee De Seine,fs-base,EU,FR,,49.3865852,1.18472862
 L1153,Limoux,Brepaddon LF1153-Limoux,EU,FR,,43.0574532,2.226678
 LEAB,Los Llanos,"brepaddon-airport-leab-losllanos, LEAB Los Llanos Albacete v2.0",EU,ES,,38.9480858,-1.86906743
 LFNN,Narbonne,"fs-base, brepaddon-airport-lfnn-narbonne V1.2",EU,FR,,43.1938,3.05108976
@@ -237,6 +239,7 @@ EKOF,Revninge Flyveplads,cc-airfield -revninge,EU,DK,,55.4188,10.6707287
 EKBO,Bogense Flyveplads,"fs-base, cc-airport-ekbo",EU,DK,,55.5434875,10.0325069
 CEC4,Jasper-Hinton,"fs-base, cec4",NA,CA,Alberta,53.320694,-117.751953
 CEG4,Drumheller,"fs-base, ceg4",NA,CA,Alberta,51.4969559,-112.748619
+CEQ3,Camrose,fs-base,NA,CA,Alberta,53.039814,-112.816269
 EGJA,Alderney,"fs-base, channel islands airport-egja-alderney-superspud",EU,GG,,49.7070122,-2.21459317
 EGJB,Guernsey,"fs-base, channel islands airport-egjb-guernsey-superspud",EU,GG,Guernsey,49.4344521,-2.59596157
 EGJJ,Jersey,"fs-base, channel islands airport-egjj-jersey-superspud",EU,JE,,49.2069054,-2.19048858
@@ -269,6 +272,8 @@ EPRZ,Jasionka,"fs-base, cmdesign-eprz",EU,PL,,50.1135063,22.0264988
 EPRZ,Jasionka,"fs-base, cmdesign-eprz",EU,PL,,50.1135063,22.0264988
 EPSC,Goleniow,"fs-base, cmdesign-epsc",EU,PL,,53.5928726,14.89419
 EPSC,Goleniow,"fs-base, cmdesign-epsc",EU,PL,,53.5928726,14.89419
+EPSY,Szymany,fs-base,EU,PL,,53.47977,20.9365139
+EPSY,Szymany,fs-base,EU,PL,,53.47977,20.9365139
 EPTO,Lotnisko Aeroklubu Pomorskiego,"fs-base, cmdesign-epto",EU,PL,,53.02733,18.5557384
 EPWR,Strachowice,"fs-base, cmdesign-epwr",EU,PL,,51.11079,16.8773632
 EPZG,Babimost,"fs-base, cmdesign-epzg",EU,PL,,52.1372375,15.7778568
@@ -374,6 +379,7 @@ DTTA,Carthage,"fs-base, dttascenery",AF,TN,,36.8511124,10.226944
 EGPN,Dundee Airport,"fs-base, dundee-airport-v1-0-3",EU,GB,,56.4525948,-3.024697
 LFRO,Lannion,fs-base,EU,FR,,48.75441,-3.47220325
 LFRO,Lannion,fs-base,EU,FR,,48.75441,-3.47220325
+LOIJ,Flugplatz St.Johann In Tirol,"fs-base, sdr-loij",EU,AT,Osterreich,47.5187721,12.4516573
 EHMZ,Midden Zeeland,"fs-base, eager-airport-ehmz-middenzeeland",EU,NL,Zeeland,51.5126076,3.73094773
 EBAM,Amougies Airport,"fs-base, EBAM_MSFS2020, kayjaybe-ebam",EU,BE,,50.74,3.48517466
 EBAR,Arlon-Sterpenich Ulm Eischen,"fs-base, EBAR_MSFS2020",EU,BE,,49.6622658,5.888455
@@ -797,6 +803,7 @@ YWBL,Warrnambool,fs-base,OC,AU,Victoria,-38.2949524,142.447388
 YYEA,Yeaburn,"fs-base, jordanjames94-yyea-yeaburn",OC,AU,Victoria,-37.17789,145.322983
 YBDG,Bendigo Airport,jordanjames94-ybdg,OC,AU,Victoria,-36.7380753,144.3261
 YTYA,Tyabb Airport,"fs-base, jordanjames94-ytya",OC,AU,Victoria,-38.26425,145.180649
+CYFB,Iqaluit,fs-base,NA,CA,Nunavut,63.7565727,-68.5561142
 RJAW,Iwoto AB,"iwojima-airport-rjaw-iwotoairport, jpiwotorjaw, jpiwotorjaw",AS,JP,Tokyo,24.7830677,141.322128
 RJAW,Iwoto AB,"iwojima-airport-rjaw-iwotoairport, jpiwotorjaw, jpiwotorjaw",AS,JP,Tokyo,24.7830677,141.322128
 RORK,Kitadaito,jpkitadaitojimarork,AS,JP,Okinawa,25.9436188,131.326538
@@ -848,7 +855,6 @@ P19,Stellar Airpark,"fs-base, justokayscenery-p19",NA,US,Arizona,33.2988243,-111
 EPPG,Kakolewo,kakolewo,EU,PL,Greather Poland,52.2361679,16.2349682
 CYKG,Kangiqsujuaq Airport,kangiqsujuaq,NA,CA,Quebec,61.5885239,-71.92893
 EDER,Wasserkuppe,"karlo-airport-eder-wasserkuppe, z_karlo-airport-eder-wasserkuppe",EU,DE,,50.4986534,9.95193
-HEAT,Asyut Intl,fs-base,AF,EG,,27.0465,31.0120068
 EPJA,Jastarnia Airfield,"fs-base, kasug-epja",EU,PL,,54.7108841,18.6438274
 EBAM,Amougies Airport,"fs-base, EBAM_MSFS2020, kayjaybe-ebam",EU,BE,,50.74,3.48517466
 EBGG,Overboelare Airfield,"fs-base, EBGG_MSFS2020, kayjaybe-ebgg",EU,BE,,50.7536469,3.86221433
@@ -880,8 +886,8 @@ KLXN,Kelly,fs-base,NA,US,Nebraska,40.79026,-99.77545
 KMGJ,Orange Co,fs-base,NA,US,New York,41.5097771,-74.2642746
 RPLM,Cesar Lim Rodriguez Airport,"fs-base, Kml921-airport-rplm-taytay",AS,PH,Palawan,11.0504751,119.519234
 RPSV,San Vicente Airport,"fs-base, Kml921-airport-rpsv-sanvicente",AS,PH,Palawan,10.52463,119.273224
+RPVE,Caticlan,fs-base,AS,PH,,11.926053,121.956955
 KMWH,Grant Co Intl,fs-base,NA,US,Washington,47.2106133,-119.321045
-LGKH,Kolchiko Airfield Lgzz04,"fs-base, Kolchiko Airfield Rwy & Aprons",EU,GR,,40.74548,23.1226482
 LGKH,Kolchiko Airfield Lgzz04,"fs-base, Kolchiko Airfield Rwy & Aprons",EU,GR,,40.74548,23.1226482
 LGKH,Kolchiko Airfield Lgzz04,"fs-base, Kolchiko Airfield Rwy & Aprons",EU,GR,,40.74548,23.1226482
 EKVE,Kolding Flyveklub,"fs-base, kolding-flyveklub",EU,DK,,55.5516243,9.19332
@@ -1105,6 +1111,7 @@ WMAU,Mersing,kychungdotcom-airport-wmau-mersing,AS,MY,Johor,2.3888514,103.87484
 WMBR,Bernam River Airfield,kychungdotcom-airport-wmbr-bernam,AS,MY,Selangor,3.76735425,101.327385
 WMKM,Malacca Intl,kychungdotcom-airport-wmkm-malacca,AS,MY,Johor,2.26305556,102.2525
 VRMR,Fuvahmulah Airport,airport-vrmr-fuvahmulah-0235_0.2,AS,MV,,-0.309362978,73.43249
+VRQM,Maavaarulaa Airport,airport_vrqm_maavaarulaa_0235_0.1,AS,MV,,0.3393313,73.51196
 VRBK,Kulhudhuffushi Airport,airport_vrbk_kulhudhuffushi_0235_0.2,AS,MV,,6.63089466,73.0675049
 VRDA,Maafaru International Airport,airport_vrda_maafaru_international_0235_0.2,AS,MV,,5.81878138,73.47001
 VREI,Ifuru Airport,airport_vrei_ifuru_0235_0.2,AS,MV,,5.70598173,73.02531
@@ -1114,7 +1121,6 @@ VRMT,Kaadedhdhoo Airport,airport_vrmt_kaadedhdhoo_0235_0.1,AS,MV,,0.4877389,72.9
 VRMU,Dhaalu Airport,airport_vrmu_dhaalu_0235_0.1,AS,MV,,2.666168,72.88714
 VRMV,Maamigili Airport,airport_vrmv_maamigili_0235_0.1,AS,MV,,3.471743,72.83447
 VRNT,Thimarafushi Airport,"fs-base, airport_vrnt_thimarafushi_0235_0.1",AS,MV,,2.20986152,73.15214
-VRQM,Maavaarulaa Airport,airport_vrqm_maavaarulaa_0235_0.1,AS,MV,,0.3393313,73.51196
 VRSF,Funadhoo Airport,airport_vrsf_funadhoo_0235_0.1,AS,MV,,6.16148663,73.2889557
 SULS,Laguna Del Sauce,"fs-base, maldonadosuls",SA,UY,Maldonado,-34.8569145,-55.09829
 LTON,Samsun Ondokuz Mayis,"fs-base, malioguducu-airport-lton-ondokuzmayis",AS,TR,,41.5131645,36.11828
@@ -1136,7 +1142,6 @@ KERI,Erie Intl/Tom Ridge Field,fs-base,NA,US,Pennsylvania,42.0828972,-80.17547
 KERI,Erie Intl/Tom Ridge Field,fs-base,NA,US,Pennsylvania,42.0828972,-80.17547
 MGPB,Puerto Barrios Airport,mgpb,NA,GT,Guatemala,15.7319317,-88.5843353
 KCVX,Charlevoix Mun,fs-base,NA,US,Michigan,45.3047676,-85.27697
-EKSL,Slaglille Flyveplads,"fs-base, midtsjallands-svaveflyveklub",EU,DK,,55.4522552,11.6395426
 EKSL,Slaglille Flyveplads,"fs-base, midtsjallands-svaveflyveklub",EU,DK,,55.4522552,11.6395426
 EPBK,Bialystok Krywlany,"fs-base, misiekli-epbk",EU,PL,,53.1029625,23.1671276
 EGNV,Durham Tees Valley,fs-base,EU,GB,,54.5105972,-1.42282963
@@ -1303,10 +1308,10 @@ SDIM,Dr. Antonio R. Nogueira Jr.,"fs-base, sdim-runway",SA,BR,Sao Paulo,-24.1589
 SDIM,Dr. Antonio R. Nogueira Jr.,"fs-base, sdim-runway",SA,BR,Sao Paulo,-24.1589317,-46.7915039
 VNJS,Jomsom Airport,"fs-base, sdr-jomsom",AS,NP,,28.7813244,83.724205
 ZULS,Gonggar,"fs-base, Gonggar",AS,CN,Lhasa,29.2942924,90.9000549
-LOIJ,Flugplatz St.Johann In Tirol,"fs-base, sdr-loij",EU,AT,Osterreich,47.5187721,12.4516573
 NZMF,Milford Sound,"fs-base, sdr-milford",OC,NZ,New Zealand,-44.6734428,167.9228
 LSZS,Samedan Airport,"fs-base, sdr-Samedan",EU,CH,Swiss,46.5292969,9.87997
 NZTL,Tekapo Airport,"fs-base, sdr-tekapo",OC,NZ,New Zealand,-44.0043564,170.444641
+SDTP,Tupa,fs-base,SA,BR,,-21.8890266,-50.505
 ULAA,Talagi,"fs-base, serega-ulaa",AS,RU,,64.59559,40.7145729
 SFAL,Port Stanley,"fs-base, sfal",SA,FK,British Overseas Territory,-51.68594,-57.7779236
 EDZH,Neuruppin Airfield,fs-base,EU,DE,,52.9422569,12.779253
@@ -1359,6 +1364,7 @@ EGTY,Strathaven Airfield,"fs-base, thegarner-airport-egty-strathavenairfield",EU
 EGVZ,Fort Augustus Airfield,"fs-base, thegarner-airport-egvz-fortaugustus",EU,GB,,57.1284027,-4.670477
 WOL,Woolston Moss (Warrington),thegarner-woolstonmoss-airstrip,EU,GB,,53.4080162,-2.51078176
 E533,Privatflugplatz Wagen-Starnberg,tl1980-airport-e533-wangen-starnberg,EU,DE,Bavaria,48.0162849,11.4199743
+BGSF,Kangerlussuaq,fs-base,NA,GL,,67.0116,-50.7147446
 TNCM,Princess Juliana Intl,fs-base,NA,Saint-Martin,,18.0409374,-63.1089745
 ETSI,Ingolstadt Manching,troubadix-etsi01,EU,DE,,48.71333,11.5319223
 TTCO,Camden Airfield,"fs-base, ttcoairport-scene",NA,TT,,10.4281893,-61.4404449

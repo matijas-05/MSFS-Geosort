@@ -34,12 +34,15 @@ namespace Geosort
 
 		private Airport[] m_Airports;
 		private CountryContinentPair[] m_CountryContinent;
+		private NameCodePair[] m_Continents;
 		private NameCodePair[] m_US_States;
 		private AirportCorrection[] m_AirportCorrections;
-		private SingleWord[] m_SkipWords;
+		private SkipWord[] m_SkipWords;
 
+		private const string ADDONS_PATH = @"E:\Gry\!Mody\Community";
 		private const string AIRPORTS_PATH = "Database\\airports_lnm.csv";
 		private const string COUNTRIES_CONTINENTS_PATH = "Database\\countries_continents.csv";
+		private const string CONTINENTS_PATH = "Database\\continents.csv";
 		private const string US_STATES_PATH = "Database\\us_states.csv";
 		private const string AIRPORT_CORRECTION_PATH = "Database\\airport_correction.csv";
 		private const string SKIP_WORDS_PATH = "Database\\skip_words.csv";
@@ -51,6 +54,7 @@ namespace Geosort
 		{
 			public string Name { get; set; }
 			public string Path { get; set; }
+			public string RelativePath => Path.Remove(0, ADDONS_PATH.Length);
 			public string Size { get; set; }
 			public long SizeBytes { get; set; }
 			public Airport Airport { get; set; }
@@ -125,9 +129,10 @@ namespace Geosort
 			public string Addon_Name { get; set; }
 			public string Country { get; set; }
 		}
-		struct SingleWord
+		struct SkipWord
 		{
 			public string Word { get; set; }
+			public bool Compare_Full_Name { get; set; }
 		}
 		struct CountryContinentPair
 		{
@@ -149,17 +154,17 @@ namespace Geosort
 			// TODO: Actually read from save file
 			void ReadSave()
 			{
-				addonFolderPicker.ChangePath(@"E:\Gry\!Mody\Community");
+				addonFolderPicker.ChangePath(ADDONS_PATH);
 			}
 		}
-
 		// TODO: Load database only when starting and database changed (check last time of modifiaction?)
 		void LoadDatabases()
 		{
 			m_Airports = ReadFile<Airport>(AIRPORTS_PATH);
 			m_CountryContinent = ReadFile<CountryContinentPair>(COUNTRIES_CONTINENTS_PATH);
+			m_Continents = ReadFile<NameCodePair>(CONTINENTS_PATH);
 			m_AirportCorrections = ReadFile<AirportCorrection>(AIRPORT_CORRECTION_PATH);
-			m_SkipWords = ReadFile<SingleWord>(SKIP_WORDS_PATH);
+			m_SkipWords = ReadFile<SkipWord>(SKIP_WORDS_PATH);
 
 			T[] ReadFile<T>(string path)
 			{
@@ -377,26 +382,22 @@ namespace Geosort
 					}
 
 					// Identify airport based on lnm local_path var
-					foreach (Airport airport in m_Airports)
+					if (result == "")
 					{
-						if(addon.Name == "warsawcity" && (airport.Ident == "EPNS" || airport.Ident == "EPKU" || airport.Ident == "EPKQ"))
-						{ }
-
-						if (airport.Scenery_Local_Path == "fs-base")
-							continue;
-
-						foreach (string sub in airport.Scenery_Local_Path.Split(new string[] { ", " }, StringSplitOptions.RemoveEmptyEntries))
+						foreach (Airport airport in m_Airports)
 						{
-							if (sub != "fs-base" && string.Equals(sub, addon.Name, StringComparison.OrdinalIgnoreCase))
+							if (airport.Scenery_Local_Path == "fs-base")
+								continue;
+
+							foreach (string sub in airport.Scenery_Local_Path.Split(new string[] { ", " }, StringSplitOptions.RemoveEmptyEntries))
 							{
-								result = Result(addon, airport, addon.Name);
-								Log.WriteLine(result);
+								if (sub != "fs-base" && string.Equals(sub, addon.Name, StringComparison.OrdinalIgnoreCase))
+								{
+									result = Result(addon, airport, addon.Name);
+								}
 							}
 						}
 					}
-
-					if (result != "")
-						continue;
 
 					// If not found, identify airport from addon name
 					if (result == "")
@@ -405,7 +406,7 @@ namespace Geosort
 						{
 							stoppedAt = sub;
 
-							if (SkipAddon(sub))
+							if (SkipAddon(sub, addon.Name))
 							{
 								result = $"SKIPPED {addon.Name}";
 								break;
@@ -439,15 +440,22 @@ namespace Geosort
 
 					Log.WriteLine(result);
 				}
-				MessageBox.Show("Completed addon identification.", "Sucess", MessageBoxButton.OK, MessageBoxImage.Information);
+				MessageBox.Show("Completed addon identification.", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
 
-				bool SkipAddon(string sub)
+				bool SkipAddon(string sub, string addonName)
 				{
-					foreach (SingleWord skipWord in m_SkipWords)
+					foreach (SkipWord word in m_SkipWords)
 					{
-						if (string.Equals(sub, skipWord.Word, StringComparison.OrdinalIgnoreCase)
-							|| sub.IndexOf(skipWord.Word, StringComparison.OrdinalIgnoreCase) >= 0)
-							return true;
+						if (!word.Compare_Full_Name)
+						{
+							if (string.Equals(sub, word.Word, StringComparison.OrdinalIgnoreCase) || sub.IndexOf(word.Word, StringComparison.OrdinalIgnoreCase) >= 0)
+								return true; 
+						}
+						else
+						{
+							if (string.Equals(addonName, word.Word, StringComparison.OrdinalIgnoreCase))
+								return true;
+						}
 					}
 					return false;
 				}
@@ -621,7 +629,58 @@ namespace Geosort
 		// TODO
 		void sortBtn_Click(object sender, RoutedEventArgs e)
 		{
+			string outputPath = @"E:\Gry\!Mody\test";
+			foreach (Addon addon in m_AddonsAirports)
+			{
+				string path = outputPath + addon.Path.Remove(0, ADDONS_PATH.Length);
+				Directory.CreateDirectory(path);
+				File.Create(path + "\\manifest.txt").Close();
+			}
+			foreach (var continent in m_Continents)
+			{
+				Directory.CreateDirectory(outputPath + @"\!!!" + continent.Name);
+			}
 
+			foreach (Addon addon in m_AddonsAirports)
+			{
+				// Sort by continent
+				if (sortContinent.IsChecked.Value)
+				{
+					// Create continent dirs
+					foreach (var continent in m_Continents)
+					{
+						if (continent.Code == addon.Airport.Continent)
+						{
+							if (!Directory.Exists(outputPath + addon.RelativePath))
+								continue;
+
+							string continentDirName = "!!!" + continent.Name;
+							int index = addon.RelativePath.LastIndexOf(addon.Name);
+							string addonParentFolders = addon.RelativePath.Remove(index, addon.Name.Length) != "\\" ? addon.RelativePath.Remove(index, addon.Name.Length) : "";
+							string addonFolderRoot = addonParentFolders.Split(new string[] { "\\" }, StringSplitOptions.RemoveEmptyEntries).FirstOrDefault();
+
+							if (addonFolderRoot != null) addonFolderRoot = "\\" + addonFolderRoot;
+
+							// Add parent directories to output path and move airport folder
+							Directory.CreateDirectory($"{outputPath}\\{continentDirName}{addonParentFolders}");
+							Directory.Move(outputPath + addon.RelativePath, outputPath + "\\" + continentDirName + addon.RelativePath);
+
+							// Delete root folder if there is an additional folder containing airports eg. Malaysian Airports/xxxx, Malaysian Airports/yyyy
+							if (addonFolderRoot != null)
+							{
+								DirectoryInfo addonFolderRootDir = new DirectoryInfo(outputPath + addonFolderRoot);
+								if (addonFolderRootDir.GetFiles("*", SearchOption.AllDirectories).Length == 0)
+								{
+									Directory.Delete(addonFolderRootDir.FullName, true);
+								}
+							}
+
+							break;
+						}
+					}
+				}
+				MessageBox.Show("Finished sorting.", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+			}
 		}
 
 		void addonFolderPicker_OnFilePicked(string path)
