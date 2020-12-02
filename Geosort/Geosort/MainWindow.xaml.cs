@@ -22,6 +22,9 @@ namespace Geosort
 	{
 		private string m_AddonPath;
 		private bool m_AddonPathValid;
+		private string m_OutputPath;
+		private bool m_OutputPathValid;
+
 		private List<Addon> m_AddonsLoaded = new List<Addon>();
 		private List<Addon> m_AddonsAirports = new List<Addon>();
 		private List<Addon> m_NotFound = new List<Addon>();
@@ -40,6 +43,7 @@ namespace Geosort
 		private SkipWord[] m_SkipWords;
 
 		private const string ADDONS_PATH = @"E:\Gry\!Mody\Community";
+		private const string OUTPUT_PATH = @"E:\Gry\!Mody\test";
 		private const string AIRPORTS_PATH = "Database\\airports_lnm.csv";
 		private const string COUNTRIES_CONTINENTS_PATH = "Database\\countries_continents.csv";
 		private const string CONTINENTS_PATH = "Database\\continents.csv";
@@ -142,6 +146,8 @@ namespace Geosort
 			public string Two_Letter_Country_Code { get; set; }
 			public string Three_Letter_Country_Code { get; set; }
 			public string Country_Number { get; set; }
+
+			public string GetSimpleCountryName() => Country_Name.Split(new string[] { ", " }, StringSplitOptions.RemoveEmptyEntries)[0];
 		}
 
 		public MainWindow()
@@ -155,6 +161,7 @@ namespace Geosort
 			void ReadSave()
 			{
 				addonFolderPicker.ChangePath(ADDONS_PATH);
+				outputFolderPicker.ChangePath(OUTPUT_PATH);
 			}
 		}
 		// TODO: Load database only when starting and database changed (check last time of modifiaction?)
@@ -163,6 +170,7 @@ namespace Geosort
 			m_Airports = ReadFile<Airport>(AIRPORTS_PATH);
 			m_CountryContinent = ReadFile<CountryContinentPair>(COUNTRIES_CONTINENTS_PATH);
 			m_Continents = ReadFile<NameCodePair>(CONTINENTS_PATH);
+			m_US_States = ReadFile<NameCodePair>(US_STATES_PATH);
 			m_AirportCorrections = ReadFile<AirportCorrection>(AIRPORT_CORRECTION_PATH);
 			m_SkipWords = ReadFile<SkipWord>(SKIP_WORDS_PATH);
 
@@ -449,7 +457,7 @@ namespace Geosort
 						if (!word.Compare_Full_Name)
 						{
 							if (string.Equals(sub, word.Word, StringComparison.OrdinalIgnoreCase) || sub.IndexOf(word.Word, StringComparison.OrdinalIgnoreCase) >= 0)
-								return true; 
+								return true;
 						}
 						else
 						{
@@ -524,8 +532,7 @@ namespace Geosort
 							var address = ((Location)response.ResourceSets[0].Resources[0]).Address;
 							addon.Airport.Country = address.CountryRegionIso2 ?? address.CountryRegion ?? address.Locality;
 
-							if (addon.Airport.State == "" && addon.Airport.Country == "US")
-								addon.Airport.State = address.AdminDistrict;
+							if (addon.Airport.Country == "US") addon.Airport.State = address.AdminDistrict;
 
 							Log.WriteLine($"{addon.Airport.Name} ({addon.Airport.Ident}): {addon.Airport.Country}");
 						}
@@ -626,67 +633,116 @@ namespace Geosort
 			}
 		}
 
-		// TODO
+		// Sorts addons
 		void sortBtn_Click(object sender, RoutedEventArgs e)
 		{
-			string outputPath = @"E:\Gry\!Mody\test";
-			foreach (Addon addon in m_AddonsAirports)
-			{
-				string path = outputPath + addon.Path.Remove(0, ADDONS_PATH.Length);
-				Directory.CreateDirectory(path);
-				File.Create(path + "\\manifest.txt").Close();
-			}
-			foreach (var continent in m_Continents)
-			{
-				Directory.CreateDirectory(outputPath + @"\!!!" + continent.Name);
-			}
+			//foreach (Addon addon in m_AddonsAirports)
+			//{
+			//	string path = m_OutputPath + addon.Path.Remove(0, ADDONS_PATH.Length);
+			//	Directory.CreateDirectory(path);
+			//	File.Create(path + "\\manifest.txt").Close();
+			//}
 
+			// Sort
 			foreach (Addon addon in m_AddonsAirports)
 			{
+				if (!Directory.Exists(addon.Path))
+					continue;
+
+				int index = addon.RelativePath.LastIndexOf(addon.Name);
+				string addonParentFolders = addon.RelativePath.Remove(index, addon.Name.Length) != "\\" ? addon.RelativePath.Remove(index, addon.Name.Length) : "";
+				string addonFolderRoot = addonParentFolders.Split(new string[] { "\\" }, StringSplitOptions.RemoveEmptyEntries).FirstOrDefault();
+				if (addonFolderRoot != null) addonFolderRoot = "\\" + addonFolderRoot;
+				string dirTree = "";
+
 				// Sort by continent
 				if (sortContinent.IsChecked.Value)
 				{
-					// Create continent dirs
+					bool continentFound = false;
 					foreach (var continent in m_Continents)
 					{
-						if (continent.Code == addon.Airport.Continent)
+						if (continent.Code == addon.Airport.Continent || continent.Name == addon.Airport.Continent)
 						{
-							if (!Directory.Exists(outputPath + addon.RelativePath))
-								continue;
-
-							string continentDirName = "!!!" + continent.Name;
-							int index = addon.RelativePath.LastIndexOf(addon.Name);
-							string addonParentFolders = addon.RelativePath.Remove(index, addon.Name.Length) != "\\" ? addon.RelativePath.Remove(index, addon.Name.Length) : "";
-							string addonFolderRoot = addonParentFolders.Split(new string[] { "\\" }, StringSplitOptions.RemoveEmptyEntries).FirstOrDefault();
-
-							if (addonFolderRoot != null) addonFolderRoot = "\\" + addonFolderRoot;
-
-							// Add parent directories to output path and move airport folder
-							Directory.CreateDirectory($"{outputPath}\\{continentDirName}{addonParentFolders}");
-							Directory.Move(outputPath + addon.RelativePath, outputPath + "\\" + continentDirName + addon.RelativePath);
-
-							// Delete root folder if there is an additional folder containing airports eg. Malaysian Airports/xxxx, Malaysian Airports/yyyy
-							if (addonFolderRoot != null)
-							{
-								DirectoryInfo addonFolderRootDir = new DirectoryInfo(outputPath + addonFolderRoot);
-								if (addonFolderRootDir.GetFiles("*", SearchOption.AllDirectories).Length == 0)
-								{
-									Directory.Delete(addonFolderRootDir.FullName, true);
-								}
-							}
-
+							dirTree += "\\" + continent.Name;
+							continentFound = true;
 							break;
 						}
 					}
+
+					if (!continentFound)
+					{
+						dirTree += "\\zzz_Unassgined";
+					}
 				}
-				MessageBox.Show("Finished sorting.", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+
+				// Sort by country
+				if (sortCountry.IsChecked.Value)
+				{
+					bool countryFound = false;
+					foreach (var country_continent in m_CountryContinent)
+					{
+						if (country_continent.GetSimpleCountryName() == addon.Airport.Country || country_continent.Two_Letter_Country_Code == addon.Airport.Country)
+						{
+							dirTree += "\\" + country_continent.GetSimpleCountryName();
+							countryFound = true;
+							break;
+						}
+					}
+
+					if (!countryFound)
+					{
+						dirTree += "\\zzz_Unassgined";
+					}
+				}
+
+				// Sort by US state
+				if (sortUS_State.IsChecked.Value && addon.Airport.Country == "US")
+				{
+					bool stateFound = false;
+					foreach (var state in m_US_States)
+					{
+						if (addon.Airport.State == state.Name || addon.Airport.State == state.Code)
+						{
+							dirTree += "\\" + state.Name;
+							stateFound = true;
+							break;
+						}
+					}
+
+					if (!stateFound)
+					{
+						dirTree += "\\zzz_Unassgined";
+					}
+				}
+
+				// Add parent directories to output path and move airport folder
+				Directory.CreateDirectory($"{m_OutputPath}\\{dirTree}{addonParentFolders}");
+				if(!(!sortContinent.IsChecked.Value && !sortCountry.IsChecked.Value && sortUS_State.IsChecked.Value))
+					Directory.Move(addon.Path, m_OutputPath + "\\" + dirTree + addon.RelativePath);
+
+				// Delete root folder if there is an additional folder containing airports eg. Malaysian Airports/xxxx, Malaysian Airports/yyyy
+				if (addonFolderRoot != null)
+				{
+					DirectoryInfo addonFolderRootDir = new DirectoryInfo(m_AddonPath + addonFolderRoot);
+					if (addonFolderRootDir.GetFiles("*", SearchOption.AllDirectories).Length == 0)
+					{
+						Directory.Delete(addonFolderRootDir.FullName, true);
+					}
+				}
 			}
+			MessageBox.Show("Finished sorting.", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
 		}
 
 		void addonFolderPicker_OnFilePicked(string path)
 		{
-			m_AddonPath = addonFolderPicker.FilePath;
+			m_AddonPath = path;
 			m_AddonPathValid = Directory.Exists(m_AddonPath);
+			loadBtn.IsEnabled = sortBtn.IsEnabled = m_AddonPathValid;
+		}
+		void outputFolderPicker_OnFilePicked(string path)
+		{
+			m_OutputPath = path;
+			m_OutputPathValid = Directory.Exists(m_OutputPath);
 			loadBtn.IsEnabled = sortBtn.IsEnabled = m_AddonPathValid;
 		}
 
@@ -760,5 +816,6 @@ namespace Geosort
 			dataView.SortDescriptions.Add(sd);
 			dataView.Refresh();
 		}
+
 	}
 }

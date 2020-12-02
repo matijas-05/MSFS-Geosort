@@ -8,13 +8,14 @@ OKBK,Kuwait,"fs-base, 1-kuwait",AS,KW,Kuwait,29.2253284,47.98076
 7WA5,Stuart Island Airpark,"fs-base, 7wa5",NA,US,Washington,48.6734352,-123.175743
 MMAA,General Juan N. Alvarez,"fs-base, acasim-airport-mmaa-fix",NA,MX,,16.7570858,-99.75378
 EGLM,White Waltham,"fs-base, addparking_eglm",EU,GB,England,51.50053,-0.7666831
+SBPK,Aeroporto De Pelotas,"fs-base, Aeroporto - BR RS SBPK LataVoadora MSFS",SA,BR,Rio Grande Do Sul,-31.7162247,-52.33022
 EDLP,Paderborn/Lippstadt,"fs-base, aerosoft-paderborn",EU,DE,North Rhine-Westphalia,51.61409,8.616317
 VOAT,Agatti Airport,agatti,AS,IN,Lakshwadeep,10.82506,72.17629
 LISW,Campo Volo San Felice,"fs-base, aiport-lisw",EU,IT,Italy,44.8329964,11.12098
 LEFM,Fuentemilanos,"fs-base, airhispania-airport-lefm-fuentemilanos",EU,ES,Castilla Y Leon,40.88895,-4.239163
 LEVD,Valladolid-Villanubla,"airhispania-airport-levd-villanubla, jsf-levd-valladolid",EU,ES,Valladolid,41.698246,-4.862558
 LETC,Matilla De Los Canos,"fs-base, airhispania-scene-letc-matilla",EU,ES,Castilla Y Leon,41.53088,-4.923134
-20KT,Brushy Fork Field,airmapper-airport-20kt-brushy-fork-field,NA,US,"Kentucky ",37.6746254,-86.4803848
+20KT,Brushy Fork Field,airmapper-airport-20kt-brushy-fork-field,NA,US,KY,37.6746254,-86.4803848
 4M7,Russellville-Logan County,"fs-base, 4m7, airmapper-airport-4m7-russellville",NA,US,Kentucky,36.79968,-86.81
 M21,Muhlenberg County,"fs-base, airmapper-airport-m21-muhlenberg",NA,US,Kentucky,37.2259941,-87.15736
 CAK3,Delta Heritage Airpark,"fs-base, Airport CAK3 Delta Airpark-v1.0",NA,CA,Bc,49.078804,-122.939819
@@ -76,9 +77,11 @@ LFCS,Leognan Saucats,"fs-base, airport-lfcs-leognan",EU,FR,,44.6987038,-0.596581
 LFDY,Yvrac,"fs-base, airport-lfdy-yvrac",EU,FR,,44.8764076,-0.482959
 LID1,Casera Razzo,airport-lid1-caserarazzo,EU,IT,Vento,46.47674,12.614769
 LIDU,Carpi Budrione,"fs-base, airport-lidu",EU,IT,Italy,44.83511,10.8711262
+LITA,Aviosuperficie Sassuolo,"fs-base, airport-lita",EU,IT,Italy,44.5693474,10.7801685
 LITZ,Campo Volo Willy Coyote,"fs-base, airport-litz",EU,IT,Modena,44.7728539,10.8321056
 N57,New Garden Airport,"fs-base, airport-n57",NA,US,Pennsylvania,39.83097,-75.7691345
 TVSA,Argyle International Airport,"fs-base, airport-tvsa-argyle-superspud",NA,VC,,13.1550474,-61.1555862
+ULMM,Murmansk,"fs-base, airport-ulmm",AS,RU,,68.7835846,32.7512245
 UODN,Nagurskoye Air Base,airport-uodn-nagurskoye air base1.0-superspud,AS,RU,,80.79558,47.485714
 UT69,Pelican Lake Airport,"fs-base, airport-ut69",NA,US,Utah,40.1816177,-109.670921
 YBFT,Beaufort,airport-ybft-beaufort,OC,AU,Victoria,-37.4943657,143.429855
@@ -125,6 +128,11 @@ ZAWW,Altay Airport,"fs-base, Altay",AS,CN,China,47.7497978,88.0838242
 LF652,Altisurface Cipieres,altisurface-cipieres-lf0652,EU,FR,Provence,43.7792244,6.864272
 LF621,Altisurface Isola2000,altisurface-isola2000-lf0621,EU,FR,Paca,44.1730766,7.1628933
 LF654,Altisurface Valberg,altisurface-valberg-lf0654,EU,FR,Paca,44.1065254,6.93973
+AT17,Novo Runway,kychungdotcom-airport-at17-novo,AN,Antarctica,Queen Maud Land,-70.8246,11.6297007
+AT24,Sky Blu,kychungdotcom-airport-at24-skyblu,AN,Antarctica,Palmer Land,-74.8540955,-71.56415
+AT27,Troll,kychungdotcom-airport-at27-troll,AN,Antarctica,Queen Maud Land,-71.9569,2.45393
+SCGC,Union Glacier Blue-Ice Runway,kychungdotcom-airport-scgc-unionglacier,AN,Antarctica,Ellsworth Mountains,-79.77778,-83.32083
+YWKS,Wilkins Runway,kychungdotcom-airport-ywks-wilkins,AN,Antarctica,Wilkes Land,-66.69111,111.525833
 AO02,Chamois,nikprist-ao02,EU,IT,,45.833477,7.61746931
 CYVP,Kuujjuaq,ape42-airport-cyvp-kuujjuaq,NA,CA,Québec,58.0995,-68.41833
 EBBE,Beauvechain,ape42-airport-ebbe-beauvechain,EU,BE,Wallonie,50.756916,4.76917839
@@ -135,7 +143,6 @@ EK76,Tunø,ape42-airport-ek76-tunoe,EU,DK,,55.9568558,10.4097176
 ETMN,Nordholz,ape42-airport-etmn-airport,EU,DE,Niedersachsen,53.76663,8.65887451
 KHOB,Lea County Regional Airport,"fs-base, archbishopdave-airport-khob-leacounty",NA,US,New Mexico,32.6881523,-103.214485
 LTFJ,Sabiha Gokcen,"fs-base, argaeus-ltfj-sabihagokcen",AS,TR,,40.8959045,29.3054562
-LTFM,Istanbul Airport,"argaeus-ltfm-istanbul, ltfm-navdata",AS,TR,,41.27528,28.75195
 BEL,Aerodromo Bell Ville,brainshot-sa05-bell-ville,SA,AR,Cordoba,-32.65857,-62.7027626
 SAAC,Com Pierrestegui,"fs-base, brainshot-saac-concordia",SA,AR,Entre Rios,-31.2976151,-57.9970055
 SAAP,Parana - General Urquiza,"fs-base, brainshot-saap-parana",SA,AR,Entre Rios,-31.7925873,-60.4780426
@@ -175,8 +182,10 @@ LECU,Cuatro Vientos,fs-base,EU,ES,,40.3713226,-3.78467369
 SDUN,Itaperuna,"fs-base, aviationandsimulation-airport-sdun-itaperuna",SA,BR,,-21.2170467,-41.8723755
 ENBM,Bømoen,aw-airport-enbm-bomoen,EU,NO,Vestland,60.6392632,6.4971323
 ENSD,Anda,"fs-base, aw-airport-ensd-anda",EU,NO,Vestland,61.83017,6.10739565
+SEST,San-Christobal,axelstall-chistobal1 rev 4,SA,EC,,-0.9096179,-89.6173553
 FNXX,Oncocua,axelstall-fnon01,AF,AO,,-16.6517315,13.4159908
 KGPF,Port-Aux-Francis,axelstall-kerguelen01,AN,TF,,-49.3515244,70.21497
+UUSM,"Eldikan ","fs-base, axelstall-uusm01",AS,RU,,60.7474976,135.127243
 ENKA,Kautokeino,"fs-base, A_ENKA-Kautokeino",EU,NO,,69.04005,23.0339527
 ENSQ,Setermoen,"fs-base, A_ENSQ_Setermoen",EU,NO,,68.85666,18.350069
 ESAV,Kattleberg,"fs-base, ba-esav-scenery",EU,SE,,57.979,12.1430893
@@ -206,6 +215,7 @@ BGPT,Paamiut,bgpt,NA,GL,,62.0153236,-49.67188
 BGUQ,Qaarsut,bguq,NA,GL,,70.73318,-52.69557
 EGBB,Birmingham Airport,"fs-base, birmingham-airport-egbb-birmingham",EU,GB,,52.44405,-1.73713982
 LOCH,Locher,bmw-airport-locher,EU,IT,,46.6008224,11.37956
+LIPB,San Giacomo Airport,"fs-base, quelcertoleo-lipb-bolzano",EU,IT,,46.4626541,11.329339
 UGSS,Sukhum,"fs-base, bmw-ugss-sukhum",AS,GE,,42.8595772,41.1255646
 LYBL,Crvena Crkva,"fs-base, boba-crvena-crkva",EU,RS,Serbia,44.92357,21.3726635
 LYCU,Cuprija,boba-dobricevo-cuprija,EU,RS,Serbia,43.94128,21.40867
@@ -240,6 +250,7 @@ EKBO,Bogense Flyveplads,"fs-base, cc-airport-ekbo",EU,DK,,55.5434875,10.0325069
 CEC4,Jasper-Hinton,"fs-base, cec4",NA,CA,Alberta,53.320694,-117.751953
 CEG4,Drumheller,"fs-base, ceg4",NA,CA,Alberta,51.4969559,-112.748619
 CEQ3,Camrose,fs-base,NA,CA,Alberta,53.039814,-112.816269
+CEZ3,Cooking Lake,"fs-base, cez3",NA,CA,Alberta,53.4276428,-113.11702
 EGJA,Alderney,"fs-base, channel islands airport-egja-alderney-superspud",EU,GG,,49.7070122,-2.21459317
 EGJB,Guernsey,"fs-base, channel islands airport-egjb-guernsey-superspud",EU,GG,Guernsey,49.4344521,-2.59596157
 EGJJ,Jersey,"fs-base, channel islands airport-egjj-jersey-superspud",EU,JE,,49.2069054,-2.19048858
@@ -291,6 +302,7 @@ CO03,"Aspen Gliderport ","fs-base, ColoradoRanchersClubScenery-v1.4.0",NA,US,Col
 CO47,Gypsum Creek Ranch,"fs-base, ColoradoRanchersClubScenery-v1.4.0",NA,US,Colorado,39.5978241,-106.974617
 9CO3,Hubbard,"fs-base, ColoradoRanchersClubScenery-v1.4.0",NA,US,Colorado,38.6749878,-108.988319
 KGWS,Glenwood Springs Municipal Airport,"fs-base, ColoradoRanchersClubScenery-v1.4.0",NA,US,Colorado,39.50623,-107.309273
+CO95,Wilson Ranch,"fs-base, ColoradoRanchersClubScenery-v1.5.0",NA,US,Colorado,38.05655,-107.976128
 SBSP,Aita De Congonhas,"fs-base, congonhas-sbsp",SA,BR,Sao Paulo,-23.6274719,-46.65462
 MHRU,Copan Ruinas,copanr1,NA,HN,Copan,14.9158192,-89.00688
 LICD,Lampedusa,fs-base,EU,IT,,35.4979668,12.6180906
@@ -324,7 +336,9 @@ CYXE,Saskatoon/Diefenbaker Intl,fs-base,NA,CA,Saskatchewan,52.1736755,-106.70060
 CYXJ,Fort St. John,"fs-base, cyxj",NA,CA,British Columbia,56.2389145,-120.739014
 CYXS,Prince George,"fs-base, cyxs",NA,CA,British Columbia,53.88433,-122.671936
 CYXT,Terrace,"fs-base, cyxt",NA,CA,British Columbia,54.4650078,-128.583786
+CYXU,London,fs-base,NA,CA,Ontario,43.0363541,-81.1506653
 CYYD,Smithers,"fs-base, cyyd",NA,CA,British Columbia,54.8237762,-127.18187
+CYYQ,Churchill,"fs-base, cyyq",NA,CA,Manitoba,58.7428,-94.06773
 CYZP,Sandspit,"fs-base, cyzp",NA,CA,Haida Gwaii,53.2545471,-131.81427
 CYZT,Port Hardy,"fs-base, cyzt",NA,CA,British Columbia,50.6812325,-127.3665
 CZPC,Pincher Creek,"fs-base, czpc",NA,CA,Alberta,49.5205269,-113.996742
@@ -372,7 +386,7 @@ KBE,Bell Island Hot Springs Seaplane Base,dgt-airport-mistyfjords-spbs,NA,US,Ala
 HYL,Clark Bay Seaplane Base,dgt-airport-mistyfjords-spbs,NA,US,Alaska,55.4900627,-132.623489
 KXA,Kasaan Seaplane Base,dgt-airport-mistyfjords-spbs,NA,US,Alaska,55.53042,-132.391678
 PAHY,Hydaburg Seaplane Base,dgt-airport-mistyfjords-spbs,NA,US,Alaska,55.1984062,-132.824
-KDWS,Disney World Airport,digitalhorizons-airport-kdws-disneyworld,NA,US,Floridia,28.399519,-81.57136
+KDWS,Disney World Airport,digitalhorizons-airport-kdws-disneyworld,NA,US,FL,28.399519,-81.57136
 OTHH,Hamad Intl,fs-base,AS,QA,,25.2744713,51.60771
 VNDP,Juphal Airport,"fs-base, dolpa",AS,NP,China,28.98503,82.8191147
 DTTA,Carthage,"fs-base, dttascenery",AF,TN,,36.8511124,10.226944
@@ -391,6 +405,7 @@ EBGB,Grimbergen Lint,"fs-base, EBGB_MSFS2020",EU,BE,,50.9463539,4.393929
 EBGG,Overboelare Airfield,"fs-base, EBGG_MSFS2020, kayjaybe-ebgg",EU,BE,,50.7536469,3.86221433
 EBHN,Hoevenen Airfield,"fs-base, EBHN_MSFS2020, kayjaybe-ebhn",EU,BE,Antwerp,51.3071632,4.38620567
 EBTX,Aerodrome Du Laboru (Theux),"fs-base, EBTX_MSFS2020",EU,BE,,50.55319,5.85629368
+EBUL,Urself Airfield,"fs-base, kayjaybe-ebul",EU,BE,East Flanders,51.1417656,3.46458125
 KDYL,Doylestown,"fs-base, eclair4151-airport-kdyl-eclair4151",NA,US,Pennsylvania,40.3333,-75.12261
 EDCW,Wismar,"fs-base, ape42-airport-edcw-wismar",EU,DE,,53.9146957,11.501112
 EDKG,Segelflugzentrum Koenigsdorf,"fs-base, edkg-koenigsdorf-scenery-basic",EU,DE,Bavaria,47.8290749,11.4640446
@@ -399,6 +414,7 @@ EDKG,Segelflugzentrum Koenigsdorf,"fs-base, edkg-koenigsdorf-scenery-basic",EU,D
 EDKP,Edkp,"fs-base, edkp",EU,DE,,51.19124,7.79042864
 EDNL,Leutkirch,"fs-base, ednl",EU,DE,,47.8602257,10.01245
 EDQK,Kulmbach,"fs-base, EDQK",EU,DE,Bavaria,50.1342964,11.461935
+EDQO,Ottengruener Heide,"fs-base, edqo",EU,DE,,50.2264137,11.7317591
 EDRK,Winningen,fs-base,EU,DE,,50.32551,7.52813435
 EDVK,Kassel Airport,"fs-base, EDVK_Airport_Kassel",EU,DE,Germany,51.4196777,9.398962
 EDYK,Siegen Eisernhardt,"fs-base, edyk_patch",EU,DE,,50.837574,8.014763
@@ -440,6 +456,7 @@ ENBN,Bronnoy,fs-base,EU,NO,,65.45908,12.213604
 EKEL,Endelave Flyveplads,"fs-base, endelave",EU,DK,,55.75661,10.2493534
 ENGM,Gardermoen,"fs-base, engm",EU,NO,Jessheim,60.1938438,11.0998363
 UNIT,Tura Mountain Airport,fs-base,AS,RU,,64.33389,100.432434
+ENHA,Stavsberg,"fs-base, enha_1",EU,NO,,60.8170471,11.0695229
 ENHD,Haugesund Lufthavn,"fs-base, enhd",EU,NO,Karmoy,59.3444176,5.216186
 ENHF,Hammerfest,fs-base,EU,NO,,70.67952,23.6681137
 ENMS,Kjaerstad,"fs-base, enms",EU,NO,,65.78372,13.2166986
@@ -460,19 +477,20 @@ EPZB,Zborowo,"fs-base, epzb",EU,PL,,52.3629646,16.6344662
 LF85,Lf8355,eriktu-airport-lf8355-pourrieres,EU,FR,,43.4803734,5.71146727
 LEME,Aerosidonia,"fs-base, ervolaor-airport-leme-aerosidonia",EU,ES,,36.4403,-5.939552
 5Z5,Kantishna,"fs-base, esd-kantishna-5z5",NA,US,Alaska,63.5408821,-150.9948
+0AA5,Rangeview Airstrip,"fs-base, julysfire-airport-talkeetna-area-pack",NA,US,Alaska,62.3105621,-150.3345
+PATK,Talkeetna Airport,"fs-base, julysfire-airport-talkeetna-area-pack",NA,US,Alaska,62.32015,-150.09642
 45AA,Davidson Strip,"fs-base, esd-davidson-45aa",NA,US,Alaska,62.1628838,-150.5397
 ESGH,Herrljunga,"fs-base, esgh-airport",EU,SE,,58.0318832,13.1088457
 ESGO,Vårgårda,"fs-base, esgoscenery",EU,SE,,58.0394173,12.7858591
 ESGU,Rorkarr,"fs-base, esgu-airport",EU,SE,,58.3664742,11.7737055
 PGRO,Benjamin Taisacan Manglona Intl.,ethan835-airport-pgro,OC,MP,Rota,14.1742249,145.243988
-PJON,Johnston Atoll,"ethan835-airport-pjon, pjon",AS,,Minor Outlying Islands,16.7288933,-169.534836
+PJON,Johnston Atoll,"ethan835-airport-pjon, pjon",NA,United States Minor Outlying Islands,Minor Outlying Islands,16.7288933,-169.534836
 ETNL,Rostock-Laage,etnl,EU,DE,Mecklemburg-Vorpommern,53.91766,12.2774305
 ETSE,Erding Air Force Base,etse-airport,EU,DE,,48.32224,11.9471149
 ETSE,Erding Air Force Base,etse-airport,EU,DE,,48.32224,11.9471149
 EGVA,RAF Fairford,"fs-base, fairford",EU,GB,,51.68356,-1.78897393
 FAKT,Kitty Hawk Aerodrome,"fs-base, fakt-kittyhawk",AF,ZA,Gauteng,-25.8599052,28.45029
 EDCG,Flugplatz Rügen,"fs-base, fantic1983ber-edcg",EU,DE,,54.3834724,13.3252983
-EGPJ,Fife Airport,"fs-base, Fife Airfield",EU,GB,,56.18334,-3.22011614
 SACJ,Canada De Gomez,"fs-base, Final Approach-Aeroclub Canada de Gomez MFS2020",SA,AR,,-32.8125954,-61.36833
 ENAS,Ny Ålesund,fk-airport-enas-ny_aalesund,EU,Svalbard,,78.92778,11.8709793
 ENDI,Dagali,fk-airport-endi-dagali,EU,NO,,60.416584,8.511811
@@ -693,6 +711,7 @@ L35,Big Bear,"fs-base, foxtrot-bigbear-l35",NA,US,California,34.2634277,-116.853
 KAVX,Catalina Airport,"fs-base, foxtrot-catalina",NA,US,California,33.4044075,-118.416084
 KEMT,San Gabriel Valley Airport,"fs-base, foxtrot-elmonte",NA,US,California,34.0869751,-118.033409
 F0152,Heliport Hopital Verneuil,FR 0152 Heliport Verneuil sur avre,EU,FR,Normandie,48.74606,0.889854133
+LFAX,Mortagne-Au-Perche,"fs-base, france-lfax-mortagne-au-perche",EU,FR,,48.5388641,0.534683168
 LFRE,La Baule-Escoublac,"fs-base, france-lfre-labaule",EU,FR,,47.2886124,-2.348312
 EDTH,Heubach,frombeyond-edth,EU,DE,Germany,48.8026733,9.931513
 EKRK,Roskilde Airport,"fs-base, fsscenedk-ekrk-1.1",EU,DK,Roskilde,55.5888443,12.12892
@@ -724,19 +743,29 @@ EGSU,Duxford,"fs-base, gobby-egsu-duxford",EU,GB,,52.09218,0.130189955
 EGTR,Elstree,"fs-base, gobby-egtr-elstree",EU,GB,,51.6558342,-0.325832963
 EXPR,RAF Portreath,gobby-expr-raf-portreath,EU,GB,,50.2707939,-5.26410437
 EGHR,Goodwood,fs-base,EU,GB,,50.860672,-0.7591845
-SAWB,Marambio Base,grafdresche-sawb01-V2,AS,,,-64.24029,-56.637394
+SAWB,Marambio Base,grafdresche-sawb01-V2,AN,Antarctica,,-64.24029,-56.637394
 GCLP,Gran Canaria,fs-base,EU,ES,,27.9315567,-15.3855839
 EDDS,Stuttgart,gravity-airport-edds-stuttgart,EU,DE,,48.6898766,9.221964
 GX01,Dhokimion,"fs-base, gx01",EU,GR,Aitoloakarnania,38.61413,21.392664
 LG53,Lamia,"fs-base, lg53",EU,GR,Fthiotida,38.87351,22.4361629
 LGAG,Agrinio,"fs-base, lgag",EU,GR,Aitoloacarnania,38.60321,21.349762
+LGEP,Epitalio,"fs-base, lgep",EU,GR,Ilia,37.613987,21.49575
 LGFL,Florina,lgfl,EU,GR,Makedonia,40.8052521,21.433754
 LGHL,Porto Heli,"fs-base, cya-airport-lghl-portocheli, lghl",EU,GR,Peloponissos,37.2985153,23.1488514
+LGKC,Alexandros A. Onassis,"fs-base, lgkc",EU,GR,Kithira,36.2750168,23.0166512
 LGKN,Kotroni Nb,lgkn,EU,GR,Attica,38.1424065,23.9529438
 LGKS,Kasos,"fs-base, lgks",EU,GR,Dodekanese,35.4212952,26.91215
+LGLM,Ifaistos,"fs-base, lglm",EU,GR,Limnos,39.91787,25.2355766
 LGMG,Megara,"fs-base, lgmg",EU,GR,Attica,37.9815941,23.36895
+LGML,Milos,"fs-base, lgml",EU,GR,Milos,36.6968727,24.47646
+LGNX,Naxos,"fs-base, lgnx",EU,GR,Naxos,37.08176,25.3681984
+LGPL,Astypalaia,"fs-base, lgpl",EU,GR,Astypalaia,36.5798759,26.3755112
+LGSP,Sparti,"fs-base, lgsp",EU,GR,Sparti,36.9743843,22.52735
+LGST,Sitia,"fs-base, lgst",EU,GR,Crete,35.21672,26.101902
+LGSV,Stefanovikio,"fs-base, lgsv",EU,GR,Magnesia,39.4787521,22.7677631
 LGZI,Zigos,lgzi,EU,GR,Xanthi,41.1163,24.920763
 PREL,Prel Wings Ltd,prel,EU,GR,Makedonia,40.36657,23.0514545
+Z11W,Komotini,"fs-base, z11w",EU,GR,Komotini,41.1117935,25.32301
 KCGX,Merrill C. Meigs Field,guillermozulueta-meigs,NA,US,Illinois,41.8592262,-87.60827
 GVAC,Amilcar Cabral,fs-base,AF,CV,,16.7388,-22.9505444
 PAVD,Valdez Pioneer Field,haeriphos-pavd,NA,US,Alaska,61.1281624,-146.240479
@@ -759,6 +788,7 @@ YMPC,Point Cook,"fs-base, hubdubs-airport-ympc",OC,AU,Victoria,-37.9318,144.7536
 LHBS,Budaors,"fs-base, hvfr-airport-lhbs",EU,HU,,47.4509964,18.9805527
 LHFH,Farkashegy,"fs-base, hvfr-airport-lhfh",EU,HU,,47.48612,18.91512
 LHHH,Harmashatarhegy,"fs-base, hvfr-airport-lhhh",EU,HU,,47.55149,18.9764442
+LHKK,Kiskunlachaza Airport,"fs-base, hvfr-airport-lhkk",EU,HU,,47.177166,19.0740967
 LHTL,Tokol,"fs-base, hvfr-airport-lhtl",EU,HU,,47.34548,18.9808235
 LHVE,Veresegyhaz Repuloter,"fs-base, hvfr-airport-lhve",EU,HU,Pest,47.63815,19.25456
 ID28,Mackay Bar,"fs-base, id28",NA,US,Idaho,45.38024,-115.505844
@@ -816,12 +846,6 @@ CZUM,Churchill Falls Airport,julysfire-airport-czum-churchillfalls,NA,CA,Newfoun
 F45,North Palm Beach County General Aviation Airport,julysfire-airport-f45-npbc,NA,US,Florida,26.8448715,-80.2200546
 KNZY,North Island Naval Air Station,"airport-julysfire-knzy, julysfire-airport-knzy-northislandnas",NA,US,California,32.69895,-117.215164
 P52,Cottonwood Airport,"fs-base, julysfire-airport-p52-cottonwood",NA,US,Arizona,34.729248,-112.034531
-0AA5,Rangeview Airstrip,"fs-base, julysfire-airport-talkeetna-area-pack",NA,US,Alaska,62.3105621,-150.3345
-51AK,Birch Creek Landing,"fs-base, julysfire-airport-talkeetna-area-pack",NA,US,Alaska,62.2394333,-150.0636
-AK19,Carl's Landing Airport,"fs-base, julysfire-airport-talkeetna-area-pack",NA,US,Alaska,62.1727066,-150.0638
-AK44,Talkeetna Village Airstrip,julysfire-airport-talkeetna-area-pack,NA,US,Alaska,62.319046,-150.112991
-PATK,Talkeetna Airport,"fs-base, julysfire-airport-talkeetna-area-pack",NA,US,Alaska,62.32015,-150.09642
-2AK7,Bald Mountain Airport,julysfire-airport-talkeetna-area-pack,NA,US,Alaska,62.3081055,-149.751419
 EDDC,Dresden International,"fs-base, jumiktdesign-airport-eddc-dresden-international",EU,DE,,51.1342,13.767416
 AZ28,Thunder Ridge Airpark,justokayscenery-az-sm,NA,US,Arizona,33.8213768,-112.573219
 AZ32,Rosener Ranch Airport,"fs-base, justokayscenery-az-sm",NA,US,Arizona,33.8475342,-112.588043
@@ -833,7 +857,7 @@ AZ25,Goldfield Ranch Airport,"fs-base, justokayscenery-az-sm",NA,US,Arizona,33.5
 AZ34,Massey Farm Airport,"fs-base, justokayscenery-az-sm",NA,US,Arizona,33.69742,-112.36956
 AZ60,Curry Ridge Airport,"fs-base, justokayscenery-az-sm",NA,US,Arizona,33.5050621,-112.474457
 AZ90,Hangar Haciendas Airport,"fs-base, justokayscenery-az-sm",NA,US,Arizona,33.3497467,-112.12384
-2AZ4,Millar Airport,"fs-base, justokayscenery-az-sm-2",NA,Usa,Arizona,33.05475,-112.1463
+2AZ4,Millar Airport,"fs-base, justokayscenery-az-sm-2",NA,US,Arizona,33.05475,-112.1463
 34AZ,Gila River Memorial Airport,"fs-base, justokayscenery-az-sm-2",NA,US,Arizona,33.2479,-111.911423
 3AZ2,University Of Arizona Maricopa Agricultural,"fs-base, justokayscenery-az-sm-2",NA,US,Arizona,33.0799522,-111.983528
 41AZ,Ak Chin Community Airfield,"fs-base, justokayscenery-az-sm-2",NA,US,Arizona,32.9907951,-112.02346
@@ -861,6 +885,7 @@ EBGG,Overboelare Airfield,"fs-base, EBGG_MSFS2020, kayjaybe-ebgg",EU,BE,,50.7536
 EBHN,Hoevenen Airfield,"fs-base, EBHN_MSFS2020, kayjaybe-ebhn",EU,BE,Antwerp,51.3071632,4.38620567
 EBIS,Isières Private Airfield,"fs-base, kayjaybe-ebis",EU,BE,Hainaut,50.6633759,3.80470538
 EBUL,Urself Airfield,"fs-base, kayjaybe-ebul",EU,BE,East Flanders,51.1417656,3.46458125
+RCFG,Nangan,kychungdotcom-airport-rcfg-nangan,AS,TW,,26.1597214,119.958336
 RCLM,Dongsha,kcai-rclm,AS,TW,,20.7064571,116.721
 KELN,Bowers,fs-base,NA,US,Washington,47.03327,-120.530525
 ETSK,Kaufbeuren AB,kfdesign-etsk,EU,DE,Bavaria,47.8620529,10.6145363
@@ -886,7 +911,10 @@ KLXN,Kelly,fs-base,NA,US,Nebraska,40.79026,-99.77545
 KMGJ,Orange Co,fs-base,NA,US,New York,41.5097771,-74.2642746
 RPLM,Cesar Lim Rodriguez Airport,"fs-base, Kml921-airport-rplm-taytay",AS,PH,Palawan,11.0504751,119.519234
 RPSV,San Vicente Airport,"fs-base, Kml921-airport-rpsv-sanvicente",AS,PH,Palawan,10.52463,119.273224
+RPVA,Daniel Z. Romualdez Airport,"fs-base, Kml921-airport-rpva-tacloban",AS,PH,,11.2260809,125.026474
 RPVE,Caticlan,fs-base,AS,PH,,11.926053,121.956955
+RPVP,Puerto Princesa International Airport,"fs-base, Kml921-airport-rpvp-puertoprincesa",AS,PH,Palawan,9.742113,118.758087
+XCN,Francisco B. Reyes Airport,"fs-base, Kml921-airport-rpvv-coron",AS,PH,Palawan,12.1217384,120.098557
 KMWH,Grant Co Intl,fs-base,NA,US,Washington,47.2106133,-119.321045
 LGKH,Kolchiko Airfield Lgzz04,"fs-base, Kolchiko Airfield Rwy & Aprons",EU,GR,,40.74548,23.1226482
 LGKH,Kolchiko Airfield Lgzz04,"fs-base, Kolchiko Airfield Rwy & Aprons",EU,GR,,40.74548,23.1226482
@@ -931,10 +959,8 @@ PAP22,Tinibil,KRON_EastPapua,AS,ID,Papua,-4.823903,140.8736
 GOST,Gostner Airstrip,KRON_Gostner,EU,IT,Tyrol,46.57264,11.3077021
 85U,Soldier Bar USFS,"fs-base, KRON_MahoneyCreek",NA,US,Idaho,45.1044235,-114.799561
 DEW,Dewey Moore,KRON_MahoneyCreek,NA,US,Idaho,45.1491966,-115.076035
-K10,Mile Hi,KRON_MahoneyCreek,NA,US,Idaho,45.1492081,-115.000854
 DOV,Dovel,KRON_MahoneyCreek,NA,US,Idaho,45.0699577,-115.11837
 ID8,Marble Creek,KRON_MahoneyCreek,NA,US,Idaho,44.77421,-114.984566
-ID50,Wapshilla,KRON_MahoneyCreek,NA,US,Idaho,45.9416847,-116.763672
 NA2,Dixie Town Airstrip,KRON_MahoneyCreek,NA,US,Idaho,45.5528,-115.459526
 NA9,Simonds,KRON_MahoneyCreek,NA,US,Idaho,45.0842476,-115.125732
 NSTR,North Star Ranch,KRON_MahoneyCreek,NA,US,Idaho,45.9359779,-114.8298
@@ -945,6 +971,8 @@ SELW,Selway Lodge,KRON_MahoneyCreek,NA,US,Idaho,46.00573,-114.843658
 SHEP,Shepp Ranch,KRON_MahoneyCreek,NA,US,Idaho,45.4388161,-115.66452
 SRAN,Seminole Ranch,KRON_MahoneyCreek,NA,US,Idaho,46.14052,-114.917381
 WHWR,Whitewater Ranch,KRON_MahoneyCreek,NA,US,Idaho,45.5354462,-115.300362
+K10,Mile Hi,KRON_MahoneyCreek,NA,US,Idaho,45.1492081,-115.000854
+ID50,Wapshilla,KRON_MahoneyCreek,NA,US,Idaho,45.9416847,-116.763672
 KSFF,Felts Field,fs-base,NA,US,Washington,47.68299,-117.3219
 PASY,Eareckson Air Station,kui-pasy,NA,US,Alaska,52.7129822,174.1177
 PAWD,Seward Airport,kui-pawd,NA,US,Alaska,60.13033,-149.417923
@@ -956,9 +984,7 @@ REEF,Subi Reef Military Base,kui-subi-reef,AS,China,Subi Reef,10.9234171,114.072
 CYGW,Kuujjuarapik,kuujjuarapik,NA,CA,Quebec,55.2836533,-77.76415
 KVNY,Van Nuys,fs-base,NA,US,California,34.21073,-118.489861
 MHIC,Islas Del Cisne,kychungdotcom-airport-mhic-islas-del-cisne,NA,HN,,17.4077473,-83.932106
-PASA,Savoonga,kychungdotcom-airport-pasa-savoonga,NA,US,Alaska,63.69068,-170.487442
 VQBT,Bathpalathang,kychungdotcom-airport-vqbt-bumthang,AS,BT,Bumthang,27.5647926,90.7458649
-YWKS,Wilkins Runway,kychungdotcom-airport-ywks-wilkins,AS,,Wilkes Land,-66.69111,111.525833
 KYKM,Yakima Air Terminal/Mcallister,fs-base,NA,US,Washington,46.56777,-120.543457
 L35,Big Bear,"fs-base, foxtrot-bigbear-l35",NA,US,California,34.2634277,-116.85363
 LBDB,Dolna Banya Airport,"fs-base, lbdb",EU,BG,,42.3090973,23.82048
@@ -968,11 +994,16 @@ LEAM,Almeria,fs-base,EU,ES,,36.843956,-2.37010145
 LEAS,Asturias,fs-base,EU,ES,,43.56357,-6.034494
 LEBA,Cordoba,fs-base,EU,ES,,37.8431129,-4.84809971
 LEBB,Bilbao,fs-base,EU,ES,,43.30168,-2.91764045
+OLBD,Baadaran Airstrip,Leborsim_Baadaran,AS,LB,Mount Lebanon,33.63577,35.6141624
+LEGE,Girona,fs-base,EU,ES,,41.9053345,2.762201
 LEGR,Granada,fs-base,EU,ES,,37.1887627,-3.77734518
 LEIB,Ibiza,fs-base,EU,ES,,38.8729019,1.37313318
 LEJR,Jerez,fs-base,EU,ES,,36.7446365,-6.06010866
 LEMG,Malaga,fs-base,EU,ES,,36.68463,-4.49248362
+LEMI,Base Aérea Las Navas,fs-base,EU,ES,,42.9533119,-3.4738996
 LEAX,Leoni Benabu,fs-base,EU,ES,,36.80166,-4.13626575
+LEVC,Manises,fs-base,EU,ES,,39.4899864,-0.483362228
+LEXJ,Santander,fs-base,EU,ES,,43.4272,-3.82052565
 LEZL,San Pablo,fs-base,EU,ES,,37.4179459,-5.89311266
 F1422,Bonneville,LF1422 Bonneville,EU,FR,Normandie,49.26332,0.3713143
 F1456,Omaha Beach,LF1456 Omaha Beach,EU,FR,Normandie,49.3529739,-0.843102336
@@ -988,13 +1019,17 @@ LFFQ,Cerny,"fs-base, LFFQ Meeting de La ferté Alais",EU,FR,Essone,48.49845,2.33
 LFHM,Megève,"fs-base, lfhm",EU,FR,,45.82216,6.65001774
 LFHU,Henri Giraud Altiport,"fs-base, lfhu-alpedhuez",EU,FR,,45.08837,6.085106
 LFME,Nimes Courbessac,"fs-base, LFME-Courbessac v1.0 By Brep",EU,FR,,43.85376,4.41358042
+LFOL,L'Aigle Saint Michel,"fs-base, LFOL L'aigle St Michel V1.1",EU,FR,Normandie,48.75936,0.658514
 LFPC,Creil AB,lfpc,EU,FR,,49.2543144,2.525686
 LFPD,St Martin,fs-base,EU,FR,,49.1024475,0.5655429
 LFRO,Lannion,fs-base,EU,FR,,48.75441,-3.47220325
+LFTW,Nîmes Garons,mads-airport-lftw,EU,FR,,43.7570038,4.41711664
 LFX1,St Laurent De La Salanque,LFX1 St. Laurent de la Salanque v1.0 By Brep,EU,FR,,42.7967377,3.00163364
 LFXX,Le Buternay,"fs-base, LFXX BUTERNAY LF2856 V2.1",EU,FR,Centre,48.61082,0.8421233
 LGAL,Dimokritos,"fs-base, lgal",EU,GR,,40.8554,25.9544773
 LGSK,Skiathos International Airport,"fs-base, lgskv1",EU,GR,,39.1760979,23.5020771
+LGSM,Aristarchos Int'l,"fs-base, lgsm",EU,GR,,37.68903,26.9127426
+LGTS,Makedonia,"fs-base, lgts",EU,GR,,40.51976,22.9710083
 LGTS,Makedonia,"fs-base, lgts",EU,GR,,40.51976,22.9710083
 EDDE,Erfurt,fs-base,EU,DE,,50.9798126,10.9580975
 LILC,Aeroclub Adele Orsi,"fs-base, LILC",EU,IT,Varese,45.8096733,8.771783
@@ -1040,6 +1075,8 @@ LRPO,George Valentin Bibescu,"fs-base, lrpo",EU,RO,Dolj,44.2864532,23.791111
 LSGC,Les Eplatures,"lsgc Les Eplatures, sc-airport-swiss-airfields",EU,CH,Neuchâtel,47.0847435,6.7970643
 LSGL,La Blécherette,"fs-base, lsgl",EU,CH,,46.54423,6.61696863
 LSPU,Flugplatz Münster,LSPU-Munster Flugplatz,EU,CH,Wallis,46.480278,8.262856
+LTFM,Istanbul Airport,"argaeus-ltfm-istanbul, ltfm-navdata",AS,TR,,41.27528,28.75195
+LTFM,Istanbul Airport,"argaeus-ltfm-istanbul, ltfm-navdata",AS,TR,,41.27528,28.75195
 LTFM,Istanbul Airport,"argaeus-ltfm-istanbul, ltfm-navdata",AS,TR,,41.27528,28.75195
 LFDG,Aerodrome De Gaillac,"fs-base, luast-airport-lfdg-gaillac",EU,FR,Occitanie,43.8827934,1.87378991
 GCXO,Los Rodeos,fs-base,EU,ES,,28.4826641,-16.34153
@@ -1090,8 +1127,6 @@ LFTF,Cuers Pierrefeu,mads-airport-lftf,EU,FR,,43.2469063,6.12487
 LFTF,Cuers Pierrefeu,mads-airport-lftf,EU,FR,,43.2469063,6.12487
 LFTH,Hyeres La Palyvestre,mads-airport-lfth,EU,FR,,43.09773,6.15088367
 LFTH,Hyeres La Palyvestre,mads-airport-lfth,EU,FR,,43.09773,6.15088367
-LFTW,Nîmes Garons,mads-airport-lftw,EU,FR,,43.7570038,4.41711664
-LFTW,Nîmes Garons,mads-airport-lftw,EU,FR,,43.7570038,4.41711664
 LFXA,Amberieu,mads-airport-lfxa,EU,FR,,45.9841537,5.33410358
 LFXA,Amberieu,mads-airport-lfxa,EU,FR,,45.9841537,5.33410358
 SOGS,Grand-Santi,mads-airport-sogs,SA,GF,,4.28431034,-54.3764572
@@ -1111,13 +1146,13 @@ WMAU,Mersing,kychungdotcom-airport-wmau-mersing,AS,MY,Johor,2.3888514,103.87484
 WMBR,Bernam River Airfield,kychungdotcom-airport-wmbr-bernam,AS,MY,Selangor,3.76735425,101.327385
 WMKM,Malacca Intl,kychungdotcom-airport-wmkm-malacca,AS,MY,Johor,2.26305556,102.2525
 VRMR,Fuvahmulah Airport,airport-vrmr-fuvahmulah-0235_0.2,AS,MV,,-0.309362978,73.43249
+VRMT,Kaadedhdhoo Airport,airport_vrmt_kaadedhdhoo_0235_0.1,AS,MV,,0.4877389,72.99479
 VRQM,Maavaarulaa Airport,airport_vrqm_maavaarulaa_0235_0.1,AS,MV,,0.3393313,73.51196
 VRBK,Kulhudhuffushi Airport,airport_vrbk_kulhudhuffushi_0235_0.2,AS,MV,,6.63089466,73.0675049
 VRDA,Maafaru International Airport,airport_vrda_maafaru_international_0235_0.2,AS,MV,,5.81878138,73.47001
 VREI,Ifuru Airport,airport_vrei_ifuru_0235_0.2,AS,MV,,5.70598173,73.02531
 VRMG,Gan International Airport,"fs-base, airport_vrmg_gan_international_0235_0.1",AS,MV,Addu City,-0.6926761,73.15186
 VRMO,Kooddoo Airport,airport_vrmo_kooddoo_0235_0.1,AS,MV,,0.733059764,73.434494
-VRMT,Kaadedhdhoo Airport,airport_vrmt_kaadedhdhoo_0235_0.1,AS,MV,,0.4877389,72.99479
 VRMU,Dhaalu Airport,airport_vrmu_dhaalu_0235_0.1,AS,MV,,2.666168,72.88714
 VRMV,Maamigili Airport,airport_vrmv_maamigili_0235_0.1,AS,MV,,3.471743,72.83447
 VRNT,Thimarafushi Airport,"fs-base, airport_vrnt_thimarafushi_0235_0.1",AS,MV,,2.20986152,73.15214
@@ -1159,6 +1194,8 @@ N07,Lincoln Park,fs-base,NA,US,New Jersey,40.94761,-74.31451
 EGGH,Nayland Airstrip,fs-base,EU,GB,,51.97424,0.8496474
 UHML,Lavrentiya Airport,networklabs-airport-uhml-lavrentiya,AS,RU,Chukotsky District,65.58063,-170.998123
 AO02,Chamois,nikprist-ao02,EU,IT,,45.833477,7.61746931
+VEAN,Along,"fs-base, north-east-india",AS,IN,Arunachal Pradesh,28.1750622,94.80251
+VEDZ,Daparijo,"fs-base, north-east-india",AS,IN,Arunachal Pradesh,27.9857349,94.22298
 NZOU,Oamaru Airport,"fs-base, NZA-Discord_NZOU_Oamaru-Scenery-Pack-1.0",OC,NZ,,-44.9671249,171.081421
 NZRO,Rotorua Regional,"fs-base, NZA-Discord_NZRO_Rotorua-Scenery-Pack-1.0",OC,NZ,,-38.1084976,176.315552
 NZWS,Westport Airport,"fs-base, NZA-Discord_NZWS_Westport-Scenery-Pack-1.0",OC,NZ,Westcoast,-41.7403679,171.578629
@@ -1181,8 +1218,9 @@ PHHF,Tern Island Airport,phhf,NA,US,Hawaii,23.8700142,-166.283432
 KUGN,Waukegan National Airport,"fs-base, pilotguy121a-airport-kugn-edit1",NA,US,Illinois,42.4211655,-87.86661
 EPNL,Lososina Dolna,"fs-base, piotrkol-airport-epnl-lososina2",EU,PL,,49.74505,20.6225758
 EPNL,Lososina Dolna,"fs-base, piotrkol-airport-epnl-lososina2",EU,PL,,49.74505,20.6225758
-PJON,Johnston Atoll,"ethan835-airport-pjon, pjon",AS,,Minor Outlying Islands,16.7288933,-169.534836
+PJON,Johnston Atoll,"ethan835-airport-pjon, pjon",NA,United States Minor Outlying Islands,Minor Outlying Islands,16.7288933,-169.534836
 ETND,Diepholz,placeholder-airport-etnd-diepholz,EU,DE,,52.58557,8.34195
+LSGG,Geneva,fs-base,EU,CH,,46.2380753,6.108972
 LF857,Lf8571-Saint Aubin,pm-airport-lf857-saintaubin,EU,FR,,46.51568,-1.05139685
 49S,Babb,pontiac51-airport-49s-babb,NA,US,MT,48.8471451,-113.428459
 CKE4,Pelican Narrows Seaplane Base,pontiac51-airport-cke4-pelicannarrows,NA,CA,Saskatchewan,55.1658058,-102.933334
@@ -1207,7 +1245,6 @@ LILB,Alzate Brianza,"fs-base, quelcertoleo-limb-lily",EU,IT,,45.7711258,9.164887
 LILY,Aero Club Como,quelcertoleo-limb-lily,EU,IT,,45.81407,9.070686
 LIMB,Bresso,"fs-base, quelcertoleo-limb-lily",EU,IT,,45.5367546,9.19961548
 LIMJ,Aeroporto Di Genova-Sestri,"fs-base, quelcertoleo-limj-genova",EU,IT,,44.4149055,8.848096
-LIPB,San Giacomo Airport,"fs-base, quelcertoleo-lipb-bolzano",EU,IT,,46.4626541,11.329339
 LIPE,Borgo Panigale,fs-base,EU,IT,,44.5357475,11.2878485
 LIRQ,Aeroporto Amerigo Vespucci,"fs-base, quelcertoleo-lirq-firenze",EU,IT,,43.8067,11.2018166
 LSZA,Lugano Airport,"fs-base, quelcertoleo-lsza-scenery, tchax95-lsza",EU,CH,,46.0031929,8.90971851
@@ -1222,7 +1259,7 @@ EICK,Cork International Airport,"fs-base, raesoft-eick",EU,IE,Munster,51.8415527
 RGNT,Regent AFB,regent-lasvegas,NA,US,Nevada,36.50468,-115.458817
 LESU,Seo De Urgel,fs-base,EU,ES,,42.3410378,1.41066444
 24C,Lowell City Airport,"fs-base, rk-24c",NA,US,Michigan,42.9539452,-85.34564
-4D0,Abrams Municipal Airport,"fs-base, rk-4d0",NA,US,Micigan,42.77319,-84.7357559
+4D0,Abrams Municipal Airport,"fs-base, rk-4d0",NA,US,MI,42.77319,-84.7357559
 6D6,Greenville Municipal Airport,"fs-base, rk-6d6",NA,US,Michigan,43.1433449,-85.25932
 9D9,Hastings Airport,"fs-base, rk-9d9",NA,US,Michigan,42.6630478,-85.3427658
 CNF8,Dwight,rk-airport-cnf8-dwight,NA,CA,Ontario,45.3110161,-78.9764557
@@ -1234,6 +1271,9 @@ KRMY,Brooks Airport,"fs-base, rk-krmy",NA,US,Michigan,42.25316,-84.96101
 KTEW,Mason Jewett Airport,"fs-base, rk-ktew",NA,US,Michigan,42.56394,-84.42436
 Y70,Ionia County Airport,"fs-base, rk-y70",NA,US,Michigan,42.93886,-85.06715
 EGCJ,Sherburn Om Elmet,"fs-base, rl-airport-egcj-sherburn-sherburninelmet",EU,GB,,53.78632,-1.21647525
+EGPJ,Fife Airport,"fs-base, Fife Airfield",EU,GB,,56.18334,-3.22011614
+X6EL,Errol Airfield,rl-airport-x6el-errolairfield,EU,GB,,56.405117,-3.1808517
+EGPH,Edinburgh Airport,"fs-base, rl-rl-airport-egph-edinburgh",EU,GB,,55.95005,-3.365846
 SDAG,Sdag,"fs-base, RMStudios SDAG v2.0",SA,BR,Rio De Janeiro,-22.9739437,-44.304348
 EDDK,Collogne-Bonn Airport,"fs-base, rofler-airport-eddk-collogne-bonn",EU,DE,,50.8668365,7.142198
 CNC3,Brampton Airport,"fs-base, romandesign-airport-cnc3-lite",NA,CA,Ontario,43.7597046,-79.8744049
@@ -1300,6 +1340,7 @@ TFFM,Marie Galante,"fs-base, scenery-marie-galante",NA,GP,,15.8683271,-61.272213
 69NH,Lakes Region Airport,scenery-nh-flyingscool-69nh,NA,US,New Hampshire,43.58725,-71.26596
 KASH,Boire Field,"fs-base, scenery-nh-flyingscool-kash",NA,US,New Hampshire,42.781517,-71.51423
 TFFC,Saint Francois,"fs-base, scenery-tffc",NA,GP,,16.2570076,-61.26357
+TJCP,Binjamin Rivera,"fs-base, scenery-tjcp",NA,PR,,18.31257,-65.3031
 ESGE,Viared,"fs-base, sceneryesge",EU,SE,,57.6957664,12.8447161
 EXXX,Harz,Scenery_Brocken_Harz_2.0,EU,DE,,51.7987061,10.6148558
 SCRM,Teniente Rodolfo Marsh Martin Airport,SCRM-GrafDresche,SA,Chile,,-62.1908,-58.981926
@@ -1336,6 +1377,9 @@ KDCA,Ronald Reagan Washington National Airport,"fs-base, srinivasman-kdca",NA,US
 KDCX,National Mall,srinivasman-kdcx,NA,US,District of Columbia,38.8896179,-77.02463
 KIAD,Washington Dulles International Airport,"fs-base, srinivasman-kiad",NA,US,Virginia,38.94749,-77.44769
 KLGA,Laguardia Airport,"fs-base, srinivasman-klga",NA,US,New York,40.7780266,-73.8732758
+PAGM,Gambell Airport,gambell-airport,NA,US,Alaska,63.775444,-171.731537
+PASA,Savoonga,kychungdotcom-airport-pasa-savoonga,NA,US,Alaska,63.69068,-170.487442
+EGKA,Brighton City Airport,"fs-base, st-airport-egka-brightoncity",EU,GB,,50.8363152,-0.2958186
 LTBW,Hezarfen,"fs-base, st-hezarfen",AS,TR,,41.10349,28.548172
 NVVV,Bauerfield,staceyaeh-airport-nvvv-bauerfield,OC,VU,Vanuatu,-17.69964,168.3195
 WV08,Island,fs-base,NA,US,West Virginia,38.2206268,-81.52887
@@ -1345,12 +1389,15 @@ SWKC,Caceres,"fs-base, swkc-brairports",SA,BR,Mato Grosso,-16.0419636,-57.631324
 SWIW,Nova Mutum,"fs-base, swnm-brairports",SA,BR,Mato Grosso,-13.8161058,-56.0353241
 SWTS,Tangara Aeroporto,"fs-base, swts-package",SA,BR,Mato Grosso,-14.6574736,-57.44603
 RCBS,Shangyi,kychungdotcom-airport-rcbs-shangyi,AS,TW,,24.4288883,118.361115
-RCFG,Nangan,kychungdotcom-airport-rcfg-nangan,AS,TW,,26.1597214,119.958336
 RCFL,Fenglin Flying Club,kychungdotcom-airport-rcfl-fenglin,AS,TW,,23.7723427,121.479485
 RCHD,Easy Fly,kychungdotcom-airport-rchd-huadong,AS,TW,,23.7798328,121.474571
 RCOW,Ownway Recerational Aviation,kychungdotcom-airport-rcow-ownway,AS,TW,,24.0486546,120.63195
 RCSP,Taiping I Airbase,kychungdotcom-airport-rcsp-taiping,AS,Taiwan,,10.3770161,114.366196
-JHO,Jiahao,kychungdotocom-airport-jho-jiahao,AS,TW,,22.7559185,120.625626
+RCJH,Jiahao,kychungdotocom-airport-jho-jiahao,AS,TW,,22.7559185,120.625626
+2AK7,Bald Mountain Airport,julysfire-airport-talkeetna-area-pack,NA,US,Alaska,62.3081055,-149.751419
+51AK,Birch Creek Landing,"fs-base, julysfire-airport-talkeetna-area-pack",NA,US,Alaska,62.2394333,-150.0636
+AK19,Carl's Landing Airport,"fs-base, julysfire-airport-talkeetna-area-pack",NA,US,Alaska,62.1727066,-150.0638
+AK44,Talkeetna Village Airstrip,julysfire-airport-talkeetna-area-pack,NA,US,Alaska,62.319046,-150.112991
 LSZA,Lugano Airport,"fs-base, quelcertoleo-lsza-scenery, tchax95-lsza",EU,CH,,46.0031929,8.90971851
 SVBI,Aeropuerto Nacional Luisa Cáceres De Arismendi,"fs-base, TDM-BARINAS",SA,VE,Barinas,8.616658,-70.22051
 TFFB,Baillif,"fs-base, tffb-scenery-baillif",NA,GP,,16.0151424,-61.74511
@@ -1363,9 +1410,11 @@ EGIC,Ince Microlight Airstrip,"fs-base, thegarner-airport-egic-ince",EU,GB,,53.5
 EGTY,Strathaven Airfield,"fs-base, thegarner-airport-egty-strathavenairfield",EU,GB,,55.67989,-4.11176538
 EGVZ,Fort Augustus Airfield,"fs-base, thegarner-airport-egvz-fortaugustus",EU,GB,,57.1284027,-4.670477
 WOL,Woolston Moss (Warrington),thegarner-woolstonmoss-airstrip,EU,GB,,53.4080162,-2.51078176
+ESUC,Timmele,"fs-base, timmele-scenery",EU,SE,,57.87291,13.4304276
 E533,Privatflugplatz Wagen-Starnberg,tl1980-airport-e533-wangen-starnberg,EU,DE,Bavaria,48.0162849,11.4199743
 BGSF,Kangerlussuaq,fs-base,NA,GL,,67.0116,-50.7147446
 TNCM,Princess Juliana Intl,fs-base,NA,Saint-Martin,,18.0409374,-63.1089745
+TPPS,"Freedomfox Strip ",tpps-tpps-airport,NA,US,NV,39.7715149,-119.897026
 ETSI,Ingolstadt Manching,troubadix-etsi01,EU,DE,,48.71333,11.5319223
 TTCO,Camden Airfield,"fs-base, ttcoairport-scene",NA,TT,,10.4281893,-61.4404449
 TTCP,Crown Point,"fs-base, ttcpairport",NA,TT,,11.1494322,-60.83379
@@ -1376,6 +1425,101 @@ UGIH,Ugak Island Hideaway,ugak-island-hideaway,NA,US,Alaska,57.38832,-152.2733
 LIVE,Campo Di Volo Valsusa,fs-base,EU,IT,,45.1125565,7.289042
 SUMU,Gral. Cesáro L. Berisso,"fs-base, montevideosumu",SA,UY,Montevideo,-34.8351479,-56.02565
 URMN,Nalchik,"fs-base, URMN-Goldiee",AS,RU,,43.5125,43.6375961
+11CO,Dolores Point,dolorespoint,NA,US,Colorado,38.70494,-109.045555
+13CO,Dolores River Ranch,doloresriverranch,NA,US,Colorado,38.73182,-109.020805
+15CO,La Garita Ranch,lagaritaranch,NA,US,Colorado,37.81171,-106.315041
+ID71,45 Ranch (Old),45ranch,NA,US,Idaho,42.17646,-116.854362
+ID73,45 Ranch (New),45ranch,NA,US,Idaho,42.17313,-116.875244
+ID02,Allison Ranch,allisonranch,NA,US,Idaho,45.5646324,-115.225189
+ID06,Badley Ranch,badleyranch,NA,US,Idaho,45.34183,-115.519516
+ID03,B And C Bar Ranch,bandcbarranch,NA,US,Idaho,44.8590622,-114.455727
+ID76,Cedar Sky Ranch,cedarskyranch,NA,US,Idaho,47.8994026,-116.659225
+ID08,Colson Creek,colsoncreek,NA,US,Idaho,45.30092,-114.523132
+ID14,Copenhaver Ranch,copenhaverranch,NA,US,Idaho,45.36651,-115.513924
+ID80,Delta Shores,deltashores,NA,US,Idaho,48.14527,-116.216934
+ID81,Tuka Stol Port,deltashores,NA,US,Idaho,48.105423,-116.141891
+ID15,Dewey Moore,deweymoore,NA,US,Idaho,45.1496773,-115.076851
+ID83,Dfgx Ranch,dfgx,NA,US,Idaho,46.85804,-116.822205
+ID53,Dovel Private Strip,dovel,NA,US,Idaho,45.06841,-115.118118
+ID89,Eagle Creek,eaglecreek,NA,US,Idaho,45.9983978,-116.703819
+ID96,Foxglove Ranch,foxglove,NA,US,Idaho,46.13337,-115.795395
+ID27,Hoodoo Meadows,hoodoomeadows,NA,US,Idaho,45.055378,-114.560089
+ID90,Horse Creek,horsecreek,NA,US,Idaho,43.93171,-111.144157
+ID91,Horse Haven,horsehaven,NA,US,Idaho,47.82599,-116.498245
+ID93,Horseshoe Bend,horseshoebendid,NA,US,ID,43.9198532,-116.187256
+ID30,James Ranch,jamesranch,NA,US,Idaho,45.4019928,-115.620972
+ID98,Lmc Ranch,lmcranch,NA,US,Idaho,44.67044,-113.917183
+ID31,Lower Castle Creek,lowercastlecreek,NA,US,Idaho,44.8185043,-114.432884
+ID37,Marble Creek,marblecreek,NA,US,Idaho,44.77379,-114.985474
+ID99,Marsing Murphy Airpark,marsingmurphy,NA,US,Idaho,43.2601433,-116.558983
+ID38,Mcclain Ranch,mcclainranch,NA,US,Idaho,45.1888657,-115.566917
+K10,Mile Hi,KRON_MahoneyCreek,NA,US,Idaho,45.1492081,-115.000854
+ID45,Moose Creek Private Field,moosecreekpvt,NA,US,Idaho,46.1414566,-114.916954
+15ID,Murray Field,murray,NA,US,Idaho,48.3537521,-116.507858
+ID46,North Star,northstarranch,NA,US,Idaho,45.93632,-114.83075
+ID70,Old White Bird Hill,oldwhitebird,NA,US,Idaho,45.86389,-116.201332
+ID47,Greene Valley,pinnaclepeach,NA,US,Idaho,43.81748,-115.115623
+ID49,Pistol Creek,pistolcreek,NA,US,Idaho,44.7344933,-115.145805
+ID63,Ramshorn Ranch,ramshornranch,NA,US,Idaho,44.878006,-114.455513
+ID51,Selway Lodge,selwaylodge,NA,US,Idaho,46.0058556,-114.843071
+ID52,Shepp Ranch,sheppranch,NA,US,Idaho,45.43869,-115.665176
+ID54,South Fork Ranch,southforkranch-regular,NA,US,Idaho,45.2406273,-115.53019
+ID55,Stonebraker Ranch,stonebrakerranch,NA,US,Idaho,45.3889771,-115.195625
+ID57,Sugarloaf Butte,sugarloafbutte,NA,US,Idaho,45.8532181,-116.668068
+16ID,Sunshine Acres,sunschineacres,NA,US,Idaho,47.8338623,-117.264465
+ID58,Upper Castle Creek,uppercastlecreek,NA,US,Idaho,44.821785,-114.420921
+ID50,Wapshilla,KRON_MahoneyCreek,NA,US,Idaho,45.9416847,-116.763672
+ID64,Whitewater Ranch,whitewater,NA,US,Idaho,45.53526,-115.300339
+ID66,Willey Ranch,willeyranch,NA,US,Idaho,45.05933,-115.626411
+ID20,Yellow Jacket,yellowjacket,NA,US,Idaho,45.15164,-115.560738
+ID69,Yellow Pine Bar,yellowpinebar,NA,US,Idaho,45.5408249,-115.254021
+32MT,Ervin Ridge,ervinridge,NA,US,Montana,47.81336,-109.163139
+33MT,Lime Creek,limecreek,NA,US,Montana,48.618557,-116.028252
+76OR,Agness,agnessapt,NA,US,Oregon,42.55514,-124.066132
+79OR,Bear Creek,bearcreek,NA,US,Oregon,44.6591759,-120.28791
+77OR,Bh Airstrip,bhairstrip,NA,US,Oregon,45.72403,-117.077576
+84OR,Bull Run,bullrun,NA,US,Oregon,45.44988,-120.863762
+01OR,Cache Creek,cachecreek,NA,US,Oregon,45.981678,-116.903839
+86OR,Chukar Flats,chukarflats,NA,US,Oregon,45.225853,-120.543808
+87OR,Collier Bar,collierbar,NA,US,Oregon,42.418766,-124.010971
+14OR,Copco Ranch,copcoranch,NA,US,Oregon,42.02731,-122.324265
+15OR,Dixie Flat,dixieflats,NA,US,Oregon,45.377533,-118.178879
+ID18,Dug Bar,dugbar,NA,US,Idaho,45.80587,-116.68795
+16OR,East Road Gulch Blm,eastroadgulchblm,NA,US,Oregon,42.42399,-119.247948
+21OR,Foster Ranch,fosterranch,NA,US,Oregon,43.2917633,-122.591682
+23OR,Half Moon Bar,halfmoonbar,NA,US,Oregon,42.69462,-123.938896
+24OR,Paradise Lodge,halfmoonbar,NA,US,Oregon,42.6992531,-123.9381
+25OR,Jackson Hole,jacksonhole,NA,US,Oregon,43.1905365,-117.646584
+27OR,Klamath River Airstrip,klamathriver,NA,US,Oregon,42.03534,-122.097244
+31OR,Lake Of The Woods,lakeofthewoods,NA,US,Oregon,42.3915672,-122.205048
+34OR,Lower Table Rock,lowertablerock,NA,US,Oregon,42.4498978,-122.951332
+38OR,Malheur,malheur,NA,US,Oregon,43.883194,-119.195847
+39OR,Nashville,nashville,NA,US,Oregon,44.6561241,-123.635773
+40OR,Olallie Landing Field,olallie,NA,US,Oregon,44.0102577,-122.030777
+41OR,Penny Flats,pennyflats,NA,US,Oregon,45.40643,-120.509995
+63OR,Pittsburg,pittsburg,NA,US,Oregon,45.62956,-116.475243
+75OR,Rogue River Ranch,rogueriver,NA,US,Oregon,42.71714,-123.881927
+65OR,Salmon Bar,salmonbar,NA,US,Oregon,45.86012,-116.797813
+43OR,Sixteen Canyon,sixteencanyon,NA,US,Oregon,45.4020424,-120.867676
+66OR,Sluice Creek,sluicecreek,NA,US,Oregon,45.4473267,-116.584595
+46OR,Succor Creek,succorcreek,NA,US,Oregon,43.5178452,-117.140793
+51OR,Summit Meadows,summitmeadows,NA,US,Oregon,45.28134,-121.7353
+53OR,Sumpter,sumpter,NA,US,Oregon,44.7384453,-118.194153
+71OR,Temperance Creek,temperancecreek,NA,US,Oregon,45.53509,-116.534828
+54OR,The Elbow,theelbow,NA,US,Oregon,42.4847,-121.022018
+56OR,Trout Creek Loop,troutcreekloop,NA,US,Oregon,43.32135,-117.462631
+57OR,Upper Table Rock,uppertablerock,NA,US,Oregon,44.0630722,-120.067421
+59OR,Willow Creek Spring,willowcreek,NA,US,Oregon,43.87158,-117.593422
+62OR,Winema,winema,NA,US,Oregon,42.8662834,-121.001823
+01WA,Adams Ranch,adamsranch,NA,US,Washington,47.8228569,-117.795059
+05WA,Calhoun,calhoun,NA,US,Washington,47.8058434,-117.68557
+06WA,Mccalhoun Ranch,calhoun,NA,US,Washington,47.80647,-117.663559
+07WA,Corkscrew Ranch,corkscrew,NA,US,Washington,47.873497,-117.711693
+08WA,Green Mountain,greenmountain,NA,US,Washington,47.8224564,-117.06987
+09WA,Jensen,jensen,NA,US,Washington,46.91827,-122.316093
+02WY,Burnt Fork Airstrip,burntfork,NA,US,Wyoming,41.1222458,-110.869766
+05WY,Fort Washakie Airstrip,fortwashakie,NA,US,Wyoming,43.02636,-108.8999
+ULNA,Valday Avia,newmoscowboy-valday,AS,RU,,57.95995,33.2361336
 VASU,Surat International Airport,"fs-base, vasu",AS,IN,,21.1188374,72.7464
 VCCC,Colombo Ratmalana Airport,"fs-base, vccc-ratmalana-airport-srilanka",AS,LK,Colombo,6.82077074,79.88678
 VCCJ,Jaffna International Airport Sri Lanka,vccj-jaffna-airport,AS,LK,,9.790467,80.07101

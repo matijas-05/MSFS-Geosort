@@ -11,6 +11,8 @@ namespace Geosort.Controls
 	public partial class FilePicker : UserControl
 	{
 		public bool IsFolderPicker { get; set; }
+		public string Placeholder { get; set; }
+
 		public string FilePath => pathBox.Text;
 		public event Action<string> OnFilePicked;
 
