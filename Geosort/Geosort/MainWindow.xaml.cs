@@ -58,17 +58,19 @@ namespace Geosort
 		{
 			public string Name { get; set; }
 			public string Path { get; set; }
-			public string RelativePath => Path.Remove(0, ADDONS_PATH.Length);
+			public string RelativePath => Path.Remove(0, Window.m_AddonPath.Length);
 			public string Size { get; set; }
 			public long SizeBytes { get; set; }
 			public Airport Airport { get; set; }
+			public MainWindow Window { get; }
 
-			public Addon(string name, string path, string size, long sizeBytes)
+			public Addon(string name, string path, string size, long sizeBytes, MainWindow window)
 			{
 				Name = name;
 				Path = path;
 				Size = size;
 				SizeBytes = sizeBytes;
+				Window = window;
 			}
 			public Addon(Addon addon)
 			{
@@ -77,6 +79,7 @@ namespace Geosort
 				Size = addon.Size;
 				SizeBytes = addon.SizeBytes;
 				Airport = addon.Airport;
+				Window = addon.Window;
 			}
 		}
 		class Airport
@@ -318,7 +321,7 @@ namespace Geosort
 						long sizeBytes = DirSize(resultDir);
 						string size = HumanFileSize(sizeBytes);
 
-						m_AddonsLoaded.Add(new Addon(name, result, size, sizeBytes));
+						m_AddonsLoaded.Add(new Addon(name, result, size, sizeBytes, this));
 					}
 				}
 
@@ -383,9 +386,9 @@ namespace Geosort
 								{
 									if (correction.Country != "") arp.Country = correction.Country;
 									result = Result(addon, arp, "");
+									m_NotIdAsAddonInLNM.Add(addon);
 								}
 							}
-
 						}
 					}
 
@@ -490,7 +493,7 @@ namespace Geosort
 						}
 					}
 				}
-				List<Airport> newCache = new List<Airport>();
+				List<Airport> newCache = new List<Airport>(locationCache);
 
 				// Assign country and usa state to airports without one
 				await AssignMissingLocation();
@@ -572,7 +575,14 @@ namespace Geosort
 							m_BadLocation.Add(addon);
 						}
 
-						newCache.Add(addon.Airport);
+						// If airport folder name changed, remove old cache entry and add new one
+						if (newCache.Any(arp => arp.Ident == addon.Airport.Ident && arp.Laty == addon.Airport.Laty && arp.Lonx == addon.Airport.Lonx && arp.Scenery_Local_Path != addon.Airport.Scenery_Local_Path))
+						{
+							newCache.Remove(newCache.Single(entry => entry.Ident == addon.Airport.Ident));
+							newCache.Add(addon.Airport);
+						}
+						// If airport not in cache, add a new entry
+						else if (!newCache.Any(arp => arp.Ident == addon.Airport.Ident && arp.Scenery_Local_Path == addon.Airport.Scenery_Local_Path)) newCache.Add(addon.Airport);
 					}
 
 					WriteLocationCache(newCache);
@@ -613,7 +623,7 @@ namespace Geosort
 					}
 				}
 
-				Log.WriteHeader($"AIRPORTS NOT IDENTIFIED AS ADDONS IN LNM ({m_NotFound.Count})");
+				Log.WriteHeader($"AIRPORTS NOT IDENTIFIED AS ADDONS IN LNM ({m_NotIdAsAddonInLNM.Count})");
 				if (m_NotIdAsAddonInLNM.Count != 0)
 				{
 					foreach (Addon addon in m_NotIdAsAddonInLNM)
