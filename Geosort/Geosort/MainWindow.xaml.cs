@@ -13,6 +13,16 @@ using CsvHelper;
 using BingMapsRESTToolkit;
 using System.Threading.Tasks;
 
+using SharpCompress.Common;
+using SharpCompress.Archives;
+using SharpCompress.Writers;
+using SharpCompress.Archives.Zip;
+using SharpCompress.Archives.Rar;
+using SharpCompress.Archives.SevenZip;
+
+using JDStuart.DirectoryUtils;
+using Directory = System.IO.Directory;
+
 namespace Geosort
 {
 	/// <summary>
@@ -24,12 +34,17 @@ namespace Geosort
 		private bool m_AddonPathValid;
 		private string m_OutputPath;
 		private bool m_OutputPathValid;
+		private string m_UpdatePath;
+		private bool m_UpdatePathValid;
 
 		private List<Addon> m_AddonsLoaded = new List<Addon>();
 		private List<Addon> m_AddonsAirports = new List<Addon>();
 		private List<Addon> m_NotFound = new List<Addon>();
 		private List<Addon> m_NotIdAsAddonInLNM = new List<Addon>();
 		private List<Addon> m_BadLocation = new List<Addon>();
+		private List<Addon> m_Zips = new List<Addon>();
+		private string[] m_Archives;
+		private List<string> m_AddonsToUpdate = new List<string>();
 
 		private GridViewColumnHeader m_LastHeaderClicked;
 		private ListSortDirection m_LastDirection = ListSortDirection.Ascending;
@@ -39,20 +54,25 @@ namespace Geosort
 		private CountryContinentPair[] m_CountryContinent;
 		private NameCodePair[] m_Continents;
 		private NameCodePair[] m_US_States;
+		private NameCodePair[] m_CanadaProvinces;
 		private AirportCorrection[] m_AirportCorrections;
 		private SkipWord[] m_SkipWords;
 
-		private const string ADDONS_PATH = @"E:\Gry\!Mody\Community";
+		private const string ADDONS_PATH = @"E:\Gry\!Mody\test";
 		private const string OUTPUT_PATH = @"E:\Gry\!Mody\test";
+		private const string UPDATE_PATH = @"D:\Pobrane\Gry\Flight Sim\MFS\addons";
+		private const string TEMP_PATH = @"D:\Pobrane\Gry\Flight Sim\MFS\tmp";
 		private const string AIRPORTS_PATH = "Database\\airports_lnm.csv";
 		private const string COUNTRIES_CONTINENTS_PATH = "Database\\countries_continents.csv";
 		private const string CONTINENTS_PATH = "Database\\continents.csv";
 		private const string US_STATES_PATH = "Database\\us_states.csv";
+		private const string CANADA_PROVINCES_PATH = "Database\\canada_provinces.csv";
 		private const string AIRPORT_CORRECTION_PATH = "Database\\airport_correction.csv";
 		private const string SKIP_WORDS_PATH = "Database\\skip_words.csv";
 		private const string LOCATION_CACHE_PATH = "Database\\location_cache.csv";
 		private const string MANIFEST_JSON = "\\manifest.json";
-		public const string BING_KEY = "0IdWzWxUd4A3QfCpiORd~DdYhDa6fAlG8ffUUyusDOw~AgZDz-ygdJ1z5h9M-PxBqv_HF-MWhNk9sbD5Jpxnlk-4haHwxXYE6huVTPROe6H3";
+		private const string BAT_FILE = "Database\\load_lnm_airports.bat";
+		private const string BING_KEY = "0IdWzWxUd4A3QfCpiORd~DdYhDa6fAlG8ffUUyusDOw~AgZDz-ygdJ1z5h9M-PxBqv_HF-MWhNk9sbD5Jpxnlk-4haHwxXYE6huVTPROe6H3";
 
 		class Addon
 		{
@@ -158,6 +178,7 @@ namespace Geosort
 			Log.Clear();
 			InitializeComponent();
 			ReadSave();
+			//UpdateLNM_Airports();
 			LoadDatabases();
 
 			// TODO: Actually read from save file
@@ -165,6 +186,27 @@ namespace Geosort
 			{
 				addonFolderPicker.ChangePath(ADDONS_PATH);
 				outputFolderPicker.ChangePath(OUTPUT_PATH);
+				updateFolderPicker.ChangePath(UPDATE_PATH);
+			}
+			void UpdateLNM_Airports()
+			{
+				using (var reader = new StreamReader(BAT_FILE))
+				{
+					string command = reader.ReadToEnd();
+					Process cmd = new Process();
+					cmd.StartInfo.FileName = "cmd.exe";
+					cmd.StartInfo.RedirectStandardInput = true;
+					cmd.StartInfo.RedirectStandardOutput = true;
+					cmd.StartInfo.CreateNoWindow = false;
+					cmd.StartInfo.UseShellExecute = false;
+					cmd.Start();
+
+					cmd.StandardInput.WriteLine(command);
+					cmd.StandardInput.Flush();
+					cmd.StandardInput.Close();
+					cmd.WaitForExit();
+					Debug.WriteLine(cmd.StandardOutput.ReadToEnd());
+				}
 			}
 		}
 		// TODO: Load database only when starting and database changed (check last time of modifiaction?)
@@ -174,6 +216,7 @@ namespace Geosort
 			m_CountryContinent = ReadFile<CountryContinentPair>(COUNTRIES_CONTINENTS_PATH);
 			m_Continents = ReadFile<NameCodePair>(CONTINENTS_PATH);
 			m_US_States = ReadFile<NameCodePair>(US_STATES_PATH);
+			m_CanadaProvinces = ReadFile<NameCodePair>(CANADA_PROVINCES_PATH);
 			m_AirportCorrections = ReadFile<AirportCorrection>(AIRPORT_CORRECTION_PATH);
 			m_SkipWords = ReadFile<SkipWord>(SKIP_WORDS_PATH);
 
@@ -251,102 +294,101 @@ namespace Geosort
 			addonLabel.Content = $"Addons ({m_AddonsLoaded.Count}):";
 			SortDataView(nameof(Addon.Path), ListSortDirection.Ascending);
 
-			long DirSize(DirectoryInfo d)
+		}
+		void LoadAddon(int i, string path)
+		{
+			// Load all folders of path
+			string result = "";
+			List<string> dirsAndRoot = new List<string>();
+			dirsAndRoot.Add(path);
+
+			try { dirsAndRoot.AddRange(Directory.GetDirectories(path, "*", SearchOption.AllDirectories)); }
+			catch (DirectoryNotFoundException ex)
 			{
-				long size = 0;
-				// Add file sizes.
-				FileInfo[] fis = d.GetFiles();
-				foreach (FileInfo fi in fis)
-				{
-					size += fi.Length;
-				}
-				// Add subdirectory sizes.
-				DirectoryInfo[] dis = d.GetDirectories();
-				foreach (DirectoryInfo di in dis)
-				{
-					size += DirSize(di);
-				}
-				return size;
+				MessageBox.Show("Could not open a directory. Try running the program as administrator and make sure to delete any invalid links in MFS Addon Linker.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+				throw ex;
 			}
-			string HumanFileSize(long size)
+			catch (Exception ex)
 			{
-				string[] sizes = { "B", "kB", "MB", "GB", "TB" };
-				var i = size == 0 ? 0 : Math.Floor(Math.Log(size) / Math.Log(1024));
-				return Math.Round(size / Math.Pow(1024, i), 2) + " " + sizes[(int)i];
+				MessageBox.Show("Could not open a directory. Try running the program as administrator and make sure to delete any invalid links in MFS Addon Linker.\n\n" + ex.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+				throw ex;
 			}
 
-			void LoadAddon(int i, string path)
+			// TODO: display this at the end of loading
+			// Folder has no subfolders
+			if (dirsAndRoot.Count == 1)
 			{
-				// Load all folders of path
-				string result = "";
-				List<string> dirsAndRoot = new List<string>();
-				dirsAndRoot.Add(path);
+				MessageBox.Show($"Directory '{dirsAndRoot[dirsAndRoot.Count - 1]}' isn't a valid addon directory and is going to be skipped.", "Information", MessageBoxButton.OK, MessageBoxImage.Information);
+				return;
+			}
 
-				try { dirsAndRoot.AddRange(Directory.GetDirectories(path, "*", SearchOption.AllDirectories)); }
-				catch (DirectoryNotFoundException ex)
+			// Add folders to addon list
+			foreach (string dir in dirsAndRoot)
+			{
+				// Optimization code - don't search for manifest.json if it has already been found in one of parent folders.
+				if (result != "")
 				{
-					MessageBox.Show("Could not open a directory. Try running the program as administrator and make sure to delete any invalid links in MFS Addon Linker.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-					throw ex;
-				}
-				catch (Exception ex)
-				{
-					MessageBox.Show("Could not open a directory. Try running the program as administrator and make sure to delete any invalid links in MFS Addon Linker.\n\n" + ex.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-					throw ex;
+					if (IsSubfolder(result, dir))
+						continue;
 				}
 
-				// TODO: display this at the end of loading
-				// Folder has no subfolders
-				if (dirsAndRoot.Count == 1)
+				// If manifest.json exists in folder, add it to addon list
+				if (File.Exists(dir + MANIFEST_JSON))
 				{
-					MessageBox.Show($"Directory '{dirsAndRoot[dirsAndRoot.Count - 1]}' isn't a valid addon directory and is going to be skipped.", "Information", MessageBoxButton.OK, MessageBoxImage.Information);
-					return;
-				}
+					result = dir;
+					DirectoryInfo resultDir = new DirectoryInfo(result);
+					string name = resultDir.Name;
+					long sizeBytes = DirSize(resultDir);
+					string size = HumanFileSize(sizeBytes);
 
-				// Add folders to addon list
-				foreach (string dir in dirsAndRoot)
-				{
-					// Optimization code - don't search for manifest.json if it has already been found in one of parent folders.
-					if (result != "")
-					{
-						if (IsSubfolder(result, dir))
-							continue;
-					}
-
-					// If manifest.json exists in folder, add it to addon list
-					if (File.Exists(dir + MANIFEST_JSON))
-					{
-						result = dir;
-						DirectoryInfo resultDir = new DirectoryInfo(result);
-						string name = resultDir.Name;
-						long sizeBytes = DirSize(resultDir);
-						string size = HumanFileSize(sizeBytes);
-
-						m_AddonsLoaded.Add(new Addon(name, result, size, sizeBytes, this));
-					}
-				}
-
-				// TODO: display this at the end of loading
-				// Didn't find manifest.json in a folder
-				if (result == "")
-				{
-					MessageBox.Show($"Directory '{dirsAndRoot[dirsAndRoot.Count - 1]}' isn't a valid addon directory and is going to be skipped.", "Information", MessageBoxButton.OK, MessageBoxImage.Information);
-				}
-
-				bool IsSubfolder(string parentPath, string childPath)
-				{
-					var parentUri = new Uri(parentPath);
-					var childUri = new DirectoryInfo(childPath).Parent;
-					while (childUri != null)
-					{
-						if (new Uri(childUri.FullName) == parentUri)
-						{
-							return true;
-						}
-						childUri = childUri.Parent;
-					}
-					return false;
+					m_AddonsLoaded.Add(new Addon(name, result, size, sizeBytes, this));
 				}
 			}
+
+			// TODO: display this at the end of loading
+			// Didn't find manifest.json in a folder
+			if (result == "")
+			{
+				MessageBox.Show($"Directory '{dirsAndRoot[dirsAndRoot.Count - 1]}' isn't a valid addon directory and is going to be skipped.", "Information", MessageBoxButton.OK, MessageBoxImage.Information);
+			}
+
+			bool IsSubfolder(string parentPath, string childPath)
+			{
+				var parentUri = new Uri(parentPath);
+				var childUri = new DirectoryInfo(childPath).Parent;
+				while (childUri != null)
+				{
+					if (new Uri(childUri.FullName) == parentUri)
+					{
+						return true;
+					}
+					childUri = childUri.Parent;
+				}
+				return false;
+			}
+		}
+		long DirSize(DirectoryInfo d)
+		{
+			long size = 0;
+			// Add file sizes.
+			FileInfo[] fis = d.GetFiles();
+			foreach (FileInfo fi in fis)
+			{
+				size += fi.Length;
+			}
+			// Add subdirectory sizes.
+			DirectoryInfo[] dis = d.GetDirectories();
+			foreach (DirectoryInfo di in dis)
+			{
+				size += DirSize(di);
+			}
+			return size;
+		}
+		string HumanFileSize(long size)
+		{
+			string[] sizes = { "B", "kB", "MB", "GB", "TB" };
+			var i = size == 0 ? 0 : Math.Floor(Math.Log(size) / Math.Log(1024));
+			return Math.Round(size / Math.Pow(1024, i), 2) + " " + sizes[(int)i];
 		}
 
 		// Identifies addons based on the icao and lnm
@@ -354,7 +396,7 @@ namespace Geosort
 		{
 			bool continent = sortContinent.IsChecked.Value;
 			bool country = sortContinent.IsChecked.Value;
-			bool us_state = sortUS_State.IsChecked.Value;
+			bool us_state = sortUS_CA.IsChecked.Value;
 
 			LoadDatabases();
 
@@ -535,7 +577,7 @@ namespace Geosort
 							var address = ((Location)response.ResourceSets[0].Resources[0]).Address;
 							addon.Airport.Country = address.CountryRegionIso2 ?? address.CountryRegion ?? address.Locality;
 
-							if (addon.Airport.Country == "US") addon.Airport.State = address.AdminDistrict;
+							if (addon.Airport.Country == "US" || addon.Airport.Country == "CA") addon.Airport.State = address.AdminDistrict;
 
 							Log.WriteLine($"{addon.Airport.Name} ({addon.Airport.Ident}): {addon.Airport.Country}");
 						}
@@ -706,28 +748,49 @@ namespace Geosort
 				}
 
 				// Sort by US state
-				if (sortUS_State.IsChecked.Value && addon.Airport.Country == "US")
+				if (sortUS_CA.IsChecked.Value)
 				{
-					bool stateFound = false;
-					foreach (var state in m_US_States)
+					if (addon.Airport.Country == "US")
 					{
-						if (addon.Airport.State == state.Name || addon.Airport.State == state.Code)
+						bool stateFound = false;
+						foreach (var state in m_US_States)
 						{
-							dirTree += "\\" + state.Name;
-							stateFound = true;
-							break;
+							if (addon.Airport.State == state.Name || addon.Airport.State == state.Code)
+							{
+								dirTree += "\\" + state.Name;
+								stateFound = true;
+								break;
+							}
+						}
+
+						if (!stateFound)
+						{
+							dirTree += "\\zzz_Unassgined";
 						}
 					}
-
-					if (!stateFound)
+					else if (addon.Airport.Country == "CA")
 					{
-						dirTree += "\\zzz_Unassgined";
+						bool stateFound = false;
+						foreach (var province in m_CanadaProvinces)
+						{
+							if (addon.Airport.State == province.Name || addon.Airport.State == province.Code)
+							{
+								dirTree += "\\" + province.Name;
+								stateFound = true;
+								break;
+							}
+						}
+
+						if (!stateFound)
+						{
+							dirTree += "\\zzz_Unassgined";
+						}
 					}
 				}
 
 				// Add parent directories to output path and move airport folder
 				Directory.CreateDirectory($"{m_OutputPath}\\{dirTree}{addonParentFolders}");
-				if(!(!sortContinent.IsChecked.Value && !sortCountry.IsChecked.Value && sortUS_State.IsChecked.Value))
+				if (!(!sortContinent.IsChecked.Value && !sortCountry.IsChecked.Value && sortUS_CA.IsChecked.Value))
 					Directory.Move(addon.Path, m_OutputPath + "\\" + dirTree + addon.RelativePath);
 
 				// Delete root folder if there is an additional folder containing airports eg. Malaysian Airports/xxxx, Malaysian Airports/yyyy
@@ -743,6 +806,94 @@ namespace Geosort
 			MessageBox.Show("Finished sorting.", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
 		}
 
+		// Update addons
+		void loadArchivesBtn_Click(object sender, RoutedEventArgs e)
+		{
+			// Load addon list
+			m_Archives = Directory.GetFiles(m_UpdatePath, "*.*")
+				.Where(file => file.ToLower().EndsWith(".zip") || file.ToLower().EndsWith(".rar") || file.ToLower().EndsWith(".7z"))
+				.ToArray();
+
+
+			// Abort if dir is empty
+			if (m_Archives.Length == 0)
+			{
+				MessageBox.Show($"Directory '{m_UpdatePath}' is empty.", "Information", MessageBoxButton.OK, MessageBoxImage.Information);
+				return;
+			}
+
+			// Add addons to UI
+			addonList.ItemsSource = m_Zips;
+			addonLabel.Content = $"Addons ({m_AddonsLoaded.Count}):";
+			SortDataView(nameof(Addon.Path), ListSortDirection.Ascending);
+		}
+		void extractBtn_Click(object sender, RoutedEventArgs e)
+		{
+			m_AddonsToUpdate.Clear();
+
+			foreach (string path in m_Archives)
+			{
+				if (Path.GetExtension(path) == ".zip")
+				{
+					using (var zip = ZipArchive.Open(path))
+					{
+						// Check for a folder inside archive
+						foreach (var entry in zip.Entries)
+						{
+							// Extract to tmp folder
+							entry.WriteToDirectory(TEMP_PATH, new ExtractionOptions()
+							{
+								ExtractFullPath = true,
+								Overwrite = true
+							});
+						}
+					}
+
+					// Search for folders containing manifest.json and mark them as root folders
+					List<string> rootFolderNames = new List<string>();
+					foreach (var dir in Directory.GetDirectories(TEMP_PATH))
+					{
+						if (File.Exists(dir + MANIFEST_JSON))
+							rootFolderNames.Add(dir);
+					}
+					foreach (var rootFolder in rootFolderNames)
+					{
+						string rootFolderName = rootFolder.Split('\\').Last();
+
+						JDStuart.DirectoryUtils.Directory.Move(Path.Combine(TEMP_PATH, rootFolderName), Path.Combine(m_UpdatePath, rootFolderName));
+						m_AddonsToUpdate.Add(rootFolderName);
+					}
+				}
+				// Delete contents of tmp
+				Directory.Delete(TEMP_PATH, true);
+				Directory.CreateDirectory(TEMP_PATH);
+			}
+			MessageBox.Show($"Extracted archives.", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+		}
+		void updateBtn_Click(object sender, RoutedEventArgs e)
+		{
+			foreach (var addon in m_AddonsLoaded)
+			{
+				foreach (var updateAddon in m_AddonsToUpdate)
+				{
+					if (addon.Name == updateAddon)
+					{
+						MessageBoxResult result = MessageBox.Show($"Replace original '{addon.RelativePath}' with '{updateAddon}'?", "Update?", MessageBoxButton.YesNoCancel, MessageBoxImage.Question);
+						if (result == MessageBoxResult.Yes)
+						{
+							JDStuart.DirectoryUtils.Directory.Move(addon.Path, TEMP_PATH + "\\" + addon.Name);
+							JDStuart.DirectoryUtils.Directory.Move(Path.Combine(m_UpdatePath, updateAddon), addon.Path);
+						}
+						else if(result == MessageBoxResult.Cancel)
+						{
+							return;
+						}	
+					}
+				}
+			}
+			MessageBox.Show($"Updated addons.", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+		}
+
 		void addonFolderPicker_OnFilePicked(string path)
 		{
 			m_AddonPath = path;
@@ -754,6 +905,12 @@ namespace Geosort
 			m_OutputPath = path;
 			m_OutputPathValid = Directory.Exists(m_OutputPath);
 			loadBtn.IsEnabled = sortBtn.IsEnabled = m_AddonPathValid;
+		}
+		void updateFolderPicker_OnFilePicked(string path)
+		{
+			m_UpdatePath = path;
+			m_UpdatePathValid = Directory.Exists(m_UpdatePath);
+			updateBtn.IsEnabled = m_UpdatePathValid;
 		}
 
 		// Sort addons in listview
@@ -826,6 +983,5 @@ namespace Geosort
 			dataView.SortDescriptions.Add(sd);
 			dataView.Refresh();
 		}
-
 	}
 }

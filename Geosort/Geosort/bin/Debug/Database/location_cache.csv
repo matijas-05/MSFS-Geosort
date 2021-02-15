@@ -18,26 +18,16 @@ LETC,Matilla De Los Canos,"fs-base, airhispania-scene-letc-matilla",EU,ES,Castil
 20KT,Brushy Fork Field,airmapper-airport-20kt-brushy-fork-field,NA,US,KY,37.6746254,-86.4803848
 4M7,Russellville-Logan County,"fs-base, 4m7, airmapper-airport-4m7-russellville",NA,US,Kentucky,36.79968,-86.81
 M21,Muhlenberg County,"fs-base, airmapper-airport-m21-muhlenberg",NA,US,Kentucky,37.2259941,-87.15736
-CAK3,Delta Heritage Airpark,"fs-base, Airport CAK3 Delta Airpark-v1.0",NA,CA,Bc,49.078804,-122.939819
-CAP3,Sechelt-Gibsons Airport,"fs-base, Airport CAP3 Sechelt-v1.0",NA,CA,Bc,49.4612732,-123.718224
 CAT4,Qualicum Beach Airport,"fs-base, Airport CAT4 QualicumBeach-v1.0",NA,CA,British Columbia,49.33698,-124.393333
 CBS8,Alberni Valley Regional Airport,"fs-base, Airport CBS8 AlberniValley-v1.1",NA,CA,British Columbia,49.32105,-124.929581
 CJQ2,Lampman Airport,"fs-base, Airport CJQ2 Lampman-v1.0",NA,CA,Saskatchewan,49.3708763,-102.760284
 CJQ3,Carlyle Airport,"fs-base, Airport CJQ3 Carlyle-v1.3",NA,CA,Saskatchewan,49.6439857,-102.285721
 CNV9,Quebec Neuville Airport,"fs-base, Airport CNV9 Neuville-v1.3",NA,CA,Quebec,46.7231026,-71.58273
-CSK8,King George Airpark,"fs-base, Airport CSK8 KingGeorge-v1.2",NA,CA,Bc,49.093174,-122.822769
-CYAZ,Tofino - Long Beach,"fs-base, Airport CYAZ Tofino-v1.0",NA,CA,Bc,49.0786133,-125.775108
 CYBL,Campbell River Airport,"fs-base, Airport CYBL CampbellRiver-v1.1",NA,CA,British Columbia,49.9519119,-125.272896
 CYCW,Chilliwack Airport,"fs-base, Airport CYCW Chilliwack-v1.2",NA,CA,British Columbia,49.1531944,-121.939468
-CYLW,Kelowna,"fs-base, Airport CYLW Kelowna-v1.7, Airport CYLW Kelowna-v1.8",NA,CA,Bc,49.9573746,-119.377975
-CYLW,Kelowna,"fs-base, Airport CYLW Kelowna-v1.7, Airport CYLW Kelowna-v1.8",NA,CA,Bc,49.9573746,-119.377975
-CYNJ,Langley Regional Airport,"fs-base, Airport CYNJ Langley-v1.2",NA,CA,Bc,49.1010323,-122.627953
 CYPK,"Pitt Meadows ","fs-base, Airport CYPK PittMeadows-v1.3",NA,CA,British Columbia,49.213913,-122.713333
 CYPS,Pemberton Airport,"fs-base, Airport CYPS Pemberton-v1.0",NA,CA,British Columbia,50.3022346,-122.737755
-CYPW,Powell River Airport,"fs-base, Airport CYPW PowellRiver-v1.0",NA,CA,Bc,49.8340569,-124.50029
 CYSE,Squamish Airport,"fs-base, Airport CYSE Squamish-v1.0",NA,CA,British Columbia,49.7821655,-123.161942
-CYYF,Penticton,"fs-base, Airport CYYF Penticton, Airport CYYF Penticton-v1.3",NA,CA,Bc,49.46299,-119.602257
-CYYF,Penticton,"fs-base, Airport CYYF Penticton, Airport CYYF Penticton-v1.3",NA,CA,Bc,49.46299,-119.602257
 CZBB,Boundary Bay Airport,"fs-base, Airport CZBB BoundaryBay-v1.0",NA,CA,British Columbia,49.07792,-123.007286
 CZNL,Nelson Regional Airport,"fs-base, Airport CZNL Nelson-v1.0",NA,CA,British Columbia,49.493988,-117.30085
 KBLI,Bellingham Airport,"fs-base, Airport KBLI Bellingham-v1.2",NA,US,Washington,48.79262,-122.537544
@@ -48,7 +38,6 @@ LRIA,Aeroportul International Iasi,"fs-base, Airport LRIA-Iasi",EU,RO,,47.18014,
 LRSB,Aeroportul International Sibiu,"fs-base, Airport LRSB-Sibiu",EU,RO,,45.78586,24.0868511
 LRTR,Traian Vuia,"fs-base, Airport LRTR-Timisoara",EU,RO,,45.8097839,21.3380051
 BGTL,Thule AFB,airport-bgtl-thuleafb1.2-superspud,NA,GL,,76.53445,-68.70112
-CYB2,Machmell Fisheries,airport-cby2-machmell,NA,CA,,51.656498,-126.682816
 EDDP,Leipzig/Halle,"fs-base, airport-dastrobel-eddp_taxiway_FIX",EU,DE,,51.41772,12.2169971
 EDXQ,Flugplatz Rotenburg,"Airport-EDXQ-Rotenburg, radohmat-edxq",EU,DE,Niedersachen,53.12838,9.348533
 EFHA,Halli,airport-efha-bli,EU,FI,,61.8563423,24.7980766
@@ -81,7 +70,7 @@ LITA,Aviosuperficie Sassuolo,"fs-base, airport-lita",EU,IT,Italy,44.5693474,10.7
 LITZ,Campo Volo Willy Coyote,"fs-base, airport-litz",EU,IT,Modena,44.7728539,10.8321056
 N57,New Garden Airport,"fs-base, airport-n57",NA,US,Pennsylvania,39.83097,-75.7691345
 TVSA,Argyle International Airport,"fs-base, airport-tvsa-argyle-superspud",NA,VC,,13.1550474,-61.1555862
-ULMM,Murmansk,"fs-base, airport-ulmm",AS,RU,,68.7835846,32.7512245
+ULMM,Murmansk,"fs-base, xflight-ulmm",AS,RU,,68.7835846,32.7512245
 UODN,Nagurskoye Air Base,airport-uodn-nagurskoye air base1.0-superspud,AS,RU,,80.79558,47.485714
 UT69,Pelican Lake Airport,"fs-base, airport-ut69",NA,US,Utah,40.1816177,-109.670921
 YBFT,Beaufort,airport-ybft-beaufort,OC,AU,Victoria,-37.4943657,143.429855
@@ -134,7 +123,6 @@ AT27,Troll,kychungdotcom-airport-at27-troll,AN,Antarctica,Queen Maud Land,-71.95
 SCGC,Union Glacier Blue-Ice Runway,kychungdotcom-airport-scgc-unionglacier,AN,Antarctica,Ellsworth Mountains,-79.77778,-83.32083
 YWKS,Wilkins Runway,kychungdotcom-airport-ywks-wilkins,AN,Antarctica,Wilkes Land,-66.69111,111.525833
 AO02,Chamois,nikprist-ao02,EU,IT,,45.833477,7.61746931
-CYVP,Kuujjuaq,ape42-airport-cyvp-kuujjuaq,NA,CA,Québec,58.0995,-68.41833
 EBBE,Beauvechain,ape42-airport-ebbe-beauvechain,EU,BE,Wallonie,50.756916,4.76917839
 EDAY,Strausberger Airport,ape42-airport-eday-strausberg,EU,DE,,52.58234,13.9163389
 EDCW,Wismar,"fs-base, ape42-airport-edcw-wismar",EU,DE,,53.9146957,11.501112
@@ -230,7 +218,6 @@ LFNN,Narbonne,"fs-base, brepaddon-airport-lfnn-narbonne V1.2",EU,FR,,43.1938,3.0
 LFOE,Base 105 Evreux Fauville,brepaddon-airport-lfoe-evreux,EU,FR,,49.0282173,1.22134924
 LFRL,Lanveoc-Poulmic Navy,brepaddon-airport-lfrl-lanveoc,EU,FR,,48.2795868,-4.44293833
 ULBRZ,Brezno Airport,brzn,EU,CZ,Czech Republic,50.40923,13.4458609
-CAL3,Douglas Lake,"fs-base, cal3",NA,CA,-17,50.16563,-120.171265
 CAM5,Houston,"fs-base, cam5",NA,CA,British Columbia,54.43553,-126.786858
 C81,Campbell Airport,"fs-base, campbell",NA,US,Illinois,42.32483,-88.0774155
 MKO,Malekolon Airstrip,captainvtol-mko,OC,PG,,-4.020136,153.657547
@@ -315,9 +302,6 @@ CSL5,St-Victor-De-Beauce,fs-base,NA,CA,Quebec,46.1193848,-70.88702
 CSL5,St-Victor-De-Beauce,fs-base,NA,CA,Quebec,46.1193848,-70.88702
 EGLO,Cuckoo Tye Farm Airstrip,fs-base,EU,GB,,52.0682945,0.736316442
 LGHL,Porto Heli,"fs-base, cya-airport-lghl-portocheli, lghl",EU,GR,Peloponissos,37.2985153,23.1488514
-CYAH,La Grande-4 Airport,cyah,NA,CA,Quebec,53.7541542,-73.6787338
-CYBA,Yba,CYBA Banff Airport and Area,NA,CA,Alberta,51.20655,-115.540794
-CYBA,Yba,CYBA Banff Airport and Area,NA,CA,Alberta,51.20655,-115.540794
 CYCZ,Fairmont Hot Springs,"fs-base, cycz",NA,CA,British Columbia,50.3305855,-115.873795
 CYDA,Dawson City,"fs-base, cyda",NA,CA,Yukon,64.04298,-139.128662
 CYDQ,Dawson Creek,"fs-base, cydq",NA,CA,British Columbia,55.7424,-120.182556
@@ -339,7 +323,6 @@ CYXT,Terrace,"fs-base, cyxt",NA,CA,British Columbia,54.4650078,-128.583786
 CYXU,London,fs-base,NA,CA,Ontario,43.0363541,-81.1506653
 CYYD,Smithers,"fs-base, cyyd",NA,CA,British Columbia,54.8237762,-127.18187
 CYYQ,Churchill,"fs-base, cyyq",NA,CA,Manitoba,58.7428,-94.06773
-CYZP,Sandspit,"fs-base, cyzp",NA,CA,Haida Gwaii,53.2545471,-131.81427
 CYZT,Port Hardy,"fs-base, cyzt",NA,CA,British Columbia,50.6812325,-127.3665
 CZPC,Pincher Creek,"fs-base, czpc",NA,CA,Alberta,49.5205269,-113.996742
 LKBA,Breclav,"fs-base, CZ_GA Revival 2020",EU,CZ,,48.7909,16.89537
@@ -693,7 +676,6 @@ EN173,Helgeroa Sjøflyhavn,fk-no-seaplaneport,EU,NO,,58.99371,9.85164
 EN174,Langesund Sjøflyhavn,fk-no-seaplaneport,EU,NO,,59.00795,9.7483
 EN175,Valle/Bamble Sjøflyhavn,fk-no-seaplaneport,EU,NO,,58.93114,9.55965
 EN176,Kragerø Sjøflyhavn,fk-no-seaplaneport,EU,NO,,58.86543,9.41064
-CFLI,Flatisland,flatisland,NA,CA,New Foundland,50.82922,-57.307
 SNJQ,Aeroporto De Jequitinhonha,flightsimbrasil-snjq,SA,BR,Minas Gerais,-16.4416428,-41.0365829
 SBRP,Leite Lopes,"fs-base, flxbrasil-sbrp-leite-lopes",SA,BR,Sp,-21.1342449,-47.7769623
 LFIP,Peyresourde-Balestas,"fs-base, flyfmc-airport-lfip-peyresourde",EU,FR,,42.7964439,0.439415574
@@ -1552,8 +1534,6 @@ YMIG,Mittagong,"fs-base, ymigpack",OC,AU,,-34.45006,150.497757
 YMMB,Moorabbin,fs-base,OC,AU,Victoria,-37.9775276,145.100113
 YNAN,Nanango Airport,"fs-base, ynan",OC,AU,Queensland,-26.6904449,151.986588
 CYBD,Bella Coola Airport,"fs-base, zep35-airport-cybd-bellacoola",NA,CA,British Columbia,52.3877449,-126.59552
-CAU8,Rivers Inlet,"zep35-cau8-riversinlet, zep35-cau8-riversinlet_v1.1",NA,CA,,51.6831779,-127.185593
-CAU8,Rivers Inlet,"zep35-cau8-riversinlet, zep35-cau8-riversinlet_v1.1",NA,CA,,51.6831779,-127.185593
 ZGSZ,Baoan,"fs-base, zgsz",AS,CN,Guangdong,22.6392784,113.810638
 EN68,Ballangen,ZX_EN68_Ballangen,EU,NO,,68.33621,16.83217
 EDER,Wasserkuppe,"karlo-airport-eder-wasserkuppe, z_karlo-airport-eder-wasserkuppe",EU,DE,,50.4986534,9.95193
@@ -1632,3 +1612,1113 @@ EKRS,Ringsted,"fs-base, FSScene-EKRS, navigraph-navdata",EU,DK,Ringsted,55.42585
 TLPC,George Charles,"fs-base, navigraph-navdata, scenery-saint-lucia-tlpc",NA,LC,,14.0193081,-60.9959869
 VIDP,Indira Gandhi International Airport,"fs-base, navigraph-navdata, vidpexp",AS,IN,,28.5531883,77.08191
 EDWQ,Atlas Airfield,"fs-base, navigraph-navdata",EU,DE,,53.036,8.505167
+BGBW,Narsarsuaq,navigraph-navdata,NA,GL,,61.16072,-45.4256744
+EDBN,Neubrandenburg,"ape42-airport-edbn-trollenhagen, navigraph-navdata",EU,DE,Mecklenburg-Vorpommern,53.6022377,13.3060808
+CYZF,Yellowknife Airport,"fs-base, cyzf, navigraph-navdata",NA,CA,Northwest Territories,62.46304,-114.4404
+RPUO,Basco,"nardz-airport-rpuo-basco, navigraph-navdata",AS,PH,,20.4514523,121.980225
+BGBW,Narsarsuaq,"navigraph-navdata, tlc-bgbw",NA,GL,,61.15844,-45.4276276
+NTAM,Rimatara Airport,"navigraph-navdata, sileo-airport-ntam-rimatara",OC,PF,,-22.6372375,-152.806015
+NTAV,Raivavae Airport,"navigraph-navdata, sileo-airport-ntav-raivavae",OC,PF,,-23.8853283,-147.662109
+NTTP,Maupiti Airport,"navigraph-navdata, sileo-airport-nttp-maupiti",OC,PF,,-16.42648,-152.243637
+LYVR,Vrsac,"fs-base, boba3d-lyvr, navigraph-navdata",EU,RS,Serbia,45.1477776,21.3097229
+CZVL,Edmonton/Villeneuve,"fs-base, czvl, navigraph-navdata",NA,CA,Alberta,53.6682434,-113.852264
+KSNA,John Wayne Airport-Orange County Airport,"fs-base, navigraph-navdata",NA,US,CA,33.6756668,-117.868225
+UWLL,Barataevka,"fs-base, navigraph-navdata, virtavia-airport-uwll-barataevka",AS,RU,,54.2716675,48.2266655
+LIDA,Asiago,"fs-base, bmw-asiago-lida, navigraph-navdata",EU,IT,,45.88778,11.5166664
+EDOE,Boehlen,"fs-base, boehlenv1, navigraph-navdata",EU,DE,,51.215332,12.3678331
+SDLP,Lencois Paulista,"fs-base, dcscenery-airport-sdlp, navigraph-navdata",SA,BR,,-22.5783329,-48.7744446
+GQNO,Nouakchott Oumtounsy Intl,"fs-base, gqno-airport, navigraph-navdata",AF,MR,,18.3098888,-15.9696388
+LF74M,Lf430 Saint-Roch Mayeres,md-airport-mayeres,EU,FR,,45.9491119,6.58711529
+SBAR,Santa Maria,"fs-base, navigraph-navdata",SA,BR,,-10.9852781,-37.0733337
+SBBE,Belem,"fs-base, navigraph-navdata, SBBE-Belem",SA,BR,,-1.38131821,-48.4782524
+SBCB,Cabo Frio,"fs-base, navigraph-navdata, SBCB-Cabo Frio",SA,BR,,-22.92374,-42.078
+SBCF,Confins,"fs-base, navigraph-navdata, SBCF-Confins",SA,BR,,-19.63182,-43.9699974
+SBEG,Eduardo Gomes,"fs-base, navigraph-navdata, SBEG-Manaus",SA,BR,,-3.03857374,-60.0485153
+SBFI,Foz Do Iguaçu,"fs-base, navigraph-navdata, SBFI-Foz do Iguacu",SA,BR,,-25.5963745,-54.4866142
+SBFN,Fernando De Noronha,"fs-base, navigraph-navdata, SBFN-Fernando de Noronha",SA,BR,,-3.85426426,-32.4261475
+SBPA,Salgado Filho,"fs-base, navigraph-navdata, SBPA-Porto Alegre",SA,BR,Rio Grande Do Sul,-29.9917736,-51.17698
+SBPJ,Palmas,"fs-base, navigraph-navdata, SBPJ-Palmas",SA,BR,,-10.2933111,-48.3565063
+SBPS,Porto Seguro,"fs-base, navigraph-navdata",SA,BR,,-16.438055,-39.08389
+SBRF,Recife,"fs-base, navigraph-navdata, SBRF-Recife",SA,BR,,-8.127428,-34.92282
+SBRJ,Santos Dumond,"fs-base, navigraph-navdata, SBRJ-Santos Dumond",SA,BR,,-22.9102383,-43.16283
+SBSG,Gov Aluizio Alves Intl,"fs-base, navigraph-navdata",SA,BR,,-5.768889,-35.36639
+SBVT,Vitoria,"fs-base, navigraph-navdata, SBVT-Vitoria",SA,BR,,-20.2558079,-40.27997
+ENDU,Bardufoss AB,"fs-base, navigraph-navdata",EU,NO,,69.05583,18.5402775
+LFJD,Corlier,"fs-base, navigraph-navdata",EU,FR,,46.04,5.4958334
+GMME,Sale,"fs-base, navigraph-navdata",AF,MA,,34.0513878,-6.751667
+RPSP,Captain Mateo Capinpin Airstrip,"fs-base, navigraph-navdata",AS,PH,,14.5357561,121.364594
+LIFT,Obiettivo Volare Aeroclub,fs-base,EU,IT,,44.8895531,10.1604
+SKMP,San Bernardo,"fs-base, navigraph-navdata",SA,CO,,9.257794,-74.43802
+FSAL,Alphonse Island,ape42-airport-fsal-alphonse,AF,SC,Alphonse Island,-7.00427341,52.72611
+FSAS,Assumption Airport,ape42-airport-fsas-assumption,AF,SC,Assumption Island,-9.742232,46.5066681
+FSSA,Astove Island Airport,ape42-airport-fssa-astove,AF,SC,Astove Island,-10.0608,47.74916
+RPSP1,Panglao Bohol Int'l Airport,ker0tin-rpsp,AS,PH,Bohol,9.572183,123.7702
+EGUW,Wattisham Army,"fs-base, navigraph-navdata",EU,GB,,52.12703,0.955414057
+EGFF,Cardiff,"fs-base, airport-egff-cardiff-superspud, navigraph-navdata",EU,GB,,51.3966675,-3.34333324
+EPGY,Ostrówww Mazowiecka - Grady,"fs-base, epgy, navigraph-navdata",EU,PL,,52.8369446,21.7775
+EPOM,Michalkow Areoklub,"fs-base, epom, navigraph-navdata",EU,PL,Wielkopolska,51.7025,17.8469448
+LFBO,Blagnac,"fs-base, navigraph-navdata",EU,FR,,43.635,1.36777771
+FSSC,Coëtivy Island Airport,ape42-airport-fssc-coetivy,AF,SC,Coëtivy Island,-7.132448,56.273098
+EPMX,Milewo,"fs-base, epmx",EU,PL,,52.6692772,20.4281273
+LFJA,Chaumont Semoutiers,"fs-base, fgapz-airport-lfja-semoutiers, navigraph-navdata",EU,FR,,48.09083,5.04888868
+LFQX,Juvancourt,"fs-base, fgapz-airport-lfqx-juvancourt, navigraph-navdata",EU,FR,,48.1138878,4.81944466
+LGAD,Andravida AB,"fs-base, LGAD, navigraph-navdata",EU,GR,Peloponnese,37.9252777,21.29139
+LGEL,Elefsis AB,"fs-base, LGEL, navigraph-navdata",EU,GR,Attica,38.0695,23.5541668
+LGHI,Omiros,"fs-base, LGHI, navigraph-navdata",EU,GR,Chios,38.3433342,26.1405563
+LGKA,Aristotelis,"fs-base, LGKA, navigraph-navdata",EU,GR,Makedonia,40.44639,21.28111
+LGKF,Kefallinia,"fs-base, LGKF, navigraph-navdata",EU,GR,Eptanisa,38.12,20.500555
+LGKJ,Kastelorizo,"fs-base, LGKJ, navigraph-navdata",EU,GR,Dodekanese,36.1416664,29.57639
+LGKL,Kalamata,"fs-base, lgkl, navigraph-navdata",EU,GR,Messinia,37.0683327,22.0252781
+LGKM,Amigdhaleon,"fs-base, LGKM, navigraph-navdata",EU,GR,Kavala,40.9666672,24.35
+LGKV,Megas Alexandros,"fs-base, LGKV, navigraph-navdata",EU,GR,Makedonia,40.913887,24.6197224
+LGTT,Tatoi,"fs-base, LGTT, navigraph-navdata",EU,GR,Attica,38.1072235,23.7661114
+LFGA,Colmar-Houssen,"fs-base, aeroport-houssen, navigraph-navdata",EU,FR,France,48.11028,7.35916662
+CYXH,Medicine Hat,"fs-base, cyxh, navigraph-navdata",NA,CA,Alberta,50.0188942,-110.720627
+EPNT,Lotnisko Nowy Targ,"fs-base, navigraph-navdata, piotrkol-epnt-nowytarg",EU,PL,,49.46535,20.048481
+RJSD,Sado,"fs-base, kui-rjsd",AS,JP,Niigata Prefecture,38.0605125,138.414169
+LLET,Eilat,"fs-base, llet",AS,IL,,29.5592556,34.9592819
+SBGV,Aeroporto Coronel Altino Machado De Oliveira,"fs-base, geardownsimulations-sbgv, navigraph-navdata",SA,BR,Minas Gerais,-18.896944,-41.98611
+RPMR,General Santos Int'l Airport,"fs-base, ker0xairwil-rpmr, navigraph-navdata",AS,PH,General Santos,6.058056,125.096115
+LFON,Dreux,"fs-base, LFON Dreux Vernouillet, navigraph-navdata",EU,FR,Centre,48.7058334,1.36138868
+LGAV,Eleftherios Venizelos Intl,"fs-base, navigraph-navdata",EU,GR,,37.9367,23.9445
+EDBP,Pinnow,"fs-base, MV_EDBP_Schwerin-Pinnow, navigraph-navdata",EU,DE,Mecklenburg-Vorpommern,53.6151657,11.561
+KNUQ,Moffett Federal AFLD,"fs-base, navigraph-navdata",NA,US,CA,37.41614,-122.049133
+EDVS,Drutte,"fs-base, navigraph-navdata",EU,DE,,52.1541672,10.4265
+URWI,Elista,"fs-base, navigraph-navdata, xflight-urwi",AS,RU,Republic of Kalmykia,46.37248,44.331192
+EPKA,Kielce-Maslow Airport,"fs-base, epka, navigraph-navdata",EU,PL,,50.896946,20.7316666
+UMKK,Khrabrovo,"fs-base, navigraph-navdata, xflight-umkk",AS,RU,,54.89427,20.608696
+URMS,Magas Oskanov Airport,"fs-base, navigraph-navdata, xflight-urms",AS,RU,Republic of Ingushetia,43.3195229,45.0134239
+ESGK,Falkoping,"fs-base, navigraph-navdata",EU,SE,,58.17,13.5877781
+ESTF,Fjällbacka Anra Airport,"fs-base, navigraph-navdata",EU,SE,,58.63028,11.3036108
+EBBL,Kleine-Brogel,navigraph-navdata,EU,BE,,51.168335,5.47000027
+CYHA,Quaqtaq,navigraph-navdata,NA,CA,Quebec,61.04652,-69.61765
+CYKO,Akulivik,navigraph-navdata,NA,CA,Quebec,60.81869,-78.1485748
+RPVY,Catbalogan,fs-base,AS,PH,,11.81086,124.828629
+PWAK,Wake Island Airfield,"fs-base, navigraph-navdata",NA,United States Minor Outlying Islands,,19.2824879,166.636658
+WA09,Roche Harbor,"fs-base, navigraph-navdata",NA,US,WA,48.6123238,-123.138519
+URRP,Platov International Airport,"fs-base, navigraph-navdata",AS,RU,,47.49389,39.92472
+UKLN,Chernivtsi,"fs-base, navigraph-navdata",EU,UA,,48.2594452,25.98
+UNNT,Tolmachevo,"fs-base, navigraph-navdata",AS,RU,,55.0333328,82.59917
+URML,Uytash,"fs-base, navigraph-navdata",AS,RU,,42.8169441,47.6525
+UUOB,Belgorod,"fs-base, navigraph-navdata",AS,RU,,50.64389,36.59
+UUOO,Chertovitskoye,"fs-base, navigraph-navdata",AS,RU,,51.815,39.22972
+KDAN,Danville Rgnl,"fs-base, navigraph-navdata",NA,US,VA,36.57247,-79.33625
+FSDA,D'Arros Island Airport,ape42-airport-fsda-darros,AF,SC,D'Arros Island,-5.416805,53.2956467
+FSDR,Desroches Island Airport,ape42-airport-fsdr-desroches,AF,SC,Desroches Island,-5.696633,53.65596
+MHGS,Celaque Airport,celaque,NA,HN,Lempira,14.5770655,-88.5937347
+VHHX,Hong Kong Old (Kai Tak),"ali501-kaitak, navigraph-navdata",AS,HK,Hong Kong,22.3169575,114.202614
+LEA1,Anisclo,lea1-anisclo,EU,ES,,42.6043358,0.028077364
+LEA2,Alins,lea2-alins,EU,ES,,42.4334373,0.6315677
+LEB1,Bentue Airstrip,leb1-bentue,EU,ES,,42.3250237,-0.214192718
+LEC1,Cajigar,lec1-cajigar,EU,ES,,42.30303,0.609182835
+LEC4,Castillo Mayor Airstrip,lec4-castillomayor,EU,ES,,42.5747337,0.122125894
+LEG1,Guara Airstrip,leg1-guara,EU,ES,,42.29646,-0.175383836
+LEG2,Airstrip Gistain,leg2-gistain,EU,ES,,42.5752678,0.26659146
+LEO2,Otin Airstrip,leo2-otin,EU,ES,,42.31524,-0.07659897
+LES1,Selvaplana Airstrip,les1-selvaplana,EU,ES,,42.4487152,0.549414754
+LES2,San Martin Airstrip,les2-sanmartin,EU,ES,,42.2320442,0.2810271
+LET1,Turbon Airstrip,let1-turbon,EU,ES,,42.45867,0.4994926
+LT1A,Turbon Refugio Airstrip,lt1a-turbonrefugio,EU,ES,,42.41623,0.49309507
+RPSQ,Siquijor,"fs-base, nardz-airport-rpsq-siquijor",AS,PH,,9.210066,123.469612
+RPUG,Lingayen Airport,"fs-base, turtletank1997-rpug",AS,PH,,16.0341244,120.239128
+HTZA,Kisauni,"fs-base, navigraph-navdata",AF,TZ,,-6.22489166,39.225174
+CYAV,St Andrews,"fs-base, navigraph-navdata",NA,CA,Manitoba,50.0562439,-97.03253
+EBSG,Saint-Ghislain,"fs-base, navigraph-navdata",EU,BE,,50.4575,3.820278
+KUKF,Wilkes Co,"fs-base, navigraph-navdata",NA,US,NC,36.2236023,-81.0986
+TFFF,Le Lamentin,"fs-base, navigraph-navdata",NA,MQ,,14.5922222,-60.9963875
+UNOO,Tsentralny,"fs-base, navigraph-navdata",AS,RU,,54.96722,73.31028
+UWSG,Gagarin,navigraph-navdata,AS,RU,,51.7127762,46.1711121
+USII,Izhevsk,"fs-base, navigraph-navdata",AS,RU,,56.8352776,53.4625
+FSFA,Farquhar Island Airport,ape42-airport-fsfa-farquhar,AF,SC,Farquhar Island,-10.10987,51.1760674
+XCAA3,Anglemont,airport-xcaa3-anglemont,NA,CA,British Columbia,50.96839,-119.166206
+FSMA,Marie Louise Island Airport,ape42-airport-fsma-marielouise,AF,SC,Marie Louise Island,-6.177443,53.1454773
+FSSR,Remire Island Airport,ape42-airport-fssr-remire,AF,SC,Remire Island,-5.117137,53.312252
+KCZL,David,"fs-base, navigraph-navdata",NA,US,GA,34.4553871,-84.93916
+EF0I,Ainola Hunting Estate,kuriiridesign-airport-ef0i-ainola,EU,FI,,66.52386,24.22315
+EFET,Enontekio Airport,"fs-base, kuriiridesign-airport-efet-enontekio, navigraph-navdata",EU,FI,,68.36444,23.4275
+EFKA,Kauhava Airfield,"fs-base, kuriiridesign-airport-efka-kauhava, navigraph-navdata",EU,FI,,63.12417,23.05139
+EFKK,Kokkola-Pietarsaari,"fs-base, kuriiridesign-airport-efkk-kokkola-pietarsaari, navigraph-navdata",EU,FI,,63.7202759,23.1391678
+EFKS,Kuusamo Airport,"fs-base, kuriiridesign-airport-efks-kuusamo, navigraph-navdata",EU,FI,,65.99028,29.231945
+EFKT,Kittila Airport,"fs-base, kuriiridesign-airport-efkt-kittila, navigraph-navdata",EU,FI,,67.69861,24.8480549
+EFRO,Rovaniemi,"fs-base, navigraph-navdata",EU,FI,,66.56167,25.8308334
+EFSI,Seinajoki Airport,"fs-base, kuriiridesign-airport-efsi-seinajoki, navigraph-navdata",EU,FI,,62.69361,22.8319435
+EFTP,Pirkkala Airport,"fs-base, kuriiridesign-airport-eftp-pirkkala, navigraph-navdata",EU,FI,,61.41528,23.5877781
+EFVA,Vaasa Airport,"fs-base, kuriiridesign-airport-efva-vaasa, navigraph-navdata",EU,FI,Pohjanmaa,63.0452766,21.7641659
+BGJN,Ilulissat,"fs-base, navigraph-navdata, tlc-bgjn",NA,GL,,69.24136,-51.06085
+XCKA1,Monte Creek,airport-xcka1-montecreek,NA,CA,British Columbia,50.6489868,-119.89901
+CJS5,Killarney,"fs-base, cjs5, navigraph-navdata",NA,CA,Manitoba,49.1516647,-99.69028
+EBBY,Baisy-Thy Ulm,"fs-base, EBBY_MSFS2020",EU,BE,,50.5691681,4.43423843
+EDCX,Purkshof,"fs-base, MV_EDCX_Purkshof, navigraph-navdata",EU,DE,Mecklenburg-Vorpommern,54.1608353,12.2485
+17A,Trigger Gap Airstrip,"navigraph-navdata, nwaaviaator-trigger-gap-airstrip",NA,US,AR,36.32778,-93.6231155
+ZMUL,Olgii Airport,"fs-base, navigraph-navdata, sdr-zmul",AS,MN,Mongolia,48.9864,89.93628
+NTTB,Motu Mute,"fs-base, navigraph-navdata, sileo-airport-nttb-borabora",OC,PF,,-16.4434586,-151.752335
+XCSH1,Seymour Arm,aiirport-xcsh1-seymourarm,NA,CA,British Columbia,51.23997,-118.949829
+XCSH2,Shuswap Lake Estates,airport-xcsh2-shuswaplakeestates,NA,CA,British Columbia,50.869812,-119.375404
+EPRG,Gotartowice,"fs-base, cmdesign-eprg, navigraph-navdata",EU,PL,,50.0705566,18.62889
+RPSB,Bantayan Airport,"fs-base, kml921-airport-rpsb-bantayan",AS,PH,,11.1576986,123.787704
+LFBZ,Biarrtiz Anglet Bayonne,"fs-base, lfbz-biarritz-anglet-bayonne, navigraph-navdata",EU,FR,,43.4683342,-1.53111124
+LGZA,Dionisios Solomos,"fs-base, lgza-zakynthos, navigraph-navdata",EU,GR,Ionian Islands,37.75111,20.8841667
+SBJH,São Paulo Catarina Executive Airport,"navigraph-navdata, sbjh-airport",SA,BR,,-23.4270287,-47.1680031
+NTAR,Rurutu Airport,"fs-base, navigraph-navdata, sileo-airport-ntar-rurutu",OC,PF,,-22.43157,-151.367279
+F1727,Nantille,wmscene-airport-lf1727-nantille,EU,FR,France,45.84555,-0.478377342
+XX15,Alpes Aventure Lachat,alpeaven-airport-xx13-16-lessieres,EU,FR,,45.5099525,6.41882038
+XX16,Alpes Aventure,alpeaven-airport-xx13-16-lessieres,EU,FR,,45.6311035,5.966214
+XX13,Alpes Aventure 13,alpeaven-airport-xx13-16-lessieres,EU,FR,,45.4171,7.030348
+XX14,Alpes Aventure 14,alpeaven-airport-xx13-16-lessieres,EU,FR,,45.438015,6.764009
+FYOG,Oranjemund,"fs-base, navigraph-navdata, vt-airport-fyog",AF,NA,,-28.5847969,16.4463615
+XCKA2,Heffley Creek,airport-xcka2-heffleycreek,NA,CA,British Columbia,50.8668175,-120.273964
+XCVK1,Wild Acres,airport-xcvk1-wildacres,NA,CA,British Columbia,50.4006271,-119.284851
+LFFW,Montaigu St Georges,"fs-base, navigraph-navdata, wmscenery-airport-lffw-montaigu",EU,FR,,46.93125,-1.32606447
+EDWI,Mariensiel,"fs-base, navigraph-navdata",EU,DE,,53.50485,8.05325
+XCPB1,Port Browning,airport-xcpb1-portbrowning,NA,CA,British Columbia,48.7824936,-123.283813
+NZ0C,Ardlogie Pit,phr34k86-ardlogiepit,OC,NZ,,-44.66166,170.738922
+NZ0D,Elephant Hill,phr34k86-ardlogiepit,OC,NZ,,-44.7029076,170.720337
+NZ0U,Ardmore,phr34k86-ardmore,OC,NZ,,-44.24478,170.727341
+NZ0Q,Awakino,phr34k86-awakino,OC,NZ,,-44.73618,170.398743
+NZ0H,Blackmount,phr34k86-blackmount,OC,NZ,,-45.7607727,167.689087
+NZ1E,Cape Foulwind,phr34k86-capefoulwind,OC,NZ,,-41.7603455,171.484177
+NZ1B,Cattle Creek,phr34k86-cattlecreek,OC,NZ,,-44.51165,170.674179
+NZ0B,Centre Hill,phr34k86-centrehill,OC,NZ,,-45.56056,168.020813
+NZ1V,Clearburn,phr34k86-clearburn,OC,NZ,,-44.36315,170.016617
+NZ1H,Croisilles,phr34k86-croisilles,OC,NZ,,-40.978466,173.821991
+NZ1I,Marlborough,phr34k86-croisilles,OC,NZ,,-40.9944038,173.7884
+NZ1P,Fernside,phr34k86-fernside,OC,NZ,,-43.3145828,172.47644
+NZ1A,Fox Glacier,phr34k86-foxglacier,OC,NZ,,-43.4608345,170.0162
+NZ0M,Hollyford River,phr34k86-hollyfordriver,OC,NZ,,-44.3608246,168.008743
+NZ0P,Home Hills Runs,phr34k86-homehillsruns,OC,NZ,,-44.86304,169.944839
+NZ1N,Hurunui River,phr34k86-hurunuiriver,OC,NZ,,-42.8240471,172.24321
+NZ0K,Lake Echo,phr34k86-lakeecho,OC,NZ,,-45.4003372,167.975372
+NZ1O,Lake Grasmere,phr34k86-lakegrasmere,OC,NZ,,-43.0717125,171.768875
+NZ0E,Lee Stream,phr34k86-leestream,OC,NZ,,-45.8085327,170.131882
+NZ1S,Lilibank Lodge,phr34k86-lilibank,OC,NZ,,-43.7122231,170.565811
+NZ1T,Mararoa River,phr34k86-mararoa,OC,NZ,,-45.3939819,168.08255
+NZ1G,Molesworth Station,phr34k86-molesworth,OC,NZ,,-42.0886765,173.280762
+NZ0Y,Mount Nessing,phr34k86-mountnessing,OC,NZ,,-44.3113823,170.745834
+NZ0N,Opihi River,phr34k86-opihi,OC,NZ,,-44.0141525,170.705582
+NZ0O,Precipe Creek,phr34k86-precipecreek,OC,NZ,,-44.8176842,168.41835
+NZ1F,Puponga,phr34k86-puponga,OC,NZ,,-40.5445251,173.003769
+NZ1M,Quintin Lodge,phr34k86-quintinlodge,OC,NZ,,-44.7887077,167.75325
+NZ1L,Spring Creek,phr34k86-springcreek,OC,NZ,,-41.45572,174.014267
+NZ0W,Stony River,phr34k86-stonyriver,OC,NZ,,-44.42355,170.462723
+NZ1Q,Swannanoa,phr34k86-swannanoa,OC,NZ,,-43.3744774,172.507965
+NZ0A,Taitapu Ag Strip,phr34k86-taitapu,OC,NZ,,-43.670845,172.591064
+NZ1J,Tiritangi,phr34k86-tiritangi,OC,NZ,,-41.0720253,174.221909
+NZ1K,Tiritrangi Farm Park,phr34k86-tiritangi,OC,NZ,,-41.02119,174.136612
+NZ1C,Westport,phr34k86-westport,OC,NZ,,-41.8057442,171.549
+NZ1D,Wilsons Lead,phr34k86-wilsonslead,OC,NZ,,-41.80996,171.5267
+NZ0I,The Key,phr43k86-thekey,OC,NZ,,-45.48216,167.95842
+FYLZ,Lüderitz,"fs-base, navigraph-navdata, vt-airport-fylz",AF,NA,,-26.685833,15.2460718
+XCEB1,East Barriere Lake,airport-xceb1-eastbarrierelake,NA,CA,British Columbia,51.253727,-119.862831
+XID1,Yellowjacket Ranch,airport-xid1-yellowjacketranch,NA,US,ID,45.1523972,-115.560661
+XID2,Wiley Ranch,airport-xid2-wileyranch,NA,US,ID,45.0597229,-115.627342
+SCBL,El Porvenir,"Casablanca, AD El Porvenir SCBL",SA,CL,,-33.2728462,-71.52563
+SCCS,Santa Rita,"fs-base, Casablanca, AD Sta Rita SCCS",SA,CL,,-33.27658,-71.4556961
+ENTO,Sandefjord Airport Torp,"fs-base, donutsdemise-ento-torp, navigraph-navdata",EU,NO,,59.18667,10.2586117
+EDVL,Hoelleberg,"fs-base, fasy-edvl-20201129, navigraph-navdata",EU,DE,,51.6111679,9.3975
+EKHK,Holbaek Flyveplads,"fs-base, fsscene-ekhk, navigraph-navdata",EU,DK,Denmark,55.7327766,11.6027784
+SBPR,Carlos Prates,"fs-base, geardownsimulations-sbpr-airport, navigraph-navdata",SA,BR,Minas Gerais,-19.9091663,-43.9891663
+MMPB,Hermanos Serdan Intl,"fs-base, navigraph-navdata",NA,MX,,19.1581383,-98.3715057
+PUETN,Pütttnitz,MV_Flugplatz_Puetnitz,EU,DE,Mecklenburg-Vorpommern,54.2624855,12.4364891
+OIII,Mehrabad Intl,"fs-base, navigraph-navdata",AS,IR,,35.68889,51.31472
+EDDM,Munich International Airport,"fs-base, navigraph-navdata, zussh-eddm",EU,DE,,48.3515625,11.7833357
+LEA3,Aliaga Airstrip,lea3-aliaga,EU,ES,Teruel,40.6819725,-0.696347952
+LEA4,Albarracin Airstrip,lea4-albarracin,EU,ES,Teruel,40.4074364,-1.42974257
+LEB2,Beceite Airstrip,leb2-beceite,EU,ES,Teruel,40.81979,0.1464647
+LEC2,Cueva Foradada,lec2-cuevaforadada,EU,ES,Teruel4,40.960762,-0.684224367
+LEC3,Crivillen Airstrip,lec3-crivillen,EU,ES,Teruel,40.8897629,-0.5862647
+LEC5,Cantavieja Airstrip,lec5-cantavieja,EU,ES,Teruel,40.5206032,-0.411577821
+LEG3,Gudar Airstrip,leg3-gudar,EU,ES,Teruel,40.4360046,-0.7057142
+LEO1,Oliete Airstrip,leo1-oliete,EU,ES,Teruel,41.0009041,-0.657282948
+LEP1,Piedrahita Airstrip,lep1-piedrahita,EU,ES,,41.04331,-1.08886862
+LES3,Segura De Los Banos Airstrip,les3-segura,EU,ES,Teruel,40.941,-0.9537703
+LET2,Tajo Airport,let2-tajo,EU,ES,Teruel,40.3543129,-1.7425096
+LE14,Aerosidonia,airhispania-airport-le14-aerosidonia,EU,ES,,36.44056,-5.940221
+LE41,Vera,airhispania-airport-le41-vera,EU,ES,Almeria,37.261425,-1.85280466
+LE48,Andujar,airhispania-airport-le48-andujar,EU,ES,Andalucia,38.1147346,-4.11587429
+LE76,Orce,airhispania-airport-le76-orce,EU,ES,Granada,37.7354546,-2.36314774
+LEPG,Coscojuela De Sobrarbe,"fs-base, airhispania-airport-lepg-coscojueladesobrarbe",EU,ES,Aragon,42.348877,0.185894966
+LETJ,Trebujena,"airhispania-airport-letj-trebujena, navigraph-navdata",EU,ES,Andalucia,36.8586121,-6.14055538
+LETO,Torrejon,"airhispania-airport-leto-torrejon, navigraph-navdata",EU,ES,,40.496666,-3.44583344
+RMU,Murcia / Aeropuerto Region De Murcia,"fs-base, airhispania-airport-rmu-murcia",EU,ES,Murcia,37.8031,-1.124767
+EKGO,Gorlev Flyveplads,"fs-base, fsscene-ekgo",EU,DK,Gorlev,55.5515442,11.19619
+PLCH,Cassidy International Airport,"fs-base, navigraph-navdata, plch",OC,KI,Kiribati,1.98387074,-157.35585
+FYOA,Ondangwa,"fs-base, navigraph-navdata, vt-airport-fyoa",AF,NA,,-17.88076,15.946969
+LSPV,Wangen-Lachen,"fs-base, navigraph-navdata",EU,CH,,47.2047234,8.8675
+EFFO,Forssa,"airport-effo-forssa, navigraph-navdata",EU,FI,,60.8019447,23.6455555
+XCCW1,Clearwater,airport-xccw1-clearwater,NA,CA,British Columbia,51.6571,-120.071274
+RPMG,Dipolog Airport,"fs-base, airwil-airport-rpmg-dipolog, navigraph-navdata",AS,PH,,8.601508,123.341774
+EBTN,Goetsenhoven,"fs-base, EBTN_MSFS2020, navigraph-navdata",EU,BE,,50.7816658,4.9577775
+EHHO,Ehho-Hoogeveen,"fs-base, ehho-ehho-hoogeveen, navigraph-navdata",EU,NL,,52.730835,6.51611137
+EDVI,Hoexter,"fs-base, fasy-edvi, navigraph-navdata",EU,DE,,51.80633,9.378333
+LFDA,Aã©Rodrome D'Aire Sur L'Adour,"fs-base, lfda-airport-aire-sur-adour, navigraph-navdata",EU,FR,,43.70861,-0.247222334
+LGIR,Nikos Kazantzakis,"fs-base, navigraph-navdata",EU,GR,,35.33972,25.1802788
+LOLH,Hofkirchen,"fs-base, LOLH_Hofkirchen-fsterminal",EU,AT,,48.13911,14.3358736
+EDTR,Herten-Rheinfelden,"fs-base, navigraph-navdata",EU,DE,,47.56,7.748333
+RPBC,Bicol International Airport,Airport - RPBC - Bicol International,AS,PH,Bicol,13.1122952,123.6807
+CYLY,Lytton,"fs-base, airport-cyly-lytton",NA,CA,British Columbia,50.2442551,-121.569038
+XAD3,Boston Bar,airport-xad3-bostonbar,NA,CA,British Columbia,49.98138,-121.498131
+XCCK1,Sundance Guest Ranch,airport-xcck1-sundanceguestranch,NA,CA,British Columbia,50.6577568,-121.27597
+YDPO,Devonport,"fs-base, airport-ydpo-devonport, navigraph-navdata",OC,AU,Tasmania,-41.1697235,146.430283
+YMHB,Hobart,"fs-base, airport-ymhb-hobart, navigraph-navdata",OC,AU,Tasmania,-42.836113,147.510284
+YTUN,Tunbridge,"fs-base, airport-ytun-tunbridge, airport-ytun-tunbridge",OC,AU,Tasmania,-42.1158676,147.365356
+YWOD,Woodbury Airfield,"fs-base, airport-ywod-woodbury",OC,AU,Tasmania,-42.16718,147.4463
+EGNX,East Midlands,"fs-base, navigraph-navdata",EU,GB,,52.8311119,-1.327778
+STBRD,Strawberry Ridge,ekimmai-strawberryrdg,NA,US,NC,35.8531952,-82.1113052
+EPKN,Kamien Slaski Airtport,"fs-base, epkn-airport-scenery, navigraph-navdata",EU,PL,Slaskie,50.52911,18.0851746
+ID74,Sulphur Creek,"fs-base, id74",NA,US,ID,44.5379028,-115.366966
+ULAE,Pinega,ikanashev-airport-ulae-pinega,AS,RU,,64.73697,43.43773
+KRNT,Renton Mun,"fs-base, navigraph-navdata",NA,US,WA,47.4931374,-122.215752
+PCIS,Canton Airport,"fs-base, pcis",OC,KI,,-2.7670598,-171.715576
+MKZY,Braco,phr34k86-braco,NA,JM,,18.4770851,-77.48836
+MKZZ,Greys Inn,phr34k86-greysinn,NA,JM,,18.26225,-76.78041
+EGHN,Sandown,"fs-base, navigraph-navdata",EU,GB,,50.653,-1.18216658
+SDSC,Mario Pereira Lopes,"fs-base, SDSC-SAO_CARLOS",SA,BR,Sao Paulo,-21.8752251,-47.9037476
+XCHB3,Gun Lake,airport-xcbh3-gunlake,NA,CA,British Columbia,50.8960648,-122.840408
+LIDT,Caproni,"fs-base, bmw-lidt-caproni, navigraph-navdata",EU,IT,,46.0233345,11.125
+SCFL,Fundo Loma Larga,"fs-base, Casablanca, AD Fundo Loma Larga SCFL",SA,CL,,-33.2786942,-71.37741
+GOGG,Ziguinchor,"fs-base, devinci-airport-gogg-ziguinchor, navigraph-navdata",AF,SN,Ziguinchor,12.5559273,-16.2768688
+GOGS,Cap Skirring,"fs-base, devinci-airport-gogs-capskirring, navigraph-navdata",AF,SN,Ziguinchor,12.3888884,-16.7416668
+GOSS,St Louis,"fs-base, devinci-airport-goss-st-louis, navigraph-navdata",AF,SN,No State,16.0497227,-16.4611111
+PTKK,Ptkk-Truk Airport,"fs-base, navigraph-navdata, ptkk",OC,FM,Chuuk,7.458159,151.840973
+BGMV,Mestersvig,"navigraph-navdata, tlc-bgmvairport",NA,GL,,72.23689,-23.929472
+LTAI,Antalya,"fs-base, navigraph-navdata",AS,TR,,36.9002762,30.792778
+VECA,Chabua,fs-base,AS,IN,,27.462122,95.1175156
+VYHL,Hommalin,"fs-base, navigraph-navdata",AS,MM,,24.8988552,94.9142456
+EGHJ,Bembridge,"fs-base, navigraph-navdata",EU,GB,,50.6780548,-1.10944438
+EGND,Crosland Moor Airfield,fs-base,EU,GB,,53.6206741,-1.83278513
+CYYE,Ft Nelson,"fs-base, navigraph-navdata",NA,CA,British Columbia,58.8364,-122.596977
+LGAK,Kopaida Dimitra Airport,fs-base,EU,GR,,38.4565239,23.1362934
+LGAX,Alexandria Army,"fs-base, navigraph-navdata",EU,GR,,40.64633,22.4928322
+LGGE,Maleme Air Base,fs-base,EU,GR,,35.52954,23.8321648
+LGMK,Mikonos,"fs-base, navigraph-navdata",EU,GR,,37.43722,25.3472214
+LGMS,Missolonghi Airport,fs-base,EU,GR,,38.35689,21.4807339
+LGPZ,Aktion AB,"fs-base, navigraph-navdata",EU,GR,,38.9255562,20.765
+LGRD,Maritsa,fs-base,EU,GR,,36.3838043,28.11349
+LGRX,Araxos AB,"fs-base, navigraph-navdata",EU,GR,,38.15111,21.4255562
+LGSR,Santorini,"fs-base, navigraph-navdata",EU,GR,,36.3991661,25.479166
+LGTE,Larisa,fs-base,EU,GR,,39.65526,22.3404713
+LGTG,Tanagra AB,"fs-base, navigraph-navdata",EU,GR,,38.332222,23.5494442
+LFKL,Brindas,"fs-base, navigraph-navdata",EU,FR,,45.710556,4.69666624
+RPLH,Lallo,navigraph-navdata,AS,PH,,18.1823578,121.74617
+YKHA,Khancoban Airport,fs-base,OC,AU,,-36.2145348,148.111115
+XCMC1,Mica Creek,airport-xcmc1-micacreek,NA,CA,British Columbia,51.83781,-118.62606
+CAY9,Wood Lake Waterport,CAY9-woodlake,NA,CA,British Columbia,50.0589333,-119.395172
+LGIS,Ikaros,lgis-ikaros,EU,GR,Boeotia,38.4316864,23.1356258
+RPBA,Cagayan North International Airport,"fs-base, Turtle-Kml-RPLH",AS,PH,Cagayan,18.1809616,121.747467
+YGEI,Geehi Landing Ground Airport,ygei,OC,AU,Nsw,-36.3823051,148.180725
+LFKT,Corte,"fs-base, navigraph-navdata",EU,FR,,42.29028,9.1925
+7FL6,Spruce Creek,"fs-base, 7fl6-scenery, navigraph-navdata",NA,US,FL,29.0801945,-81.04663
+EDLK,Egelsberg,"fs-base, airfield-edlk-egelsberg, navigraph-navdata",EU,DE,Nrw,51.385,6.58766651
+RJSN,Niigata,"fs-base, airport-rjsn-niigata, navigraph-navdata",AS,JP,,37.9558334,139.111664
+SCTW,El Tapihue,"fs-base, Casablanca, AD El Tapihue SCTW",SA,CL,,-33.3203926,-71.33211
+YKID,Kidston,"fs-base, dazt-ykid, navigraph-navdata",OC,AU,Queensland,-18.87,144.17334
+EGWU,RAF Northolt,"fs-base, gobby-egwu-northolt, navigraph-navdata",EU,GB,,51.5527153,-0.419597179
+LPSO,Aerodromo De Ponte De Sor,"fs-base, lpso-ponte-de-sor, navigraph-navdata",EU,PT,,39.2116661,-8.057777
+LTCN,Kahramanmaras,"fs-base, ltcn_maras, navigraph-navdata",AS,TR,,37.5383339,36.9519424
+1H0,Creve Coeur,"fs-base, navigraph-navdata, ozarksims-1h0-crevecoeur",NA,US,MO,38.727272,-90.5073242
+PKMJ,Marshall Islands International,"fs-base, navigraph-navdata, pkmj",OC,MH,Majuro Atoll,7.066415,171.2782
+RPUT,Tuguegarao Airport,"fs-base, navigraph-navdata, Turtle1997-Kml921-airport-rput-tugue",AS,PH,,17.6428032,121.7332
+KMAF,Midland Intl Air And Space Por,"fs-base, navigraph-navdata",NA,US,TX,31.9425278,-102.20192
+KEAP,Calhoun Airport,fs-base,NA,US,GA,34.6092834,-84.97777
+3S7,Nehalem Bay State Airport,"fs-base, 3s7, navigraph-navdata",NA,US,OR,45.69814,-123.929642
+CYVK,Vernon,"fs-base, navigraph-navdata",NA,CA,British Columbia,50.2461777,-119.330864
+CYRV,Revelstoke,"fs-base, cyrv, navigraph-navdata",NA,CA,British Columbia,50.96234,-118.184357
+YPOK,Porepunkah,"fs-base, danr86-airport-ypok-porepunkah",OC,AU,,-36.7191467,146.890076
+EGCT,Tilstock,dtwasanet-airport-egct-tilstock-whitchurch-0.1,EU,GB,Shropshire,52.9359055,-2.65202713
+LGLH,Lechaio,lglh-lechaio,EU,GR,Corinth,37.9265022,22.8596325
+LICC,Fontanarossa,"fs-base, navigraph-navdata",EU,IT,,37.4666672,15.0638885
+LPBG,Aerodromo De Braganca,"fs-base, lpbg-braganca, navigraph-navdata",EU,PT,,41.8566666,-6.70750046
+LPPM,Aerodromo De Portimao,"fs-base, lppm-portimao, navigraph-navdata",EU,PT,,37.1494446,-8.583889
+EGOS,RAF Shawbury,"fs-base, navigraph-navdata, raf-egos",EU,GB,,52.79452,-2.66975737
+TJPS,Mercedita,"fs-base, navigraph-navdata",NA,PR,,18.0087814,-66.56452
+CYGE,Golden,"fs-base, navigraph-navdata",NA,CA,British Columbia,51.2991867,-116.982124
+EDLO,Oerlinghausen,"fs-base, navigraph-navdata",EU,DE,,51.9325,8.662
+UGAM,Ambrolauri,navigraph-navdata,AS,GE,,42.5269432,43.1355553
+SDR,Saidor,fs-base,OC,PG,,-5.62694263,146.462631
+XAH3,Dog Creek,airport-xah3-dogcreek,NA,CA,British Columbia,51.6264267,-122.257217
+PABR,Wiley Post-Will Rogers Memorial,"fs-base, navigraph-navdata, sdr-pabr-barrow",NA,US,AK,71.28665,-156.78331
+YXXB,Rosebank Ultralight Strip,yxxb-yxxb-rosebank-ultralight-strip,OC,AU,Nsw,-28.6833115,153.3882
+EGIN,Insch,fs-base,EU,GB,,57.3111534,-2.64894652
+EDFS,Schweinfurt Sud,"fs-base, navigraph-navdata",EU,DE,,50.010498,10.2513332
+ZGDY,Hehua,navigraph-navdata,AS,CN,,29.1016674,110.445
+MPTO,Tocumen Intl,navigraph-navdata,NA,PA,,9.072153,-79.38333
+EKBI,Billund,"fs-base, navigraph-navdata",EU,DK,,55.7403221,9.151777
+SKBS,Jose Celestino Mutis,navigraph-navdata,SA,CO,,6.203111,-77.39497
+YMBT,Mount Beauty Airport,fs-base,OC,AU,,-36.7301521,147.16803
+XCAK2,Bowron Lakes Lodge,airport-xcak2-bowronlakeslodge,NA,CA,British Columbia,53.255867,-121.416733
+SOOY,Sinnamary,french guyana airports,SA,GF,,5.37553835,-52.9454536
+SOSE,Saint Elie,french guyana airports,SA,GF,,4.817233,-53.2869
+SOSO,Sophie,french guyana airports,SA,GF,,3.95965266,-53.48971
+SOCA,Rochambeau,"fs-base, french guyana airports, navigraph-navdata",SA,GF,,4.819722,-52.3619461
+MP30,Finca Fatima,kychungdotcom-airport-mp30-fincafatima,NA,PA,Churicui,8.389389,-82.74882
+MP31,Franfer,kychungdotcom-airport-mp31-franfer,NA,PA,Panama,9.087733,-79.20906
+MP32,Ingenio Ofelina,kychungdotcom-airport-mp32-ingenioofelina,NA,PA,Cocle,8.298635,-80.51333
+MP34,Las Moras,kychungdotcom-airport-mp34-lasmoras,NA,PA,Chiriqui,8.379819,-82.58984
+MP35,Mulatupo,kychungdotcom-airport-mp35-mulatupo,NA,PA,Kuna Yala,8.91892,-77.70932
+MP36,Ogobsucum Airstrip,kychungdotcom-airport-mp36-ogobsucum,NA,PA,Kuna Yala,9.128193,-77.93372
+MP37,Bahia Pinas,kychungdotcom-airport-mp37-pina,NA,PA,Darien,7.587368,-78.17999
+MP38,Sambu,kychungdotcom-airport-mp38-sambu,NA,PA,Darien,8.026571,-78.20995
+MP39,Wannukandi,kychungdotcom-airport-mp39-wannukand,NA,PA,Kuna Yala,9.273484,-78.13979
+NZRI,Rangatata Island,"fs-base, sushiproductions-rangatata",OC,NZ,Canterbury,-44.08573,171.4184
+KRAN,Big Prairie Ranger Station Airfield,wookie042-big-prairie-ranger-station,NA,US,MT,47.5082436,-113.236481
+6P7,Mcville Airport,"fs-base, 6p7-scenery, navigraph-navdata",NA,US,PA,40.7345619,-79.59565
+EDQL,"Lichtenfels ","fs-base, chrispiaviation-lichtenfels-edql, navigraph-navdata",EU,DE,Bavaria,50.1483345,11.0473328
+CZAM,Salmon Arm,"fs-base, czam, navigraph-navdata",NA,CA,British Columbia,50.6825333,-119.228622
+LFPX,Chavenay - Villepreux,"fs-base, dwp-lfpx-airoport, navigraph-navdata",EU,FR,Yvelines,48.84222,1.98027754
+LFPZ,Saint Cyr L'Ecole,"fs-base, dwp-lfpz-airoport, navigraph-navdata",EU,FR,Yvelines,48.810276,2.07333326
+CEA5,Hardisty Airport,"fs-base, force1024-airport-cea5-hardisty, navigraph-navdata",NA,CA,Alberta,52.64664,-111.38546
+CYMX,Montreal Intl (Mirabel),"fs-base, frenchvfr-cymx-mirabel-airport, navigraph-navdata",NA,CA,Quebec,45.6797829,-74.03871
+CSL3,Lac-A-La-Tortue,"fs-base, jpfil-ag-csl3-lac-tortue, navigraph-navdata",NA,CA,Quebec,46.621666,-72.63028
+CBSP,Baie-Saint-Paul,jpfil-cbsp-baie-saint-paul,NA,CA,Quebec,47.43166,-70.4945
+CMB2,Meadowbank,"jpfil-cmb2-meadowbank, navigraph-navdata",NA,CA,Nunavut,65.025,-96.07102
+CMN5,Manic5,"fs-base, jpfil-cmn5-csh8-manic5, navigraph-navdata",NA,CA,Quebec,50.65747,-68.83241
+CRB4,Riviere Bonnard,"fs-base, jpfil-crb4-riviere-bonnard, navigraph-navdata",NA,CA,Quebec,50.7044449,-71.1625
+CSA4,Boisvert Et Fils,jpfil-csa4-boisvert,NA,CA,Quebec,45.6453171,-73.5958252
+CSC3,Drummondville,"fs-base, jpfil-csc3-drummondville, navigraph-navdata",NA,CA,Quebec,45.8436127,-72.39763
+CTV2,Ctv2 Hydrobase Lac Des Ecorces,jpfil-csd4-mont-laurier,NA,CA,Quebec,46.5489464,-75.41859
+CSE4,Lachute,"fs-base, jpfil-cse4-lachute, navigraph-navdata",NA,CA,Quebec,45.6395569,-74.3704453
+CSE5,Montmagny,"fs-base, navigraph-navdata",NA,CA,Quebec,47.0018463,-70.5158
+CSG3,Joliette,"fs-base, navigraph-navdata",NA,CA,Quebec,46.0447464,-73.50177
+CSH2,Ile-Aux-Grues,"fs-base, navigraph-navdata",NA,CA,Quebec,47.07225,-70.53336
+CSH4,Lebel-Sur-Quevillon,"fs-base, jpfil-csh4-lebel-sur-quevillon, navigraph-navdata",NA,CA,Quebec,49.0297127,-77.01639
+CSJ2,Kanawata,"fs-base, jpfil-csj2-kanawata, navigraph-navdata",NA,CA,Quebec,47.5947227,-74.13361
+CSLC,Laval-Contant,jpfil-cslc-laval-contant,NA,CA,Quebec,45.6915054,-73.58105
+CSP5,Saint-Mathias,"fs-base, jpfil-csp5-saint-mathias, navigraph-navdata",NA,CA,Quebec,45.50083,-73.24167
+CSPP,Pingauk,jpfil-cspp-pingaluk,NA,CA,Quebec,61.3099861,-73.68331
+CSR3,Victoriaville,"fs-base, jpfil-csr3-victoriaville, navigraph-navdata",NA,CA,Quebec,46.11092,-71.93166
+CSU3,Saint-Hyacinthe,"fs-base, jpfil-csu3-saint-hyacinthe, navigraph-navdata",NA,CA,Quebec,45.6067429,-73.01509
+CSU5,Wemontaci,"fs-base, jpfil-csu5-wemontaci, navigraph-navdata",NA,CA,Quebec,47.9369431,-73.81722
+CSW5,Bell-Textron (Mirabel),jpfil-csw5-mirabel,NA,CA,Quebec,45.68678,-73.93596
+CSZ3,Saint-Jovite,"fs-base, jpfil-csz3-saint-jovite, navigraph-navdata",NA,CA,Quebec,46.1541672,-74.58361
+CSZ4,Saint-Frederic,"fs-base, jpfil-csz4-saint-frederic, navigraph-navdata",NA,CA,Quebec,46.33147,-70.96088
+CTA3,Ile-Aux-Coudres,"fs-base, jpfil-cta3-ile-aux-coudres, navigraph-navdata",NA,CA,Quebec,47.3894463,-70.3844452
+CTB6,Tete-A-La-Baleine,"fs-base, jpfil-ctb6-tete-a-la-baleine, navigraph-navdata",NA,CA,Quebec,50.6744537,-59.38359
+CTG3,Du Rocher-Perce (Pabok),"fs-base, navigraph-navdata",NA,CA,Quebec,48.3832054,-64.564476
+CTT5,La Romaine,"fs-base, navigraph-navdata",NA,CA,Quebec,50.2596,-60.67391
+CYAD,La Grande-3,"fs-base, navigraph-navdata",NA,CA,Quebec,53.571785,-76.19629
+CYAS,Kangirsuk,"jpfil-cyas-kangirsuk, navigraph-navdata",NA,CA,Quebec,60.027256,-69.999176
+CYBC,Baie-Comeau,"fs-base, navigraph-navdata",NA,CA,Quebec,49.1325,-68.20435
+CYBG,Bagotville,"fs-base, navigraph-navdata",NA,CA,Quebec,48.330555,-70.99639
+CYBX,Lourdes-De-Blanc-Sablon Water Aerodrome,"fs-base, navigraph-navdata",NA,CA,Quebec,51.44205,-57.1861229
+CYDO,Dolbeau-St-Felicien,"fs-base, navigraph-navdata",NA,CA,Quebec,48.7785378,-72.37493
+CYEY,Amons-Magny,"fs-base, jpfil-cyey-amos, navigraph-navdata",NA,CA,Quebec,48.564888,-78.2492142
+CYFJ,Mont Tremblant Intl Inc.,"fs-base, navigraph-navdata",NA,CA,Quebec,46.4090843,-74.7800751
+CYGL,La Grande Riviere,"fs-base, navigraph-navdata",NA,CA,Quebec,53.6253853,-77.7040558
+CYGP,Gaspe,"fs-base, jpfil-cygp-gaspe, navigraph-navdata",NA,CA,Quebec,48.77502,-64.48173
+CYGR,Iles-De-La-Madeleine,"fs-base, navigraph-navdata",NA,CA,Quebec,47.4250679,-61.777977
+CYGV,Havre St-Pierre,"fs-base, navigraph-navdata",NA,CA,Quebec,50.2819443,-63.61111
+CYHH,Nemiscau,"fs-base, jpfil-cyhh-nemiscau, navigraph-navdata",NA,CA,Quebec,51.6910439,-76.1355438
+CYHR,Chevery,"fs-base, navigraph-navdata",NA,CA,Quebec,50.4689751,-59.63668
+CYHU,Saint-Hubert,"fs-base, jpfil-cyhu-saint-hubert, navigraph-navdata",NA,CA,Quebec,45.5180626,-73.41699
+CYIF,St-Augustin,"fs-base, navigraph-navdata",NA,CA,Quebec,51.2099152,-58.6573944
+CYIK,Ivujivik,"jpfil-cyik-ivujivik, navigraph-navdata",NA,CA,Quebec,62.4173431,-77.92528
+CYKL,Shefferville,"fs-base, jpfil-cykl-shefferville, navigraph-navdata",NA,CA,Quebec,54.805172,-66.80532
+CYLA,Aupaluk,"jpfil-cyla-aupaluk, navigraph-navdata",NA,CA,Quebec,59.29673,-69.59985
+CYLQ,La Tuque,"fs-base, navigraph-navdata",NA,CA,Quebec,47.40972,-72.78889
+CYLU,Kangiqsualujjuaq Georges River,"jpfil-cylu-kangiqsualujjuaq, navigraph-navdata",NA,CA,Quebec,58.7114,-65.99286
+CYME,Matane,"fs-base, jpfil-cyme-matane, navigraph-navdata",NA,CA,Quebec,48.85629,-67.4523
+CYMT,Chibougamau/Chapais,"fs-base, navigraph-navdata",NA,CA,Quebec,49.771862,-74.52797
+CYMU,Umiujaq,"jpfil-cymu-imiujaq, navigraph-navdata",NA,CA,Quebec,56.53612,-76.51825
+CYNA,Natashquan,"fs-base, jpfil-cyna-natashquan, navigraph-navdata",NA,CA,Quebec,50.1900864,-61.7889481
+CYND,Ottawa/Gatineau,"fs-base, navigraph-navdata",NA,CA,Quebec,45.52169,-75.5636139
+CYPH,Inukjuak,"jpfil-cyph-inukjuaq, navigraph-navdata",NA,CA,Quebec,58.47193,-78.07702
+CYPN,Port Menier,"fs-base, navigraph-navdata",NA,CA,Quebec,49.8365173,-64.28862
+CSE9,Hydrobase Parent,jpfil-cypp-parent,NA,CA,Quebec,47.8917847,-74.6413956
+CYPP,Parent,"jpfil-cypp-parent, navigraph-navdata",NA,CA,Quebec,47.9333344,-74.61639
+CYPX,Puvirnituq,"jpfil-cypx-puvirnituk, navigraph-navdata",NA,CA,Quebec,60.0521126,-77.2876053
+CYRC,Chicoutimi/Saint-Honore,"fs-base, jpfil-cyrc-saint-honore, navigraph-navdata",NA,CA,Quebec,48.5207,-71.0505753
+CYRI,Riviere-Du-Loup,"fs-base, jpfil-cyri-riviere-du-loup, navigraph-navdata",NA,CA,Quebec,47.76434,-69.5843658
+CYRJ,Roberval,"fs-base, navigraph-navdata",NA,CA,Quebec,48.5198936,-72.26597
+CYSC,Sherbrooke,"fs-base, navigraph-navdata",NA,CA,Quebec,45.4384842,-71.69135
+CYTF,Alma,"fs-base, navigraph-navdata",NA,CA,Quebec,48.50852,-71.6413345
+CYTQ,Tasiujaq,"jpfil-cytq-tasiujaq, navigraph-navdata",NA,CA,Quebec,58.6676636,-69.95579
+CYUY,Rouyn-Noranda,"fs-base, navigraph-navdata",NA,CA,Quebec,48.20619,-78.83559
+CYVB,Bonaventure,"fs-base, jpfil-cyvb-bonaventure, navigraph-navdata",NA,CA,Quebec,48.0710869,-65.46023
+CYVO,Val-D'Or,"fs-base, navigraph-navdata",NA,CA,Quebec,48.0532875,-77.78266
+CYXK,Rimouski,"fs-base, navigraph-navdata",NA,CA,Quebec,48.4776955,-68.49635
+CYYY,Mont-Joli,"fs-base, jpfil-cyyy-mont-joli, navigraph-navdata",NA,CA,Quebec,48.6090279,-68.20793
+CYZG,Salluit,"jpfil-cyzg-salluit, navigraph-navdata",NA,CA,Quebec,62.1793861,-75.66729
+CYZV,Sept-Iles,"fs-base, navigraph-navdata",NA,CA,Quebec,50.22339,-66.26569
+CZBM,Bromont,"fs-base, navigraph-navdata",NA,CA,Quebec,45.2909355,-72.7419739
+CSD3,Valleyfield,"fs-base, navigraph-navdata",NA,CA,Quebec,45.2083321,-74.14139
+CYLP,Mingan,fs-base,NA,CA,Quebec,50.2889671,-64.14541
+CSK3,Mascouche,fs-base,NA,CA,Quebec,45.7188,-73.59896
+EFIV,Ivalo,"fs-base, jr-airport-efiv, navigraph-navdata",EU,FI,,68.61083,27.4138889
+SACE,Escuela Aviacion Militar,jr-airport-sace-eam-cordoba,SA,AR,,-31.44454,-64.28125
+SASP,Aeroclub Parana,"fs-base, jr-airport-sasp-aeroclubparana",SA,AR,,-31.7563343,-60.3745041
+KUES,Waukesha County Airport,"fs-base, kues-waukesha, navigraph-navdata",NA,US,WI,43.0410271,-88.23705
+CTK6,Kegaska,"fs-base, navigraph-navdata",NA,CA,QC,50.1957779,-61.2658424
+CTU5,La Tabatiere,"fs-base, navigraph-navdata",NA,CA,QC,50.8308067,-58.97551
+CYSV,Saglek,jpfil-cysv-saglek,NA,CA,NL,58.4768524,-62.66367
+CYVP,Kuujjuaq,"jpfil-cyvp-kuujjuaq, navigraph-navdata",NA,CA,QC,58.0948677,-68.4222
+CPT9,Pintendre Airport,"fs-base, navigraph-navdata",NA,CA,QC,46.7575,-71.10917
+CLB6,Lg-4/Lac De La Falaise,jpfil-cyah-lg4,NA,CA,QC,53.7057838,-73.71933
+CYAH,La Grande-4,"jpfil-cyah-lg4, navigraph-navdata",NA,CA,QC,53.7547264,-73.6753
+CYWK,Wabush,"fs-base, navigraph-navdata",NA,CA,NL,52.9227257,-66.86468
+CYB2,Machmell Fisheries,airport-cby2-machmell,NA,CA,BC,51.656498,-126.682816
+CYTE,Cape Dorset,"bagolu-nunavikpack, navigraph-navdata",NA,CA,NU,64.2302246,-76.5248642
+CTP9,Donaldson,"bagolu-nunavikpack, navigraph-navdata",NA,CA,QC,61.6622353,-73.32134
+CYBA,Banff,"Banff_CYBA, navigraph-navdata",NA,CA,AB,51.2,-115.533333
+CYBV,Berens River,"fs-base, cybv, navigraph-navdata",NA,CA,MB,52.3588333,-97.018
+CYBW,Calgary Springbank,"fs-base, cybw, navigraph-navdata",NA,CA,AB,51.1053162,-114.37149
+CYQH,Watson Lake,"fs-base, cyqh, navigraph-navdata",NA,CA,YT,60.11645,-128.822418
+CYZH,Slave Lake,"fs-base, cyzh, navigraph-navdata",NA,CA,AB,55.2929268,-114.777206
+CJN7,"Little Churchill River - Dunlop's Fly-In Lodge ","fs-base, navigraph-navdata, pontiac51-aiport-cjn7-littlechurchillriver",NA,CA,MB,56.579998,-96.2475
+CAU8,Rivers Inlet,"zep35-cau8-riversinlet, zep35-cau8-riversinlet_v1.1",NA,CA,BC,51.6831779,-127.185593
+CAK3,Delta Heritage Airpark,"fs-base, Airport CAK3 Delta Airpark-v1.0",NA,CA,BC,49.078804,-122.939819
+CAP3,Sechelt-Gibsons Airport,"fs-base, Airport CAP3 Sechelt-v1.0",NA,CA,BC,49.4612732,-123.718224
+CSK8,King George Airpark,"fs-base, Airport CSK8 KingGeorge-v1.2",NA,CA,BC,49.093174,-122.822769
+CYAZ,Tofino - Long Beach,"fs-base, Airport CYAZ Tofino-v1.0",NA,CA,BC,49.0786133,-125.775108
+CYLW,Kelowna,"fs-base, Airport CYLW Kelowna-v1.7, Airport CYLW Kelowna-v1.8",NA,CA,BC,49.9573746,-119.377975
+CYNJ,Langley Regional Airport,"fs-base, Airport CYNJ Langley-v1.2",NA,CA,BC,49.1010323,-122.627953
+CYPW,Powell River Airport,"fs-base, Airport CYPW PowellRiver-v1.0",NA,CA,BC,49.8340569,-124.50029
+CYYF,Penticton,"fs-base, Airport CYYF Penticton, Airport CYYF Penticton-v1.3",NA,CA,BC,49.46299,-119.602257
+CAL3,Douglas Lake,"fs-base, cal3",NA,CA,BC,50.16563,-120.171265
+CYZP,Sandspit,"fs-base, cyzp",NA,CA,BC,53.2545471,-131.81427
+CYFR,Ft Resolution,"ekimmai-airport-cyfr-fortresolution, navigraph-navdata",NA,CA,NT,61.18081,-113.689651
+CFLI,Flatisland,flatisland,NA,CA,NL,50.82922,-57.307
+CAK3,Delta Heritage Airpark,"fs-base, Airport CAK3 Delta Airpark-v1.0, navigraph-navdata",NA,CA,BC,49.07861,-122.938057
+CAP3,Sechelt-Gibsons Airport,"fs-base, Airport CAP3 Sechelt-v1.3, navigraph-navdata",NA,CA,BC,49.460556,-123.718613
+CYAZ,Tofino - Long Beach,"fs-base, Airport CYAZ Tofino-v1.0, navigraph-navdata",NA,CA,BC,49.08207,-125.772392
+CYLW,Kelowna,"fs-base, Airport CYLW Kelowna-v1.10, Airport CYLW Kelowna-v1.7, navigraph-navdata",NA,CA,BC,49.95721,-119.377922
+CYNJ,Langley Regional Airport,"fs-base, Airport CYNJ Langley-v1.2, navigraph-navdata",NA,CA,BC,49.1009445,-122.630737
+CYPW,Powell River Airport,"fs-base, Airport CYPW PowellRiver-v1.0, navigraph-navdata",NA,CA,BC,49.83408,-124.500343
+CYYF,Penticton,"fs-base, navigraph-navdata",NA,CA,BC,49.4625778,-119.60228
+CAL3,Douglas Lake,"fs-base, cal3, navigraph-navdata",NA,CA,BC,50.1666679,-120.183334
+CYZP,Sandspit,"fs-base, cyzp, navigraph-navdata",NA,CA,BC,53.2542572,-131.813812
+YSRN,Strahan,"fs-base, navigraph-navdata",OC,AU,Tasmania,-42.1555557,145.291382
+SCCA,El Boldo Airport,fs-base,SA,CL,,-35.97034,-72.22617
+EGNR,Hawarden,"fs-base, navigraph-navdata",EU,GB,,53.1780548,-2.97777772
+EGUL,Lakenheath AB,"fs-base, navigraph-navdata",EU,GB,,52.4094048,0.5610113
+EFKY,Kymi,"fs-base, navigraph-navdata",EU,FI,,60.57139,26.89611
+EFHF,Malmi,"fs-base, navigraph-navdata",EU,FI,,60.2538872,25.0441666
+EFHN,Hanko,"fs-base, navigraph-navdata",EU,FI,,59.8455544,23.082222
+EFKG,Kumlinge,"fs-base, navigraph-navdata",EU,FI,,60.2469444,20.8047218
+EFMA,Mariehamn,"fs-base, navigraph-navdata",EU,FI,,60.1219444,19.896389
+EFNU,Nummela,"fs-base, navigraph-navdata",EU,FI,,60.33389,24.2963886
+EFPR,Redstone Aero,navigraph-navdata,EU,FI,,60.4791679,26.59389
+EFTO,Torbacka Airport,fs-base,EU,FI,,60.0790939,24.1717854
+EFTU,Turku,"fs-base, navigraph-navdata",EU,FI,,60.51472,22.2616673
+TFFR,Le Raizet,"fs-base, navigraph-navdata",NA,GP,,16.2641659,-61.5258331
+SAFR,Rafaela,navigraph-navdata,SA,AR,,-31.2825,-61.501667
+KLOT,Lewis University,"fs-base, navigraph-navdata",NA,US,IL,41.6080971,-88.09639
+LFOF,Valframbert,"fs-base, navigraph-navdata",EU,FR,,48.4466667,0.108333528
+SCLN,Linares,fs-base,SA,CL,,-35.86122,-71.548
+KFDK,Frederick Mun,"fs-base, navigraph-navdata",NA,US,MD,39.41757,-77.3743
+RJSU,Kasuminome,"fs-base, navigraph-navdata",AS,JP,,38.2355576,140.92305
+LFTZ,La Mole,"fs-base, navigraph-navdata",EU,FR,,43.2052765,6.481944
+FM42,Base Ulm De Cambaie,kychungdotcom-airport-fm42-cambaie,AF,RE,Reunion,-20.9619579,55.2807465
+EDFO,Michelstadt,"fs-base, lc-edfoairfield, navigraph-navdata",EU,DE,Hesse,49.6785,8.972333
+KFYV,Drake Field Airport,"fs-base, navigraph-navdata, nwaaviator-drake-field-airport-fyv",NA,US,AR,36.00523,-94.1698761
+TLPL,Hewanorra Intl,"fs-base, navigraph-navdata, saint-lucia TLPC TLPL",NA,LC,,13.7356024,-60.9517632
+BGSC,Summit Camp,tlc-bgsc,NA,GL,,72.57863,-38.458313
+SDNT,Fazenda Terra Prometida,BR - SNDT - Fazenda Prometida - VisualRules - v1.0,SA,BR,Tocantins,-10.4133854,-48.25655
+LICM,Campo Volo,campovolo,EU,IT,,46.87351,11.4729652
+KMDW,Chicago Midway,"fs-base, chicago-midway, navigraph-navdata",NA,US,IL,41.785984,-87.7524261
+4S2,Ken-Jernstedt-Airfield,"fs-base, d17-ken-jernstedtairfield-4s2, navigraph-navdata",NA,US,OR,45.67278,-121.533867
+EVRA,Riga International Airport,"fs-base, desmo-airport-evra-riga, navigraph-navdata",EU,LV,,56.92361,23.9711113
+EPSU,Suwalki,"fs-base, epsu, navigraph-navdata",EU,PL,,54.0741653,22.8936119
+MYBC,Chub Cay Airport,"fs-base, goldenred49-chubcay-mybc, navigraph-navdata",NA,BS,,25.416666,-77.88333
+KRAP,Rapid City Regional Airport,"fs-base, krap, navigraph-navdata",NA,US,SD,44.0453224,-103.057373
+LKDD,Dolni Domaslavice,lkdd-seabase-fictional,EU,CZ,Czech Republic,49.7135735,18.4731369
+ENLB,Bjorli,"navigraph-navdata, ocl-airport-enlb-bjorli",EU,NO,,62.23531,8.244128
+ENBI,Bjorli,"fs-base, ocl-enbi-excl",EU,NO,,62.2344933,8.247311
+SCCV,Aerodromo De Curacavi,"fs-base, navigraph-navdata, sccv-curacavi",SA,CL,,-33.4126,-71.1660461
+LIIV,Aviosuperficie Aviocaipoli,fs-base,EU,IT,,41.89173,12.7833309
+09S,Sullivan Lake State,"fs-base, navigraph-navdata",NA,US,WA,48.8408928,-117.283989
+LISA,Aviosuperficie Palazzolo Avio,fs-base,EU,IT,,43.55929,12.156
+SCCT,Quivolgo,fs-base,SA,CL,,-35.3089561,-72.39303
+EDMG,Donauried,"fs-base, navigraph-navdata",EU,DE,,48.4871674,10.2835
+UGMS,Mestia Queen Tamar Airport,fs-base,AS,GE,,43.0542068,42.7497025
+S10,Chelan Mun,"fs-base, navigraph-navdata",NA,US,WA,47.8660126,-119.9427
+W28,Sequim Valley,"fs-base, navigraph-navdata",NA,US,WA,48.0979233,-123.18792
+0S1,Meadow Creek USFS,"fs-base, navigraph-navdata",NA,US,MT,47.8493652,-113.417419
+8U4,Spotted Bear USFS,"fs-base, navigraph-navdata",NA,US,MT,47.9616661,-113.559471
+LFSQ,Altisurface D Aleu,"fs-base, airport-lf0921-altisurface-d-aleu",EU,FR,,42.9002838,1.27546191
+SWFH,Fly Clube Aeroclube Porto Seguro,geardownsimulations-sbtv-airport,SA,BR,Bahia,-16.3591671,-39.0159149
+UGME,Mestia Helipad,"fs-base, georgianvirtualairports-ugms-mestia",AS,GE,,43.0583954,42.7464752
+LOXN,Wiener Neustadt West,kychungdotcom-airport-loxn-wienerneustadtwest,EU,AT,Lower Austria,47.83878,16.2216549
+EGSH,Norwich Airport,"fs-base, navigraph-navdata, norwich-airport-edits",EU,GB,Norwich,52.6793327,1.28693283
+27W,Wenatchee Lake,"fs-base, navigraph-navdata, quelcertoleo-s10-chelan",NA,US,WA,47.8195343,-120.720345
+S88,Skykomish State Airport,"fs-base, navigraph-navdata, quelcertoleo-s10-chelan",NA,US,WA,47.71098,-121.338959
+WT03,River View Airpark,"fs-base, quelcertoleo-s10-chelan",NA,US,WA,47.8997154,-119.896286
+WN23,Grand View International,"fs-base, quelcertoleo-w28-sequim",NA,US,WA,48.10173,-123.179695
+ETNJ,Schortens-Jever,rbn-etnj01,EU,DE,,53.5333672,7.891023
+BGDB,Daneborg,tlc-bgdb-air,NA,GL,,74.3149261,-20.1915321
+LFOX,Mondesir,"fs-base, ailgorbot-lfox, navigraph-navdata",EU,FR,,48.38111,2.073889
+ESSA,,"fs-base, airport-essa-bli, navigraph-navdata",EU,SE,No State,59.6519432,17.9186115
+LISA,Aviosuperficie San Sepolcro,"fs-base, airport-lisa",EU,IT,Italy,43.56264,12.1577435
+SCCT,Quivolgo,"fs-base, Constitucion, AD Quivolgo SCCT",SA,CL,,-35.30751,-72.39376
+ENSG,,"fs-base, cya-airport-ensg-sogndal-10, navigraph-navdata",EU,NO,,61.1561127,7.137778
+EDKF,,"fs-base, deltatango-edkf, navigraph-navdata",EU,DE,Germany,51.0518341,7.706333
+ENRY,,"fs-base, donutsdemise-enry-rygge, navigraph-navdata",EU,NO,,59.3788872,10.7855558
+SBTV,,"fs-base, geardownsimulations-sbtv-airport, navigraph-navdata",SA,BR,Bahia,-16.54139,-39.1080551
+UGMS,Queen Tamar Airport,"fs-base, georgianvirtualairports-ugms-mestia",AS,GE,,43.0555573,42.7507668
+MYES,Staniel Cay,"fs-base, goldenred49-stanielcay-myes, navigraph-navdata",NA,BS,,24.1690826,-76.43906
+LTBD,Cildir,"fs-base, ltbd-airport-lighting, navigraph-navdata",AS,TR,,37.8152771,27.8880558
+S10,Chelan Lake Airport,"fs-base, navigraph-navdata, quelcertoleo-s10-chelan",NA,US,WA,47.866024,-119.94265
+W28,Sequim Valley Airport,"fs-base, navigraph-navdata, quelcertoleo-w28-sequim",NA,US,WA,48.0979,-123.18782
+LEDA,Alguaire,"fs-base, navigraph-navdata",EU,ES,,41.728054,0.5352777
+EFHL,Hailuoto,"fs-base, navigraph-navdata",EU,FI,,64.96972,24.7047215
+SAEG,Diamante Airport,fs-base,SA,AR,,-32.016243,-60.5833244
+KLSE,La Crosse Rgnl,"fs-base, navigraph-navdata",NA,US,WI,43.8792763,-91.25664
+KMRB,Eastern Wv Rgnl/Shepherd Fld,"fs-base, navigraph-navdata",NA,US,WV,39.4023552,-77.983
+2WA1,Diamond Point Airstrip,fs-base,NA,US,WA,48.09224,-122.92804
+XCBA1,Batnuni,airport-xcba1-batnuni,NA,CA,BC,53.38788,-124.135666
+EDLI,Bielefeld,"fs-base, airportteam-edlichg, navigraph-navdata",EU,DE,,51.96472,8.544723
+EFJP,Jakalapaa,hti-airport-efjp-jakalapaa,EU,FI,,68.7122,25.75244
+EFMP,Martiniiskonpalo,"hti-airport-efmp-martiniiskonpalo, hti-airport-efmp-martiniiskonpalo",EU,FI,,68.66036,25.69916
+SA79,Aeroclub Concordia,jr-airport-sa79-aeroconcordia,SA,AR,,-31.3036575,-58.01598
+WA45,Olympic Field,"fs-base, quelcertoleo-diamond-point-2wa1",NA,US,WA,47.9975243,-122.897911
+KEWL,Olipark,quelcertoleo-kewl-olipark,NA,US,WA,47.48251,-123.123375
+RPBL,Balesin Island Airport,"fs-base, turtle-mako-airport-balesin",AS,PH,,14.415864,122.036667
+GA65,Mercer Airfield,airport-airport-ga65-mercerairfield,NA,US,GA,34.43502,-84.91951
+EDLA,Arnsberg-Menden,"fs-base, airport-edla-arnsberg, navigraph-navdata-2014-rev2",EU,DE,,51.4836578,7.89790726
+SSLN,Aeroporto Helmuth Baumgarten,"fs-base, BR - SSLN - Aeroporto Helmuth Baumgarten - VisualRules - v1.0",SA,BR,Santa Catarina,-27.1599827,-49.54179
+21AK,Montana Creek,"fs-base, esd-montana-creek-21ak",NA,US,AK,62.0830536,-150.067017
+EGHA,Compton Abbas,"fs-base, mc-airport-egha-comptonabbas, navigraph-navdata-2014-rev2",EU,GB,,50.96728,-2.15365434
+S18,Forks Airport,"fs-base, navigraph-navdata-2014-rev2, quelcertoleo-s18-forks",NA,US,WA,47.9377,-124.395836
+EDXJ,Husum-Schwesing,"fs-base, navigraph-navdata-2014-rev2, rogra-edxj01",EU,DE,,54.5112877,9.139752
+ETNH,Hohn Airbase,"navigraph-navdata-2014-rev2, navigraph-navdata-2014-rev2, rogra-etnh01",EU,DE,,54.3121071,9.5383215
+ETNS,Schleswig-Jagel,"navigraph-navdata-2014-rev2, navigraph-navdata-2014-rev2, rogra-etns01",EU,DE,,54.46,9.516215
+SBTC,Transamã©Rica Aeroporto,"fs-base, navigraph-navdata-2014-rev2, SBTC",SA,BR,,-15.3573723,-38.99796
+LOSM,Mauterndorf,"navigraph-navdata-2014-rev2, navigraph-navdata-2014-rev2, scenery-AUT-losm-mauterndorf",EU,AT,Salzburger Land,47.1320267,13.695817
+LSZY,Porrentruy,fs-base,EU,CH,,47.41042,7.051488
+SCOM,Olmué Airport,fs-base,SA,CL,,-32.997242,-71.17181
+9Z3,Lilly Lake Seaplane Base,sj-airport-9z3-lillylake-sealplane-base,NA,US,AK,57.80144,-152.38385
+SSTL,Tres Lagoas,"fs-base, SSTL",SA,BR,,-20.7533779,-51.682148
+EGIM,Knockbain Farm Airfield,"fs-base, thegarner-airport-egim-knockbainairfield",EU,GB,,57.5896645,-4.464513
+LFFC,Lffc,"fs-base, ailgorbot-lffc, navigraph-navdata-2014-rev2",EU,FR,Val D Oise,49.07996,1.68829143
+LFHZ,Mont Blanc,"fs-base, alpaven-airport-lfhz-montblanc",EU,FR,,45.94776,6.64020872
+MYX4,Big Whale Cay,"fs-base, goldenred49-bigwhalecay-myx4",NA,BS,,25.4019852,-77.78848
+MYEB,Black Point Airport,"fs-base, goldenred49-blackpoint-myeb, navigraph-navdata-2014-rev2",NA,BS,,24.089325,-76.39799
+MYXE,Lee Stocking,"fs-base, goldenred49-leestockingisland-myxe",NA,BS,,23.7765274,-76.10599
+MYFC,Little Farmers Cay,goldenred49-littlefarmerscay-myfc,NA,BS,,23.9618587,-76.32618
+MYZ3,Little Whale Cay,"fs-base, goldenred49-littlewhalecay-myz3",NA,BS,,25.4497356,-77.75891
+MYAO,Moores Island,"fs-base, goldenred49-mooresisland-myao, navigraph-navdata-2014-rev2",NA,BS,,26.3178043,-77.56176
+MYX7,Rudder Cut Cay,"fs-base, goldenred49-ruddercutcay-myx7",NA,BS,,23.8865528,-76.25227
+MYAX,Spanish Cay,"fs-base, goldenred49-spanishcay-myax",NA,BS,,26.94849,-77.5408554
+MYAW,Walker's Cay,"fs-base, goldenred49-walkerscay-myaw, navigraph-navdata-2014-rev2",NA,Bahamas,,27.2593651,-78.4013443
+LILV,Valbrembo,"fs-base, bg-airport-lilv-valbrembo",EU,IT,,45.7187538,9.593857
+SSRS,Rancho Sumidor,"fs-base, BR - SSRS - Rancho Sumidor - Ninho da Aguia - Virtualrules v1.0",SA,BR,Santa Catarina,-27.1937428,-49.83169
+CA97,Christy Airstrip,"fs-base, wookie042-christy-airstrip",NA,US,CA,34.0190048,-119.850792
+KLOP,Point Bennett Research Station Airstrip,"fs-base, wookie042-point-bennett-airstrip",NA,US,CA,34.04345,-120.4121
+KBUE,Ranger Station Airstrip,"fs-base, wookie042-ranger-station-airstrip",NA,US,CA,34.0370636,-120.349136
+44SZ,Santa Cruz Ranch Airstrip,wookie042-santa-cruz-ranch-airstrip,NA,US,CA,33.98947,-119.680244
+CYDC,Princeton,"fs-base, cydc, navigraph-navdata-2014-rev2",NA,CA,BC,49.467907,-120.5125
+CYQL,Lethbridge,"fs-base, CYQL_Lethbridge airport, navigraph-navdata-2014-rev2",NA,CA,AB,49.6288338,-112.797127
+FA12,Theewaterskloof Airstrip,kychungdotcom-airport-fa12-theewaterskloof,AF,ZA,Western Cape,-33.9839935,19.1852341
+LFBU,Aã©Roport D'Angoulãªme - Brie-Champniers,"fs-base, lfbu-angouleme-airport, navigraph-navdata-2014-rev2",EU,FR,,45.72944,0.216165036
+KKL,Karluk Lake Seaplane Base,pbk-karluk-lake,NA,US,AK,57.36767,-154.028061
+21W,Renger Creek,"fs-base, navigraph-navdata-2014-rev2, quelcertoleo-21w-ranger-creek",NA,US,WA,47.0129967,-121.5337
+OR05,Flying M Ranch,"fs-base, quelcertoleo-or05-flyingmranch",NA,US,OR,45.3616524,-123.357285
+ESK,Eastern Kodiak Island Hideaway,sj-airport-esk-easternkodiakisland,NA,US,AK,57.6942863,-153.002365
+KMYF,Montgomery-Gibbs Executive,"fs-base, navigraph-navdata-2014-rev2, vbcorp-airport-kmyf-fix",NA,US,CA,32.81576,-117.139763
+LDPV,Vrsar,"fs-base, navigraph-navdata-2014-rev2",EU,HR,,45.141674,13.630497
+KISS,Bechers Bay Airstrip,fs-base,NA,US,CA,33.9961967,-120.04554
+38W,Lynden,"fs-base, navigraph-navdata",NA,US,WA,48.95589,-122.457855
+LFJS,Soissons - Courmelles,"fs-base, ailgorbot-lfjs, navigraph-navdata",EU,FR,,49.34507,3.28279686
+LFHJ,Lyon Corbas,"fs-base, airport-airport-lfhj-corbas, navigraph-navdata",EU,FR,,45.65286,4.912258
+EGNS,Isle Of Man,"fs-base, airport-egns-isleofman-superspud, navigraph-navdata",EU,IM,,54.082943,-4.62531
+EDMA,Augsburg,"fs-base, airportteam-edma, navigraph-navdata",EU,DE,,48.42442,10.934392
+LSVE,Altiport Croix De Coeur,"fs-base, alpeaven-airport-lsve-croix-de-coeur",EU,CH,,46.1218452,7.23258352
+LTCR,Mardin,"fs-base, auradesign-ltcr-airport, navigraph-navdata",AS,TR,,37.22339,40.6317558
+SSKS,Aeroporto De Cachoeira Do Sul - Nero Moura,"fs-base, BR - SSKS",SA,BR,Rio Grande Do Sul,-30.0018845,-52.9407768
+KRHV,Reid-Hillview,"fs-base, copilot8-krhv, navigraph-navdata",NA,US,CA,37.3328743,-121.819809
+KSJC,Mineta San Jose Intl,"fs-base, copilot8-ksjc, navigraph-navdata",NA,US,CA,37.3629951,-121.928627
+EGJC,Felthorpe Airfield,fs-base,EU,GB,,52.706,1.194625
+EFHV,Hyvinkaa,"fs-base, finland-airport-efhv-hyvinkaa-wlp, navigraph-navdata",EU,FI,,60.65485,24.88261
+EDRM,Mont Royal,"fs-base, influous-edrm-traben-trarbach, navigraph-navdata",EU,DE,Rhineland Palatinate,49.96782,7.11166334
+RORA,Aguni,"kui-rora-agunijima, navigraph-navdata",AS,JP,Okinawa Prefecture,26.5927773,127.24028
+ZUGZ,Garze Gesar Airport,kui-zugz,AS,CN,Garze Tibetan Autonomous Prefecture,31.7558365,99.5621948
+LICB,Pio La Torre,"fs-base, LICB-Comiso-Pio La Torre, navigraph-navdata",EU,IT,,36.9951324,14.6078358
+LICJ,Punta Raisi,"fs-base, licj-punta-raisi, navigraph-navdata",EU,IT,No State,38.17749,13.0972538
+LRAR,Arad Airport,"fs-base, lrar-arad, navigraph-navdata",EU,RO,,46.17655,21.26209
+MMUN,Aeropuerto Internacional De Cancun,"fs-base, MMUN Cancun, navigraph-navdata",NA,MX,Quintana Roo,21.0421619,-86.8736
+PTSA,Kosrae International Airport,"fs-base, mx-ptsa, navigraph-navdata",OC,FM,,5.35697174,162.9584
+WADY,Banyuwangi International Airport,"fs-base, mx-wady, navigraph-navdata",AS,ID,,-8.309848,114.341896
+SUPC,Aeropuerto Charles Chalkling,paysandusupc,SA,UY,Paysandãº,-32.3792419,-58.0297356
+PZ02,Afognak Island Seaplane Base,pbk-afognak-island,NA,US,AK,58.1772346,-152.141571
+DGB,Danger Bay,pbk-danger-bay,NA,US,AK,58.1178932,-152.553818
+KOY,Olga Bay,pbk-olga-bay,NA,US,AK,57.1614723,-154.229263
+SKJ,Sitkinak,pbk-sitkinak,NA,US,AK,56.5371323,-154.142838
+CWOB,Brevoort Island Airstrip,pontiac51-airport-cwob-brevoortisland,NA,CA,NU,63.32517,-64.15466
+14S,Wesport Airport,"fs-base, navigraph-navdata, quelcertoleo-14s-westport",NA,US,WA,46.8977,-124.102516
+2W3,Swanson,"fs-base, navigraph-navdata, quelcertoleo-2w3-swanson",NA,US,WA,46.87163,-122.257225
+39P,Strom Field,"fs-base, navigraph-navdata, quelcertoleo-39p-strom",NA,US,WA,46.5505,-122.267746
+RJBE,Kobe,"fs-base, navigraph-navdata",AS,JP,,34.6327057,135.223877
+SKTM,Gustavo Vargas,"navigraph-navdata, navigraph-navdata, sktm-tame-arauca",SA,CO,Arauca,6.452182,-71.7591248
+ESGP,Save Flygplats,"fs-base, navigraph-navdata, skytry-esgp",EU,SE,Vg,57.77581,11.8704882
+RPVF,Catarman National Airport,"fs-base, navigraph-navdata, turtletank1997-catarman",AS,PH,,12.5045424,124.637711
+ENBO,Bodo,"fs-base, navigraph-navdata, wombiiactual-airport-enbo-bodo",EU,NO,,67.2693,14.3494463
+LEMR,La Morgal,fs-base,EU,ES,,43.43061,-5.826816
+YMER,Merimbula,"fs-base, navigraph-navdata",OC,AU,New South Wales,-36.90691,149.9016
+LINS,Campo Di Volo Chatelair,fs-base,EU,IT,,45.7401428,7.48020649
+MNCE,Costa Esmeralda,"navigraph-navdata, navigraph-navdata",NA,NI,,11.4275417,-86.03336
+MHTG,Toncontin Intl,"fs-base, asobo-airport-mhtg-toncontin, navigraph-navdata",NA,HN,,14.060833,-87.2172241
+WIMM,Kualanamu International,"fs-base, navigraph-navdata",AS,ID,,3.63783574,98.87055
+5S4,Toledo State,"fs-base, navigraph-navdata",NA,US,OR,44.6009674,-123.9396
+SCIO,Laguna Redonda Airport,fs-base,SA,CL,,-48.93341,-72.79992
+X01,Everglades Airpark,"fs-base, navigraph-navdata",NA,US,FL,25.848917,-81.3903046
+XCBM4,Carilla,airport-xcbm4-carilla,NA,CA,BC,53.6615944,-125.762077
+YZ01,Berkeley Lodge Airstrip,berkeley-berkeley-yz01-berkeleyairstrip,OC,AU,Western Territories,-14.339407,127.773758
+RPEL,El-Nido Airport,"fs-base, Kml921-airport-eni-elnido",AS,PH,,11.199893,119.41806
+KWP,West Point Village Seaplane Base,pbk-wpv-seaplane-base,NA,US,AK,57.7897644,-153.55188
+YLGD,Longdown Airfield,"fs-base, airport-ylgd-longdown",OC,AU,Tasmania,-41.691227,147.143188
+YSWA,Swansea Airfield,"fs-base, airport-yswa-swansea",OC,AU,Tasmania,-42.09721,148.072678
+YVAF,Valley Field Airfield,"fs-base, airport-yvaf-valleyfield",OC,AU,Tasmania,-41.80862,147.296463
+LFTU,Altiport St Jean D'Arves,"fs-base, alpeaven-airport-lfvo-valloire",EU,FR,,45.1887245,6.252616
+LFVO,Valloire Bonnenuit,"fs-base, alpeaven-airport-lfvo-valloire",EU,FR,,45.119503,6.418835
+WA79,Walter Sutton's Private Strip,crosspoint-wa79-walter-sutton,NA,US,WA,45.9299545,-122.407051
+DNMM,Muritala Muhammed,"fs-base, dnmm1, dnmm3, navigraph-navdata",AF,NG,Lagos,6.577319,3.32118082
+EBAW,Deurne,"fs-base, EBAW_MSFS2020, navigraph-navdata",EU,BE,,51.1900024,4.463021
+EDDB,Flughafen Berlin-Brandenburg,"fs-base, eddb, navigraph-navdata",EU,DE,,52.3622551,13.5006828
+LIHL,Aviosuperficie Silvio Scaroni,"fs-base, garda",EU,IT,,45.51874,10.4498205
+SADO,Campo De Mayo,"fs-base, jr-airport-sado-campodemayo",SA,AR,,-34.5332527,-58.671463
+KTOA,Zamperini Field,"fs-base, ktoa, navigraph-navdata",NA,US,CA,33.8032532,-118.339745
+PAKT,Ketchikan International Airport,"fs-base, kui-pakt, navigraph-navdata",NA,US,AK,55.35552,-131.71376
+LERL,Aeropuerto De Ciudad Real,"fs-base, lerl, navigraph-navdata",EU,ES,Castilla La Mancha,38.85653,-3.97005153
+LFBS,Aerodrome De Biscarrosse Parentis,"fs-base, lfbs-aerodrome-biscarrosse-parentis, navigraph-navdata",EU,FR,,44.36682,-1.132417
+LIQL,Tassignano,"fs-base, LIQL Tassignano, navigraph-navdata",EU,IT,,43.8258247,10.5782528
+LSZW,Thun Airfield,"fs-base, mbsim-airport-lszw-thun, navigraph-navdata",EU,CH,,46.7562943,7.60045433
+ETSN,Neuburg,"benk885-etsn-airport, navigraph-navdata, navigraph-navdata",EU,DE,Bayern,48.7109947,11.2114973
+PHHN,Hana Airport,"fs-base, mx-phhn-hana-airport, navigraph-navdata",NA,US,HI,20.7956448,-156.014435
+YPXM,Christmas Island Airport,"fs-base, mx-ypxm, navigraph-navdata",AS,CX,Western Australia,-10.4502249,105.691025
+NFNR,Rotuma Island Airport,"fs-base, navigraph-navdata, nfnr",OC,FJ,,-12.48271,177.0708
+EGCW,Welshpool Airfield,"fs-base, navigraph-navdata, norbert1699-welshpool",EU,GB,,52.6322632,-3.15028858
+NZ2T,Airstrip Rd Airfield,phr34k86-airstriprd,OC,NZ,,-34.9424553,173.127319
+NZ2I,Arapooa Road,phr34k86-arapooard,OC,NZ,,-36.1886368,174.236847
+NZ2R,Arterial Road Emergency Landing Field,phr34k86-arterialroad,OC,NZ,,-34.8254776,173.0455
+NZ2H,Burma Road Airstrip,phr34k86-burmaroad,OC,NZ,,-36.37806,174.382111
+NZ2A,Chamberlains Bay,phr34k86-chamberlainsbay,OC,NZ,,-36.84022,175.19133
+NZ2Q,Clark Road Glider Strip,phr34k86-clarkrd,OC,NZ,,-35.1199722,173.188919
+NZ3B,Drury Airfield,phr34k86-drury,OC,NZ,,-37.09705,174.975357
+NZ2C,Great Mercury Island,phr34k86-greatmercuryisland,OC,NZ,,-36.5936127,175.764023
+NZ2K,Haruru,phr34k86-haruru,OC,NZ,,-35.28242,174.034332
+NZ2G,Irwin Road Emergency Strip,phr34k86-irwinroad,OC,NZ,,-37.0916138,174.567612
+NZ2P,Kai Iwi,phr34k86-kaiiwi,OC,NZ,,-35.793335,173.6283
+NZ2E,Kaka Ridge,phr34k86-kakaridge,OC,NZ,,-36.3665,174.783844
+NZ2N,Kara Airfield,phr34k86-karaairfield,OC,NZ,,-35.7370644,174.217255
+NZ2L,Kauri Mountain Airfield,phr34k86-kaurimountain,OC,NZ,,-35.7741432,174.532257
+NZ3C,Kelly Field,phr34k86-kellyfield,OC,NZ,,-37.25605,175.0718
+NZ3A,Motiti Airfield,phr34k86-motiti,OC,NZ,,-37.62251,176.431122
+NZ2B,Motutapu Island,phr34k86-motutapuisland,OC,NZ,,-36.7588768,174.9145
+NZ2W,Okepuha,phr34k86-okepuha,OC,NZ,,-39.1515961,177.913177
+NZ2F,Omaha Flats,phr34k86-omahaflats,OC,NZ,,-36.3468361,174.758224
+NZ2O,Omamari Glider Airstrip,"phr34k86-omaki, phr34k86-omamari",OC,NZ,,-35.8652267,173.6755
+NZ2M,Pataua South Airfield,phr34k86-patauasouth,OC,NZ,,-35.73336,174.524979
+NZ2D,Ponui Island,phr34k86-ponuiisland,OC,NZ,,-36.8913155,175.195
+NZ2Y,Rakauroa,phr34k86-rakauroa,OC,NZ,,-38.5037422,177.489731
+NZ2X,Rangiputa,phr34k86-rangiputa,OC,NZ,,-34.8758926,173.301
+NZ2Z,Ruatoria Airfield,phr34k86-ruatoria,OC,NZ,,-37.88353,178.290482
+NZ2V,Tahaenui Station,phr34k86-tahaenuistation,OC,NZ,,-39.0464554,177.675842
+NZ2S,Wairakei South,phr34k86-waikarei,OC,NZ,,-38.5996742,176.131866
+NZ2J,Whangaruru Airstrip,phr34k86-whangaruru,OC,NZ,,-35.3353729,174.292435
+NZ2U,Wharekopae,phr34k86-wharekopae,OC,NZ,,-38.5659447,177.401215
+AED,Aleneva Seaplane Base,pbk-aleneva,NA,US,AK,58.00155,-152.8811
+BFB,Blue Fox Bay Seaplane Base,pbk-bfb-cabin,NA,US,AK,58.417675,-152.694885
+4S6,Tieton State Airport,"fs-base, navigraph-navdata, quelcertoleo-4s6-tieton",NA,US,WA,46.6378,-121.123642
+ICAO,Reinheim,reinheim,EU,DE,,49.84214,8.851931
+AK81,Amook Bay Seaplane Base,sj-airport-ak81-amook-bay-seaplane-base,NA,US,AK,57.4708939,-153.820023
+ZHR,Zachar Bay Lodge/Seaplane Base,sj-airport-zhr-zachar-bay-lodge-seaplane-base,NA,US,AK,57.5517426,-153.7453
+T44,Trident Basin Seaplane Base,sj-seaport-t44-trident-basin-seaplane-base,NA,US,AK,57.77751,-152.396454
+RPUQ,Mindoro Airport,"fs-base, navigraph-navdata, turtletank1997-vigan",AS,PH,,17.5575466,120.357254
+LFGH,Cosne Sur Loire,"fs-base, navigraph-navdata, vbcorp-airport-lfgh-fix",EU,FR,No State,47.3609123,2.915947
+LGZZ,Ikaros,vdi-lgzz,EU,GR,,38.43115,23.1354027
+YMLT,Launceston,"fs-base, navigraph-navdata",OC,AU,Tasmania,-41.54456,147.210571
+ZKPY,Sunan,"fs-base, navigraph-navdata, zkpy-sunan",AS,KP,No State,39.2450829,125.6759
+LIFP,Aviosuperficie Celano,fs-base,EU,IT,,42.0517921,13.5573826
+LIMD,Marcellina,"fs-base, (LIMD) Aviosuperficie Scalea Marcellina",EU,IT,,39.7773933,15.821825
+SJRG,Aeroporto Regional De Rio Grande,"fs-base, Aeroporto - BR RS SJRG Rio Grande RS 1.0 LV",SA,BR,Rio Grande Do Sul,-32.07963,-52.16853
+ESKN,Skavsta,"fs-base, airport-eskn-bli, navigraph-navdata",EU,SE,,58.7904358,16.90738
+WMKC,Kota Bharu,"fs-base, airport-wmkc-kbr, navigraph-navdata",AS,MY,,6.1664257,102.295563
+YBYI,Bruny Island Airport,"fs-base, airport-ybyi-brunyisland",OC,AU,Tasmania,-43.2342,147.38
+LINH,Airpatria,"fs-base, Aviosuperficie Airpatria LINH",EU,IT,,40.9272728,14.06188
+CYXL,Sioux Lookout,"fs-base, cyxl, navigraph-navdata",NA,CA,ON,50.11405,-91.90566
+EDAD,Dessau,"fs-base, navigraph-navdata",EU,DE,,51.83165,12.1841745
+EDFH,Frankfurt-Hahn,"fs-base, navigraph-navdata",EU,DE,,49.94583,7.26103544
+EDFP,Flugplatz Ober-Mã¶Rlen,"fs-base, edfpupgradev1, navigraph-navdata",EU,DE,Hesse,50.362114,8.711509
+EGNH,Blackpool,"fs-base, egnh-blackpool, navigraph-navdata",EU,GB,,53.7714767,-3.03276086
+KUCC,Yucca Airstrip,kucc-scenery,NA,US,NV,36.9328537,-116.00634
+ESSB,Bromma Stockholm Airport,"fs-base, kuriiridesign-airport-essb-stockholm-bromma, navigraph-navdata",EU,SE,,59.3543625,17.9416656
+SWQI,Caracarai,kychungdotcom-airport-swqi-caracarai,SA,BR,Roraima,1.849709,-61.1189041
+LIMZ,Levaldigi,"fs-base, navigraph-navdata",EU,IT,,44.547493,7.62319851
+EDOU,Umpferstedt,"fs-base, navigraph-navdata",EU,DE,,50.9651642,11.3991652
+NTMP,Ua Pou Airstrip,"fs-base, mx-ntmp-ua-pou, navigraph-navdata",OC,PF,,-9.346393,-140.080139
+N85,Alexandria,"n85-scenery, navigraph-navdata, navigraph-navdata",NA,US,NJ,40.587574,-75.01942
+LIUC,Parma Soaring,"fs-base, quelcertoleo-liuc-parmasoaring",EU,IT,,44.6725578,10.0613689
+RJCC,New Chitose,"fs-base, navigraph-navdata, rjcc-rjcj",AS,JP,,42.7813568,141.6964
+RJCJ,Chitose AB,"navigraph-navdata, navigraph-navdata, rjcc-rjcj",AS,JP,,42.80845,141.6559
+LFAO,Couterne,"fs-base, navigraph-navdata, scenareal-bagnoles-de-l-orne-lfao",EU,FR,Normandie,48.5432854,-0.3832586
+ENHS,Hokksund Airport,"fs-base, navigraph-navdata, skytry-enhs",EU,NO,,59.7593956,9.916195
+LFOG,Flers,"fs-base, navigraph-navdata, totofteam-lfog-flers",EU,FR,Normandie,48.74992,-0.594476759
+EINC,Newcastle,"fs-base, navigraph-navdata",EU,IE,,53.07419,-6.03659725
+YCTN,Casterton,YCTN Casterton VIC - Parorng,OC,AU,Victoria,-37.6129265,141.362213
+YNOB,Nobbys Creek,ynob,OC,AU,Nsw,-28.29611,153.326218
+SKAM,Amalfi,zekeand-amalfi,SA,CO,Antioquia,6.89555359,-75.04754
+EDGK,Korbach,"fs-base, navigraph-navdata",EU,DE,,51.2528229,8.873891
+VNSB,Syangboche Airport,fs-base,AS,NP,,27.8115959,86.71196
+YBBN,Brisbane Intl,"fs-base, navigraph-navdata",OC,AU,Queensland,-27.37578,153.127655
+AYYZ,Yamboitok Airstrip,airport-ayyz-yamboitok-airstrip,OC,PG,,-4.99440145,143.962173
+SAEZ,Aeropuerto Internacional Ministro Pistarini,"fs-base, airport-saez-bsas-argentina, navigraph-navdata",SA,AR,Buenos Aires,-34.82197,-58.53257
+EDTF,City Airport Freiburg,"fs-base, akaflieg-airport-edtf-flugplatzfreiburg, navigraph-navdata",EU,DE,Baden-Wã¼rttemberg,48.0222626,7.832847
+UTAA,Ashgabat,"fs-base, navigraph-navdata",AS,TM,,37.9868279,58.3609734
+LHBP,Liszt Ferenc Intl,"fs-base, hvfr-airport-lhbp, navigraph-navdata",EU,HU,Pest,47.4369,19.2556057
+CNY3,Collingwood,"fs-base, cny3, navigraph-navdata",NA,CA,ON,44.44919,-80.16226
+EGOQ,RAF Mona,"fs-base, egoq-mona, navigraph-navdata",EU,GB,Isle of Anglesey,53.25681,-4.376078
+EHOW,Oosterwold,"fs-base, EHOW, navigraph-navdata",EU,NL,,53.2092,7.036551
+ETSP,Fliegerhorst Pferdsfeld,jonastelschow-fliegerhorst-pferdsfeld,EU,DE,,49.8579521,7.6079607
+SDAM,Aeroporto Estadual Campo Dos Amarais,"fs-base, navigraph-navdata, SDAM_amarais",SA,BR,S. Paulo,-22.8607,-47.1090469
+SCYB,Trilahue,sebtaj-airport-scyb-trilahue,SA,CL,,-37.1326256,-72.41366
+EGAE,Eglinton,"fs-base, navigraph-navdata, tamalien-airport-egae-eglinton",EU,GB,,55.0427361,-7.161527
+LIMF,Caselle,"fs-base, navigraph-navdata",EU,IT,,45.2007446,7.649632
+VNJL,Jumla Airport,"fs-base, navigraph-navdata, troglodytus-airport-vnjl-jumla",AS,NP,Karnali Pradesh,29.2741661,82.19334
+YCAB,Caboolture Aerodrome,"fs-base, ycab-airport",OC,AU,Queensland,-27.076107,152.985123
+EGVJ,Holmbeck Farm Airfield,fs-base,EU,GB,,51.91028,-0.7296293
+LOAS,Spitzerberg Airport,"fs-base, navigraph-navdata",EU,AT,,48.0999565,16.93402
+LOLG,St Georgen/Ybbsfeld,"fs-base, navigraph-navdata",EU,AT,,48.1031876,14.9509172
+LTFC,Suleyman Demirel,"fs-base, navigraph-navdata",AS,TR,,37.856266,30.3686943
+LTFN,Kilic,"navigraph-navdata, navigraph-navdata",AS,TR,,37.86361,30.355
+DNJO,Jos,"fs-base, navigraph-navdata",AF,NG,,9.639836,8.869092
+UTDD,Dushanbe,"fs-base, navigraph-navdata",AS,TJ,,38.54369,68.8244553
+KALB,Albany Intl,"fs-base, navigraph-navdata",NA,US,NY,42.7491646,-73.8017654
+ENSM,Starmoen,"fs-base, navigraph-navdata",EU,NO,,60.8766136,11.67535
+EGAC,Belfast City,"fs-base, navigraph-navdata",EU,GB,,54.6181068,-5.87249947
+LTCG,Trabzon,"fs-base, navigraph-navdata",AS,TR,,40.99506,39.7896919
+RPMO,Ozamis,"fs-base, navigraph-navdata",AS,PH,,8.178407,123.841316
+EDFY,Elz,"fs-base, navigraph-navdata",EU,DE,,50.4268074,8.011023
+EDGA,Ailertchen,"fs-base, navigraph-navdata",EU,DE,,50.5927849,7.94475651
+EDKI,Betzdorf-Kirchen,"fs-base, navigraph-navdata",EU,DE,,50.81707,7.830156
+EDRW,Wienau,"fs-base, navigraph-navdata",EU,DE,,50.5659828,7.65242338
+LFPL,Lognes,"fs-base, LFPL+TWR+bungalows-Goldorag, navigraph-navdata",EU,FR,,48.820343,2.6257298
+EDRH,Hoppstaedten-Weiersbach Airfield,"fs-base, navigraph-navdata, ramsteinafb-germany-lights",EU,DE,Rheinland-Pfalz,49.610424,7.185382
+EDRP,Pirmasens Airfield,"fs-base, navigraph-navdata, ramsteinafb-germany-lights",EU,DE,Rheinland-Pfalz,49.2642326,7.48786736
+EDSB,Karsruhe/Baden-Baden,"fs-base, navigraph-navdata, ramsteinafb-germany-lights",EU,DE,Baden-Wã¼rtemberg,48.7747269,8.080871
+EDZU,"Bad Marienberg, Hof ","fs-base, zulugolfalpha-bad-marienberg",EU,DE,,50.6619377,8.022689
+3AUS,Mullumbimby (Private),3aus,OC,AU,Nsw,-28.5668278,153.481735
+UNAA,Abakan,"fs-base, navigraph-navdata",AS,RU,,53.74569,91.387146
+SBCI,Brig Lysias A Rodrigues,"Aeroporto - SBCI, navigraph-navdata, navigraph-navdata",SA,BR,Maranhã£O,-7.320555,-47.45861
+LEL8,Herrera De Pisuerga,airhispania-airport-lel8-herrera-de-pisuerga,EU,ES,Palencia,42.59323,-4.289241
+LETF,Tomás Fernández Espada Airport,"fs-base, navigraph-navdata",EU,ES,,36.8718147,-5.64876032
+KBWG,Bowling Green-Warren Co,"fs-base, airmapper-airport-kbwg-bowling-green-warren-county, navigraph-navdata",NA,US,KY,36.9639,-86.41969
+AIBA,Aibai Airstrip,airport-airport-xaibai-abai-airstrip,OC,PG,,-6.26522541,144.987244
+MZPC,Placencia Airport,"fs-base, airportteam-placencia-airport",NA,BZ,No State,16.5367985,-88.36231
+LF732,Altisurface Val Thorens,alpeaven-airport-lf7327-val-thorens,EU,FR,France,45.2816734,6.57201433
+51AR,Byrd's Backcountry,"fs-base, capthawkeye-51ar-byrdsbackcountry",NA,US,AR,35.6773338,-93.73274
+SNAR,Cirilo Queiroz,"cmtepena-snar-almenara, navigraph-navdata",SA,BR,,-16.18389,-40.66722
+SNGH,Guanhaes,"fs-base, cmtepena-sngh-guanhaes",SA,BR,,-18.7072525,-42.83891
+SNTO,Juscelino Kubitschek,"fs-base, cmtepena-snto-juscelinokubitschek",SA,BR,,-17.892231,-41.5140266
+CNA3,Springwater,"fs-base, cna3, navigraph-navdata",NA,CA,ON,44.40704,-79.73175
+CNJ4,Orillia Rama,"fs-base, cnj4, navigraph-navdata",NA,CA,ON,44.677494,-79.30968
+CYLS,Lake Simcoe,"fs-base, cyls, navigraph-navdata",NA,CA,ON,44.4860573,-79.55563
+EDFE,Flugplatz Egelsbach,"fs-base, edfe, navigraph-navdata",EU,DE,Hesse,49.96082,8.641445
+EIDW,Dublin Airport,"fs-base, eidw-rework, navigraph-navdata",EU,IE,,53.4248962,-6.26305676
+SNBL,Belmonte,"fs-base, geardownsimulations-snbl-airport",SA,BR,Bahia,-15.871851,-38.8726845
+LEMM,Moia El Prat,"fs-base, gr-scenery-lemm-moiaelprat2",EU,ES,,41.8011932,2.11262727
+LPPT,Lisbon,"fs-base, navigraph-navdata",EU,PT,,38.7787437,-9.135179
+KRDU,Raleigh-Durham Intl,"fs-base, navigraph-navdata",NA,US,NC,35.87587,-78.78561
+KSBM,Sheboygan County Memorial Airport,"fs-base, ksbm-sheboygan, navigraph-navdata",NA,US,WI,43.7695923,-87.85174
+SCQT,Las Tacas,"fs-base, Las Tacas, AD Las Tacas SCQT",SA,CL,,-30.095911,-71.3640747
+LGTL,Kastelli AB,"fs-base, lgtl, navigraph-navdata",EU,GR,Crete,35.19201,25.3269615
+LIGP,Valle Gaffaro,"fs-base, LIGP Valle Gaffaro",EU,IT,,44.83502,12.2337513
+LL62,Hatzerim Airbase,"fs-base, LL62 - Hatzerim Airbase",AS,IL,Southern Disctrict,31.2340374,34.66227
+LOGF,Flugplatz Fã¼rstenfeld,"fs-base, logf-ugradev1, navigraph-navdata",EU,AT,Idk,47.0620079,16.0837669
+LOGK,Kapfenberg,"LOGK-Kapfenberg, navigraph-navdata, navigraph-navdata",EU,AT,,47.4575,15.331111
+MAPIG,Segelfluggelaende Marpingen,marpingen,EU,DE,Saarland,49.4527321,7.0408144
+YDUN,Dunwich Airfield,"fs-base, mewsik-airport-ydun-dunwich",OC,AU,Qld,-27.5195045,153.42804
+FXMM,Moshoeshoe I Intl,"fs-base, navigraph-navdata",AF,LS,,-29.4589252,27.5531673
+NFFN,Nadi International,"fs-base, navigraph-navdata, nffn",OC,FJ,,-17.754858,177.443436
+NFNH,Laucala Island Airport,"navigraph-navdata, navigraph-navdata, nfnh",OC,FJ,,-16.74752,-179.667236
+LWOH,Ohrid,"fs-base, navigraph-navdata",EU,MK,,41.179924,20.7423363
+MMVR,Gen. Heriberto Jara Intl.,"fs-base, navigraph-navdata, pachilabs-airport-mmvr-veracruz",NA,MX,Veracruz,19.1429958,-96.1848755
+O52,Sutter County,"fs-base, navigraph-navdata, quelcertoleo-o52-suttercounty",NA,US,CA,39.1253128,-121.603111
+0Q5,Shelter Cove,"fs-base, navigraph-navdata, quelcertoleo-oq5-sheltercove",NA,US,CA,40.0281258,-124.074348
+SCFM,Capitan Fuentes Martinez,"navigraph-navdata, navigraph-navdata, scfm-scenery",SA,CL,Magallanes Y Antartica Chilena,-53.2535744,-70.31914
+ZSSS,Hongqiao,"fs-base, navigraph-navdata",AS,CN,,31.1980724,121.334373
+EHSE,Seppe - Breda International,"fs-base, navigraph-navdata, sipigamer1-airport-ehse-seppe",EU,NL,Noord Brabant,51.5537338,4.548149
+LWSK,Skopje,"fs-base, navigraph-navdata",EU,MK,,41.95939,21.6222153
+ESKC,Sundbro,"fs-base, navigraph-navdata, Sundbro_ESKC-szcsongor",EU,SE,,59.926033,17.5304241
+EGAA,Belfast Aldergrove,"fs-base, navigraph-navdata, tamalien-airport-egaa-aldergrove",EU,GB,,54.65171,-6.21446228
+EGAD,Newtownards Airport,"fs-base, navigraph-navdata, tamalien-airport-egad-newtownards",EU,GB,,54.58271,-5.69025755
+TGPZ,Lauriston,"fs-base, totof33120-lauriston-tgpz-grenade",NA,GD,Antille,12.4761448,-61.47159
+ENTS,Trysil Flyplasswf,"fs-base, navigraph-navdata, trysil-ents-hoved",EU,NO,,61.230278,12.2656794
+ZMUB,Buyant-Ukhaa,"fs-base, navigraph-navdata",AS,MN,,47.84264,106.763
+LFAT,Paris-Plage,"fs-base, navigraph-navdata, vbcorp-airport-lfat",EU,FR,No State,50.519207,1.62037611
+YBKT,Burketown Airport,"fs-base, navigraph-navdata, ybkt",OC,AU,Queensland,-17.7503014,139.534378
+YPPF,Parafield,"fs-base, navigraph-navdata",OC,AU,South Australia,-34.79595,138.6326
+LXGB,Gibraltar AB,"fs-base, asobo-airport-lxgb-gibraltar, navigraph-navdata",EU,GI,,36.151062,-5.349969
+0NY3,Kermizian,"fs-base, 0ny3-kermizian",NA,US,NY,43.31402,-74.93201
+NVSS,Santo Pekoa,"1kregdesign-nvss, navigraph-navdata, navigraph-navdata",OC,VU,Espiritu Santo,-15.5057669,167.221359
+AGSCI,Cv Aviosciacca - Maragani,AGSCI_Aviosciacca,EU,IT,Italy,37.52759,13.0040779
+WTOGA,Watoga Air Field,airmapper-wtoga-watoga-air-field,NA,US,WV,38.0966835,-80.0936
+EGTC,Cranfield,"fs-base, airport-egtc-cranfield, navigraph-navdata",EU,GB,,52.0706139,-0.619034648
+YIFKI,Yifki Airstrip,airport-yifk-yifki-airstrip,OC,PG,,-5.1260643,142.826233
+YMRY,Moruya,"fs-base, australia-airports-ymry-moruya, navigraph-navdata",OC,AU,New South Wales,-35.8986053,150.145142
+SNJ1,Joaima,cmtepena-snj1-joaima,SA,BR,Minas Gerais,-16.6602821,-41.01142
+CSC5,Lac-Etchemin,"fs-base, csc5, navigraph-navdata",NA,CA,QC,46.40778,-70.5009842
+LFDX,Montayral-Fumel,"fs-base, davycoute-airport-lfdx-montayral, navigraph-navdata",EU,FR,,44.45923,1.007186
+ESSI,Visingso,"fs-base, navigraph-navdata",EU,SE,,58.09827,14.4051113
+FABW,Beaufort West,"fs-base, navigraph-navdata",AF,ZA,,-32.3066673,22.6670341
+AYGA,Goroga,"fs-base, fgapz-airport-ayga-goroka, navigraph-navdata",OC,PG,,-6.08164644,145.391769
+CA92,Paradise Skypark,"fs-base, navigraph-navdata",NA,US,CA,39.7103,-121.616516
+EKGH,Gronholt,"fs-base, fsscene-ekgh, navigraph-navdata",EU,DK,Gronholt,55.9409981,12.3815536
+ZBHH,Baita,"fs-base, navigraph-navdata",AS,CN,,40.8497238,111.824539
+EGHL,Lasham,"fs-base, lashameghl, navigraph-navdata",EU,GB,,51.18569,-1.03277612
+LFCU,Lfcu,"fs-base, ailgorbot-lfcu, navigraph-navdata",EU,FR,,45.5359039,2.424769
+LIMK,Mezzana Bigli,"fs-base, LIMK Club Astra Mezzana Bigli 2.0",EU,IT,,45.06487,8.832222
+LIZU,Aviosuperficie Ali Calabria,fs-base,EU,IT,,38.6195946,15.95584
+LL1A,Hatzerim Northwest,"fs-base, LL1A - Hatzerim Northwest",AS,IL,,31.2594051,34.64521
+LLBS,Sde Teyman - Beersheba,"fs-base, llbs-4xgdi",AS,IL,,31.2833042,34.7267
+LIMC,Milan Malpensa Airport,"fs-base, milan-v1, navigraph-navdata",EU,IT,,45.63072,8.7281
+LIML,Milan Linate Airport,"fs-base, milan-v1, navigraph-navdata",EU,IT,,45.4503,9.272819
+LIMN,Cameri Airbase,"fs-base, milan-v1, navigraph-navdata",EU,IT,,45.5310631,8.669069
+55S,Packwood,"fs-base, navigraph-navdata, quelcertoleo-55s-packwood",NA,US,WA,46.6041565,-121.678017
+EGAB,Enniskillen,"fs-base, navigraph-navdata, tamalien-airport-egab-enniskillen",EU,GB,,54.39732,-7.64975452
+VNKT,Tribhuvan International Airport,"fs-base, navigraph-navdata, troglodytus-airport-vnkt-tribhuvan",AS,NP,Kathmandu,27.69735,85.35954
+FYKM,Katima Mulilo,"fs-base, navigraph-navdata, vt-airport-fykm",AF,NA,,-17.6342373,24.1766186
+1I1,Marcy,"fs-base, 1i1-marcy",NA,US,NY,44.2199326,-73.78805
+7S3,Stark's Twin Oaks,"fs-base, navigraph-navdata",NA,US,OR,45.4283371,-122.942375
+LECD,La Cerdanya,"fs-base, airhispania-airport-lecd-lacerdanya, navigraph-navdata",EU,ES,Catalunya,42.3863564,1.86279011
+LOGP,Pinkafeld,"fs-base, akrsoft-logp-artproj, navigraph-navdata",EU,AT,,47.3866348,16.1127377
+LOKF,Feldkirchen(Ossiachersee),"fs-base, akrsoft-lokf-artproj, navigraph-navdata",EU,AT,,46.7088127,14.0766687
+CAM3,Duncan,"fs-base, cam3, navigraph-navdata",NA,CA,BC,48.7547531,-123.709862
+SNXB,Caxambu,"fs-base, cmtepena-snxb-caxambu",SA,BR,,-21.917305,-44.9687271
+CYQX,Gander Nter,"fs-base, cyqx-gander, navigraph-navdata",NA,CA,NL,48.94204,-54.5660172
+LFCW,Aeroclub De Villeneuve,"fs-base, davycout-villeneuve, navigraph-navdata",EU,FR,,44.3991623,0.7595417
+EGSG,Stapleford,"fs-base, navigraph-navdata",EU,GB,,51.6535568,0.1559186
+SAAI,Base Aeronaval Punta Indio,"fs-base, jr-airport-saai-puntaindio, navigraph-navdata",SA,AR,,-35.352684,-57.2889824
+WIJB,Muara Bungo,"kychungdotcom-airport-wijb-muarabungo, navigraph-navdata, navigraph-navdata",AS,ID,Jambi,-1.54333329,102.178612
+NZ4D,Argyll,phr34k86-argyll,OC,NZ,,-39.8346748,176.536789
+NZ4G,Battle Hill Station,phr34k86-battlehill-station,OC,NZ,,-41.0607834,174.939346
+NZ4L,Belmont Airstrip,phr34k86-belmont,OC,NZ,,-41.1583633,174.896957
+NZ4E,Blackhead Rd. Emergency Strip,phr34k86-blackheadroad,OC,NZ,,-40.22667,176.723328
+NZ4K,Castlepoint Airstrip,phr34k86-castlepoint,OC,NZ,,-40.8992081,176.202591
+NZ4C,Flat Hills,phr34k86-flathills,OC,NZ,,-39.89583,175.6531
+NZ4F,Hawkes Bay,phr34k86-hawkesbay,OC,NZ,,-39.44678,176.763123
+NZ4H,Kaitoke Airfield,phr34k86-kaitoke,OC,NZ,,-41.0907326,175.179367
+NZ4A,Karioi Aerodrome,phr34k86-karioi,OC,NZ,,-39.47709,175.551956
+NZ4N,Ohariu Farm,phr34k86-ohariufarm,OC,NZ,,-41.22391,174.752441
+NZ4O,Takarau Gorge Rd.,phr34k86-ohariufarm,OC,NZ,,-41.223484,174.764954
+NZ4P,Ohairu,phr34k86-ohariufarm,OC,NZ,,-41.2201958,174.769424
+NZ4M,Ohariu Valley,phr34k86-ohariuvalley,OC,NZ,,-41.18128,174.802368
+NZ3D,Onenui,phr34k86-onenui,OC,NZ,,-39.2342949,177.87796
+NZ4J,Parsons Landing,phr34k86-parsonslanding,OC,NZ,,-40.9923668,176.089584
+NZ3J,Patumahoe Airfield,phr34k86-patumahoe,OC,NZ,,-37.1913719,174.834732
+NZ4Q,Pencarrow Head,phr34k86-pencarrowhead,OC,NZ,,-41.3234367,174.889114
+NZ4R,Rimutaka,phr34k86-rimutaka,OC,NZ,,-41.4066544,174.890656
+NZ4I,Riversdale Beach,phr34k86-riversdalebeach,OC,NZ,,-41.0923,176.0462
+NZ4B,Turakina Valley,phr34k86-turakina,OC,NZ,,-39.46823,175.586151
+SALU,Aeroclub Lujan,"fs-base, salu-lujanad",SA,AR,Buenos Aires,-34.54879,-59.0797234
+FD08,Antiquers Aerodrome,"fs-base, sb-airport-fd08-antiquers-aerodrome",NA,US,FL,26.4654045,-80.1550751
+MYBS,South Bimini,"fs-base, navigraph-navdata, sb-airport-mybs-south-bimini",NA,BS,,25.7002487,-79.2653046
+LSZB,Belp,"fs-base, navigraph-navdata",EU,CH,,46.9120674,7.49701548
+ESMR,Soderslatts Flygplats,"fs-base, skytry-scenery-estt",EU,SE,Scania,55.3943863,13.0241375
+BIGR,Grimsey,"navigraph-navdata, navigraph-navdata",EU,IS,,66.54611,-18.0172215
+ZKSE,Samjiyon Airport,turtletank1997-samjiyon-zkse,AS,KP,,41.9005775,128.393875
+1B1,Columbia County,"fs-base, 1b1-columbia-county, navigraph-navdata",NA,US,NY,42.2912865,-73.71032
+KTTA,Sanford-Lee Co Regl,"fs-base, navigraph-navdata",NA,US,NC,35.5824,-79.10141
+DNPO,Port Harcourt International,"fs-base, DNPO, navigraph-navdata",AF,NG,,5.015491,6.949564
+KMKY,Marco Island Exec.,"fs-base, goldenred49-marcoislandexec-kmky, navigraph-navdata",NA,US,FL,25.9950466,-81.67253
+VNA,Veronica,jr-airport-vna-veronica,SA,AR,,-35.40167,-57.36703
+VNPP,Pokhara Intl,kychungdotcom-airport-vnpp-pokhara,AS,NP,Gandaki,28.1837788,84.01488
+FQMA,Maputo,"fs-base, navigraph-navdata",AF,MZ,,-25.9154072,32.57691
+SUAA,Aeropuerto Internacional ÃNgel Adami,"fs-base, montevideo-suaa, navigraph-navdata",SA,UY,Montevideo,-34.789,-56.2649727
+NCRG,Roratonga International,"fs-base, navigraph-navdata, ncrg",OC,CK,,-21.2025471,-159.799438
+PFSH,Shaktoolik Airport,"navigraph-navdata, sb-airport-pfsh-shaktoolik",NA,US,AK,64.36637,-161.217148
+OIAA,Abadan International Airport,"fs-base, navigraph-navdata, turtletank1997-abadan",AS,IR,,30.3657951,48.2309036
+ULAM,Naryan-Mar,"fs-base, navigraph-navdata, xflight-ulam",AS,RU,,67.6339645,53.08826
+HEBL,Abu Simbel,"fs-base, navigraph-navdata",AF,EG,,22.3753777,31.61066
+HAAB,Bole Intl,"fs-base, navigraph-navdata",AF,ET,,8.977928,38.7993
+LFMB,Castillon De La Laquette,"fs-base, airport-lfmb-castillon-de-la-laquette-airport",EU,FR,,42.89647,0.101223439
+LFQV,Charleville Mezieres,"fs-base, airport-lfqv-fsdesigns, navigraph-navdata",EU,FR,,49.7840042,4.64694357
+HEGN,Hurghada,"fs-base, alexko-airport-hegn-hurghada, navigraph-navdata",AF,EG,,27.19066,33.7915764
+FQBR,Beira,"fs-base, navigraph-navdata",AF,MZ,,-19.7969284,34.90879
+LFCC,Cahort Lalbenque,"fs-base, davycout-airport-lfcc-cahors, navigraph-navdata",EU,FR,,44.3520775,1.47588241
+EHGG,Eelde Airport,"fs-base, ehgg-groningen-airport, navigraph-navdata",EU,NL,,53.12103,6.577051
+SCIL,Auco,"Illapel, AD Auco SCIL",SA,CL,,-31.5758934,-71.10985
+KDFW,Dallas-Ft Worth Intl,"fs-base, asobo-airport-kdfw-dallas-fort-worth, navigraph-navdata",NA,US,TX,32.8968277,-97.0379944
+LFJY,Chambley,"fs-base, lfjy-chambley, navigraph-navdata",EU,FR,No State,49.0237,5.86895561
+KMTN,Martin State Airport,"fs-base, navigraph-navdata, penguingaming-airport-kmtn-martinstateairport",NA,US,MD,39.32567,-76.41377
+LIPV,Venice-Lido Airport,"fs-base, navigraph-navdata, sb-airport-lipv-venice-lido",EU,IT,,45.4286,12.3881874
+RPS6,Sicogon Airport,turtletank1997-sicogon,AS,PH,,11.4599752,123.250877
+FQVL,Vilankulo,"fs-base, navigraph-navdata",AF,MZ,,-22.0179272,35.31317
+FYRU,Rundu,"fs-base, navigraph-navdata, vt-airport-fyru",AF,NA,,-17.9558315,19.721117
+DAAT,Aguenar,"fs-base, navigraph-navdata",AF,DZ,,22.81038,5.4444437
+LFEQ,Quiberon,"fs-base, ailgorbot-lfeq, navigraph-navdata",EU,FR,,47.4806633,-3.099007
+ETNN,Noervenich,"airportteam-etnn, navigraph-navdata, navigraph-navdata",EU,DE,,50.8311653,6.658167
+F7470,Base Ulm Cevens,alpeaven-airport-lf75-perrignier,EU,FR,,46.29243,6.4448247
+LF75,Habere Poche,"fs-base, alpeaven-airport-lf75-perrignier",EU,FR,,46.2699738,6.463576
+CYCD,Nanaimo,"fs-base, cycd, navigraph-navdata",NA,CA,BC,49.05454,-123.870155
+EDKS,Segelfluggelã¤Nde Saupurzel,"fs-base, edks-karlstadt-saupurzel_1-0",EU,DE,,49.97127,9.790429
+EDLJ,Detmold,"fs-base, edlj-detmold, navigraph-navdata",EU,DE,,51.94073,8.904637
+ESGS,Nã¤Singe,"fs-base, esgs-airport, navigraph-navdata",EU,SE,,59.017128,11.3418236
+ESSE,Ska Edeby,"fs-base, esse-esse, navigraph-navdata",EU,SE,,59.34397,17.7396851
+EDDL,Duesseldorf,"fs-base, hu277-airport-eddl-v01, navigraph-navdata",EU,DE,,51.2893867,6.76656866
+HSSS,Khartoum,"fs-base, navigraph-navdata",AF,SD,,15.5895348,32.55316
+ESNC,Hedlanda,"kychungdotcom-airport-esnc-hedlanda, navigraph-navdata, navigraph-navdata",EU,SE,Hede-Vemdalen,62.40889,13.7472229
+HSMN,Merowe,"fs-base, navigraph-navdata",AF,SD,,18.4431038,31.8436375
+PARC,Arctic Village Airport,"navigraph-navdata, navigraph-navdata, parc-arcticvillage",NA,US,AK,68.11645,-145.577484
+S30,Lebanon State Airport,"fs-base, navigraph-navdata, peroni-airport-s30-lebanon",NA,US,OR,44.53114,-122.9298
+RPVU,Tugdan Airport,"fs-base, navigraph-navdata, rpvu-turtletank1997-romblon",AS,PH,,12.3140669,122.081619
+SADQ,Quilmes,"fs-base, navigraph-navdata",SA,AR,,-34.70644,-58.2445946
+EDSF,Fürth-Seckendorf Airfield,fs-base,EU,DE,,49.4815254,10.8590336
+YDMG,Doomadgee Airport,"fs-base, navigraph-navdata, ydmg",OC,AU,Queensland,-17.9368172,138.814163
+YPDN,Darwin Intl,"fs-base, navigraph-navdata",OC,AU,Northern Territory,-12.4150276,130.875259
+2S6,Sportsman Airpark,"fs-base, navigraph-navdata",NA,US,OR,45.29526,-122.9539
+LFKR,Saint Remy De Maurienne,"fs-base, navigraph-navdata",EU,FR,,45.3768,6.27688456
+AYDY,Sindeni Airstrip,fs-base,OC,PG,,-7.007619,145.796478
+ESGR,Skovde,"fs-base, navigraph-navdata",EU,SE,,58.4564,13.9726849
+62AR,Banks Ranch,fs-base,NA,US,AR,36.4571648,-93.85995
+EDXF,Schaferhaus,"fs-base, navigraph-navdata",EU,DE,,54.77282,9.378661
+CYQB,Quebec/Lesage Intl,"fs-base, navigraph-navdata",NA,CA,QC,46.78962,-71.39264
+RKNY,Yangyang Intl,"fs-base, navigraph-navdata",AS,KR,,38.061306,128.669128
+RKPC,Jeju Intl,"fs-base, navigraph-navdata",AS,KR,,33.50896,126.489342
+RKSI,Incheon Intl,"fs-base, navigraph-navdata",AS,KR,,37.4691238,126.450485
+RKSS,Gimpo Intl,"fs-base, navigraph-navdata",AS,KR,,37.5587044,126.790482
+RKTN,Daegu International,"fs-base, navigraph-navdata",AS,KR,,35.89408,128.658936
+FBSK,Sir Seretse Khama Intl,"fs-base, navigraph-navdata",AF,BW,,-24.5531082,25.92278
+FVHA,Harare Intl,fs-base,AF,ZW,,-17.9317513,31.0928726
+LFRQ,Pluguffan,"fs-base, navigraph-navdata",EU,FR,,47.9734154,-4.17093325
+SCIR,Robinson Crusoe,"fs-base, navigraph-navdata",SA,CL,,-33.66621,-78.92906
+VEPY,Pakyong,navigraph-navdata,AS,IN,,27.2259674,88.58577
+SDTK,Parati,fs-base,SA,BR,,-23.2240314,-44.7233162
+PALB,Larsen Bay,"fs-base, navigraph-navdata",NA,US,AK,57.5350838,-153.976685
+PASO,Seldovia,"fs-base, navigraph-navdata",NA,US,AK,59.4435234,-151.7052
+KJXN,Jackson Co-Reynolds,"navigraph-navdata, navigraph-navdata",NA,US,MI,42.2604446,-84.4621353
+SCEL,Arturo Merino Benitez Intl,"fs-base, navigraph-navdata",SA,CL,,-33.39098,-70.79432
+LIEE,Elmas Mil,"fs-base, navigraph-navdata",EU,IT,,39.25146,9.054312
+SCNY,Yendegaia Airport,fs-base,SA,CL,,-54.8308334,-68.83473
+EGRC,Yearby Airstrip,fs-base,EU,GB,,54.5846672,-1.06978345
+SWEJ,Associacao Tocantinense De Aviacao - Ata,atcsimulation-airport-swej,SA,BR,Tocantins,-10.1830473,-48.5425072
+37AR,Ponca International,capthawkeye-37ar-ponca,NA,US,AR,36.0523643,-93.3673859
+DNAA,Nnamdi Azikiwe,"fs-base, DNAA1, navigraph-navdata",AF,NG,,9.006789,7.26317739
+PZ05,Waterfall Lake,pbk-waterfall-lake,NA,US,AK,58.34292,-152.56279
+MECOR,Vc Capo D'Orlando,MECOR_CapOrlando,EU,IT,Italy,38.12752,14.7084837
+SAMV,Aeroclub Mercedes,"fs-base, mercedes",SA,AR,Buenos Aires,-34.6384621,-59.4553452
+YBAU,Badu Airport,"fs-base, navigraph-navdata, scn-torres strait islands",OC,AU,Queensland,-10.1494274,142.1738
+YKUB,Kubin Airport,"fs-base, navigraph-navdata, scn-torres strait islands",OC,AU,Queensland,-10.2260914,142.219452
+YBAM,Bamaga Airport,scn-torres strait islands,OC,AU,,-10.9441452,142.452789
+YYKI,Yorke Island Airport,"navigraph-navdata, navigraph-navdata, scn-torres strait islands",OC,AU,Queensland,-9.752189,143.405136
+YDNI,Darnley Island Airport,"navigraph-navdata, navigraph-navdata, scn-torres strait islands",OC,AU,Queensland,-9.57941,143.780014
+YCCT,Coconut Island Airport,scn-torres strait islands,OC,AU,,-10.0498514,143.071045
+YWBS,Warraber Island Airport,scn-torres strait islands,OC,AU,,-10.207201,142.823746
+YYMI,Yam Island Airport,"navigraph-navdata, navigraph-navdata, scn-torres strait islands",OC,AU,Queensland,-9.898876,142.7734
+YMUI,Murray Island Airport,scn-torres strait islands,OC,AU,,-9.9145155,144.054688
+YTUR,Ok Village Airstrip,scn-torres strait islands,OC,AU,,-10.9551277,142.703354
+ESTR,Trosa Troslanda Airfield,"fs-base, troslanda-trosa-airfield-package",EU,SE,,58.8977661,17.5006237
+RPUR,Dr. Juan C. Angara Airport,"fs-base, turtletank1997-baler",AS,PH,,15.7327175,121.502342
+RPC8,Calayan Island Airport,turtletank1997-calayan,AS,PH,,19.2575817,121.485519
+EDJJ,Bad Waldsee-Reute,"fs-base, warthart-badwaldseereute",EU,DE,Baden Wã¼rttemberg,47.9148331,9.708785
+LFAM,Lfam,"fs-base, man62-airport-lfam, navigraph-navdata",EU,FR,,50.42391,1.59481382
+LFFI,Acpa,"fs-base, navigraph-navdata, polaris-airport-lffi-ancenis",EU,FR,Europe,47.4059448,-1.18501472
+CPG,Cape Gloucester,vbb-cpg-airport-cpg,OC,PG,,-5.45511532,148.422943
+WITU,Witu,vbb-witu-airport-witu,OC,PG,,-4.68922424,149.439163
+USMM,Nadym,"fs-base, navigraph-navdata, xflight-usmm",AS,RU,,65.47895,72.69678
+LPSC,Aerodromo Santa Cruz,"fs-base, airport-lpsc-santacruz, navigraph-navdata",EU,PT,,39.1233444,-9.37993
+LOAU,Stockerau,"fs-base, akrsoft-loau-artproj, navigraph-navdata",EU,AT,,48.40915,16.19109
+LFGC,Neuhof,"fs-base, navigraph-navdata",EU,FR,,48.5535622,7.776744
+LFST,Entzheim,"fs-base, navigraph-navdata",EU,FR,,48.53832,7.62824154
+LE02,Base Infoca Cartama,cartama,EU,ES,Malaga,36.72197,-4.70399761
+CSG5,St-Jean-Chrysostome,"fs-base, csg5, navigraph-navdata",NA,CA,QC,46.6888351,-71.1498947
+KSPZ,Silver Springs Airport,"fs-base, davycout-airport-kspz-silversprings, navigraph-navdata",NA,US,NV,39.4031,-119.251152
+LFCN,Aeroclub De Nogaro,"fs-base, davycout-airport-lfcn-nogaro, navigraph-navdata",EU,FR,,43.7706261,-0.0374414027
+EDLW,Dortmund,"fs-base, navigraph-navdata",EU,DE,,51.5191078,7.614457
+SDJO,Municipal,"fs-base, flxbrasil-airport-sdjo",SA,BR,Sp,-20.5935764,-47.8410568
+EDSS,Segelflugplatz Zellhausen,"fs-base, jadiegel-edss-zellhausen",EU,DE,,50.0176926,8.98440552
+EBLG,Liege,"fs-base, navigraph-navdata",EU,BE,,50.63877,5.44417953
+LW74,Logovardi Sports Airfield,"fs-base, logovardi-lw74",EU,MK,,41.01838,21.4266338
+LT86,Imroz,"fs-base, lt86-lt86-imroz",AS,TR,,40.20774,25.89015
+LTBB,Bozcaada,"fs-base, ltbb-ltbb-bozcaada",AS,TR,Canakkale,39.8380165,25.9945831
+LTFK,"Gokceada Canakkale ","fs-base, ltfk-ltfk-gokceada, navigraph-navdata",AS,TR,Chanakkale,40.2056961,25.8838043
+LZTN,Trencin,"fs-base, lztn-lztn-trencin-airport-pack, navigraph-navdata",EU,SK,Slovakia,48.8668633,17.999939
+SBCX,Hugo Cantergiani,"fs-base, martscenery-sbcxairport, navigraph-navdata",SA,BR,Rio Grande Do Sul,-29.19732,-51.18744
+FTTJ,Hassan Djamous,"fs-base, navigraph-navdata",AF,TD,,12.1337061,15.0340023
+PADG,Red Dog,"navigraph-navdata, navigraph-navdata",NA,US,AK,68.03211,-162.8992
+PHTO,Hilo International,"fs-base, navigraph-navdata, phto",NA,US,HI,19.7213459,-155.045471
+LE01,Ronda,ronda,EU,ES,Ronda,36.73746,-5.112015
+TGPG,Pearls,totof33120-pearl-tgpg-pearls,NA,GD,Grenade,12.14381,-61.6164322
+TPGP,Ville,"fs-base, totof33120-tpgpdeleted",NA,GD,Stvincent,12.1443214,-61.61343
+EDF0,Ul-Gelaende Werneck,ul-werneck_1-0,EU,DE,,49.9882355,10.0096817
+UNBG,Gornoaltaysk,"fs-base, navigraph-navdata, unbg-gorno-altaisk",AS,RU,,51.9666672,85.8333359
+ENSH,Helle,"fs-base, navigraph-navdata, wombiiactual-airport-ensh-svolvaer-helle",EU,NO,,68.2448654,14.6692772
+DAAG,Houari Boumediene,"fs-base, navigraph-navdata",AF,DZ,,36.697506,3.21306562
+EGPB,Sumbrugh,"fs-base, airport-egpb-sumburgh-superspud, navigraph-navdata",EU,GB,,59.87815,-1.29104328
+LFQQ,Lesquin,"fs-base, navigraph-navdata",EU,FR,,50.56633,3.09549451
+SKAR,El Eden Inter,"fs-base, armenia-skar, navigraph-navdata",SA,CO,Colombie,4.451013,-75.76651
+LFCX,Aerodrome De Castelsarrasin,"fs-base, davycout-aiport-lfcx-castelsarrasin, navigraph-navdata",EU,FR,,44.08605,1.12799764
+KTYQ,Indianapolis Executive Airport,"fs-base, davycout-airport-ktyq-indianapolis, navigraph-navdata",NA,US,IN,40.0307,-86.25142
+EGOL,Eastchurch Airfield,fs-base,EU,GB,,51.4030571,0.846557
+KELM,Elmira-Corning Rgnl,"fs-base, kelm-elmira-corning-rgnl, navigraph-navdata",NA,US,NY,42.160202,-76.89082
+LFCZ,Aã©Rodrome De Mimizan,"fs-base, lfcz-aerodrome-mimizan, navigraph-navdata",EU,FR,,44.14588,-1.16474128
+LRBM,Maramures International,"fs-base, LRBM-Baia Mare Airport, navigraph-navdata",EU,RO,Maramures,47.65913,23.4711838
+SBPF,Lauro Kortz,"fs-base, martscenery-sbpf, navigraph-navdata",SA,BR,Rio Grande Do Sul,-28.2439747,-52.32772
+SPJC,Jorge Chavez Intl,"fs-base, navigraph-navdata, provisual-spjc-lima",SA,PE,Lima,-12.0218916,-77.11432
+CA89,Skylark Airport,"fs-base, sb-airport-ca89-skylark",NA,US,CA,33.6316757,-117.299164
+YCDR,Caloundra Airport,fs-base,OC,AU,,-26.8025017,153.104721
+LIMA,Aeritalia,"fs-base, navigraph-navdata, tatami-lima",EU,IT,To,45.08486,7.598756
+ENV1,Vermundsjoen,vermund-sjoen-is,EU,NO,,60.7016373,12.3789749
+NZQN,Queenstown,"fs-base, asobo-airport-nzqn-queenstown, navigraph-navdata",OC,NZ,,-45.0196,168.744659
+LEOS,Los Oteros,"fs-base, airhispania-airport-leos-los-oteros",EU,ES,,42.3338623,-5.44516039
+LFBD,Merignac,"fs-base, navigraph-navdata",EU,FR,,44.8288727,-0.7154551
+LFMT,Montpellier/Mediterranee,"fs-base, navigraph-navdata",EU,FR,,43.57623,3.96321964
+18AR,Buck Mountain,fs-base,NA,US,AR,36.3488464,-93.8224258
+ZLHX,Huatugou Airport,kui-china-airport-pack-1,AS,CN,Qinghai Province,38.2019653,90.83799
+ZLHB,Qilian Airport,kui-china-airport-pack-1,AS,CN,Qinghai Province,38.0087357,100.643295
+ZLGL,Golog Maqin Airport,kui-china-airport-pack-1,AS,CN,Qinghai Province,34.41845,100.300468
+ZLXH,Gannan Xiahe Airport,kui-china-airport-pack-1,AS,CN,Gansu Province,34.81949,102.619652
+ZPNL,Ninglang Luguhu Airport,kui-china-airport-pack-1,AS,CN,Yunnan Province,27.54123,100.760635
+ZGYL,Yulin Fumian Airport,kui-china-airport-pack-1,AS,CN,Guangxi Zhuang Autonomous Region,22.4333763,110.120209
+ZGSD,Zhuhai International Airport,kui-china-airport-pack-1,AS,CN,,22.00635,113.376213
+ZJYX,Yongxing Island Airport,kui-china-airport-pack-1,AS,China,Hainan Province,16.8332329,112.344658
+ZYJZ,Jinzhou Airport Closed,"fs-base, kui-china-airport-pack-1",AS,CN,,41.09478,121.061371
+ZYJZ1,Jinzhou Airport,kui-china-airport-pack-1,AS,CN,Liaoning Province,40.936306,121.277328
+ZYYK,Yingkou Lanqi Airport,"fs-base, kui-china-airport-pack-1",AS,CN,Liaoning Province,40.5389557,122.356064
+MDPP,Gregorio Luperon International,"fs-base, draerospace-mdpp-gregorio-luperon, navigraph-navdata",NA,DO,Puerto Plata,19.7578716,-70.5699844
+EBML,Maillen,"fs-base, EBML_MSFS2020",EU,BE,,50.3742676,4.927393
+EGVK,Stoke Airfield,fs-base,EU,GB,,51.44488,0.6319347
+LLHA,Haifa Airport,"fs-base, gamerdeal-haifa-airport, navigraph-navdata",AS,IL,,32.8103943,35.0436478
+BIRF,Rif,"fs-base, jk-birf-v1, navigraph-navdata",EU,IS,,64.9111557,-23.8134575
+BIRK,Reykjavik,"fs-base, jk-birkairport-v3, navigraph-navdata",EU,IS,Capital Region,64.1295547,-21.9397831
+SBNM,Aeroporto Sepã‰ Tiarajãš,"fs-base, martscenery-sbnm, navigraph-navdata",SA,BR,Rio Grande Do Sul,-28.2824955,-54.16963
+YTYH,Tyagarah Airport,"fs-base, milo-airport-ytyh-tyagarah-airport",OC,AU,Nsw,-28.5952854,153.550049
+SAHD,Eaa Aeroclub General Rodriguez,"fs-base, sahd",SA,AR,Buenos Aires,-34.68244,-59.0339165
+LEJU,La Juliana Airport,fs-base,EU,ES,,37.2953873,-6.163292
+1B2,Katama,"fs-base, navigraph-navdata",NA,US,MA,41.3571625,-70.52431
+KLSV,Nellis AFB,"fs-base, navigraph-navdata",NA,US,NV,36.2362022,-115.034248
+LPCS,Tires,"fs-base, navigraph-navdata",EU,PT,,38.7250938,-9.355197
+WMKK,Kuala Lumpur Intl - Sepang,"fs-base, navigraph-navdata",AS,MY,,2.73833132,101.7025
+LFBE,Roumaniere,"fs-base, navigraph-navdata",EU,FR,,44.82424,0.516170561
+LFBH,Ile De Re,"fs-base, navigraph-navdata",EU,FR,,46.1792336,-1.19639492
+LFBI,Biard,"fs-base, navigraph-navdata",EU,FR,,46.5863342,0.305886716
+LFRN,St Jacques,"fs-base, navigraph-navdata",EU,FR,,48.06942,-1.73463368
+LFRS,Nantes/Atlantique,"fs-base, navigraph-navdata",EU,FR,,47.15316,-1.610717
+OJAQ,King Hussein Intl,"fs-base, navigraph-navdata",AS,JO,,29.6110249,35.0178261
+SKSM,Simon Bolivar,"fs-base, navigraph-navdata",SA,CO,,11.1196756,-74.23064
+58AR,Price Coffee Airfield,fs-base,NA,US,AR,36.40574,-94.17371
+AR05,John Harris Field,fs-base,NA,US,AR,35.21707,-93.3058243
+SNBM,Cristiano Ferreira Varella,navigraph-navdata,SA,BR,,-21.126112,-42.3944435
+EGPG,Cumbernauld,"fs-base, navigraph-navdata",EU,GB,,55.97465,-3.975437
+LFGY,Remomeix,"fs-base, navigraph-navdata",EU,FR,,48.2665253,7.007547
+KSEE,Gillespie Field,"fs-base, navigraph-navdata",NA,US,CA,32.82612,-116.972374
+EBLN,Liernu Ulm,fs-base,EU,BE,,50.5797653,4.792402
+EDTJ,Langenselbold Airfield,fs-base,EU,DE,,50.17699,9.066752
+EGOY,West Freugh,fs-base,EU,GB,,54.8522,-4.9441123
+LPPR,Francisco Sa Carneiro,"fs-base, navigraph-navdata",EU,PT,,41.2479324,-8.681217
+BIAR,Akureyri,"fs-base, navigraph-navdata",EU,IS,,65.65659,-18.0720329
+LPSR,Santarem,"fs-base, navigraph-navdata",EU,PT,,39.20925,-8.687649
+KBDR,Igor I Sikorsky Memorial,"fs-base, navigraph-navdata",NA,US,CT,41.16348,-73.12617
+MRAN,El Tanque,fs-base,NA,CR,,10.4692173,-84.5792542
+LFYG,Niergnies AB,"fs-base, navigraph-navdata",EU,FR,,50.140583,3.26313353
+MMLC,Lazaro Cardenas,navigraph-navdata,NA,MX,,17.9833336,-102.216667
+EGEP,Papa Westray,"fs-base, navigraph-navdata",EU,GB,,59.3514252,-2.90025258
+EGEW,Westray,"fs-base, navigraph-navdata",EU,GB,,59.3505,-2.94968748
+KCQA,Lakefield,"fs-base, navigraph-navdata",NA,US,OH,40.484272,-84.55821
+KHAO,Butler Co Rgnl-Hogan Field,"fs-base, navigraph-navdata",NA,US,OH,39.3637657,-84.52195
+WBGG,Kuching Intl,"fs-base, navigraph-navdata",AS,MY,,1.48726046,110.352692
+B18,Alton Bay Seaplane Base,airport-b18-alton-bay,NA,US,NH,43.47794,-71.23782
+F7427,Altiport Morzine Avoriaz,alpeaven-airport-lf7427-avoriaz,EU,FR,,46.1978836,6.76474237
+EIBN,Bantry,bantry-eibn,EU,IE,Cork,51.6771545,-9.48735
+RNSAR,Aviosuperficie Santarcangelo,rnsar,EU,IT,,44.0308647,12.4270649
+LIXT,Aviosuperficie Santarcangelo,"fs-base, rnsar-exclude",EU,IT,,44.03096,12.4269733
+RJAU,Urayasu,Urayasu,AS,JP,Chiba,35.6384,139.935715
+VL14,Pha Khao,vl14-pha-khao,AS,LA,,19.0261459,103.021591

@@ -3,7 +3,7 @@ using System.Windows;
 using System.Windows.Controls;
 using Microsoft.WindowsAPICodePack.Dialogs;
 
-namespace Geosort.Controls
+namespace Utils.Controls
 {
 	/// <summary>
 	/// Interaction logic for FilePathDialog.xaml
