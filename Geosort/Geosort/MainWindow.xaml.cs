@@ -294,6 +294,7 @@ namespace Geosort
 			addonLabel.Content = $"Addons ({m_AddonsLoaded.Count}):";
 			SortDataView(nameof(Addon.Path), ListSortDirection.Ascending);
 
+			updateBtn.IsEnabled = m_AddonsLoaded.Count > 0;
 		}
 		void LoadAddon(int i, string path)
 		{
@@ -837,16 +838,40 @@ namespace Geosort
 				{
 					using (var zip = ZipArchive.Open(path))
 					{
-						// Check for a folder inside archive
-						foreach (var entry in zip.Entries)
+						Extract(zip);
+					}
+				}
+				else if (Path.GetExtension(path) == ".rar")
+				{
+					using (var rar = RarArchive.Open(path))
+					{
+						Extract(rar);
+					}
+				}
+				//else if (Path.GetExtension(path) == ".7z")
+				//{
+				//	using (var sevenZip = SevenZipArchive.Open(path))
+				//	{
+				//		Extract(sevenZip);
+				//	}
+				//}
+				else MessageBox.Show($"File {path} is not a supported archive type.", "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
+
+				// Delete contents of tmp
+				Directory.Delete(TEMP_PATH, true);
+				Directory.CreateDirectory(TEMP_PATH);
+
+				void Extract(IArchive archive)
+				{
+					// Check for a folder inside archive
+					foreach (var entry in archive.Entries)
+					{
+						// Extract to tmp folder
+						entry.WriteToDirectory(TEMP_PATH, new ExtractionOptions()
 						{
-							// Extract to tmp folder
-							entry.WriteToDirectory(TEMP_PATH, new ExtractionOptions()
-							{
-								ExtractFullPath = true,
-								Overwrite = true
-							});
-						}
+							ExtractFullPath = true,
+							Overwrite = true
+						});
 					}
 
 					// Search for folders containing manifest.json and mark them as root folders
@@ -864,9 +889,6 @@ namespace Geosort
 						m_AddonsToUpdate.Add(rootFolderName);
 					}
 				}
-				// Delete contents of tmp
-				Directory.Delete(TEMP_PATH, true);
-				Directory.CreateDirectory(TEMP_PATH);
 			}
 			MessageBox.Show($"Extracted archives.", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
 		}
@@ -884,10 +906,10 @@ namespace Geosort
 							JDStuart.DirectoryUtils.Directory.Move(addon.Path, TEMP_PATH + "\\" + addon.Name);
 							JDStuart.DirectoryUtils.Directory.Move(Path.Combine(m_UpdatePath, updateAddon), addon.Path);
 						}
-						else if(result == MessageBoxResult.Cancel)
+						else if (result == MessageBoxResult.Cancel)
 						{
 							return;
-						}	
+						}
 					}
 				}
 			}

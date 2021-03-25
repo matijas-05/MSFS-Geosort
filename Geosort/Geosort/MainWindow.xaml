@@ -37,7 +37,7 @@
                     <c:FilePicker x:Name="updateFolderPicker" MinWidth="300" Height="21" Margin="0 0 10 0" IsFolderPicker="True" Placeholder="Update folder here..." OnFilePicked="updateFolderPicker_OnFilePicked"/>
                     <Button x:Name="loadArchivesBtn" Width="100" Margin="0 0 0 5" Click="loadArchivesBtn_Click" Content="1. Load archives"/>
                     <Button x:Name="extractBtn" Width="100" Margin="10 0 0 5" Click="extractBtn_Click" Content="2. Extract"/>
-                    <Button x:Name="updateBtn" Width="100" Margin="10 0 0 5" Click="updateBtn_Click" Content="3. Update"/>
+                    <Button x:Name="updateBtn" Width="100" Margin="10 0 0 5" IsEnabled="False" Click="updateBtn_Click" Content="3. Update"/>
                 </StackPanel>
             </StackPanel>
 

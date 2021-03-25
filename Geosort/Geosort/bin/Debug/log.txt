@@ -1,0 +1,35 @@
+
+[07.03.2021 23:56:12]: -------------IDENTIFYING ADDONS-------------
+[07.03.2021 23:56:12]: Trondheim Vaernes (ENVA) [aerosoft-trondheim]: Norway, 
+[07.03.2021 23:56:12]: Ayers Rock (Connellan) (YAYE) [auscene-airport-yaye-ayers-rock-v1-0-1]: Australia, Northern Territory
+[07.03.2021 23:56:12]: Epgd Gdansk Lech Walesa (EPGD) [EPGD-gdansk-Fly Design lech-walesa]: Poland, 
+[07.03.2021 23:56:12]: Krakow-Balice (EPKK) [fd-epkk-krakow]: Poland, 
+[07.03.2021 23:56:12]: Kastrup (EKCH) [flytampa-copenhagen]: Denmark, 
+[07.03.2021 23:56:12]: St Johann (LOIJ) [gaya-simulations-airport-loij-sanktjohann]: Austria, 
+[07.03.2021 23:56:12]: Zell Am See (LOWZ) [gaya-simulations-airport-lowz-zellamsee]: Austria, 
+[07.03.2021 23:56:12]: Vigra (ENAL) [orbx-aerial-enal-alesund]: Norway, 
+[07.03.2021 23:56:12]: Vigra (ENAL) [orbx-airport-enal-alesund]: Norway, 
+[07.03.2021 23:56:12]: Innsbruck (LOWI) [orbx-airport-lowi-innsbruck]: Austria, Tirol
+[07.03.2021 23:56:12]: Fairways (OG20) [orbx-airport-og20-fairways]: Usa, Oregon
+[07.03.2021 23:56:12]: Booker (EGTB) [pilotplus-egtb-wycombeairpark]: , 
+[07.03.2021 23:56:12]: Boryspil (UKBB) [pyreeguedevco-airport-ukbb-boryspil-international-v1-0-1]: , 
+[07.03.2021 23:56:12]: Odesa Intl Airport (UKOO) [pyreeguedevco-airport-ukoo-odesa-international-v1-0-0]: Ukraine, Odeska Oblast
+
+[07.03.2021 23:56:13]: -------------ASSIGNING LOCATION-------------
+[07.03.2021 23:56:13]: Trondheim Vaernes (ENVA): NO
+[07.03.2021 23:56:14]: Ayers Rock (Connellan) (YAYE): AU
+[07.03.2021 23:56:14]: Kastrup (EKCH): DK
+[07.03.2021 23:56:14]: Vigra (ENAL): NO
+[07.03.2021 23:56:14]: Vigra (ENAL): NO
+[07.03.2021 23:56:14]: Innsbruck (LOWI): AT
+[07.03.2021 23:56:14]: Booker (EGTB): GB
+[07.03.2021 23:56:14]: Boryspil (UKBB): UA
+[07.03.2021 23:56:14]: Odesa Intl Airport (UKOO): UA
+
+[07.03.2021 23:56:15]: -------------ADDONS NOT IDENTIFIED (0)-------------
+
+[07.03.2021 23:56:15]: -------------AIRPORTS NOT IDENTIFIED AS ADDONS IN LNM (2)-------------
+[07.03.2021 23:56:15]: orbx-aerial-enal-alesund
+[07.03.2021 23:56:15]: pilotplus-egtb-wycombeairpark
+
+[07.03.2021 23:56:15]: -------------AIRPORTS WITH INVALID LOCATION (0)-------------
